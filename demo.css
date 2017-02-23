@@ -1,0 +1,65 @@
+body {
+  background: #ddd;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  background: white;
+  padding: 32px;
+}
+
+.page > h1 {
+  background: #d0f10a;
+  padding: 16px;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.page > section > h2 {
+  margin-bottom: 16px;
+  font-size: 1.3rem;
+}
+
+.page > section > section {
+  border-bottom: 3px dashed rgba(0,0,0,0.10);
+  padding-top: 8px;
+  padding-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.colors-list {
+  list-style: none;
+  display: block;
+  overflow: hidden;
+}
+
+.colors-list li {
+  width: 140px;
+  height: 140px;
+  border: 1px solid red;
+  float: left;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  position: relative;
+  text-align: center;
+}
+
+.colors-list li:before {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  display: block;
+  margin: 0 auto 8px;
+  border-radius: 50%;
+}
+
+#typography h1,
+#typography h2,
+#typography h3,
+#typography h4,
+#typography h5 {
+  margin-top: 32px;
+}

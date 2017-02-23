@@ -1,0 +1,299 @@
+body {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+h2 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size:1.4rem;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+h3 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size:1rem;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+h4 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size:1.4rem;
+  text-transform: capitalize;
+}
+
+h6 {
+  font-size:0.9rem;
+}
+
+p {
+  font-size:1.3rem;
+  text-transform:capitalize;
+}
+
+.container-search {
+  display:flex;
+  position:relative;
+  padding:50px 50px 0px 50px;
+  box-sizing:border-box;
+}
+
+.wrap-search__border {
+  border-right:1px solid #dee1e2;
+}
+
+.wrap-search {
+  text-align:center;
+  border-bottom:1px solid #dee1e2;
+  padding-bottom:110px;
+}
+
+.wrap-search__image {
+  background:yellow;
+}
+
+.wrap-search__image {
+  background:blue;
+}
+
+ .wrap-search__image {
+  width:370px;
+  height:370px;
+  border-radius:50%;
+  margin:0 auto 50px;
+} 
+
+.container-search h3 {
+  line-height:30px;
+  padding: 0 90px 40px;
+  font-size:1rem;
+  font-weight:bold;
+}
+
+select {
+  height:69px;
+  width: 250px;
+  font-size:0.8rem;
+  text-align:center;
+  line-height:60px;
+  margin-bottom:70px;
+}
+
+.wrap-search__box {
+  height:180px;
+  background:#30b4f2;
+  font-size:0.9rem;
+  padding:50px 0;
+  box-sizing:border-box;
+}
+
+.wrap-search__icon {
+  text-align:center; 
+  font-size:2.3rem;
+  display:block;
+  margin-bottom:22px;
+}
+
+.wrap-search__box a {
+  text-align:center;
+  text-decoration:none;
+  color:black;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size:0.9rem;
+  text-transform:uppercase;
+}
+
+.container-corporative {
+  background:#dee1e2;
+  text-align:center;
+  padding:90px 100px 110px;
+  box-sizing:border-box;
+}
+
+.container-corporative h2 {
+  font-size:1.4rem;
+  font-weight:bold; 
+  margin-bottom:30px;
+}
+
+.container-corporative p {
+  font-size:1.3rem;
+  padding:0 50px 40px;
+  line-height:30px;
+}
+
+.container-corporative__icon {
+  text-align:center;
+  font-size:4rem;
+  color:black;
+  margin-bottom:12px;
+}
+
+.container-corporative__paragraph {
+  font-size:1.3rem;
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.container-corporative__box {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-between;   
+}
+
+.container-corporative__item {
+  text-align:center;
+  line-height:30px;
+}
+
+.container-corporative__item h4 {
+  font-size:1.3rem;
+}
+
+.container-how-it-works {
+  background:#1c1e1e;
+  color:#dee1e2;
+  text-align:center;
+  padding-bottom:80px;
+}
+
+.container-how-it-works h2 {
+  padding:60px 0;
+  font-size:1.4rem;
+}
+
+.wrap-how-it-works {
+  display:flex;
+  margin-bottom:30px;
+}
+
+.wrap-how-it-works__circle {
+  width:140px;
+  height:140px;
+  border-radius:50%;
+  border:2px solid #139cdb;
+  color:white;
+  font-size:3rem;
+  line-height:140px;
+  font-weight:bold;
+  margin:auto;
+  margin-bottom:40px;
+}
+
+.wrap-how-it-works__box {
+  flex:1;
+  display:block;
+  position:relative;
+}
+
+.wrap-how-it-works__box h6 {
+  margin:0px;
+}
+
+.wrap-how-it-works__box h3 {
+  font-size:1rem;
+  font-weight:bold;
+}
+
+.wrap-how-it-works__box a {
+  font-size:1.5rem;
+  margin-bottom:50px;
+  color:#139cdb;
+  display:block;
+}
+
+.wrap-how-it-works__box h6 {
+  margin-bottom:32px;
+}
+
+.wrap-how-it-works__subtitle__none {
+  opacity:0;
+}
+
+input.wrap-how-it-works__button {
+  width:204px;
+  height:44px;
+  border:2px solid #139cdb;
+  border-radius:20px;
+  font-size:0.9rem;
+  text-align:center;
+  margin:0 auto;
+  color:white;
+  background:#1c1e1e;
+  font-family:"Reem Kufi", sans serif;
+}
+
+.wrap-how-it-works__circle-little {
+  width:75px;
+  height:75px;
+  background:#1c1e1e;
+  border-radius:50%;
+  transform:translate(60px, -165px);
+}
+
+.wrap-how-it-works__icon {
+  transform:translate(-9px, -29px);
+  color:#139cdb;
+}
+
+.wrap-how-it-works__circle__line:before {
+  content:"";
+  display:block;
+  width:155px;
+  height:3px;
+  background:white;
+  position:absolute;
+  top:70px;
+  right:336px;
+  margin:0px;
+}
+
+.container-call-for-action {
+  display:flex; 
+}
+
+.container-call-for-action__box {
+  flex:1;
+  text-align:center;
+}
+
+.container-call-for-action__box {
+  flex:1;
+  text-align:center;
+  border-right:2px solid black;
+  padding-bottom:80px;
+}
+
+.container-call-for-action__icon {
+  width:40px;
+  height:40px;
+  background:black;
+  margin:60px auto 40px;
+}
+
+.container-call-for-action h2 {
+  font-size:1.4rem;
+  line-height:30px;
+  text-transform:uppercase;
+}
+
+.container-call-for-action p {
+  margin:30px 0 40px;
+  font-size:1.3rem;
+}
+
+.container-call-of-action__button {
+  width:285px;
+  height:50px;
+  background:#139cdb;
+  margin:0 auto;
+  border-radius:8px;
+  font-size:0.9rem;
+  color:black;
+  border:none;
+  font-family: 'Reem Kufi', sans-serif;
+  text-transform:uppercase;
+}
+
+
+
