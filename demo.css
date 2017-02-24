@@ -2,6 +2,29 @@ body {
   background: #ddd;
 }
 
+code, pre {
+  font-size: .8rem;
+  line-height: 1.1;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 4px;
+  white-space: pre;
+}
+
+code {
+  background-color: rgba(255, 193, 7, 0.15);
+  border: 1px solid rgba(255, 193, 7, 0.24);
+  color: #965a03;
+  white-space: nowrap;
+}
+
+pre {
+  padding: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 .page {
   max-width: 960px;
   margin: 0 auto;
@@ -9,11 +32,12 @@ body {
   padding: 32px;
 }
 
-.page > h1 {
-  background: #d0f10a;
+body > h1 {
+  background: var(--color-primary);
+  color: white;
   padding: 16px;
   font-size: 2rem;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .page > section > h2 {
@@ -38,7 +62,7 @@ body {
 .colors-list li {
   width: 140px;
   height: 140px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   float: left;
   margin-right: 16px;
   margin-bottom: 16px;
@@ -46,14 +70,32 @@ body {
   text-align: center;
 }
 
-.colors-list li:before {
-  content: '';
+.color-ball {
   width: 80px;
   height: 80px;
   background-color: red;
   display: block;
-  margin: 0 auto 8px;
+  margin: 0 auto 16px;
   border-radius: 50%;
+  background: rgba(0,0,0,0.15);
+  box-sizing: border-box;
+}
+
+.color-primary   { background-color: var(--color-primary) }
+.color-secondary { background-color: var(--color-secondary) }
+.bg-black        { background-color: var(--bg-black) }
+.bg-gray         { background-color: var(--bg-gray) }
+.bg-gray-dark    { background-color: var(--bg-gray-dark) }
+.bg-gray-light   { background-color: var(--bg-gray-light) }
+.bg-white        { background-color: var(--bg-white) }
+
+.color-text-primary   { background-color: var(--color-text-primary) }
+.color-text-secondary { background-color: var(--color-text-secondary) }
+.color-text-disabled  { background-color: var(--color-text-disabled) }
+
+.bg-white,
+.color-secondary {
+  border: 3px solid rgba(0,0,0,0.086);
 }
 
 #typography h1,

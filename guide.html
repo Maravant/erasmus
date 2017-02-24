@@ -6,71 +6,172 @@
   <link rel="stylesheet" href="reset.css" type="text/css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi" type="text/css" />
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="colors.css" type="text/css" />
   <link rel="stylesheet" href="demo.css" type="text/css" />
 </head>
 <body>
 
+  <h1>Guía de Estilos</h1>
+
   <div class="page">
-    <h1>Guía de Estilos</h1>
-    
     <section id="colors">
       <h2>Colores</h2>
   
       <h3>Primarios</h3>
       <section>
         <ul class="colors-list">
-          <li class="color-primary"><code>var(--color-primary)</code></li>
-          <li class="color-secondary"><code>var(--color-secondary)</code></li>
+          <li><div class="color-ball color-primary"></div><code>--color-primary</code></li>
+          <li><div class="color-ball color-secondary"></div><code>--color-secondary</code></li>
         </ul>
       </section>
   
       <h3>Fondos</h3>
       <section>
         <ul class="colors-list">
-          <li class="bg-black"><code>var(--bg-black)</code></li>
-          <li class="bg-gray"><code>var(--bg-gray)</code></li>
-          <li class="bg-gray-dark"><code>var(--bg-gray-dark)</code></li>
-          <li class="bg-gray-light"><code>var(--bg-gray-light)</code></li>
-          <li class="bg-white"><code>var(--bg-white)</code></li>
+          <li><div class="color-ball bg-black"></div><code>--bg-black</code></li>
+          <li><div class="color-ball bg-gray"></div><code>--bg-gray</code></li>
+          <li><div class="color-ball bg-gray-dark"></div><code>--bg-gray-dark</code></li>
+          <li><div class="color-ball bg-white"></div><code>--bg-white</code></li>
         </ul>
       </section>
 
       <h3>Texto</h3>
       <section>
         <ul class="colors-list">
-          <li class="color-text-primary"><code>var(--color-text-primary)</code></li>
-          <li class="color-text-secondary"><code>var(--color-text-secondary)</code></li>
-          <li class="color-text-disabled"><code>var(--color-text-disabled)</code></li>
+          <li><div class="color-ball color-text-primary"></div><code>--color-text-primary</code></li>
+          <li><div class="color-ball color-text-secondary"></div><code>--color-text-secondary</code></li>
+          <li><div class="color-ball color-text-disabled"></div><code>--color-text-disabled</code></li>
         </ul>
       </section>
   
     </section>
   
     <section id="typography">
-      <h3>Encabezados</h3>
+      <h2>Tipografía</h2>
       <section>
         <aside>
+          <h3>Encabezados</h3>
           Etiquetas base de encabezados
         </aside>
   
-        <h1>Título principal</h1>
+        <h1>h1. Título principal</h1>
         <pre>&lt;h1&gt;Título principal&lt;/h1&gt;</pre>
   
-        <h2>Título secundario</h2>
+        <h2>h2. Título secundario</h2>
         <pre>&lt;h2&gt;Título principal&lt;/h2&gt;</pre>
   
-        <h3>Título de sección</h3>
+        <h3>h3. Título de sección</h3>
         <pre>&lt;h3&gt;Título principal&lt;/h3&gt;</pre>
   
-        <h4>Título secundario de sección</h4>
+        <h4>h4. Título secundario de sección</h4>
         <pre>&lt;h4&gt;Título principal&lt;/h4&gt;</pre>
   
-        <h5>Título principal</h5>
+        <h5>h5. Título principal</h5>
         <pre>&lt;h5&gt;Título principal&lt;/h5&gt;</pre>
+      </section>
 
+      <section>
+        <aside>
+          <h3>Texto</h3>
+          Fuente y tamaño por defecto del texto de la página.
+        </aside>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut earum
+        aperiam magnam, maiores neque adipisci beatae tenetur reiciendis et
+        repellendus quo laborum recusandae illum ratione, tempore minus fuga
+        pariatur iure!</p>
+      </section>
+
+      <section>
+        <aside>
+          <h3>Tamaños</h3>
+          El tamaño de texto por defecto heredado de <code>body</code> es de <strong>$$$$px</strong>.
+        </aside>
+        
+        <div class="text-md">(15px) Lorem ipsum dolor sit amet.</div>
+        <div>(14px - default) Lorem ipsum dolor sit amet.</div>
+        <div class="text-sm">(13px) Lorem ipsum dolor sit amet.</div>
+
+<pre>
+&lt;div class="text-md"&gt;(15px) Lorem ipsum dolor sit amet.&lt;/div&gt;
+&lt;div&gt;(14px - default) Lorem ipsum dolor sit amet.&lt;/div&gt;
+&lt;div class="text-sm"&gt;(13px) Lorem ipsum dolor sit amet.&lt;/div&gt;
+</pre>
 
       </section>
+
     </section>
+
+    <section id="buttons">
+      <h2>Botones</h2>
+      <section>
+        <aside>
+          <h3>Simples</h3>
+          Botones simples con clase <code>button</code>.
+        </aside>
+        
+        <a href="#" class="button">Simple</a>
+        <button class="button">Enviar</button>
+
+<pre>
+&lt;a href="#" class="button"&gt;Simple&lt;/a&gt;
+&lt;button class="button"&gt;Enviar&lt;/button&gt;
+</pre>
+  
+      </section>
+
+      <section>
+        <aside>
+          <h3>Redondos</h3>
+          Botones con bordes redondos con clase <code>button</code> y <code>button--rounded</code>.
+        </aside>
+        
+        <a href="#" class="button button--rounded">Redondo</a>
+        <button class="button button--rounded">Enviar</button>
+
+<pre>
+&lt;a href="#" class="button button--rounded"&gt;Simple&lt;/a&gt;
+&lt;button class="button button--rounded"&gt;Enviar&lt;/button&gt;
+</pre>
+  
+      </section>
+    </section>
+
+    <section id="forms">
+      <h2>Botones</h2>
+      <section>
+        <aside>
+          <h3>Simples</h3>
+          Botones simples con clase <code>button</code>.
+        </aside>
+        
+        <a href="#" class="button">Simple</a>
+        <button class="button">Enviar</button>
+
+<pre>
+&lt;a href="#" class="button"&gt;Simple&lt;/a&gt;
+&lt;button class="button"&gt;Enviar&lt;/button&gt;
+</pre>
+  
+      </section>
+
+      <section>
+        <aside>
+          <h3>Redondos</h3>
+          Botones con bordes redondos con clase <code>button</code> y <code>button--rounded</code>.
+        </aside>
+        
+        <a href="#" class="button button--rounded">Redondo</a>
+        <button class="button button--rounded">Enviar</button>
+
+<pre>
+&lt;a href="#" class="button button--rounded"&gt;Simple&lt;/a&gt;
+&lt;button class="button button--rounded"&gt;Enviar&lt;/button&gt;
+</pre>
+  
+      </section>
+    </section>
+
   </div>
 
 </body>
