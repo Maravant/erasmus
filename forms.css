@@ -45,13 +45,19 @@ input[type="text"] {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  margin: 0 2px 8px 0;
+  margin: 0 16px 8px 0;
   cursor: pointer;
   user-select: none;
   box-sizing: border-box;
   border-radius: 3px;
   background-color: white;
   border: 2px solid rgba(0,0,0,0.05);
+}
+
+label > .input-checkbox input[type] + span,
+label > .input-radio input[type] + span {
+  margin-left: 16px;
+  margin-right: 0;
 }
 
 .input-checkbox input[type] + span:hover,
