@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="typography.css" type="text/css" />
   <link rel="stylesheet" href="colors.css" type="text/css" />
 
+  <link rel="stylesheet" href="forms.css" type="text/css" />
   <link rel="stylesheet" href="questions.css" type="text/css" />
 
   <link rel="stylesheet" href="demo.css" type="text/css" />
@@ -18,32 +19,43 @@
   <main>
     <article id="colors">
       <h2>Colores</h2>
-  
-      <h3>Primarios</h3>
       <section>
-        <ul class="colors-list">
-          <li><div class="color-ball color-primary"></div><code>--color-primary</code></li>
-          <li><div class="color-ball color-secondary"></div><code>--color-secondary</code></li>
-        </ul>
+        <aside>
+          <h3>Primarios</h3>
+        </aside>
+        <section>
+          <ul class="colors-list">
+            <li><div class="color-ball color-primary"></div><code>--color-primary</code></li>
+            <li><div class="color-ball color-secondary"></div><code>--color-secondary</code></li>
+          </ul>
+        </section>
       </section>
   
-      <h3>Fondos</h3>
       <section>
-        <ul class="colors-list">
-          <li><div class="color-ball bg-black"></div><code>--bg-black</code></li>
-          <li><div class="color-ball bg-gray"></div><code>--bg-gray</code></li>
-          <li><div class="color-ball bg-gray-dark"></div><code>--bg-gray-dark</code></li>
-          <li><div class="color-ball bg-white"></div><code>--bg-white</code></li>
-        </ul>
+        <aside>
+          <h3>Fondos</h3>
+        </aside>
+        <section>
+          <ul class="colors-list">
+            <li><div class="color-ball bg-black"></div><code>--bg-black</code></li>
+            <li><div class="color-ball bg-gray"></div><code>--bg-gray</code></li>
+            <li><div class="color-ball bg-gray-dark"></div><code>--bg-gray-dark</code></li>
+            <li><div class="color-ball bg-white"></div><code>--bg-white</code></li>
+          </ul>
+        </section>
       </section>
 
-      <h3>Texto</h3>
       <section>
-        <ul class="colors-list">
-          <li><div class="color-ball color-text-primary"></div><code>--color-text-primary</code></li>
-          <li><div class="color-ball color-text-secondary"></div><code>--color-text-secondary</code></li>
-          <li><div class="color-ball color-text-disabled"></div><code>--color-text-disabled</code></li>
-        </ul>
+        <aside>
+          <h3>Texto</h3>
+        </aside>
+        <section>
+          <ul class="colors-list">
+            <li><div class="color-ball color-text-primary"></div><code>--color-text-primary</code></li>
+            <li><div class="color-ball color-text-secondary"></div><code>--color-text-secondary</code></li>
+            <li><div class="color-ball color-text-disabled"></div><code>--color-text-disabled</code></li>
+          </ul>
+        </section>
       </section>
     </article>
   
@@ -177,9 +189,99 @@
         </aside>
         
         <section>
-          <input type="text" />
+          <p>
+            <label>
+              Label:
+              <input type="text" placeholder="Itrum lorem ipsum"/>
+            </label>
+          </p>
+
+          <p>
+            <label>
+              Label with Value:
+              <input type="text" placeholder="Itrum lorem ipsum" value="Mitlorim icsum"/>
+            </label>
+          </p>
 <pre>
-&lt;input type="text" /&gt;
+&lt;label&gt;
+  Label:
+  &lt;input type="text" placeholder="Itrum lorem ipsum"/&gt;
+&lt;/label&gt;
+&lt;label&gt;
+  Label with Value:
+  &lt;input type="text" placeholder="Itrum lorem ipsum" value="Mitlorim icsum"/&gt;
+&lt;/label&gt;
+</pre>
+        </section>
+      </section>
+
+      <section>
+        <aside>
+          <h3>Autocompletable</h3>
+          Inputs de texto autocompletable.
+        </aside>
+        
+        <section>
+          <label>
+            Label:
+            <input type="text" placeholder="Itrum lorem ipsum"/>
+          </label>
+<pre>
+...
+</pre>
+        </section>
+      </section>
+
+      <section>
+        <aside>
+          <h3>Radio Buttons</h3>
+          Radio buttons.
+        </aside>
+        
+        <section>
+          <label class="input-radio">
+            <input type="radio" name="ra" value="1" checked><span>Sí</span>
+          </label>
+          <label class="input-radio">
+            <input type="radio" name="ra" value="0"><span>No</span>
+          </label>
+<pre>
+&lt;label class="input-radio"&gt;
+  &lt;input type="radio" name="ra" value="1" checked&gt;&lt;span&gt;Sí&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class="input-radio"&gt;
+  &lt;input type="radio" name="ra" value="0"&gt;&lt;span&gt;No&lt;/span&gt;
+&lt;/label&gt;
+</pre>
+        </section>
+      </section>
+
+      <section>
+        <aside>
+          <h3>Checkbox Buttons</h3>
+          Checkbox buttons.
+        </aside>
+        
+        <section>
+          <label class="input-checkbox">
+            <input type="checkbox" name="ch" value="1" checked><span>Azul</span>
+          </label>
+          <label class="input-checkbox">
+            <input type="checkbox" name="ch" value="0"><span>Rojo</span>
+          </label>
+          <label class="input-checkbox">
+            <input type="checkbox" name="ch" value="2"><span>Verde</span>
+          </label>
+<pre>
+&lt;label class="input-checkbox"&gt;
+  &lt;input type="checkbox" name="ch" value="1" checked&gt;&lt;span&gt;Azul&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class="input-checkbox"&gt;
+  &lt;input type="checkbox" name="ch" value="0"&gt;&lt;span&gt;Rojo&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class="input-checkbox"&gt;
+  &lt;input type="checkbox" name="ch" value="2"&gt;&lt;span&gt;Verde&lt;/span&gt;
+&lt;/label&gt;
 </pre>
         </section>
       </section>
