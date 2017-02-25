@@ -25,32 +25,46 @@ pre {
   margin-bottom: 8px;
 }
 
-.page {
+main {
   max-width: 960px;
   margin: 0 auto;
   background: white;
-  padding: 32px;
+  padding: 16px 32px;
 }
 
 body > h1 {
   background: var(--color-primary);
   color: white;
-  padding: 16px;
+  padding: 32px 16px;
   font-size: 2rem;
-  margin-bottom: 0;
+  margin: 0;
+  text-align: center;
 }
 
-.page > section > h2 {
+main > article {
+  border-bottom: 3px dashed rgba(0,0,0,0.10);
+  margin-bottom: 32px;
+  overflow: hidden;
+}
+
+main > article > section {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+main > article > section > aside {
+  width: 230px;
+  padding-right: 32px;
+}
+
+main > article > section > section {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+main > article > h2 {
   margin-bottom: 16px;
   font-size: 1.3rem;
-}
-
-.page > section > section {
-  border-bottom: 3px dashed rgba(0,0,0,0.10);
-  padding-top: 8px;
-  padding-bottom: 16px;
-  margin-top: 16px;
-  margin-bottom: 32px;
 }
 
 .colors-list {
@@ -103,5 +117,37 @@ body > h1 {
 #typography h3,
 #typography h4,
 #typography h5 {
-  margin-top: 32px;
+  
+}
+
+.fonts-list {
+  list-style: none;
+  display: block;
+  overflow: hidden;
+  display: flex;
+}
+
+.fonts-list li {
+  width: 200px;
+  margin: 0 32px 0 0;
+  border: 1px solid rgba(0,0,0,0.16);
+  border-radius: 4px;
+  padding: 16px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+}
+
+.fonts-list li sup {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.fonts-list li .big {
+  font-size: 4rem;  
+}
+
+.questions {
+  background-color: var(--bg-gray);
 }

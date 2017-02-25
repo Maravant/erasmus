@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   <title>Guía de estilos</title>
   <link rel="stylesheet" href="reset.css" type="text/css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="typography.css" type="text/css" />
   <link rel="stylesheet" href="colors.css" type="text/css" />
+
+  <link rel="stylesheet" href="questions.css" type="text/css" />
+
   <link rel="stylesheet" href="demo.css" type="text/css" />
 </head>
 <body>
-
-  <h1>Guía de Estilos</h1>
-
-  <div class="page">
-    <section id="colors">
+  <h1>Guía de Estilos <small>v0.1.0</small></h1>
+  <main>
+    <article id="colors">
       <h2>Colores</h2>
   
       <h3>Primarios</h3>
@@ -43,43 +45,73 @@
           <li><div class="color-ball color-text-disabled"></div><code>--color-text-disabled</code></li>
         </ul>
       </section>
+    </article>
   
-    </section>
-  
-    <section id="typography">
+    <article id="typography">
       <h2>Tipografía</h2>
       <section>
         <aside>
-          <h3>Encabezados</h3>
-          Etiquetas base de encabezados
+          <h3>Fuente de letra</h3>
+          Familia de fuente de letra principal.
         </aside>
-  
-        <h1>h1. Título principal</h1>
-        <pre>&lt;h1&gt;Título principal&lt;/h1&gt;</pre>
-  
-        <h2>h2. Título secundario</h2>
-        <pre>&lt;h2&gt;Título principal&lt;/h2&gt;</pre>
-  
-        <h3>h3. Título de sección</h3>
-        <pre>&lt;h3&gt;Título principal&lt;/h3&gt;</pre>
-  
-        <h4>h4. Título secundario de sección</h4>
-        <pre>&lt;h4&gt;Título principal&lt;/h4&gt;</pre>
-  
-        <h5>h5. Título principal</h5>
-        <pre>&lt;h5&gt;Título principal&lt;/h5&gt;</pre>
+    
+        <section>
+          <ul class="fonts-list">
+            <li>
+              <sup><strong>Bold</strong></sup>
+              <p class="big"><strong>Aa</strong></p>
+              <p><strong>--font-family-main</strong></p>
+            </li>
+            <li>
+              <sup><em>Italic</em></sup>
+              <p class="big"><em>Aa</em></p>
+              <p><em>--font-family-main</em></p>
+            </li>
+            <li>
+              <sup>Regular</sup>
+              <p class="big">Aa</p>
+              <p>--font-family-main</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <aside>
+          <h3>Encabezados</h3>
+          Etiquetas base de encabezados.
+        </aside>
+    
+        <section>
+          <h1>h1. Título principal</h1>
+          <pre>&lt;h1&gt;Título principal&lt;/h1&gt;</pre>
+    
+          <h2>h2. Título secundario</h2>
+          <pre>&lt;h2&gt;Título principal&lt;/h2&gt;</pre>
+    
+          <h3>h3. Título de sección</h3>
+          <pre>&lt;h3&gt;Título principal&lt;/h3&gt;</pre>
+    
+          <h4>h4. Título secundario de sección</h4>
+          <pre>&lt;h4&gt;Título principal&lt;/h4&gt;</pre>
+    
+          <h5>h5. Título principal</h5>
+          <pre>&lt;h5&gt;Título principal&lt;/h5&gt;</pre>
+        </section>
       </section>
 
       <section>
         <aside>
           <h3>Texto</h3>
-          Fuente y tamaño por defecto del texto de la página.
+          Tamaño y estilo por defecto del texto de la página.
         </aside>
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut earum
-        aperiam magnam, maiores neque adipisci beatae tenetur reiciendis et
-        repellendus quo laborum recusandae illum ratione, tempore minus fuga
-        pariatur iure!</p>
+        <section>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut earum
+          aperiam magnam, maiores neque adipisci beatae tenetur reiciendis et
+          repellendus quo laborum recusandae illum ratione, tempore minus fuga
+          pariatur iure!</p>
+        </section>
       </section>
 
       <section>
@@ -88,21 +120,20 @@
           El tamaño de texto por defecto heredado de <code>body</code> es de <strong>$$$$px</strong>.
         </aside>
         
-        <div class="text-md">(15px) Lorem ipsum dolor sit amet.</div>
-        <div>(14px - default) Lorem ipsum dolor sit amet.</div>
-        <div class="text-sm">(13px) Lorem ipsum dolor sit amet.</div>
-
+        <section>
+          <div class="text-md">(15px) Lorem ipsum dolor sit amet.</div>
+          <div>(14px - default) Lorem ipsum dolor sit amet.</div>
+          <div class="text-sm">(13px) Lorem ipsum dolor sit amet.</div>
 <pre>
 &lt;div class="text-md"&gt;(15px) Lorem ipsum dolor sit amet.&lt;/div&gt;
 &lt;div&gt;(14px - default) Lorem ipsum dolor sit amet.&lt;/div&gt;
 &lt;div class="text-sm"&gt;(13px) Lorem ipsum dolor sit amet.&lt;/div&gt;
 </pre>
-
+        </section>
       </section>
+    </article>
 
-    </section>
-
-    <section id="buttons">
+    <article id="buttons">
       <h2>Botones</h2>
       <section>
         <aside>
@@ -110,14 +141,14 @@
           Botones simples con clase <code>button</code>.
         </aside>
         
-        <a href="#" class="button">Simple</a>
-        <button class="button">Enviar</button>
-
+        <section>
+          <a href="#" class="button">Simple</a>
+          <button class="button">Enviar</button>
 <pre>
 &lt;a href="#" class="button"&gt;Simple&lt;/a&gt;
 &lt;button class="button"&gt;Enviar&lt;/button&gt;
 </pre>
-  
+        </section>
       </section>
 
       <section>
@@ -126,53 +157,116 @@
           Botones con bordes redondos con clase <code>button</code> y <code>button--rounded</code>.
         </aside>
         
-        <a href="#" class="button button--rounded">Redondo</a>
-        <button class="button button--rounded">Enviar</button>
-
+        <section>
+          <a href="#" class="button button--rounded">Redondo</a>
+          <button class="button button--rounded">Enviar</button>
 <pre>
 &lt;a href="#" class="button button--rounded"&gt;Simple&lt;/a&gt;
 &lt;button class="button button--rounded"&gt;Enviar&lt;/button&gt;
 </pre>
-  
+        </section>
       </section>
-    </section>
+    </article>
 
-    <section id="forms">
-      <h2>Botones</h2>
+    <article id="forms">
+      <h2>Formulario</h2>
       <section>
         <aside>
-          <h3>Simples</h3>
-          Botones simples con clase <code>button</code>.
+          <h3>Inputs</h3>
+          Inputs de texto <code>input</code>.
         </aside>
         
-        <a href="#" class="button">Simple</a>
-        <button class="button">Enviar</button>
-
+        <section>
+          <input type="text" />
 <pre>
-&lt;a href="#" class="button"&gt;Simple&lt;/a&gt;
-&lt;button class="button"&gt;Enviar&lt;/button&gt;
+&lt;input type="text" /&gt;
 </pre>
-  
+        </section>
       </section>
+    </article>
 
+    <article id="questions">
+      <h2>Acordeón de Preguntas</h2>
       <section>
         <aside>
-          <h3>Redondos</h3>
-          Botones con bordes redondos con clase <code>button</code> y <code>button--rounded</code>.
+          Acordeón de preguntas con respuestas ocultas por defecto.
         </aside>
-        
-        <a href="#" class="button button--rounded">Redondo</a>
-        <button class="button button--rounded">Enviar</button>
 
+        <section>
+          <section class="questions">
+            <ul class="questions__ul">
+              <li class="questions__li">
+                <a href="#" class="questions__link">
+                  ¿Aut earum aperiam magnam?
+                </a>
+                <div class="questions__link__box">
+                  <div class="questions__link__answer">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </div>
+                </div>
+              </li>
+              <li class="questions__li">
+                <a href="#" class="questions__link">
+                  ¿Neque adipisci beatae?
+                </a>
+                <div class="questions__link__box">
+                  <div class="questions__link__answer">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </div>
+                  <div class="questions__link__answer">
+                    Beatae tenetur reiciendis et repellendus quo laborum.
+                  </div>
+                  <div class="questions__link__answer">
+                    Laborum recusandae illum ratione, maiores neque adipisci.
+                  </div>
+                </div>
+              </li>
+              <li class="questions__li">
+                <a href="#" class="questions__link">
+                  ¿Tempore minus fuga?
+                </a>
+                <div class="questions__link__box">
+                  <div class="questions__link__answer">
+                    Beatae tenetur reiciendis et repellendus quo laborum.
+                  </div>
+                  <div class="questions__link__answer">
+                    Laborum recusandae illum ratione, maiores neque adipisci.
+                  </div>
+                </div>
+              </li>
+              <li class="questions__li">
+                <a href="#" class="questions__link">¿Repellendus quo laborum?</a>
+                <div class="questions__link__box">
+                  <div class="questions__link__answer">
+                    Laborum recusandae illum ratione, maiores neque adipisci.
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
 <pre>
-&lt;a href="#" class="button button--rounded"&gt;Simple&lt;/a&gt;
-&lt;button class="button button--rounded"&gt;Enviar&lt;/button&gt;
+&lt;section class="questions"&gt;
+  &lt;ul class="questions__ul"&gt;
+    &lt;li class="questions__li"&gt;
+      &lt;a href="#" class="questions__link"&gt;
+        ¿Aut earum aperiam magnam?
+      &lt;/a&gt;
+      &lt;div class="questions__link__box"&gt;
+        &lt;div class="questions__link__answer"&gt;
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    ...
+  &lt;/ul&gt;
+&lt;/section&gt;
 </pre>
-  
-      </section>
-    </section>
+        </section>
 
-  </div>
+      </section>
+    </article>
+
+  </main>
 
 </body>
 </html>
