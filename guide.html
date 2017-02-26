@@ -237,8 +237,10 @@
 
       <section>
         <aside>
-          <h3>Radio Buttons</h3>
-          Radio buttons.
+          <h3>Botones Radio</h3>
+          Sólo es seleccionable uno a la vez con el mismo nombre. Se crea
+          con la etiqueta <code>input type="radio"</code> wrapeada en un label
+          con clase <code>input-radio</code>.
         </aside>
         
         <section>
@@ -267,8 +269,41 @@
 
       <section>
         <aside>
-          <h3>Checkbox Buttons</h3>
-          Checkbox buttons.
+          <h3>Botones Radio con Iconos</h3>
+          Soporte de iconos fa.
+        </aside>
+        
+        <section>
+          <label class="input-radio">
+            <input type="radio" name="ra" value="1" checked><span>
+              <i class="fa fa-search"></i> Sí
+            </span>
+          </label>
+          <label class="input-radio">
+            <input type="radio" name="ra" value="0"><span>
+              <i class="fa fa-search"></i> No
+            </span>
+          </label>
+<pre>
+&lt;label&gt;
+  Should:
+  &lt;label class="input-radio"&gt;
+    &lt;input type="radio" name="ra" value="1" checked&gt;&lt;span&gt;Sí&lt;/span&gt;
+  &lt;/label&gt;
+  &lt;label class="input-radio"&gt;
+    &lt;input type="radio" name="ra" value="0"&gt;&lt;span&gt;No&lt;/span&gt;
+  &lt;/label&gt;
+&lt;/label&gt;
+</pre>
+        </section>
+      </section>
+
+      <section>
+        <aside>
+          <h3>Botones Checkbox</h3>
+          Pueden ser seleccionados varios a la vez. Se crea
+          con la etiqueta <code>input type="checkbox"</code> wrapeada en un label
+          con clase <code>input-checkbox</code>.
         </aside>
         
         <section>
@@ -376,6 +411,45 @@
 
       </section>
     </article>
+
+    <article id="home">
+      <h2>Búsqueda</h2>
+      <section>
+        <aside>
+          <h3>Items de Resultados</h3>
+        </aside>
+        
+        <section>
+
+          <div class="item">
+            <div class="item--image"></div>
+            <div class="item--content">
+              <div class="item--icon"><i class="item__icon--location fa fa-map-marker" aria-hidden="true"></i></div>
+              <h6 class="item--paragraph">Barcelona, España</h6>
+              <div class="item--circle"><i class="item__icon--circle fa fa-comments-o" aria-hidden="true"></i></div>
+              <h3>Colegio San Patricio</h3>
+              <p>Buscando</p>
+              <p>4 Auxiliares de conversación</p>
+            </div>
+            <div class="item--footer">
+              <div class="item-footer__left">
+                <p>Fecha de comienzo</p>
+                <p>Septiembre 2016</p>
+              </div>
+              <div class="item-footer__right">
+                <p>Disponibilidad</p>
+                <p>1 Curso académico</p>
+              </div>
+            </div>
+          </div>
+
+<pre>
+...
+</pre>
+        </section>
+      </section>
+    </article>
+
 
   </main>
 

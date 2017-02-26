@@ -130,6 +130,7 @@ main > article > h2 {
   display: block;
   overflow: hidden;
   display: flex;
+  margin-bottom: 8px;
 }
 
 .fonts-list li {

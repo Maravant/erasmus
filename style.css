@@ -264,3 +264,97 @@ input.wrap-how-it-works__button {
 
 
 
+.item {
+  margin: 50px;
+  width: 360px;
+  font-family: var(--font-family-main), sans-serif;
+  border-radius: 4px;
+  overflow: hidden;
+  position:relative;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
+}
+
+.item--image {
+  background: url(https://lh3.googleusercontent.com/-CIF3kCGiPPw/VsXVahzsSMI/AAAAAAAAD4E/VI7s7HWyu8o/w1600-h800/Coding%2Bat%2BComputer.jpg) no-repeat center;
+  height:260px;
+  object-fit:fill;
+  background-size:cover;
+}
+
+.item--content {
+  margin:0 auto;
+  text-align:center;
+  position:absolute;
+  top:160px;
+  left:0px;
+  right:0px;
+}
+
+.item--icon {
+  width:10px;
+  height:10px;
+  margin:0 auto;
+  margin-bottom:20px;
+  color:white;
+}
+.item__icon--location {
+  font-size:25px;
+}
+
+.item--paragraph {
+  font-size:1rem;
+  color:white;
+  line-height:30px;
+}
+
+.item--circle {
+  width:60px;
+  height:60px;
+  background: var(--color-primary);
+  color: var(--color-text-primary);
+  border-radius:50%;
+  margin:10px auto; 
+}
+
+.item__icon--circle {
+  display:block;
+  padding-top:20px;
+  box-sizing:border-box;
+}
+
+.item-content p {
+  font-size:0.9rem;
+  line-height:10px;
+  padding-top:15px;
+}
+
+.item-content h5 {
+  margin:15px 0 20px;
+  font-weight:bold;
+  font-size:1.1rem;
+  line-height:20px;
+  padding:0 40px;
+}
+
+.item--footer {
+  display:flex;
+  margin-top:180px;
+  text-align:center;
+  font-size:0.9rem;
+  padding:0 8px;
+  box-sizing:border-box;
+}
+
+.item-footer__left, .item-footer__right {
+  flex:1;
+  line-height:15px;
+  padding-bottom:13px;
+}
+.item-footer p:last-child {
+  font-size:0.7rem;
+  line-height:30px;
+}
+
+.item-footer__left {
+  border-right:1px solid #e8e8ea;
+}
