@@ -76,3 +76,35 @@ label > .input-radio {
   background-color: var(--color-primary);
   color: var(--color-text-primary);
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 57px;
+  min-width: 240px;
+  padding: 10px 38px 10px 16px;
+  background: #fff url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIy NCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDQwIj48cGF0aCBkPSJNMjEg MjVsMyAzLjA2TDEyIDQwIDAgMjguMDYgMyAyNWw5IDl6TTMgMTVsLTMtMy4wNkwx MiAwbDEyIDExLjk0TDIxIDE1bC05LTl6IiBmaWxsPSIjMzMzIi8+PC9zdmc+') no-repeat right 16px center;
+  background-size: 10px;
+  transition: border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+  border: 0;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: inherit;
+  outline: 0;
+}
+
+select::-ms-expand {
+  display:none;
+}
+
+select:focus {
+  border-color: var(--color-primary);
+}

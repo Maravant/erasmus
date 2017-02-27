@@ -37,15 +37,6 @@
   font-weight:bold;
 }
 
-select {
-  height:69px;
-  width: 250px;
-  font-size:0.8rem;
-  text-align:center;
-  line-height:60px;
-  margin-bottom:70px;
-}
-
 .wrap-search__box {
   height:180px;
   background:#30b4f2;
