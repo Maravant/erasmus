@@ -123,8 +123,10 @@
   text-transform: uppercase;
 }
 
+
+
 .container-how-it-works {
-  background:#1c1e1e;
+  background:var(--bg-black);
   color:#dee1e2;
   text-align:center;
   padding-bottom:80px;
@@ -187,7 +189,7 @@
 .wrap-how-it-works__box a {
   font-size:1.5rem;
   margin:10px;
-  color:#139cdb;
+  color:var(--color-primary);
   display:block;
   font-size:1.2rem;  
 }
@@ -197,13 +199,10 @@
   text-transform:capitalize;
 }
 
-
-
-
 .wrap-how-it-works__circle-little {
   width:75px;
   height:75px;
-  background:#1c1e1e;
+  background:var(--bg-black);
   border-radius:50%;
   text-align: center;
   line-height: 75px;
