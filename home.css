@@ -27,8 +27,9 @@ h6 {
 }
 
 p {
-  font-size:1.3rem;
-  text-transform:capitalize;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size:1.2rem;
+  text-transform:lowercase;
 }
 
 .container-search {
@@ -46,6 +47,8 @@ p {
   text-align:center;
   border-bottom:1px solid #dee1e2;
   padding-bottom:110px;
+  margin:0 auto;
+  flex:1;
 }
 
 .wrap-search__image {
@@ -63,9 +66,7 @@ p {
   margin:0 auto 50px;
 } 
 
-.container-search h3 {
-  line-height:30px;
-  padding: 0 90px 40px;
+.wrap-search h3 {
   font-size:1rem;
   font-weight:bold;
 }
@@ -74,7 +75,7 @@ p {
   height:69px;
   width: 250px;
   font-size:0.8rem;
-  margin-bottom:70px;
+  margin:40px 0 70px;
 }
 
 .wrap-search__box {
@@ -115,10 +116,15 @@ p {
   margin-bottom:30px;
 }
 
-.container-corporative p {
-  font-size:1.3rem;
+.container-corportive__main-paragraph {
+  font-size:1.2rem;
   padding:0 50px 40px;
   line-height:30px;
+  text-transform:lowercase;
+}
+
+.container-corportive__main-paragraph:first-letter {
+  text-transform:uppercase;
 }
 
 .container-corporative__icon {
@@ -128,10 +134,11 @@ p {
   margin-bottom:12px;
 }
 
-.container-corporative__paragraph {
+.container-corporative__paragraph:first-letter {
   font-size:1.3rem;
   text-align:center;
   margin-bottom:50px;
+  text-transform:uppercase;
 }
 
 .container-corporative__box {
@@ -145,8 +152,9 @@ p {
   line-height:30px;
 }
 
-.container-corporative__item h4 {
-  font-size:1.3rem;
+.container-corporative__item h4:first-letter {
+  font-size:1.2rem;
+  text-transform: uppercase;
 }
 
 .container-how-it-works {
@@ -159,6 +167,7 @@ p {
 .container-how-it-works h2 {
   padding:60px 0;
   font-size:1.4rem;
+  margin:0;
 }
 
 .wrap-how-it-works {
@@ -265,18 +274,31 @@ p {
 .container-call-for-action__box {
   flex:1;
   text-align:center;
-  border-right:2px solid black;
   padding-bottom:80px;
 }
 
+.container-call-for-action__box--line {
+  border-right:1px solid #f2f2f2;
+}
+
 .container-call-for-action__icon {
-  width:70px;
-  height:70px;
+  width:80px;
+  height:80px;
   background:white;
   transform:rotate(45deg);
-  border-right:1px solid #139cdb;
-  border-bottom:1px solid #139cdb;
+  border-right:1px solid white;
+  border-bottom:1px solid white;
+  border-radius:4px;
   margin:60px auto 80px;
+  box-shadow:16px 18px 20px 6px rgba(19, 156, 219, 0.1);
+}
+
+.container-call-for-action__icon--inset {
+  color:var(--color-primary);
+  text-align:center;
+  font-size:30px;
+  transform:rotate(-45deg);
+  line-height:80px;
 }
 
 .container-call-for-action h3 {

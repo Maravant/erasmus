@@ -43,7 +43,7 @@ h3 {
 
 h4 {
   font-size:1.2rem;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 h6 {
