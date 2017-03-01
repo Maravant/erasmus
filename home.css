@@ -8,6 +8,7 @@
 
 .wrap-search__border {
   border-right:1px solid var(--bg-gray);
+
 }
 
 .wrap-search {
@@ -17,11 +18,11 @@
   flex:1;
 }
 
-.wrap-search__image {
+.wrap-search__image--left {
   background:yellow;
 }
 
-.wrap-search__image {
+.wrap-search__image--right {
   background:blue;
 }
 
@@ -112,6 +113,11 @@
 .container-corporative__item {
   text-align:center;
   line-height:30px;
+}
+
+.container-corporative__item__icon {
+  font-size:66px;
+  margin:50px 0 35px;
 }
 
 .container-corporative__item h4 {
