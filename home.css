@@ -1,18 +1,18 @@
 .container-search {
   display:flex;
   position:relative;
-  padding:50px 50px 0px 50px;
+  padding:0 50px 0 50px;
   box-sizing:border-box;
+  border:1px solid var(--bg-gray);
 }
 
 .wrap-search__border {
-  border-right:1px solid #dee1e2;
+  border-right:1px solid var(--bg-gray);
 }
 
 .wrap-search {
   text-align:center;
-  border-bottom:1px solid #dee1e2;
-  padding-bottom:110px;
+  padding:70px 0 120px;
   margin:0 auto;
   flex:1;
 }
@@ -26,10 +26,10 @@
 }
 
  .wrap-search__image {
-  width:370px;
+  width:374px;
   height:370px;
   border-radius:50%;
-  margin:0 auto 50px;
+  margin:0 auto 62px;
 } 
 
 .wrap-search h3 {
@@ -38,15 +38,15 @@
 }
 
 .wrap-search__select {
-  height:69px;
+  height:70px;
   width: 250px;
   font-size:0.8rem;
   margin:40px 0 70px;
 }
 
 .wrap-search__box {
-  height:180px;
-  background:#30b4f2;
+  height:182px;
+  background:var(--color-primary);
   font-size:0.9rem;
   padding:50px 0;
   box-sizing:border-box;
@@ -62,49 +62,45 @@
 .wrap-search__box a {
   text-align:center;
   text-decoration:none;
-  color:black;
-  font-family: 'Reem Kufi', sans-serif;
-  font-size:0.9rem;
+  color:var(--color-text-secondary);
+  font-size:0.8rem;
   text-transform:uppercase;
   font-weight:bold;
 }
 
 .container-corporative {
-  background:#dee1e2;
+  background:var(--bg-gray-dark);
   text-align:center;
-  padding:90px 100px 110px;
+  padding:90px 100px 106px;
   box-sizing:border-box;
 }
 
 .container-corporative h2 {
   font-size:1.4rem;
   font-weight:bold; 
-  margin-bottom:30px;
+  margin:0 0 32px;
 }
 
 .container-corportive__main-paragraph {
-  font-size:1.2rem;
-  padding:0 50px 40px;
+  font-size:1.3rem;
+  padding:0 50px 44px;
   line-height:30px;
-  text-transform:lowercase;
 }
 
-.container-corportive__main-paragraph:first-letter {
-  text-transform:uppercase;
+.container-corporative__box__icon {
+  text-align:center;
+  padding-bottom:25px;
 }
 
 .container-corporative__icon {
-  text-align:center;
-  font-size:4rem;
-  color:black;
-  margin-bottom:12px;
+  font-size:104px;
+  color:var(--color-text-secondary);
 }
 
-.container-corporative__paragraph:first-letter {
-  font-size:1.3rem;
+.container-corporative__paragraph {
+  font-size:1.5rem;
   text-align:center;
-  margin-bottom:50px;
-  text-transform:uppercase;
+  margin:0 50px 0;
 }
 
 .container-corporative__box {
@@ -118,42 +114,39 @@
   line-height:30px;
 }
 
-.container-corporative__item h4:first-letter {
+.container-corporative__item h4 {
   font-size:1.2rem;
-  text-transform: uppercase;
 }
-
-
 
 .container-how-it-works {
   background:var(--bg-black);
   color:#dee1e2;
   text-align:center;
-  padding-bottom:80px;
+  padding-bottom:94px;
 }
 
 .container-how-it-works h2 {
-  padding:60px 0;
+  padding:90px 0;
   font-size:1.4rem;
   margin:0;
 }
 
 .wrap-how-it-works {
   display:flex;
-  margin-bottom:30px;
+  margin-bottom:80px;
 }
 
 .wrap-how-it-works__circle {
   width:140px;
   height:140px;
   border-radius:50%;
-  border:2px solid #139cdb;
+  border:2px solid var(--color-primary);
   color:white;
   font-size:3rem;
   line-height:140px;
   font-weight:bold;
   margin:auto;
-  margin-bottom:40px;
+  margin-bottom:47px;
   position: relative;
 }
 
@@ -168,7 +161,7 @@
   display:block;
   width:40%;
   height:3px;
-  background:white;
+  background:var(--bg-white);
   position:absolute;
   top:70px;
   left: 0;
@@ -183,12 +176,12 @@
 .wrap-how-it-works__box h3 {
   font-size:1rem;
   font-weight:bold;
-  margin-bottom:40px;
+  margin-bottom:30px;
 }
 
-.wrap-how-it-works__box a {
+.wrap-how-it-works__box p {
   font-size:1.5rem;
-  margin:10px;
+  margin:5px;
   color:var(--color-primary);
   display:block;
   font-size:1.2rem;  
@@ -213,23 +206,12 @@
 }
 
 .wrap-how-it-works__icon {
-  color:#139cdb;
+  color:var(--color-primary);
 }
 
 .container-how-it-works .button {
   min-width:236px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .container-call-for-action {
   display:flex; 
@@ -238,20 +220,21 @@
 .call-for-action {
   flex:1;
   text-align:center;
-  padding-bottom:80px;
+  padding: 86px 0 95px;
+
 }
 
 .call-for-action--line {
-  border-right:1px solid #f2f2f2;
+  border-right:1px solid var(--bg-gray);
 }
 
 .call-for-action__box-icon {
-  width:80px;
-  height:80px;
+  width:100px;
+  height:100px;
   background:white;
   transform:rotate(45deg);
   border-radius:4px;
-  margin:60px auto 80px;
+  margin:0px auto 80px;
   box-shadow:16px 18px 20px 6px rgba(19, 156, 219, 0.1);
 }
 
@@ -260,7 +243,7 @@
   text-align:center;
   font-size:30px;
   transform:rotate(-45deg);
-  line-height:80px;
+  line-height:100px;
 }
 
 .call-for-action h3 {
@@ -269,21 +252,13 @@
 }
 
 .call-for-action p {
-  margin:30px 0 40px;
+  margin:45px 0 60px;
   font-size:1.2rem;
 }
 
 .call-for-action .button {
   min-width:236px;
 }
-
-
-
-
-
-
-
-
 
 .button {
   background:var(--color-primary);
@@ -294,7 +269,7 @@
   letter-spacing: 2px;
   border:none;
   text-transform:uppercase;
-  padding: 18px 20px;
+  padding: 16px 20px;
   text-decoration:none;
   font-weight:bold;
   display:inline-block;
@@ -305,9 +280,6 @@
   color:white;
   background:inherit;
 }
-
-
-
 
 
 
