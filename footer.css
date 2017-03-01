@@ -58,4 +58,6 @@
 .footer__logo-title {
   font-weight:bold;
   line-height:10px;
+  text-transform: uppercase;
+  line-height: 1.1;
 }

@@ -6,31 +6,42 @@
   border:1px solid var(--bg-gray);
 }
 
-.wrap-search__border {
-  border-right:1px solid var(--bg-gray);
-
-}
-
 .wrap-search {
   text-align:center;
   padding:70px 0 120px;
   margin:0 auto;
   flex:1;
+  position: relative;
+}
+
+.wrap-search:first-of-type:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.05);
 }
 
 .wrap-search__image--left {
-  background:yellow;
+  background: url(http://tampocopidotanto.com/wp-content/uploads/2017/01/bar-menu-1170x550.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .wrap-search__image--right {
-  background:blue;
+  background: url(http://lifetime.arena.pl/wp-content/uploads/2016/05/worktime_grafiki_artykulowe_dzieciksiazki.jpg) no-repeat center bottom;
+  background-size: cover;
 }
 
  .wrap-search__image {
   width:374px;
-  height:370px;
+  height:374px;
   border-radius:50%;
   margin:0 auto 62px;
+  box-shadow: 0 50px 40px -20px rgba(0,0,0,0.15);
 } 
 
 .wrap-search h3 {
@@ -170,16 +181,25 @@
   background:var(--bg-white);
   position:absolute;
   top:70px;
-  left: 0;
-  margin:0px;
-  transform: translateX(200%);
-}
-
-.wrap-how-it-works__box h6 {
+  right: -20%;
   margin:0px;
 }
 
-.wrap-how-it-works__box h3 {
+.wrap-how-it-works__box:not(:last-of-type):after {
+  content:"";
+  display:block;
+  width:0;
+  height:0;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent transparent transparent white;
+  position:absolute;
+  top:calc(70px - 3.5px);
+  right: calc(-20% - 5px);
+  margin:0px;
+}
+
+.wrap-how-it-works__title{
   font-size:1rem;
   font-weight:bold;
   margin-bottom:30px;
@@ -193,7 +213,12 @@
   font-size:1.2rem;  
 }
 
+.wrap-how-it-works__box p.wrap-how-it-works__subtitle {
+  color: #ddd;
+}
+
 .wrap-how-it-works__box h6 {
+  margin:0px;
   font-size:1.5rem;
   text-transform:capitalize;
 }
@@ -241,7 +266,7 @@
   transform:rotate(45deg);
   border-radius:4px;
   margin:0px auto 80px;
-  box-shadow:16px 18px 20px 6px rgba(19, 156, 219, 0.1);
+  box-shadow:16px 18px 50px 6px rgba(19, 156, 219, 0.1);
 }
 
 .call-for-action__icon {
@@ -268,7 +293,7 @@
 
 .button {
   background:var(--color-primary);
-  color:var(--text-color-primary);
+  color:var(--color-text-primary);
   border-radius:4px;
   font-size:0.8rem;
   line-height: 1;
@@ -279,6 +304,7 @@
   text-decoration:none;
   font-weight:bold;
   display:inline-block;
+  cursor: pointer;
 }
 
 .button.button--dark {
@@ -287,7 +313,10 @@
   background:inherit;
 }
 
-
+.button.button--dark:hover {
+  color: var(--color-text-primary);
+  background: var(--color-primary);
+}
 
 @media (max-width: 800px) {
   .wrap-how-it-works__box:not(:last-of-type):before {
@@ -297,6 +326,10 @@
 
 
 @media (max-width: 600px) {
+  .container-search {
+    display:block;
+  }
+
   .wrap-how-it-works {
     display:block;
   }
