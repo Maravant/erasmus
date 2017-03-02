@@ -74,23 +74,24 @@
   -moz-box-shadow: -7px 4px 50px 0px rgba(171,171,173,0.99);
 }
 
-.item--image {
+.item__image {
   background: url(https://lh3.googleusercontent.com/-CIF3kCGiPPw/VsXVahzsSMI/AAAAAAAAD4E/VI7s7HWyu8o/w1600-h800/Coding%2Bat%2BComputer.jpg) no-repeat center;
   height:260px;
   object-fit:fill;
   background-size:cover;
 }
 
-.item--content {
+.item__content {
   margin:0 auto;
   text-align:center;
-  position:absolute;
-  top:160px;
+  top:146px;
   left:0px;
   right:0px;
+  display:block;
+  margin-bottom:70px;
 }
 
-.item--icon {
+.item__icon {
   width:10px;
   height:10px;
   margin:0 auto;
@@ -99,23 +100,36 @@
 }
 .item__icon--location {
   font-size:25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 162px;
 }
 
-.item--paragraph {
+.item__image__paragraph {
   font-size:1rem;
   color:var(--bg-white);
   line-height:30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 185px;
 }
 
-.item--circle {
+.item__circle {
   width:70px;
   height:70px;
   background:var(--color-primary);
   border-radius:50%;
   margin:10px auto; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 214
+  textpx;
 }
 
-.item__icon--circle {
+.item__circle__icon {
   /*display:flex;
   justify-content:center;
   align-items:center;*/
@@ -125,23 +139,69 @@
   font-size:25px;
 }
 
-.item-content p {
-  font-size:0.9rem;
-  line-height:10px;
-  padding-top:15px;
-}
-
-.item-content h5 {
+.item__content__title {
   margin:15px 0 20px;
   font-weight:bold;
   font-size:1.1rem;
   line-height:20px;
-  padding:0 40px;
+  padding:20px 0 40px;
+}
+
+.item__content__icon {
+  font-size:20px;
+  margin-bottom:12px;
+}
+
+.item__content__paragraph {
+  font-size:0,.9rem;
+  line-height:10px;
+  padding-top:12px;
+  text-transform: uppercase;
 }
 
 
+.item__box {
+  display:flex;
+  padding:0 45px;
 
+}
 
+.item__box--one {
+  background:yellow;
+  padding: 20px 10px;
+}
 
+.item__box--three {
+  background:red;
+  padding:0 10px 20px;
 
+} 
+.tem__box--three {
+  background:green;
+  padding:0 10px 20px;
+}
+.item__box--four {
+  padding:0 10px;
+}
+
+.item__box--two {
+  margin:0 10px;
+  background:pink;
+}
+
+.item__box__label {
+  padding: 10px 0;
+  margin: 10px;
+  display: block;
+}
+
+.item__box__icon {
+  padding: 10px 0;
+  margin: 10px;
+  font-size:15px;
+}
+
+.item__box__one:first-child {
+  padding-top:0px;
+}
 
