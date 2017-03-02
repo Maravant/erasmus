@@ -8,6 +8,7 @@
 .icons__ul {
 	display:flex;
 	justify-content: space-between;
+  flex-flow: wrap;
 }
 
 .icons-profesional {
@@ -21,13 +22,13 @@
 
 .icons__li {
 	display:flex;
-	text-align:center;
-	margin:20px 0;
+  text-align: left;
+  margin: 20px 20px 20px 0;
+  min-width: 160px;
 }
 
 .icon {
 	font-size:20px;
-	margin:0 auto;
 }
 
 .icon-title {
