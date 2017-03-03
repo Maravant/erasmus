@@ -67,11 +67,11 @@
 
 
 .item {
-  border:2px solid #e8e8ea;
   position:relative;
   box-shadow: -7px 4px 50px 0px rgba(171,171,173,0.99);
   webkit-box-shadow: -7px 4px 50px 0px rgba(171,171,173,0.99);
   -moz-box-shadow: -7px 4px 50px 0px rgba(171,171,173,0.99);
+  border-radius:8px;
 }
 
 .item__image {
@@ -158,49 +158,29 @@
   text-transform: uppercase;
 }
 
-
 .item__box {
   display:flex;
-  /*padding:0 45px 45px;*/
-
+  padding:0 45px 45px;
 }
 
 .item__box--one {
-  background:yellow;
   padding: 20px 10px 0;
   flex:2;
   justify-content: space-between;
 }
 
-.item__box__checked {
-  background:red;
-  padding:20px 10px;
-  flex:1;
+.item__box__two {
+  padding:20px 0px 0px;
 } 
 
 .item__box__icon {
-  font-size:15px;
+  font-size:18px;
   margin:10px 10px 0;
 }
 
-.item__box__input {
-  margin-left:10px;
+.item__box__li {
+  margin-bottom:15px;
 }
-
- .item__box__checkbox {
-  display:flex;
-}
-
-.item__box__icon--check {
-  font-size:15px;
-  margin:10px 10px 0;
-}
-
-
-.item__box__input {
-  visibility: hidden;
-}
-
 
 
 
