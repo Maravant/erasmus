@@ -24,7 +24,6 @@
   justify-content:space-between;
 }
 
-
 .header-menulist__item {
   background:white;
   margin-right:20px;
@@ -65,6 +64,16 @@
   margin:auto 20px;
 }
 
+.main-title {
+  margin:0;
+}
+
+.container__item {
+  display:flex;
+  flex-flow: row wrap;
+  margin:0;
+  background:var(--bg-gray);
+}
 
 .item {
   position:relative;
@@ -72,6 +81,7 @@
   webkit-box-shadow: -7px 4px 50px 0px rgba(171,171,173,0.99);
   -moz-box-shadow: -7px 4px 50px 0px rgba(171,171,173,0.99);
   border-radius:8px;
+  margin:30px;
 }
 
 .item__image {
@@ -129,9 +139,6 @@
 }
 
 .item__circle__icon {
-  /*display:flex;
-  justify-content:center;
-  align-items:center;*/
   display:block;
   padding-top:20px;
   box-sizing:border-box;
@@ -181,6 +188,104 @@
 .item__box__li {
   margin-bottom:15px;
 }
+
+
+
+
+
+
+
+
+
+.container-results {
+  display:flex;
+  flex-flow: row wrap;
+  background-color:var(--bg-gray);
+  padding-top:30px;
+}
+
+
+
+.resultats-filtered {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size:0.6rem;
+  width:368px;
+  margin:30px;
+}
+.resultats-filtered__paragraph {
+  font-size:0.7rem;
+  line-height:22px;
+  letter-spacing: 2px;
+}
+
+.resultats-filtered__button{
+  border:2px solid var(--bg-white);
+  background:var(--bg-gray);
+  border-radius:4px;
+  height:20px;
+  line-height:22px;
+  padding:0 5px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.resultats-filtered__a {
+  text-decoration: none;
+  color:var(--color-text-secondary);
+}
+
+.resultats-quantity {
+  width:368px;
+  margin: 30px;
+}
+
+.resultats-quantity__paragraph--one {
+  text-align: center;
+  font-size:0.8rem;
+  text-transform: uppercase;
+  color:var(--color-primary);
+  letter-spacing: 2px;
+  line-height:20px;
+}
+
+.resultats-quantity__paragraph--two {
+  text-align: center;
+  font-size:1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height:20px;
+}
+
+.resultats-messages {
+  width:368px;
+  margin:30px 0;
+  justify-content:flex-end;
+  display:flex;
+}
+
+.resultats-messages__circle {
+  width:26px;
+  height:26px;
+  border-radius:50%;
+  background:red;
+  line-height:25px;
+  color:var(--bg-white);
+  text-align:center;
+  font-size:0.8rem;
+}
+
+.resultats-messages__icon {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
 
 
 
