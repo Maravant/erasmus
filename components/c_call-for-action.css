@@ -1,0 +1,56 @@
+.c_call-for-action {
+  flex:1;
+  text-align:center;
+  padding: 86px 0 95px;
+
+}
+
+.c_call-for-action--line {
+  border-right:1px solid var(--bg-gray);
+}
+
+.c_call-for-action__box-icon {
+  width:100px;
+  height:100px;
+  background:white;
+  transform:rotate(45deg);
+  border-radius:4px;
+  margin:0px auto 80px;
+  box-shadow:16px 18px 50px 6px rgba(19, 156, 219, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c_call-for-action__icon {
+  color:var(--color-primary);
+  text-align:center;
+  font-size:30px;
+  transform:rotate(-45deg);
+  line-height:100px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.c_call-for-action__icon.c_call-for-action__icon--preguntas {
+  background: url(../images/ico-preguntas.svg) no-repeat center;
+}
+
+.c_call-for-action__icon.c_call-for-action__icon--newsletter {
+  background: url(../images/ico-newsletter.svg) no-repeat center;
+}
+
+.c_call-for-action h2 {
+  margin:0;
+  line-height:1.2;
+}
+
+.c_call-for-action p {
+  margin:36px 0 55px;
+  font-size:1.2rem;
+}
+
+.c_call-for-action .button {
+  min-width:236px;
+}
