@@ -1,9 +1,16 @@
 .footer {
   background:var(--color-primary);
-  height:300px;
+  height:316px;
   position:relative;
   box-sizing:border-box;
-  padding:80px 20px 0;
+  padding:88px 20px 0;
+}
+
+.footer__wrapper {
+  max-width: var(--main-layout-width);
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
+  margin: 0 auto;
   display:flex;
   justify-content:space-between;
 }
@@ -13,16 +20,17 @@
 }
 
 .footer__menu {
-  padding:0 40px 45px;
+  padding:0 48px 40px;
   border-bottom:2px solid black;
-  font-size:0.7rem;
-
+  font-size:0.75rem;
+  line-height: 2;
+  font-family: var(--font-family-heading);
 }
 
 .footer__ul {
   display:flex;
-  justify-content: space-between; 
-  text-align:center;  
+  justify-content: space-between;
+  text-align:center;
 }
 
 .footer__ul a {
@@ -32,32 +40,30 @@
   color:var(--color-text-primary);
 }
 
-.footer__navegation { 
-  padding:45px 40px 0;
+.footer__navegation {
+  padding:34px 40px 0;
   font-size:1.7rem;
 }
 
 .footer__logo {
   margin-left: 90px;
-  width:170px;
+  width:140px;
+  padding-left: 10px;
   text-align:center;
   font-size:0.7rem;
   font-weight:bold;
 }
 
 .footer__logo-icon {
-  width:40px;
   height:40px;
   margin:0 auto;
-  padding:10px 0 25px;
-  font-size:40px;
+  padding:10px 0 22px;
   text-align:center;
-  margin-bottom:4px;
 }
 
 .footer__logo-title {
+  font-size: 0.648rem;
   font-weight:bold;
-  line-height:10px;
   text-transform: uppercase;
-  line-height: 1.1;
+  line-height: 1.33;
 }

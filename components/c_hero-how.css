@@ -26,15 +26,15 @@
 }
 
 .c_hero-how__icon.c_hero-how__icon--registrate {
-  background: url(images/ico-home-registrate.svg) no-repeat center;
+  background: url(../images/ico-home-registrate.svg) no-repeat center;
 }
 
 .c_hero-how__icon.c_hero-how__icon--contacta {
-  background: url(images/ico-home-contacta.svg) no-repeat center;
+  background: url(../images/ico-home-contacta.svg) no-repeat center;
 }
 
 .c_hero-how__icon.c_hero-how__icon--colabora {
-  background: url(images/ico-home-colabora.svg) no-repeat center;
+  background: url(../images/ico-home-colabora.svg) no-repeat center;
 }
 
 .c_hero-how__box {
