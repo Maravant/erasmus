@@ -1,0 +1,17 @@
+{
+  "name": "erasmus",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "gulp"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^6.7.6",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "precss": "^1.4.0"
+  }
+}

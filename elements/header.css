@@ -1,5 +1,4 @@
 .header {
-  height:190px;
   font-size:0.8rem;
   text-transform:uppercase;
   border-bottom:1px solid #d6d8db;
@@ -12,22 +11,34 @@
   margin: 0 auto;
   display:flex;
   justify-content:space-between;
-  align-items: center;
+  align-items: stretch;
+  height: 100%;
 }
 
 .header__logo {
   width:130px;
-  height:121px;
+  height:190px;
+  align-self: center;
   background: url(../images/logo.svg) no-repeat center center;
+  background-size: 100%;
   display:inline-block;
 }
 
+@media (max-width: 600px) {
+  .header__logo {
+    height:90px;
+    background-size: 70px;
+  }
+}
+
 .header__menu {
+  display: none;
   margin-left: 70px;
   margin-right: 70px;
   flex:1;
   font-weight:bold;
   text-align:center;
+  align-self: center;
 }
 
 .header__menulist {
@@ -42,23 +53,32 @@
 .header__menulist a {
   text-decoration: none;
   color: inherit;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px 8px;
+  display: inline-block;
 }
 
 .header__menulist a:hover {
-  box-shadow: 0 10px 0 -8px var(--color-primary);
+  box-shadow: 0 20px 0 -18px var(--color-primary);
 }
 
 .header__userbox {
   display: flex;
   align-items: center;
-  height:190px;
-  width:300px;
   border-left:1px solid #d6d8db;
-  display:flex;
-  padding-left:70px;
+  padding-left: 16px;
+  width: auto;
   box-sizing:border-box;
+}
+
+@media (min-width: 600px) {
+  .header__menu {
+    display: block;
+  }
+
+  .header__userbox {
+    padding-left:70px;
+    width:300px;
+  }
 }
 
 .header__userbox-avatar {
