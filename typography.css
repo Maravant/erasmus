@@ -1,5 +1,6 @@
 html {
-  --font-family-main: 'Josefin Sans';
+  --font-family-main: 'Blogger Sans';
+  --font-family-heading: 'Brandon Grotesque';
 }
 
 body {
@@ -17,9 +18,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-main), sans-serif;
+  font-family: var(--font-family-heading), sans-serif;
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 2;
   color: inherit;
   letter-spacing: 2px;
 }
@@ -31,19 +32,25 @@ h1 {
 }
 
 h2 {
-  font-size:1.4rem;
+  font-size:1.5rem;
   font-weight:bold;
   text-transform:uppercase;
+  line-height: 1.33;
+  letter-spacing: 4.8px;
 }
 
 h3 {
-  font-size:1.1rem;
+  font-size:1rem;
   font-weight:bold;
   text-transform:uppercase;
 }
 
 h4 {
-  font-size:1.2rem;
+  font-size:0.81rem;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height: 2.46;
+  letter-spacing: 2px;
 }
 
 h6 {
@@ -72,13 +79,6 @@ h3 small{
   font-size: 65%;
 }
 
-h4,
-h5,
-/*h6 {
-  margin-top: 10px;
-  margin-bottom: 5px;
-}*/
-
 h4 small,
 h5 small,
 h6 small {
@@ -103,4 +103,34 @@ em {
   letter-spacing: 5px;
   box-shadow:0 3px 6px rgba(0,0,0,0.3);
   margin-bottom:32px;
+}
+
+@font-face{
+  font-family: 'Blogger Sans';
+  font-weight: bold;
+  src: url('./fonts/bloggersans_bold/BloggerSans-Bold.eot');
+  src: url('./fonts/bloggersans_bold/BloggerSans-Bold.eot?iefix') format('eot'),
+       url('./fonts/bloggersans_bold/BloggerSans-Bold.woff') format('woff'),
+       url('./fonts/bloggersans_bold/BloggerSans-Bold.ttf') format('truetype'),
+       url('./fonts/bloggersans_bold/BloggerSans-Bold.svg#webfont') format('svg');
+}
+
+@font-face{
+  font-family: 'Blogger Sans';
+  font-weight: normal;
+  src: url('./fonts/bloggersans_regular/BloggerSans.eot');
+  src: url('./fonts/bloggersans_regular/BloggerSans.eot?iefix') format('eot'),
+       url('./fonts/bloggersans_regular/BloggerSans.woff') format('woff'),
+       url('./fonts/bloggersans_regular/BloggerSans.ttf') format('truetype'),
+       url('./fonts/bloggersans_regular/BloggerSans.svg#webfont') format('svg');
+}
+
+@font-face{
+  font-family: 'Blogger Sans';
+  font-weight: lighter;
+  src: url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot');
+  src: url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot?iefix') format('eot'),
+       url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.woff') format('woff'),
+       url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.ttf') format('truetype'),
+       url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.svg#webfont') format('svg');
 }

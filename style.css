@@ -1,110 +1,3 @@
-.container-corporative {
-  background:#dee1e2;
-  text-align:center;
-  padding:90px 100px 110px;
-  box-sizing:border-box;
-}
-
-.container-corporative h2 {
-  font-size:1.4rem;
-  font-weight:bold; 
-  margin-bottom:30px;
-}
-
-.container-corportive__main-paragraph {
-  font-size:1.3rem;
-  padding:0 50px 45px;
-  line-height:30px;
-}
-
-.container-corporative__box__icon {
-  text-align:center;
-}
-
-.container-corporative__icon {
-  font-size:100px;
-  color:black;
-}
-
-.container-corporative__paragraph {
-  font-size:1.5rem;
-  text-align:center;
-  margin-bottom:0 50px 0;
-}
-
-.container-corporative__box {
-  display:flex;
-  flex-flow:row wrap;
-  justify-content: space-between;   
-}
-
-.container-corporative__item {
-  text-align:center;
-  line-height:30px;
-}
-
-
-.container-how-it-works {
-  background:#1c1e1e;
-  color:#dee1e2;
-  text-align:center;
-  padding-bottom:80px;
-}
-
-.container-how-it-works h2 {
-  padding:60px 0;
-  font-size:1.4rem;
-}
-
-.container-call-for-action {
-  display:flex; 
-}
-
-.container-call-for-action__box {
-  flex:1;
-  text-align:center;
-}
-
-.container-call-for-action__box {
-  flex:1;
-  text-align:center;
-  border-right:2px solid black;
-  padding-bottom:80px;
-}
-
-.container-call-for-action__icon {
-  width:40px;
-  height:40px;
-  background:black;
-  margin:60px auto 40px;
-}
-
-.container-call-for-action h2 {
-  font-size:1.4rem;
-  line-height:30px;
-  text-transform:uppercase;
-}
-
-.container-call-for-action p {
-  margin:30px 0 40px;
-  font-size:1.3rem;
-}
-
-.container-call-of-action__button {
-  width:285px;
-  height:50px;
-  background:#139cdb;
-  margin:0 auto;
-  border-radius:8px;
-  font-size:0.9rem;
-  color:black;
-  border:none;
-  font-family: 'Reem Kufi', sans-serif;
-  text-transform:uppercase;
-}
-
-
-
 .item {
   margin: 50px;
   width: 360px;
@@ -154,7 +47,7 @@
   background: var(--color-primary);
   color: var(--color-text-primary);
   border-radius:50%;
-  margin:10px auto; 
+  margin:10px auto;
 }
 
 .item__icon--circle {

@@ -1,252 +1,60 @@
 .container-search {
-  display:flex;
   position:relative;
-  padding:0 50px 0 50px;
-  box-sizing:border-box;
-  border:1px solid var(--bg-gray);
 }
 
-.wrap-search {
-  text-align:center;
-  padding:70px 0 120px;
-  margin:0 auto;
-  flex:1;
-  position: relative;
+.container-search__wrapper,
+.container-how-it-works__wrapper,
+.container-corporative__wrapper {
+  max-width: var(--main-layout-width);
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
+  margin: 0 auto;
 }
 
-.wrap-search:first-of-type:after {
-  content: "";
-  display: block;
-  width: 2px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: -1px;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.05);
+.container-search__wrapper,
+.container-corporative__wrapper {
+  display:flex;
+  justify-content:space-between;
+  align-items: flex-start;
 }
 
-.wrap-search__image--left {
-  background: url(http://tampocopidotanto.com/wp-content/uploads/2017/01/bar-menu-1170x550.jpg) no-repeat center center;
-  background-size: cover;
+@media (max-width: 600px) {
+  .container-search__wrapper {
+    display: block;
+  }
 }
 
-.wrap-search__image--right {
-  background: url(http://lifetime.arena.pl/wp-content/uploads/2016/05/worktime_grafiki_artykulowe_dzieciksiazki.jpg) no-repeat center bottom;
-  background-size: cover;
-}
 
- .wrap-search__image {
-  width:374px;
-  height:374px;
-  border-radius:50%;
-  margin:0 auto 62px;
-  box-shadow: 0 50px 40px -20px rgba(0,0,0,0.15);
-} 
 
-.wrap-search h3 {
-  font-size:1rem;
-  font-weight:bold;
-}
-
-.wrap-search__select {
-  height:70px;
-  width: 250px;
-  font-size:0.8rem;
-  margin:40px 0 35px;
-}
-
-.wrap-search__box {
-  margin-top: 35px;
-  height:182px;
-  background:var(--color-primary);
-  font-size:0.9rem;
-  padding:50px 0;
-  box-sizing:border-box;
-}
-
-.wrap-search__icon {
-  text-align:center; 
-  font-size:2.3rem;
-  display:block;
-  margin-bottom:22px;
-}
-
-.wrap-search__box a {
-  text-align:center;
-  text-decoration:none;
-  color:var(--color-text-secondary);
-  font-size:0.8rem;
-  text-transform:uppercase;
-  font-weight:bold;
-}
 
 .container-corporative {
   background:var(--bg-gray-dark);
   text-align:center;
-  padding:90px 100px 106px;
+  padding:88px 0 96px;
   box-sizing:border-box;
 }
 
-.container-corporative h2 {
-  font-size:1.4rem;
-  font-weight:bold; 
-  margin:0 0 32px;
-}
 
-.container-corportive__main-paragraph {
-  font-size:1.3rem;
-  padding:0 50px 44px;
-  line-height:30px;
-}
-
-.container-corporative__box__icon {
-  text-align:center;
-  padding-bottom:25px;
-}
-
-.container-corporative__icon {
-  font-size:104px;
-  color:var(--color-text-secondary);
-}
-
-.container-corporative__paragraph {
-  font-size:1.5rem;
-  text-align:center;
-  margin:0 50px 0;
-}
-
-.container-corporative__box {
-  display:flex;
-  flex-flow:row wrap;
-  justify-content: space-between;   
-}
-
-.container-corporative__item {
-  text-align:center;
-  line-height:30px;
-}
-
-.container-corporative__item__icon {
-  font-size:66px;
-  margin:50px 0 35px;
-}
-
-.container-corporative__item h4 {
-  font-size:1.2rem;
-}
 
 .container-how-it-works {
   background:var(--bg-black);
-  color:#dee1e2;
-  text-align:center;
-  padding-bottom:94px;
-}
-
-.container-how-it-works h2 {
-  padding:90px 0;
-  font-size:1.4rem;
-  margin:0;
-}
-
-.wrap-how-it-works {
-  display:flex;
-  margin-bottom:80px;
-}
-
-.wrap-how-it-works__circle {
-  width:140px;
-  height:140px;
-  border-radius:50%;
-  border:2px solid var(--color-primary);
   color:white;
-  font-size:3rem;
-  line-height:140px;
-  font-weight:bold;
-  margin:auto;
-  margin-bottom:47px;
-  position: relative;
-}
-
-.wrap-how-it-works__box {
-  flex:1;
-  display:block;
-  position:relative;
-}
-
-.wrap-how-it-works__box:not(:last-of-type):before {
-  content:"";
-  display:block;
-  width:40%;
-  height:3px;
-  background:var(--bg-white);
-  position:absolute;
-  top:70px;
-  right: -20%;
-  margin:0px;
-}
-
-.wrap-how-it-works__box:not(:last-of-type):after {
-  content:"";
-  display:block;
-  width:0;
-  height:0;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-color: transparent transparent transparent white;
-  position:absolute;
-  top:calc(70px - 3.5px);
-  right: calc(-20% - 5px);
-  margin:0px;
-}
-
-.wrap-how-it-works__title{
-  font-size:1rem;
-  font-weight:bold;
-  margin-bottom:30px;
-}
-
-.wrap-how-it-works__box p {
-  font-size:1.5rem;
-  margin:5px;
-  color:var(--color-primary);
-  display:block;
-  font-size:1.2rem;  
-}
-
-.wrap-how-it-works__box p.wrap-how-it-works__subtitle {
-  color: #ddd;
-}
-
-.wrap-how-it-works__box h6 {
-  margin:0px;
-  font-size:1.5rem;
-  text-transform:capitalize;
-}
-
-.wrap-how-it-works__circle-little {
-  width:75px;
-  height:75px;
-  background:var(--bg-black);
-  border-radius:50%;
-  text-align: center;
-  line-height: 75px;
-  position: absolute;
-  top: -14px;
-  right: -17px;
-  font-size: 2rem;
-}
-
-.wrap-how-it-works__icon {
-  color:var(--color-primary);
+  text-align:center;
+  padding-top: 90px;
+  padding-bottom:94px;
 }
 
 .container-how-it-works .button {
   min-width:236px;
 }
 
+
+
+
+
+
 .container-call-for-action {
-  display:flex; 
+  display:flex;
 }
 
 .call-for-action {
@@ -292,52 +100,9 @@
   min-width:236px;
 }
 
-.button {
-  background:var(--color-primary);
-  color:var(--color-text-primary);
-  border-radius:4px;
-  font-size:0.8rem;
-  line-height: 1;
-  letter-spacing: 2px;
-  border:2px solid var(--color-primary);
-  text-transform:uppercase;
-  padding: 16px 20px;
-  text-decoration:none;
-  font-weight:bold;
-  display:inline-block;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-.button.button--dark {
-  border:2px solid var(--color-primary);
-  color:inherit;
-  background:inherit;
-}
-
-.button.button--dark:hover {
-  color: var(--color-text-primary);
-  background: var(--color-primary);
-}
-
-@media (max-width: 800px) {
-  .wrap-how-it-works__box:not(:last-of-type):before {
-    display:none;
-  }
-}
-
-
 @media (max-width: 600px) {
   .container-search {
     display:block;
-  }
-
-  .wrap-how-it-works {
-    display:block;
-  }
-
-  .wrap-how-it-works__box {
-    margin-bottom:40px;
   }
 }
 
