@@ -1,0 +1,131 @@
+.c_hero-how {
+  display:flex;
+  margin-top:86px;
+  margin-bottom:86px;
+}
+
+.c_hero-how__circle {
+  width:146px;
+  height:146px;
+  line-height:146px;
+  border-radius:50%;
+  border:2px solid var(--color-primary);
+  box-sizing: border-box;
+  color:white;
+  font-size:3.5rem;
+  font-weight:bold;
+  margin:auto;
+  margin-bottom:45px;
+  position: relative;
+}
+
+.c_hero-how__icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.c_hero-how__icon.c_hero-how__icon--registrate {
+  background: url(images/ico-home-registrate.svg) no-repeat center;
+}
+
+.c_hero-how__icon.c_hero-how__icon--contacta {
+  background: url(images/ico-home-contacta.svg) no-repeat center;
+}
+
+.c_hero-how__icon.c_hero-how__icon--colabora {
+  background: url(images/ico-home-colabora.svg) no-repeat center;
+}
+
+.c_hero-how__box {
+  flex:1;
+  display:block;
+  position:relative;
+}
+
+.c_hero-how__box:not(:last-of-type):before {
+  content:"";
+  display:block;
+  width:40%;
+  height:3px;
+  background:var(--bg-white);
+  position:absolute;
+  top:70px;
+  right: -20%;
+  margin:0px;
+}
+
+.c_hero-how__box:not(:last-of-type):after {
+  content:"";
+  display:block;
+  width:0;
+  height:0;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent transparent transparent white;
+  position:absolute;
+  top:calc(70px - 3.5px);
+  right: calc(-20% - 5px);
+  margin:0px;
+}
+
+.c_hero-how__title{
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-bottom:24px;
+}
+
+.c_hero-how__box p {
+  margin:5px;
+  color:var(--color-primary);
+  display:block;
+  font-size:1.25rem;
+}
+
+.c_hero-how__box p.c_hero-how__subtitle {
+  color: #ddd;
+}
+
+.c_hero-how__box h6 {
+  margin:0px;
+  font-size:1.5rem;
+  text-transform:capitalize;
+}
+
+.c_hero-how__circle-little {
+  width:75px;
+  height:75px;
+  background:var(--bg-black);
+  border-radius:50%;
+  text-align: center;
+  line-height: 75px;
+  position: absolute;
+  top: -14px;
+  right: -17px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c_hero-how__icon {
+  color:var(--color-primary);
+}
+
+
+@media (max-width: 800px) {
+  .c_hero-how__box:not(:last-of-type):before {
+    display:none;
+  }
+}
+
+@media (max-width: 600px) {
+  .c_hero-how {
+    display:block;
+  }
+
+  .c_hero-how__box {
+    margin-bottom:40px;
+  }
+}

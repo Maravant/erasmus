@@ -1,0 +1,67 @@
+.c_hero-corporative {
+  margin-left: auto;
+  margin-right: auto;
+}
+.c_hero-corporative h2 {
+  margin:0 0 32px;
+}
+
+.c_hero-corporative__main-paragraph {
+  font-size:1.25rem;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  padding:0 0 44px;
+  width: 764px;
+  margin: 0 auto;
+}
+
+.c_hero-corporative__subtitle {
+  font-size: 1.5rem;
+  margin-top: 16px;
+}
+
+.c_hero-corporative__box__icon {
+  text-align:center;
+  height: 258px;
+  background: url(../images/linea-punteada-esquema.svg) no-repeat center 112px;
+  width: 840px;
+}
+
+.c_hero-corporative__icon {
+  font-size:104px;
+  color:var(--color-text-secondary);
+}
+
+.c_hero-corporative__paragraph {
+  font-size:1.5rem;
+  text-align:center;
+  margin:0 50px 0;
+}
+
+.c_hero-corporative__box {
+  margin-top: 54px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.c_hero-corporative__item {
+  text-align:center;
+  line-height:30px;
+  font-size: 1.25rem;
+  width: 250px;
+}
+
+.c_hero-corporative__item-icon {
+  height: 74px;
+  text-align: center;
+}
+
+.c_hero-corporative__item h3 {
+  margin-top: 25px;
+}
+
+.c_hero-corporative__item__icon {
+  font-size:66px;
+  margin:50px 0 35px;
+}
