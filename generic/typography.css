@@ -1,8 +1,3 @@
-html {
-  --font-family-main: 'Blogger Sans';
-  --font-family-heading: 'Brandon Grotesque';
-}
-
 body {
   font-family: var(--font-family-main), sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -108,29 +103,29 @@ em {
 @font-face{
   font-family: 'Blogger Sans';
   font-weight: bold;
-  src: url('./fonts/bloggersans_bold/BloggerSans-Bold.eot');
-  src: url('./fonts/bloggersans_bold/BloggerSans-Bold.eot?iefix') format('eot'),
-       url('./fonts/bloggersans_bold/BloggerSans-Bold.woff') format('woff'),
-       url('./fonts/bloggersans_bold/BloggerSans-Bold.ttf') format('truetype'),
-       url('./fonts/bloggersans_bold/BloggerSans-Bold.svg#webfont') format('svg');
+  src: url('../fonts/bloggersans_bold/BloggerSans-Bold.eot');
+  src: url('../fonts/bloggersans_bold/BloggerSans-Bold.eot?iefix') format('eot'),
+       url('../fonts/bloggersans_bold/BloggerSans-Bold.woff') format('woff'),
+       url('../fonts/bloggersans_bold/BloggerSans-Bold.ttf') format('truetype'),
+       url('../fonts/bloggersans_bold/BloggerSans-Bold.svg#webfont') format('svg');
 }
 
 @font-face{
   font-family: 'Blogger Sans';
   font-weight: normal;
-  src: url('./fonts/bloggersans_regular/BloggerSans.eot');
-  src: url('./fonts/bloggersans_regular/BloggerSans.eot?iefix') format('eot'),
-       url('./fonts/bloggersans_regular/BloggerSans.woff') format('woff'),
-       url('./fonts/bloggersans_regular/BloggerSans.ttf') format('truetype'),
-       url('./fonts/bloggersans_regular/BloggerSans.svg#webfont') format('svg');
+  src: url('../fonts/bloggersans_regular/BloggerSans.eot');
+  src: url('../fonts/bloggersans_regular/BloggerSans.eot?iefix') format('eot'),
+       url('../fonts/bloggersans_regular/BloggerSans.woff') format('woff'),
+       url('../fonts/bloggersans_regular/BloggerSans.ttf') format('truetype'),
+       url('../fonts/bloggersans_regular/BloggerSans.svg#webfont') format('svg');
 }
 
 @font-face{
   font-family: 'Blogger Sans';
   font-weight: lighter;
-  src: url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot');
-  src: url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot?iefix') format('eot'),
-       url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.woff') format('woff'),
-       url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.ttf') format('truetype'),
-       url('./fonts/bloggersans_light/Blogger_Sans-Light-webfont.svg#webfont') format('svg');
+  src: url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot');
+  src: url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot?iefix') format('eot'),
+       url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.woff') format('woff'),
+       url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.ttf') format('truetype'),
+       url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.svg#webfont') format('svg');
 }

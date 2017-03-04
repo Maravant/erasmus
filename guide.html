@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="es-ES">
 <head>
+  <title>Erasmus In School</title>
   <meta charset="utf-8">
-  <title>Guía de estilos</title>
-  <link rel="stylesheet" href="reset.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <link rel="stylesheet" href="typography.css" type="text/css" />
-  <link rel="stylesheet" href="colors.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="forms.css" type="text/css" />
-  <link rel="stylesheet" href="questions.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Ek+Mukta:700&amp;subset=latin-ext" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+  <!-- <link rel="stylesheet" href="build/import.css" type="text/css"/> -->
+  <link rel="stylesheet" href="import.css" type="text/css"/>
 
   <link rel="stylesheet" href="demo.css" type="text/css" />
 </head>
@@ -30,7 +32,7 @@
           </ul>
         </section>
       </section>
-  
+
       <section>
         <aside>
           <h3>Fondos</h3>
@@ -58,16 +60,43 @@
         </section>
       </section>
     </article>
-  
+
     <article id="typography">
       <h2>Tipografía</h2>
       <section>
         <aside>
-          <h3>Fuente de letra</h3>
+          <h3>Fuente de Encabezados</h3>
+          Familia de fuente de encabezados.
+        </aside>
+
+        <section class="font-heading">
+          <ul class="fonts-list">
+            <li>
+              <sup><strong>Bold</strong></sup>
+              <p class="big"><strong>Aa</strong></p>
+              <p><strong>--font-family-heading</strong></p>
+            </li>
+            <li>
+              <sup><em>Italic</em></sup>
+              <p class="big"><em>Aa</em></p>
+              <p><em>--font-family-heading</em></p>
+            </li>
+            <li>
+              <sup>Regular</sup>
+              <p class="big">Aa</p>
+              <p>--font-family-heading</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <aside>
+          <h3>Fuente de Texto</h3>
           Familia de fuente de letra principal.
         </aside>
-    
-        <section>
+
+        <section class="font-main">
           <ul class="fonts-list">
             <li>
               <sup><strong>Bold</strong></sup>
@@ -93,20 +122,20 @@
           <h3>Encabezados</h3>
           Etiquetas base de encabezados.
         </aside>
-    
+
         <section>
           <h1>h1. Título principal</h1>
           <pre>&lt;h1&gt;Título principal&lt;/h1&gt;</pre>
-    
+
           <h2>h2. Título secundario</h2>
           <pre>&lt;h2&gt;Título principal&lt;/h2&gt;</pre>
-    
+
           <h3>h3. Título de sección</h3>
           <pre>&lt;h3&gt;Título principal&lt;/h3&gt;</pre>
-    
+
           <h4>h4. Título secundario de sección</h4>
           <pre>&lt;h4&gt;Título principal&lt;/h4&gt;</pre>
-    
+
           <h5>h5. Título principal</h5>
           <pre>&lt;h5&gt;Título principal&lt;/h5&gt;</pre>
 
@@ -120,7 +149,7 @@
           <h3>Texto</h3>
           Tamaño y estilo por defecto del texto de la página.
         </aside>
-        
+
         <section>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut earum
           aperiam magnam, maiores neque adipisci beatae tenetur reiciendis et
@@ -134,7 +163,7 @@
           <h3>Tamaños</h3>
           El tamaño de texto por defecto heredado de <code>body</code> es de <strong>$$$$px</strong>.
         </aside>
-        
+
         <section>
           <div class="text-md">(15px) Lorem ipsum dolor sit amet.</div>
           <div>(14px - default) Lorem ipsum dolor sit amet.</div>
@@ -155,7 +184,7 @@
           <h3>Simples</h3>
           Botones simples con clase <code>button</code>.
         </aside>
-        
+
         <section>
           <a href="#" class="button">Simple</a>
           <button class="button">Enviar</button>
@@ -168,16 +197,16 @@
 
       <section>
         <aside>
-          <h3>Redondos</h3>
-          Botones con bordes redondos con clase <code>button</code> y <code>button--rounded</code>.
+          <h3>Claros</h3>
+          Botones en fondo oscuro con clase <code>button--dark</code>.
         </aside>
-        
+
         <section>
-          <a href="#" class="button button--rounded">Redondo</a>
-          <button class="button button--rounded">Enviar</button>
+          <a href="#" class="button button--dark">Redondo</a>
+          <button class="button button--dark">Enviar</button>
 <pre>
-&lt;a href="#" class="button button--rounded"&gt;Simple&lt;/a&gt;
-&lt;button class="button button--rounded"&gt;Enviar&lt;/button&gt;
+&lt;a href="#" class="button button--dark"&gt;Simple&lt;/a&gt;
+&lt;button class="button button--dark"&gt;Enviar&lt;/button&gt;
 </pre>
         </section>
       </section>
@@ -190,7 +219,7 @@
           <h3>Inputs</h3>
           Inputs de texto <code>input</code>.
         </aside>
-        
+
         <section>
           <p>
             <label>
@@ -223,7 +252,7 @@
           <h3>Autocompletable</h3>
           Inputs de texto autocompletable.
         </aside>
-        
+
         <section>
           <label>
             Label:
@@ -268,7 +297,7 @@
           con la etiqueta <code>input type="radio"</code> wrapeada en un label
           con clase <code>input-radio</code>.
         </aside>
-        
+
         <section>
           <label>
             Should:
@@ -298,7 +327,7 @@
           <h3>Botones Radio con Iconos</h3>
           Soporte de iconos fa.
         </aside>
-        
+
         <section>
           <label class="input-radio">
             <input type="radio" name="rai" value="1" checked><span>
@@ -332,7 +361,7 @@
           con la etiqueta <code>input type="checkbox"</code> wrapeada en un label
           con clase <code>input-checkbox</code>.
         </aside>
-        
+
         <section>
           <label class="input-checkbox">
             <input type="checkbox" name="ch" value="1" checked><span>Azul</span>
@@ -445,7 +474,7 @@
         <aside>
           <h3>Items de Resultados</h3>
         </aside>
-        
+
         <section>
 
           <div class="item">

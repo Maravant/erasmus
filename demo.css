@@ -122,7 +122,7 @@ main > article > h2 {
 #typography h3,
 #typography h4,
 #typography h5 {
-  
+
 }
 
 .fonts-list {
@@ -151,7 +151,15 @@ main > article > h2 {
 }
 
 .fonts-list li .big {
-  font-size: 4rem;  
+  font-size: 4rem;
+}
+
+.font-main {
+  font-family: var(--font-family-main);
+}
+
+.font-heading {
+  font-family: var(--font-family-heading);
 }
 
 .questions {

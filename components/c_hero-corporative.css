@@ -11,8 +11,9 @@
   font-weight: normal;
   line-height: 1.6;
   letter-spacing: 0.8px;
-  padding:0 0 44px;
-  width: 764px;
+  padding:0 38px 44px;
+  box-sizing: border-box;
+  max-width: 840px;
   margin: 0 auto;
 }
 
@@ -25,7 +26,6 @@
   text-align:center;
   height: 258px;
   background: url(../images/linea-punteada-esquema.svg) no-repeat center 112px;
-  width: 840px;
 }
 
 .c_hero-corporative__icon {
@@ -64,4 +64,22 @@
 .c_hero-corporative__item__icon {
   font-size:66px;
   margin:50px 0 35px;
+}
+
+
+@media (max-width: 600px) {
+  .c_hero-corporative__box {
+    display: block;
+    margin-top: 0;
+  }
+
+  .c_hero-corporative__box__icon {
+    background: none;
+  }
+
+  .c_hero-corporative__item {
+    width: auto;
+    margin: 0 auto 80px;
+  }
+
 }

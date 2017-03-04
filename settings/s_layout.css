@@ -1,4 +1,4 @@
-html {
+:root {
   --main-layout-width: 1200px;
   --main-layout-gap: 16px;
 }
