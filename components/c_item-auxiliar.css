@@ -1,0 +1,35 @@
+.c_item-auxiliar {
+  margin-top:130px;
+  padding:10px;
+  text-align: center;
+}
+
+.c_item-auxiliar__footer {
+  display:flex;
+  justify-content: space-around;
+  font-size:0.9rem;
+  padding:0 8px;
+  box-sizing:border-box;
+  margin-top:34px;
+}
+
+.c_item-auxiliar__footer__icon {
+  text-align: center;
+}
+
+.c_item-auxiliar__footer__span {
+  margin:15px 0 0;
+  text-align: center;
+}
+
+.c_item-auxiliar__footer__calendar {
+  border-right:2px solid var(--bg-gray);
+  flex:1;
+  padding:20px 0;
+}
+
+.c_item-auxiliar__footer__duration {
+  flex:1;
+  padding:20px 0;
+}
+

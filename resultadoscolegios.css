@@ -2,40 +2,6 @@
 
 
 
-.item__footer {
-  display:flex;
-  justify-content: space-around;
-  font-size:0.9rem;
-  padding:0 8px;
-  box-sizing:border-box;
-  background: blue;
-}
-
-.item__footer__icon {
-  display:block;
-  text-align: center;
-}
-
-.item__footer__span {
-  font-weight: 500px;
-  box-sizing:border-box;
-  margin:30px 0;
-  text-align: center;
-}
-
-.item__footer--calendar--line {
-  border:1px solid var(--bg-gray);
-  background:pink;
-}
-
-.item__footer__duration {
-  background:green;
-}
-
-
-
-
-
 
 
 .container-load-more {
