@@ -33,6 +33,10 @@
   text-align:center;
 }
 
+.footer__navegation li {
+  line-height: 0;
+}
+
 .footer__ul a {
   text-transform:uppercase;
   font-weight:bold;

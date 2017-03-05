@@ -9,8 +9,8 @@
 }
 
 .icon--small {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 .icon--auxiliar {
@@ -95,4 +95,24 @@
 
 .icon--voluntario {
   background-image: url(../images/ico_voluntario.svg);
+}
+
+.icon--social-facebook {
+  background-image: url(../images/ico_social-facebook.svg);
+}
+
+.icon--social-twitter {
+  background-image: url(../images/ico_social-twitter.svg);
+}
+
+.icon--social-youtube {
+  background-image: url(../images/ico_social-youtube.svg);
+}
+
+.icon--social-instagram {
+  background-image: url(../images/ico_social-instagram.svg);
+}
+
+.icon--social-linkedin {
+  background-image: url(../images/ico_social-linkedin.svg);
 }
