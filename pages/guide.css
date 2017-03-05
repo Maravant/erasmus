@@ -101,6 +101,7 @@ main > article > h2 {
 }
 
 .color-primary   { background-color: var(--color-primary) }
+.color-primary-hover { background-color: var(--color-primary-hover) }
 .color-secondary { background-color: var(--color-secondary) }
 .bg-black        { background-color: var(--bg-black) }
 .bg-gray         { background-color: var(--bg-gray) }
