@@ -49,19 +49,26 @@
 }
 
 .c_hero-search__box {
+  display: block;
   margin-top: 35px;
   height:182px;
   background:var(--color-primary);
   font-size:0.9rem;
   padding:50px 0;
   box-sizing:border-box;
+  text-decoration: none;
+  color:var(--color-text-secondary);
+}
+
+.c_hero-search__box:hover {
+  background:var(--color-primary-hover);
 }
 
 .c_hero-search__icon {
   text-align:center;
   font-size:2.3rem;
   display:block;
-  margin-bottom:22px;
+  margin-bottom:14px;
 }
 
 .c_hero-search__box a {

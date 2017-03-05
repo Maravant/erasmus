@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BUSCADOR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-708.000000, -566.000000)" fill="#2D2D2D">
+            <path d="M732,589.996 L727.027,589.996 L727.027,582.201 C727.027,580.343 726.995,577.951 724.443,577.951 C721.855,577.951 721.461,579.977 721.461,582.068 L721.461,589.996 L716.493,589.996 L716.493,573.968 L721.261,573.968 L721.261,576.159 L721.329,576.159 C721.992,574.898 723.614,573.569 726.034,573.569 C731.07,573.569 732,576.889 732,581.206 L732,589.996 Z M710.886,571.777 C709.288,571.777 708,570.483 708,568.889 C708,567.294 709.288,566 710.886,566 C712.477,566 713.769,567.294 713.769,568.889 C713.769,570.483 712.477,571.777 710.886,571.777 L710.886,571.777 Z M708.395,589.996 L713.373,589.996 L713.373,573.968 L708.395,573.968 L708.395,589.996 Z" id="Linkedin"></path>
+        </g>
+    </g>
+</svg>
