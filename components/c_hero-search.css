@@ -40,6 +40,7 @@
 .c_hero-search h3 {
   font-size:1rem;
   font-weight:bold;
+  margin: 0;
 }
 
 .c_hero-search__select {
