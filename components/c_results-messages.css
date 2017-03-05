@@ -1,0 +1,18 @@
+.c_results-messages {
+  justify-content:flex-end;
+  display:flex;
+  flex:1;
+}
+
+.c_results-messages__circle {
+  width:36px;
+  height:36px;
+  padding-left:18px;
+  padding-bottom:12px;
+  background:url(../images/ico-mensajes-notificacion.svg) no-repeat left top;
+  line-height:36px;
+  color:var(--bg-white);
+  text-align:center;
+  font-size:0.8rem;
+  font-weight: bold;
+}

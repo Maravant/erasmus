@@ -1,0 +1,24 @@
+.container-results {
+  background-color:var(--bg-gray);
+  padding:30px;
+}
+
+.container-results__wrap {
+  display:flex;
+  max-width: var(--main-layout-width);
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
+  margin: 0 auto;
+}
+
+.main-title {
+  margin: 0;
+}
+
+.container-items {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin:0;
+  background:var(--bg-gray);
+}
