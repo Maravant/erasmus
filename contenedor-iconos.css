@@ -5,35 +5,27 @@
 	color:var(--color-secondary);
 }
 
-.icons__ul {
+.container__icons__ul {
 	display:flex;
 	justify-content: space-between;
-  flex-flow: wrap;
+  	flex-flow: wrap;
 }
 
-.icons-profesional {
-	
-}
-
-.icons-personal {
-
-
-}
-
-.icons__li {
+.container__icons__li {
 	display:flex;
-  text-align: left;
-  margin: 20px 20px 20px 0;
-  min-width: 160px;
+  	text-align: left;
+  	margin: 20px 20px 20px 0;
+  	min-width: 160px;
 }
 
-.icon {
+.container__icons__icon {
 	font-size:20px;
 }
 
-.icon-title {
+.container__icon__title {
 	font-size:0.7rem ;
 	text-transform:uppercase;
 	margin-left:20px;
 	line-height:20px;
 }
+
