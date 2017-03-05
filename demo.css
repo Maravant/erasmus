@@ -162,6 +162,27 @@ main > article > h2 {
   font-family: var(--font-family-heading);
 }
 
-.questions {
-  background-color: var(--bg-gray);
+.icon-list {
+  list-style: none;
+  display: block;
+  overflow: hidden;
+}
+
+.icon-list li {
+  width: 140px;
+  height: 140px;
+  /*border: 1px solid red;*/
+  float: left;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  position: relative;
+  text-align: center;
+}
+
+.icon-list li code {
+  white-space: pre-wrap;
+}
+
+.icon-list li p {
+  margin-top: 10px;
 }

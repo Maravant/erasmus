@@ -1,0 +1,98 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+}
+
+.icon--small {
+  width: 32px;
+  height: 32px;
+}
+
+.icon--auxiliar {
+  background-image: url(../images/ico_auxiliar_peq.svg);
+}
+
+.icon--colegios {
+  background-image: url(../images/ico_colegios-empresas.svg);
+}
+
+.icon--no {
+  background-image: url(../images/ico_aspa.svg);
+}
+
+.icon--calendario {
+  background-image: url(../images/ico_calendario.svg);
+}
+
+.icon--calendario_selected {
+  background-image: url(../images/ico_calendario_selected.svg);
+}
+
+.icon--casa {
+  background-image: url(../images/ico_casa.svg);
+}
+
+.icon--yes {
+  background-image: url(../images/ico_check.svg);
+}
+
+.icon--coche {
+  background-image: url(../images/ico_coche.svg);
+}
+
+.icon--comida {
+  background-image: url(../images/ico_comida.svg);
+}
+
+.icon--dinero {
+  background-image: url(../images/ico_dinero.svg);
+}
+
+.icon--dinero_selected {
+  background-image: url(../images/ico_dinero_selected.svg);
+}
+
+.icon--duracion {
+  background-image: url(../images/ico_duracion.svg);
+}
+
+.icon--duracion_selected {
+  background-image: url(../images/ico_duracion_selected.svg);
+}
+
+.icon--enviar {
+  background-image: url(../images/ico_enviar.svg);
+}
+
+.icon--idioma {
+  background-image: url(../images/ico_idioma.svg);
+}
+
+.icon--idioma_selected {
+  background-image: url(../images/ico_idioma_selected.svg);
+}
+
+.icon--pointer {
+  background-image: url(../images/ico_pointer.svg);
+}
+
+.icon--pointer_selected {
+  background-image: url(../images/ico_pointer_selected.svg);
+}
+
+.icon--reloj {
+  background-image: url(../images/ico_reloj.svg);
+}
+
+.icon--tandem {
+  background-image: url(../images/ico_tandem.svg);
+}
+
+.icon--voluntario {
+  background-image: url(../images/ico_voluntario.svg);
+}

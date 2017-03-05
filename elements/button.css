@@ -22,7 +22,13 @@
   background:inherit;
 }
 
+.button:hover {
+  background: var(--color-primary-hover);
+  border-color:var(--color-primary-hover);
+}
+
 .button.button--dark:hover {
   color: var(--color-text-primary);
+  border-color:var(--color-primary);
   background: var(--color-primary);
 }

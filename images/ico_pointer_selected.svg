@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="24px" viewBox="0 0 16 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_pointer_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BUSCADOR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-280.000000, -278.000000)" fill="#61CFFF">
+            <path d="M288,289 C286.346,289 285,287.654 285,286 C285,284.346 286.346,283 288,283 C289.654,283 291,284.346 291,286 C291,287.654 289.654,289 288,289 M288,278 C283.589,278 280,281.589 280,286 C280,294.114 287.334,301.541 287.646,301.854 C287.744,301.951 287.872,302 288,302 C288.128,302 288.256,301.951 288.354,301.854 C288.666,301.541 296,294.114 296,286 C296,281.589 292.411,278 288,278" id="ico_pointer_selected"></path>
+        </g>
+    </g>
+</svg>

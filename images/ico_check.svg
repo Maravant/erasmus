@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BUSCADOR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-1288.000000, -284.000000)" fill="#6CFFB8">
+            <path d="M1303.70725,284.29325 C1303.31625,283.90225 1302.68425,283.90225 1302.29325,284.29325 L1293.00025,293.58625 L1289.70725,290.29325 C1289.31625,289.90225 1288.68425,289.90225 1288.29325,290.29325 C1287.90225,290.68425 1287.90225,291.31625 1288.29325,291.70725 L1292.29325,295.70725 C1292.48825,295.90225 1292.74425,296.00025 1293.00025,296.00025 C1293.25625,296.00025 1293.51225,295.90225 1293.70725,295.70725 L1303.70725,285.70725 C1304.09825,285.31625 1304.09825,284.68425 1303.70725,284.29325" id="ico_check"></path>
+        </g>
+    </g>
+</svg>

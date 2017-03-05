@@ -123,9 +123,9 @@ em {
 @font-face{
   font-family: 'Blogger Sans';
   font-weight: lighter;
-  src: url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot');
-  src: url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.eot?iefix') format('eot'),
-       url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.woff') format('woff'),
-       url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.ttf') format('truetype'),
-       url('../fonts/bloggersans_light/Blogger_Sans-Light-webfont.svg#webfont') format('svg');
+  src: url('../fonts/bloggersans_light/blogger_sans-light-webfont.eot');
+  src: url('../fonts/bloggersans_light/blogger_sans-light-webfont.eot?iefix') format('eot'),
+       url('../fonts/bloggersans_light/blogger_sans-light-webfont.woff') format('woff'),
+       url('../fonts/bloggersans_light/blogger_sans-light-webfont.ttf') format('truetype'),
+       url('../fonts/bloggersans_light/blogger_sans-light-webfont.svg#webfont') format('svg');
 }
