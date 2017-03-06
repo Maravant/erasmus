@@ -8,8 +8,8 @@
   font-size:0.87rem;
   text-transform: uppercase;
   color:var(--color-primary);
-  line-height:1.71;
-  font-weight: 500;
+  line-height:24px;
+  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 3.2px;
@@ -20,7 +20,8 @@
   text-align: center;
   font-size:1rem;
   text-transform: uppercase;
-  line-height:1.5;
+  line-height:24px;
+  letter-spacing: 3.2px;
   font-family:var(--bloggersans_bold);
   font-weight:600;
   font-style: normal;

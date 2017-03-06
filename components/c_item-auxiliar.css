@@ -1,7 +1,6 @@
 .c_item-auxiliar {
-  margin-top:110px;
+  margin-top:108px;
   text-align: center;
-
 }
 
 .c_item-auxiliar__nacionality {
@@ -17,6 +16,7 @@
   font-size:0.87rem;
   font-weight:bold;
   letter-spacing:2.8px;
+  margin-left:5px;
 }
 
 .c_item-auxiliar__paragraph {
@@ -31,6 +31,12 @@
   margin-bottom:48px;
 }
 
+.c_item-auxiliar__paragraph__span {
+  font-size:0.75rem;
+  text-transform: uppercase;
+  font-family: var(--font-family-main), sans-serif;
+}
+
 .c_item-auxiliar__footer {
   display:flex;
   justify-content: space-around;
@@ -40,11 +46,12 @@
 
 .c_item-auxiliar__footer__icon {
   text-align: center;
-  margin-left:16px;
+  margin-top:10px;
+
 }
 
 .c_item-auxiliar__footer__span {
-  margin:15.5px 0 21px;
+  margin:15px 0 17px;
   text-align: center;
   font-size:0.75rem;
   font-family: var(--font-family-main), sans-serif;

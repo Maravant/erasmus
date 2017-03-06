@@ -13,10 +13,13 @@
 
 .main-title {
   margin: 0;
-  height:72px;
-  font-size:0.87rem;
+  height:74px;
+  font-size:0.97rem;
   letter-spacing:2.8px;
   font-weight:bold;
+  line-height: 72px;
+  font-family: var(--font-family-heading), sans-serif;
+
 }
 
 .container-items {
