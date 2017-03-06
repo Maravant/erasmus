@@ -12,8 +12,10 @@
       }
     };
 
-    var observer = new IntersectionObserver(manageHeaderPositionChanges, {});
-    observer.observe(header);
+    if (header) {
+      var observer = new IntersectionObserver(manageHeaderPositionChanges, {});
+      observer.observe(header);
+    }
   });
 
 }());
