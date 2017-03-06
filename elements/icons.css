@@ -18,6 +18,14 @@
   height:16px;
 }
 
+.icon--home-auxiliares {
+  background-image: url(../images/ico_home_auxiliares_monocromo.svg);
+}
+
+.icon--home-colegios {
+  background-image: url(../images/ico_home_colegio-empresa_monocromo.svg);
+}
+
 .icon--auxiliar {
   background-image: url(../images/ico_auxiliar_peq.svg);
 }
@@ -100,6 +108,22 @@
 
 .icon--voluntario {
   background-image: url(../images/ico_voluntario.svg);
+}
+
+.icon--hombre {
+  background-image: url(../images/ico_hombre.svg);
+}
+
+.icon--mujer {
+  background-image: url(../images/ico_mujer.svg);
+}
+
+.icon--hombre_selected {
+  background-image: url(../images/ico_hombre_selected.svg);
+}
+
+.icon--mujer_selected {
+  background-image: url(../images/ico_mujer_selected.svg);
 }
 
 .icon--social-facebook {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="25px" viewBox="0 0 17 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_hombre</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-279.000000, -421.000000)" stroke="#1D1D1B">
+            <path d="M291.000344,425.5 C291.000344,427.433 289.433344,429 287.500344,429 C285.567344,429 284.000344,427.433 284.000344,425.5 C284.000344,423.567 285.567344,422 287.500344,422 C289.433344,422 291.000344,423.567 291.000344,425.5 Z M286.540844,444.458 L280.149844,433.625 C279.723844,432.902 280.256844,432 281.109844,432 L293.890844,432 C294.743844,432 295.276844,432.902 294.850844,433.625 L288.459844,444.458 C288.033844,445.181 286.966844,445.181 286.540844,444.458 Z" id="icon_hombre"></path>
+        </g>
+    </g>
+</svg>
