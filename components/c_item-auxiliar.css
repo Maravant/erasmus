@@ -1,35 +1,65 @@
 .c_item-auxiliar {
-  margin-top:130px;
-  padding:10px;
+  margin-top:110px;
   text-align: center;
+
+}
+
+.c_item-auxiliar__nacionality {
+  line-height:24px;
+  margin-bottom:20px;
+}
+
+.c_item-auxiliar__nacionality__span {
+  text-transform: uppercase;
+  font-family: var(--font-family-main), sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+  font-size:0.87rem;
+  font-weight:bold;
+  letter-spacing:2.8px;
+}
+
+.c_item-auxiliar__paragraph {
+  text-transform: uppercase;
+  font-family: var(--font-family-main), sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+  font-size:1rem;
+  letter-spacing: 2px;
+  line-height:24px;
+  font-weight:bold;
+  margin-bottom:48px;
 }
 
 .c_item-auxiliar__footer {
   display:flex;
   justify-content: space-around;
-  font-size:0.9rem;
   padding:0 8px;
   box-sizing:border-box;
-  margin-top:34px;
 }
 
 .c_item-auxiliar__footer__icon {
   text-align: center;
+  margin-left:16px;
 }
 
 .c_item-auxiliar__footer__span {
-  margin:15px 0 0;
+  margin:15.5px 0 21px;
   text-align: center;
+  font-size:0.75rem;
+  font-family: var(--font-family-main), sans-serif;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 .c_item-auxiliar__footer__calendar {
   border-right:2px solid var(--bg-gray);
   flex:1;
-  padding:20px 0;
 }
 
 .c_item-auxiliar__footer__duration {
   flex:1;
-  padding:20px 0;
 }
 

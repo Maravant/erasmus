@@ -1,6 +1,6 @@
 .container-results {
   background-color:var(--bg-gray);
-  padding:30px;
+  padding:46px 0 42px;
 }
 
 .container-results__wrap {
@@ -13,6 +13,10 @@
 
 .main-title {
   margin: 0;
+  height:72px;
+  font-size:0.87rem;
+  letter-spacing:2.8px;
+  font-weight:bold;
 }
 
 .container-items {

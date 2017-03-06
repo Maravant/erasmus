@@ -19,5 +19,7 @@
 @import url(components/c_item.css);
 @import url(components/c_item-colegio.css);
 @import url(components/c_item-auxiliar.css);
+@import url(components/c_load-more.css);
+@import url(components/c_container-icons.css);
 @import url(pages/home.css);
 @import url(pages/buscador.css);

@@ -1,22 +1,29 @@
 .c_results-label {
   flex:1;
+  height:48px;
 }
 
 .c_results-label__title {
   text-align: center;
-  font-size:0.8rem;
+  font-size:0.87rem;
   text-transform: uppercase;
   color:var(--color-primary);
-  letter-spacing: 2px;
-  line-height:20px;
-  font-weight: bold;
+  line-height:1.71;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 3.2px;
+  font-family:var(--bloggersans_regular);
 }
 
 .c_results-label__subtitle {
   text-align: center;
   font-size:1rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height:20px;
-  font-weight: bold;
+  line-height:1.5;
+  font-family:var(--bloggersans_bold);
+  font-weight:600;
+  font-style: normal;
+  font-stretch: normal;
+
 }

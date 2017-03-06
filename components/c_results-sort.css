@@ -30,6 +30,7 @@
 .c_results-sort__button:hover {
   background-color: var(--color-primary);
   cursor: pointer;
+  border:2px solid var(--color-primary);
 }
 
 .c_results-sort__button--selected {
