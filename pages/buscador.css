@@ -3,6 +3,7 @@
   padding:46px 0 42px;
 }
 
+.container-items__wrap,
 .container-results__wrap {
   display:flex;
   max-width: var(--main-layout-width);
@@ -23,9 +24,11 @@
 }
 
 .container-items {
-  display:flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
   margin:0;
   background:var(--bg-gray);
+}
+
+.container-items__wrap {
+  flex-flow: row wrap;
+  align-items: flex-start;
 }

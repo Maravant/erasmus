@@ -96,6 +96,7 @@ em {
   box-shadow:0 3px 6px rgba(0,0,0,0.3);
   display:block;
   margin-bottom:30px;
+  position: relative;
 }
 
 @font-face{

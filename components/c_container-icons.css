@@ -1,8 +1,15 @@
 .c_container-icons {
   box-sizing:border-box;
-  padding:45px 20px;
-  height:192px;
+  padding-top:24px;
+  padding-bottom:24px;
   color:var(--color-secondary);
+}
+
+.c_container-icons__wrap {
+  max-width: var(--main-layout-width);
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
+  margin: 0 auto;
 }
 
 .c_container__icons__ul {
@@ -12,9 +19,11 @@
 }
 
 .c_container__icons__li {
-  display:flex;
   text-align: left;
-  margin: 20px 20px 20px 0;
+  margin: 24px 20px 24px 0;
+}
+
+.c_container-icons--two-lines .c_container__icons__li {
   min-width: 160px;
 }
 
