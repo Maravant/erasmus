@@ -6,7 +6,7 @@
 }
 
 .c_call-for-action--line {
-  border-right:1px solid var(--bg-gray);
+  border-right:2px solid var(--bg-gray);
 }
 
 .c_call-for-action__box-icon {
