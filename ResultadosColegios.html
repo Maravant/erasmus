@@ -11,7 +11,6 @@
   <!-- <link rel="stylesheet" href="build/import.css?v=1" type="text/css"/> -->
   <link rel="stylesheet" href="import.css?v=1" type="text/css"/>
   <link rel="stylesheet" type="text/css" href="resultadoscolegios.css">
-
 </head>
 <body>
 
@@ -38,37 +37,36 @@
 
   <section class="c_container-buscador">
     <div class="c_buscador__user">
-      <div class="c_buscador-user--one">
-        <i class="c_item-colegio__p-icon icon icon--auxiliar icon--small" aria-hidden="true"></i>
-        <a href="" class="c_buscador__a">Auxiliar de conversación</a>
-      </div>
-      <div class="c_buscador-user--two c_buscador-user--two">
-        <i class="c_item-colegio__p-icon icon icon--colegios icon--small" aria-hidden="true"></i>
-        <a href="" class="c_buscador__a">Colegio/Empresa</a>
-      </div>
+      <a href="" class="c_buscador__button button button--big button--transparent">
+      <i class="c_item-colegio__p-icon icon icon--auxiliar icon--small" aria-hidden="true"></i>
+      Auxiliar de conversación</a>
+      <a href="" class="c_buscador__button button button--big button--transparent">
+      <i class="c_item-colegio__p-icon icon icon--colegios icon--small" aria-hidden="true"></i>
+      Colegio/Empresa</a>
       <select class="c_buscador__select select">
         <option>Seleccione País</option>
       </select>
-      <a href="" class="button">Buscar</a>
+      <a href="" class="c_buscador_button--search button">Buscar</a>
     </div>
 
     <div class="c_buscador__form">
-      <i class="c_item-colegio__p-icon icon icon--idioma icon--small" aria-hidden="true"></i>
+      <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
       <select class="c_buscador--languages select-alternativo">
         <option>Idiomas</option>
       </select>
-      <i class="c_container__icons__icon icon icon--small icon--pointer aria-hidden="true"></i>
+      <i class="c_buscador__icon icon icon--small icon--pointer aria-hidden="true"></i>
       <select class="c_buscador--localitation select-alternativo">
         <option>Residente en </option>
       </select>
-      <i class="c_container__icons__icon icon icon--small icon--calendario" aria-hidden="true"></i>
+      <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
       <select class="c_buscador__start-date select-alternativo">
         <option>FEcha de comienzo </option>
       </select>
-      <i class="c_container__icons__icon icon icon--small icon--duracion" aria-hidden="true"></i>
+      <i class="c_buscador__icon icon icon--small icon--duracion" aria-hidden="true"></i>
       <select class="c_buscador__duration select-alternativo">
         <option>Duración </option>
       </select>
+      <i class="c_buscador__icon icon icon--small icon--dinero" aria-hidden="true"></i>
     </div>
   </section>
 
@@ -283,7 +281,6 @@
 
 
 
-  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es5,getComputedStyle"></script>
   <script
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="

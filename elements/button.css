@@ -8,7 +8,6 @@
   letter-spacing: 2.8px;
   border:2px solid var(--color-primary);
   text-transform:uppercase;
-  padding: 6px 20px;
   text-decoration:none;
   font-weight:bold;
   display:inline-block;
@@ -32,3 +31,26 @@
   border-color:var(--color-primary);
   background: var(--color-primary);
 }
+
+.button--big {
+  color:var(--color-text-secondary);
+  font-family: var(--font-family-main), sans-serif;
+  line-height: 80px;
+}
+
+.button--transparent {
+  background:var(--bg-gray);
+  border:2px solid var(--bg-white);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
