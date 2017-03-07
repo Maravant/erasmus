@@ -14,14 +14,16 @@
 }
 
 .c_results-sort__button {
+  font-family: var(--font-family-main), sans-serif;
   display:inline-block;
   border:2px solid var(--bg-white);
   background:var(--bg-gray);
+  font-size:0.75rem;
   border-radius:4px;
   height:20px;
-  line-height:22px;
-  padding:0 5px;
-  letter-spacing: 2px;
+  line-height:20px;
+  padding:6px 2px;
+  letter-spacing: 2.4px;
   font-weight: bold;
   text-decoration: none;
   color:var(--color-text-secondary);

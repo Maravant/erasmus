@@ -1,0 +1,119 @@
+.c_container-buscador {
+  background: var(--bg-gray);
+  padding:0 120px;
+  box-sizing: border-box;
+}
+
+.c_buscador__user {
+  display:flex;
+  padding:46px 0px;
+  box-sizing: border-box;
+  border-bottom:2px solid var(--bg-white);
+}
+
+.c_buscador-user--one {
+  width:336px;
+  height:80px;
+  text-align:center;
+  line-height: 80px;
+  border-radius:4px;
+  border:2px solid var(--bg-white);
+  margin-right:48px;
+}
+
+.c_buscador-user--one:hover {
+  background-color:var(--color-primary-hover);
+  border:2px solid var(--color-primary-hover);
+}
+
+.c_buscador__a {
+  text-decoration:none;
+  text-transform: uppercase;
+  color:var(--color-text-secondary);
+  font-size:0.87rem;
+  border-left: 2.8px;
+  font-family: var(--font-family-main), sans-serif;
+  font-weight:500;
+  padding-left:24px;
+  box-sizing: border-box;
+}
+
+.c_buscador__form {
+  display:flex;
+  padding:46px 0px;
+}
+
+.c_buscador-user--two {
+  width:268px;
+  height:80px;
+  text-align:center;
+  line-height: 80px;
+  border-radius:4px;
+  border:2px solid var(--bg-white);
+  margin-right:48px;
+}
+
+.c_buscador-user--two:hover {
+  background-color:var(--color-primary-hover);
+  border:2px solid var(--color-primary-hover);
+}
+
+.c_buscador__select, .select {
+  width:356px;
+  height:80px;
+  border-top:2px solid var(--bg-white);
+  border-bottom:2px solid var(--bg-white);
+  background:background: var(--bg-gray);
+}
+
+.button {
+  height:48px;
+  background:var(--color-primary);
+  color:var(--color-text-primary);
+  border-radius:4px;
+  font-family: var(--font-family-heading);
+  font-size:0.875rem;
+  line-height: 2.29;
+  letter-spacing: 2.8px;
+  border:2px solid var(--color-primary);
+  text-transform:uppercase;
+  text-decoration:none;
+  font-weight:bold;
+  display:inline-block;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin:16px auto 48px;
+}
+
+.c_container-buscador select.select-alternativo {
+  width:192px;
+  height:40px;
+  background:var(--bg-white);
+  border:2px solid var(--bg-white);
+  border-radius:4px;
+  font-size:0.75px;
+  color:var(--color-text-secondary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
