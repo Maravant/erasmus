@@ -33,15 +33,14 @@
 }
 
 .button--big {
-  color:var(--color-text-secondary);
-  font-family: var(--font-family-main), sans-serif;
-  line-height: 80px;
+  padding:0 16px;
+  line-height: 72px;
 }
 
 .button--transparent {
-  background:var(--bg-gray);
+  background-color:transparent;
   border:2px solid var(--bg-white);
-}
+  color:var(--color-text-secondary);
 }
 
 
