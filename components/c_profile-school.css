@@ -1,0 +1,15 @@
+.c_profile-school {
+  display:flex;
+}
+
+.c_profile-school__box {
+  padding:60px 0 70px;
+}
+
+.c_profile-school__title {
+  font-family: var(--font-family-heading), sans-serif;
+  font-weight: bold;
+  letter-spacing:6.4px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
