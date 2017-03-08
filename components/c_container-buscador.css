@@ -9,8 +9,7 @@
   box-sizing: border-box;
   border-bottom:2px solid var(--bg-white);
   display: flex;
-  justify-content: space-between;
-  flex-flow: wrap;
+  margin:0 40px;
 }
 
 .c_buscador__button {
@@ -19,8 +18,8 @@
   box-sizing: border-box;
   text-align:center;
   line-height: 72px;
-  padding:0 24px;
-
+  padding:0 16px;
+  margin-right: 48px;
 }
 
 .c_buscador__button__icon {
@@ -30,8 +29,7 @@
 .c_buscador__form {
   padding-top:46px;
   display: flex;
-  justify-content: space-between;
-  flex-flow: wrap;
+  margin:0 40px;
 }
 
 /*.c_buscador__button:hover {
@@ -47,6 +45,7 @@
   align-items: center;
   margin: 8px 0px;
   padding: 22px 12px;
+  margin-left:50px;
 }
 
 .c_buscador__select {
@@ -64,12 +63,11 @@
   border-radius:4px;
   font-size:0.75rem;
   color:var(--color-text-secondary);
-  max-width:60px;
+  min-width:50px;
 }
 
 .c_buscador__icon {
-  margin-left:24px;
-  margin-right:14px;
+  margin: 8px 24px 8px 0;
 }
 
 .c_buscador__checked {
@@ -79,8 +77,26 @@
   border-radius:16px;
 }
 
+.c_buscador--languages {
+  width:192px;
+  margin-right:30px;
+}
+
+.c_buscador--localitation {
+  width:240px;
+  margin-right:44px;
+}
 
 
+.c_buscador--start-date {
+  width: 182px;
+  margin-right:44px;
+}
+
+.c_buscador--duration {
+  width:148px;
+  margin-right:44px;
+}
 
 
 
