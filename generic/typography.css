@@ -104,10 +104,16 @@ h6 em {
   text-transform:uppercase;
   background-color:var(--color-primary);
   color:var(--color-text-primary);
-  box-shadow:0 3px 6px rgba(0,0,0,0.3);
+  box-shadow:0 10px 36px -10px var(--color-primary);
   display:block;
-  margin-bottom:30px;
   position: relative;
+  margin: 0;
+  height:74px;
+  font-size:0.97rem;
+  letter-spacing:2.8px;
+  font-weight:bold;
+  line-height: 72px;
+  font-family: var(--font-family-heading), sans-serif;
 }
 
 @font-face{

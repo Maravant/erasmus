@@ -13,6 +13,7 @@
   display:inline-block;
   cursor: pointer;
   box-sizing: border-box;
+  white-space: nowrap;
 }
 
 .button.button--dark {
@@ -43,7 +44,11 @@
   color:var(--color-text-secondary);
 }
 
-
+.button--selected {
+  background:var(--color-primary);
+  color:var(--color-text-primary);
+  border:2px solid var(--color-primary);
+}
 
 
 

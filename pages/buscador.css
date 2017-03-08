@@ -12,17 +12,6 @@
   margin: 0 auto;
 }
 
-.main-title {
-  margin: 0;
-  height:74px;
-  font-size:0.97rem;
-  letter-spacing:2.8px;
-  font-weight:bold;
-  line-height: 72px;
-  font-family: var(--font-family-heading), sans-serif;
-
-}
-
 .container-items {
   margin:0;
   background:var(--bg-gray);
@@ -31,4 +20,8 @@
 .container-items__wrap {
   flex-flow: row wrap;
   align-items: flex-start;
+}
+
+.main-title {
+  cursor: pointer;
 }
