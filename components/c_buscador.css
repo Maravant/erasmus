@@ -1,3 +1,4 @@
+.c_buscador-auxiliar,
 .c_buscador-colegio {
   background: var(--bg-gray);
   box-sizing: border-box;
@@ -6,7 +7,7 @@
 
 .c_buscador__wrap {
   max-width: var(--main-layout-width);
-  margin:0 40px;
+  margin:0 auto;
 }
 
 .c_buscador__user {
@@ -34,6 +35,7 @@
 .c_buscador__form {
   padding-top:46px;
   display: flex;
+  align-items: center;
 }
 
 /*.c_buscador__button:hover {
@@ -60,25 +62,8 @@
   width:356px;
 }
 
-.select-alternativo {
-  height:40px;
-  background:var(--bg-white);
-  border:2px solid var(--bg-white);
-  border-radius:4px;
-  font-size:0.75rem;
-  color:var(--color-text-secondary);
-  min-width:50px;
-}
-
 .c_buscador__icon {
   margin: 8px 24px 8px 0;
-}
-
-.c_buscador__checked {
-  width:40px;
-  height:24px;
-  background:var(--bg-white);
-  border-radius:16px;
 }
 
 .c_buscador--languages {
@@ -102,7 +87,19 @@
   margin-right:44px;
 }
 
+.c_buscador__button {
+  font-size:0.87rem;
+  font-weight:600;
+  box-sizing: border-box;
+  text-align:center;
+  line-height: 72px;
+  padding:0 16px;
+  margin-right: 48px;
+}
 
+.c_buscador__button__icon {
+  padding-right:24px;
+}
 
 
 

@@ -67,27 +67,34 @@
         <select class="c_buscador--duration select-alternativo">
           <option>Duración </option>
         </select>
+
         <i class="c_buscador__icon icon icon--small icon--dinero" aria-hidden="true"></i>
-        <div class="c_buscador__checked"></div>
+        <label class="checkbox-toggle c_buscador__checked">
+          <input type="checkbox"/>
+          <span>Toggle</span>
+        </label>
       </div>
 
     </div>
   </section>
 
-
   <h1 class="main-title">Filtrar búsqueda</h1>
 
   <section class="c_buscador-auxiliar">
-    <a href="" class="c_buscador__button button button--big button--transparent">
-    <i class="c_buscador__button__icon icon icon--auxiliar icon--middle" aria-hidden="true"></i>
-    Auxiliar de conversación</a>
-    <a href="" class="c_buscador__button button button--big button--transparent">
-    <i class="c_buscador__button__icon icon icon--colegios icon--middle" aria-hidden="true"></i>
-    Colegio/Empresa</a>
-    <select class="c_buscador__select select">
-      <option>Seleccione País</option>
-    </select>
-    <a href="" class="c_buscador_button--search button">Buscar</a>
+    <div class="c_buscador__wrap">
+      <div class="c_buscador__user">
+        <a href="" class="c_buscador__button button button--big button--transparent">
+        <i class="c_buscador__button__icon icon icon--auxiliar icon--middle" aria-hidden="true"></i>
+        Auxiliar de conversación</a>
+        <a href="" class="c_buscador__button button button--big button--transparent">
+        <i class="c_buscador__button__icon icon icon--colegios icon--middle" aria-hidden="true"></i>
+        Colegio/Empresa</a>
+        <select class="c_buscador__select select">
+          <option>Seleccione País</option>
+        </select>
+        <a href="" class="c_buscador_button--search button">Buscar</a>
+      </div>
+    </div>
   </section>
 
   <h1 class="main-title">Filtrar búsqueda</h1>
@@ -306,6 +313,7 @@
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
