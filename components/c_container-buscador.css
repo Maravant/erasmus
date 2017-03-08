@@ -51,7 +51,7 @@
 .c_buscador__select {
   border-top:2px solid var(--bg-white);
   border-bottom:2px solid var(--bg-white);
-  background:background: var(--bg-gray);
+  background: var(--bg-gray);
   height:76px;
   width:356px;
 }
