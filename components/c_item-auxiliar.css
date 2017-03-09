@@ -10,7 +10,6 @@
 
 .c_item-auxiliar__nacionality__span {
   text-transform: uppercase;
-  font-family: var(--font-family-main), sans-serif;
   font-style: normal;
   font-stretch: normal;
   font-size:0.87rem;
@@ -21,7 +20,6 @@
 
 .c_item-auxiliar__paragraph {
   text-transform: uppercase;
-  font-family: var(--font-family-main), sans-serif;
   font-style: normal;
   font-stretch: normal;
   font-size:1rem;
@@ -33,8 +31,6 @@
 
 .c_item-auxiliar__paragraph__span {
   font-size:0.75rem;
-  text-transform: uppercase;
-  font-family: var(--font-family-main), sans-serif;
 }
 
 .c_item-auxiliar__footer {
@@ -54,7 +50,6 @@
   margin:15px 0 17px;
   text-align: center;
   font-size:0.75rem;
-  font-family: var(--font-family-main), sans-serif;
   text-transform: uppercase;
   font-weight:bold;
   font-style: normal;
