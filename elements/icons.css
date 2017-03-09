@@ -101,6 +101,10 @@
   background-image: url(../images/ico_pointer.svg);
 }
 
+.icon--pointer-blanco {
+  background-image: url(../images/ico_pointer_blanco.svg);
+}
+
 .icon--pointer_selected {
   background-image: url(../images/ico_pointer_selected.svg);
 }
