@@ -1,0 +1,10 @@
+{
+  "rc_search_limit": 5,
+  "linters": {
+    "csslint": {
+      "@disable": false,
+      "args": ["--ignore=box-model,box-sizing,order-alphabetical,adjoining-classes,import,fallback-colors,known-properties"],
+      "excludes": []
+    }
+  }
+}
