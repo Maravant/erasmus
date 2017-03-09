@@ -5,6 +5,11 @@
   font-size:0.6rem;
   flex:1;
 }
+
+.c_results-sort-auxiliares {
+  visibility: hidden;
+}
+
 .c_results-sort__paragraph {
   font-size:0.7rem;
   line-height:22px;
