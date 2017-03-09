@@ -1,15 +1,103 @@
 .c_profile-school {
   display:flex;
+  position:relative;
+}
+
+.c_profile-school__img--background {
+  width:720px;
+  height:584px;
+  object-fit:fill;
+  background-size:cover;
+}
+
+.c_profile-school--number {
+  width:72px;
+  height:72px;
+  background-color:red;
+  font-size:2rem;
+  position:absolute;
+  bottom: 433px;
+  right: 560px;
+}
+
+.c_profile-school--up {
+  width:72px;
+  height:72px;
+  background-color: var(--color-text-secondary);
+  position: absolute;
+  bottom: 361px;
+  right: 560px;
+}
+
+.c_profile-school--down {
+  width:72px;
+  height:72px;
+  background-color: var(--color-text-secondary);
+  position: absolute;
+  bottom: 289px;
+  right: 560px;
 }
 
 .c_profile-school__box {
-  padding:60px 0 70px;
+  padding-top: 60px;
+  padding-left: 70px;
+  padding-right: 120px;
 }
 
 .c_profile-school__title {
   font-family: var(--font-family-heading), sans-serif;
   font-weight: bold;
+  font-size:2rem;
   letter-spacing:6.4px;
   line-height: 48px;
   text-transform: uppercase;
+  margin:0 100px 0 0;
 }
+
+.c_item-colegio__icons.c_profile-school__icons {
+  padding:0;
+}
+
+.c_item-colegio__li.c_profile-school__li {
+  margin-bottom:30px;
+}
+
+.c_item-colegio__label.c_profile-school__label {
+  font-size:0.87rem;
+}
+
+.c_profile-school__content {
+  margin-top:134px;
+  margin-right:120px;
+  margin-left:80px;
+}
+
+.c_profile-school__content__wrap {
+  background:var(--bg-gray-dark);
+  margin-bottom:112px;
+}
+
+.c_profile-school__content__p {
+  padding-left:290px;
+
+}
+
+.c_profile-school__content__title {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
