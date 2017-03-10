@@ -14,6 +14,7 @@
   cursor: pointer;
   box-sizing: border-box;
   white-space: nowrap;
+  padding:5px;
 }
 
 .button.button--dark {
