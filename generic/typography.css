@@ -116,6 +116,11 @@ h6 em {
   font-family: var(--font-family-heading), sans-serif;
 }
 
+.last-title {
+  background-color:var(--color-text-primary);
+  color:var(--color-primary);
+}
+
 @font-face{
   font-family: 'Blogger Sans';
   font-weight: bold;

@@ -1,6 +1,7 @@
 .c_profile-school {
   display:flex;
   position:relative;
+  max-width: var(--main-layout-width);
 }
 
 .c_profile-school__img--background {
@@ -17,7 +18,7 @@
   font-size:2rem;
   position:absolute;
   bottom: 433px;
-  right: 560px;
+  right: 480px;
 }
 
 .c_profile-school--up {
@@ -26,7 +27,7 @@
   background-color: var(--color-text-secondary);
   position: absolute;
   bottom: 361px;
-  right: 560px;
+  right: 480px;
 }
 
 .c_profile-school--down {
@@ -35,13 +36,12 @@
   background-color: var(--color-text-secondary);
   position: absolute;
   bottom: 289px;
-  right: 560px;
+  right: 480px;
 }
 
 .c_profile-school__box {
   padding-top: 60px;
   padding-left: 70px;
-  padding-right: 120px;
 }
 
 .c_profile-school__title {
@@ -51,7 +51,6 @@
   letter-spacing:6.4px;
   line-height: 48px;
   text-transform: uppercase;
-  margin:0 100px 0 0;
 }
 
 .c_item-colegio__icons.c_profile-school__icons {
@@ -66,26 +65,15 @@
   font-size:0.87rem;
 }
 
-.c_profile-school__content {
-  margin-top:134px;
-  margin-right:120px;
-  margin-left:80px;
+.c_item-colegio--one.c_profile-school__box1 {
+    padding:0;
+  }
+
+
+.c_item-colegio--two.c_profile-school__box2 {
+  padding-left:139px;
+  padding-top:0;
 }
-
-.c_profile-school__content__wrap {
-  background:var(--bg-gray-dark);
-  margin-bottom:112px;
-}
-
-.c_profile-school__content__p {
-  padding-left:290px;
-
-}
-
-.c_profile-school__content__title {
-
-}
-
 
 
 

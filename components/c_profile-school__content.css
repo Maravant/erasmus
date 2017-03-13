@@ -2,18 +2,35 @@
   margin-top:134px;
   margin-right:120px;
   margin-left:80px;
+  max-width: var(--main-layout-width);
+}
+
+.c_profile-school__content__box {
+  background:var(--bg-gray-dark);
+  margin-bottom:112px;
+  display:flex;
 }
 
 .c_profile-school__content__wrap {
-  background:var(--bg-gray-dark);
-  margin-bottom:112px;
+  width: var(--main-layout-width);
 }
 
-.c_profile-school__content__p {
-  padding-left:290px;
+.c_profile-school__content__colum-one {
+  width:var(--small-column-width);
+}
 
+.c_profile-school__content__colum-two {
+  flex:1;
 }
 
 .c_profile-school__content__title {
+margin:0;
+}
+
+.c_profile-school__content__p--number {
+  font-size:2rem;
+}
+
+.c_profile-school__button {
 
 }
