@@ -1,12 +1,13 @@
 
 .c_item {
   position:relative;
-  box-shadow: -7px 4px 50px 0px rgba(171,171,173,0.99);
+  box-shadow: -7px 4px 50px 0 rgba(171,171,173,0.99);
   border-radius:8px;
-  margin: 0 48px 0 0;
-  width: 368px;
+  margin: 0 0 48px;
   overflow: hidden;
   background-color: var(--bg-white);
+  width: calc(33.333% - 40px);
+  max-width: 368px;
 }
 
 .c_item__image {
@@ -19,8 +20,8 @@
   position:absolute;
   text-align:center;
   top:160px;
-  left:0px;
-  right:0px;
+  left:0;
+  right:0;
   display:block;
 }
 

@@ -64,7 +64,7 @@
 .c_buscador__select {
   border-top:2px solid var(--bg-white);
   border-bottom:2px solid var(--bg-white);
-  background-color:background: var(--bg-gray);
+  background-color: var(--bg-gray);
   height:76px;
   width:356px;
 }
