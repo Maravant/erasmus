@@ -67,8 +67,8 @@
   width: 96px;
   height: 96px;
   position: absolute;
-  bottom: -365px;
-  right: 510px;
+  top: calc(601px);
+  right: calc(50% - 48px);
 }
 
 

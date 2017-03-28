@@ -1,13 +1,22 @@
 .c_profile-school__content {
-  margin-top:134px;
-  margin-right:120px;
-  margin-left:80px;
+  padding-top:134px;
+  padding-right:120px;
   max-width: var(--main-layout-width);
+  background: linear-gradient(to right, white 24%,#d6d6d6 76%);
+}
+
+.c_profile-school__content:before {
+  content:"";
+  display:block;
+  height:100%;
+  position:absolute;
+  border-right:1px solid var(--bg-gray-dark);
+  left: 347px;
+  top: 658px;
 }
 
 .c_profile-school__content__box {
-  background:var(--bg-gray-dark);
-  margin-bottom:112px;
+  padding-bottom:112px;
   display:flex;
 }
 
@@ -17,6 +26,8 @@
 
 .c_profile-school__content__colum-one {
   width:var(--small-column-width);
+  padding-left:80px;
+
 }
 
 .c_profile-school__content__colum-two {
@@ -31,6 +42,10 @@ margin:0;
   font-size:2rem;
 }
 
-.c_profile-school__button {
+.c_profile-school__content__p {
+ padding-left:30px;
+}
 
+.c_profile-school__content__p--number {
+  padding-left:30px;
 }
