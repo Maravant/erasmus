@@ -3,46 +3,11 @@
   position:relative;
 }
 
-.c_profile-school__img--background {
-  width:50%;
-  height:584px;
-  object-fit:fill;
-  background-size:cover;
-
-}
-
-.c_profile-school--number {
-  width:72px;
-  height:72px;
-  background-color:red;
-  font-size:2rem;
-  position:absolute;
-  bottom: 433px;
-  right: 640px;
-}
-
-.c_profile-school--up {
-  width:72px;
-  height:72px;
-  background-color: var(--color-text-secondary);
-  position: absolute;
-  bottom: 361px;
-  right: 640px;
-}
-
-.c_profile-school--down {
-  width:72px;
-  height:72px;
-  background-color: var(--color-text-secondary);
-  position: absolute;
-  bottom: 289px;
-  right: 640px;
-}
-
 .c_profile-school__box {
   padding-top: 60px;
   padding-left: 70px;
   padding-right:136px;
+  padding-bottom:56px;
   width: 50%;
   box-sizing: border-box;
 }
@@ -58,6 +23,7 @@
 }
 
 .c_item-colegio__icons.c_profile-school__icons {
+  margin-top:59px;
   padding:0;
 }
 

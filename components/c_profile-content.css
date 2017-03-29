@@ -1,11 +1,10 @@
-.c_profile-school__content {
+.c_profile-content {
   padding-top:134px;
   padding-right:120px;
   max-width: var(--main-layout-width);
-  background: linear-gradient(to right, white 24%,#d6d6d6 76%);
 }
 
-.c_profile-school__content:before {
+.c_profile-content:before {
   content:"";
   display:block;
   height:100%;
@@ -15,39 +14,39 @@
   top: 658px;
 }
 
-.c_profile-school__content__box {
+.c_profile-content__box {
   padding-bottom:112px;
   display:flex;
 }
 
-.c_profile-school__content__wrap {
+.c_profile-content__wrap {
   width: var(--main-layout-width);
 }
 
-.c_profile-school__content__colum-one {
+.c_profile-content__column-one {
   width:var(--small-column-width);
   padding-left:80px;
 
 }
 
-.c_profile-school__content__colum-two {
+.c_profile-content__column-two {
   flex:1;
 }
 
-.c_profile-school__content__title {
+.c_profile-content__title {
 margin:0;
 text-align: right;
 margin-right: 100px;
 }
 
-.c_profile-school__content__p--number {
+.c_profile-content__p--number {
   font-size:2rem;
 }
 
-.c_profile-school__content__p {
- padding-left:30px;
+.c_profile-content__p {
+ padding-left:40px;
 }
 
-.c_profile-school__content__p--number {
+.c_profile-content__p--number {
   padding-left:30px;
 }
