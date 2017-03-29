@@ -113,6 +113,33 @@
   box-sizing:border-box;
 }
 
+.header__userbox-profile {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-left:2px solid var(--bg-gray-dark);
+  width: auto;
+  box-sizing:border-box;
+
+
+}
+.header__userbox-profile__box {
+  font-size:0.81rem;
+  font-family: var(--font-family-heading);
+  color:var(--bg-black);
+  height: 80px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header__userbox-profile__box1 {
+  border-bottom:2px solid var(--bg-gray-dark);
+}
+
+.header__userbox-profile__box2 {
+}
+
 @media (min-width: 600px) {
   .header__menu {
     display: block;

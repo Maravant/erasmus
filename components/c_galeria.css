@@ -3,7 +3,7 @@ width:50%;
 position:relative;
 }
 
-.c_profile-school__img {
+.c_galeria__image {
   width:100%;
   height:100%;
   object-fit:fill;
@@ -12,14 +12,14 @@ position:relative;
   display:block;
 }
 
-.c_galeria-box {
+.c_galeria__box {
   position:absolute;
   background:green;
   right:0;
   top:72px;
 }
 
-.c_galeria-number {
+.c_galeria__number {
   width:72px;
   height:72px;
   background-color:var(--bg-white);
@@ -36,14 +36,14 @@ position:relative;
   font-weight:bold;
 }
 
-.c_galeria-button-up {
+.c_galeria__button--up {
   width:72px;
   height:72px;
   background-color: var(--color-text-secondary);
 
 }
 
-.c_galeria-button-down {
+.c_galeria__button--down {
   width:72px;
   height:72px;
   background-color: var(--color-text-secondary);
