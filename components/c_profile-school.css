@@ -80,13 +80,19 @@
     padding-left:0;
   }
 
-  .c_profile-school__box2 .c_profile-school__li:first-child {
+  .c_profile-school__box2 .c_profile-school__li:first-of-type {
     display:flex;
-    align-self:flex-start;
+    flex:1 1 auto;
+    width:100%;
   }
+
   .c_profile-school__box2 {
     display: flex;
     flex-wrap:wrap;
+  }
+
+  .c_item-colegio__li {
+    margin-right:65px;
   }
 
 
