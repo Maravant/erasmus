@@ -99,7 +99,8 @@ h6 em {
 }
 
 
-.main-title {
+.main-title,
+.last-title {
   text-align:center;
   text-transform:uppercase;
   background-color:var(--color-primary);

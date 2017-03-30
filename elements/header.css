@@ -55,6 +55,42 @@
   height:112px;
 }
 
+.header__userbox-profile {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-left:2px solid var(--bg-gray-dark);
+  width: 260px;
+  box-sizing:border-box;
+}
+
+.header__userbox-profile__box {
+  font-size:0.81rem;
+  font-family: var(--font-family-heading);
+  color:var(--bg-black);
+  height: 80px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header__userbox-profile__box1 {
+  border-bottom:2px solid var(--bg-gray-dark);
+}
+
+.header.header--floating .header__userbox-profile__box1 {
+  height:56px;
+  padding:16px 0;
+  border-bottom:2px solid var(--bg-gray-dark);
+  box-sizing: border-box;
+}
+
+.header.header--floating .header__userbox-profile__box2 {
+  height:56px;
+  padding:16px 0;
+  box-sizing: border-box;
+}
+
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -71,6 +107,18 @@
   .header--floating .header__wrapper {
     height:90px;
   }
+  .header__userbox-profile {
+  display:none;
+  }
+
+  .header-logo {
+  margin:0 auto;
+  }
+
+  .header__userbox-avatar {
+
+  }
+
 }
 
 .header__menu {
@@ -113,42 +161,6 @@
   box-sizing:border-box;
 }
 
-.header__userbox-profile {
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border-left:2px solid var(--bg-gray-dark);
-  width: 260px;
-  box-sizing:border-box;
-
-
-}
-.header__userbox-profile__box {
-  font-size:0.81rem;
-  font-family: var(--font-family-heading);
-  color:var(--bg-black);
-  height: 80px;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.header__userbox-profile__box1 {
-  border-bottom:2px solid var(--bg-gray-dark);
-}
-
-.header.header--floating .header__userbox-profile__box1 {
-  height:56px;
-  padding:16px 0;
-  border-bottom:2px solid var(--bg-gray-dark);
-  box-sizing: border-box;
-}
-
-.header.header--floating .header__userbox-profile__box2 {
-  height:56px;
-  padding:16px 0;
-  box-sizing: border-box;
-}
 
 @media (min-width: 600px) {
   .header__menu {

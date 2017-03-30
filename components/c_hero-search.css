@@ -48,6 +48,7 @@
 .c_hero-search__select {
   height:60px;
   width: 376px;
+  max-width: 100%;
   margin:28px 0 10px;
 }
 
