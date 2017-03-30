@@ -11,7 +11,7 @@
 }
 
 
-.c_item-colegio__icons{
+.c_item-colegio__icons {
   display:flex;
   padding:0 45px 30px;
   text-align: left;
@@ -53,3 +53,17 @@
   margin-bottom:15px;
   line-height: 32px;
 }
+
+
+
+@media (max-width: 600px) {
+  .c_item-colegio__icons {
+    display:block;
+  }
+
+  .c_item-colegio__icon {
+    margin-right :28px;
+  }
+}
+
+

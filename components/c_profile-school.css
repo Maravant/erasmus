@@ -64,13 +64,31 @@
     width:100%;
     padding-right:0;
     padding-top:37px;
-    padding-left:47px;
+    padding-left:52px;
   }
 
   .c_profile-school__button {
     right: auto;
     left: 47px;
   }
+
+  .c_item-colegio--one.c_profile-school__box1 {
+    padding-left:0;
+  }
+
+  .c_item-colegio--two.c_profile-school__box2 {
+    padding-left:0;
+  }
+
+  .c_profile-school__box2 .c_profile-school__li:first-child {
+    display:flex;
+    align-self:flex-start;
+  }
+  .c_profile-school__box2 {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
 
 }
 
