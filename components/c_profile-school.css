@@ -4,17 +4,12 @@
 }
 
 .c_profile-school__box {
-  padding-top: 60px;
-  padding-left: 70px;
-  padding-right:136px;
-  padding-bottom:56px;
+  padding: 60px 136px 56px 70px;
   width: 50%;
   box-sizing: border-box;
 }
 
 .c_profile-school__title {
-  font-family: var(--font-family-heading), sans-serif;
-  font-weight: bold;
   font-size:2.2rem;
   letter-spacing:6.4px;
   line-height: 48px;
@@ -36,26 +31,46 @@
 }
 
 .c_item-colegio--one.c_profile-school__box1 {
-    padding:0;
-  }
-
+  padding:0;
+}
 
 .c_item-colegio--two.c_profile-school__box2 {
   padding-left:139px;
   padding-top:0;
 }
 
+.c_profile-school__button {
+  position: absolute;
+  bottom: -48px;
+  right: calc(50% - 48px);
+}
 
+@media (max-width: 600px) {
+  .main-title {
+    display:none;
+  }
 
+  .c_profile-school {
+    display:block;
+  }
 
+  .c_profile-school__title {
+    font-size:1.75rem;
+    letter-spacing:5.6px;
+    line-height: 40px;
+  }
 
+  .c_profile-school__box {
+    width:100%;
+    padding-right:0;
+    padding-top:37px;
+    padding-left:47px;
+  }
 
+  .c_profile-school__button {
+    right: auto;
+    left: 47px;
+  }
 
-
-
-
-
-
-
-
+}
 

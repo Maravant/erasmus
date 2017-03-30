@@ -51,28 +51,18 @@
   border:2px solid var(--color-primary);
 }
 
-.button-circle--small {
+.button--circle {
   width: 80px;
   height: 80px;
-  background: var(--color-primary);
   border-radius: 50%;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 1px 14px 50px 6px rgba(19, 156, 219, 0.2);
 }
 
-.button-circle--big {
+.button--circle.button--big {
   width: 96px;
   height: 96px;
-  position: absolute;
-  top: 771px;
-  right: calc(50% - 48px);
 }
-
-
-
-
-
 
