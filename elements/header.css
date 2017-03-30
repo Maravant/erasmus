@@ -137,7 +137,17 @@
   border-bottom:2px solid var(--bg-gray-dark);
 }
 
-.header__userbox-profile__box2 {
+.header.header--floating .header__userbox-profile__box1 {
+  height:56px;
+  padding:16px 0;
+  border-bottom:2px solid var(--bg-gray-dark);
+  box-sizing: border-box;
+}
+
+.header.header--floating .header__userbox-profile__box2 {
+  height:56px;
+  padding:16px 0;
+  box-sizing: border-box;
 }
 
 @media (min-width: 600px) {
