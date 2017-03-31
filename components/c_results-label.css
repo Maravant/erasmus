@@ -28,3 +28,10 @@
   font-stretch: normal;
 
 }
+
+@media (max-width: 600px) {
+
+.c_results-label {
+  flex:initial;
+  }
+}

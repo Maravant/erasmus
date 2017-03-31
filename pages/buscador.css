@@ -26,3 +26,9 @@
 .main-title {
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+.container-results {
+  padding:20px 0;
+  }
+}

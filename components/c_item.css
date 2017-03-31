@@ -13,7 +13,6 @@
 .c_item__image {
   height:264px;
   object-fit:fill;
-
 }
 
 .c_item__content {
@@ -33,7 +32,6 @@
 .c_item__icon .icon {
   color:var(--bg-white);
 }
-
 
 .c_item__image__paragraph {
   font-size:1rem;
@@ -127,7 +125,6 @@
     letter-spacing: 2px;
     line-height: 1.5;
   }
-
 
 }
 

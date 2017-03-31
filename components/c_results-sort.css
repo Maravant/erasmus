@@ -43,5 +43,10 @@
 .c_results-sort__button--selected {
   background-color: var(--color-primary);
   border:2px solid var(--color-primary);
+}
 
+@media (max-width: 600px) {
+  .c_results-sort-auxiliares {
+    display:none;
+  }
 }

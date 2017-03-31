@@ -111,6 +111,74 @@
   height:24px;
 }
 
+@media (max-width: 600px) {
+  .c_buscador-colegio {
+    padding-top:0;
+  }
+
+  .c_buscador__wrap {
+    padding:24px;
+  }
+
+  .c_buscador__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:152px;
+    margin-right:0;
+    margin-bottom:48px;
+  }
+
+  .c_buscador__user {
+    flex-wrap:wrap;
+
+  }
+
+  .c_buscador__select {
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom:47px;
+  }
+
+  .c_buscador__form {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    order:2;
+  }
+
+  .c_buscador--localitation {
+    margin-right:-1;
+    margin-right:23px;
+  }
+
+  .c_buscador--start-date {
+    width:219px;
+    margin-right:37px;
+  }
+
+  .c_buscador__icon--mujer {
+    width: 50%;
+  }
+
+  .c_buscador__icon--hombre {
+    width: 50%;
+  }
+
+  .select-alternativo {
+    margin-bottom:24px;
+    height: 64px;
+    font-size:1rem;
+  }
+
+  .c_buscador_button--search {
+    order:3;
+  }
+
+}
+
+
 
 
 
