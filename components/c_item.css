@@ -86,3 +86,57 @@
   text-transform: uppercase;
 }
 */
+
+@media (max-width: 600px) {
+  .c_item {
+    width: calc(100% - 24px);
+    max-width:152px;
+  }
+
+  .c_item__image {
+    height: 120px;
+  }
+
+  .c_item__button {
+    width: 48px;
+    height: 48px;
+  }
+
+  .c_item__button__icon {
+    width: 24px;
+    height: 18px;
+   }
+
+   .c_item__content {
+    top:40px;
+   }
+
+   .c_item__image__paragraph  {
+    font-size:0.68rem;
+    text-transform:uppercase;
+   }
+
+   .c_item__icon .icon {
+    width: 15px;
+    height: 23px;
+   }
+
+   .c_item__title {
+    margin: 6px 40px 15px;
+    font-size: 0.68rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+}

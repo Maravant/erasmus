@@ -65,3 +65,47 @@
   flex:1;
 }
 
+@media (max-width: 600px) {
+  .c_item-auxiliar {
+    margin-top:56px;
+  }
+
+  .c_item-auxiliar__nacionality {
+    margin:0 30px 8px 30px;
+    line-height: 18px;
+    padding-top:8px;
+  }
+
+  .c_item-auxiliar__nacionality__span {
+    font-size:0.62rem;
+    font-weight:lighter;
+    margin-left:0;
+  }
+
+  .c_item-auxiliar__nacionality__icon {
+    width:15px;
+    height: 15px;
+  }
+
+  .c_item-auxiliar__paragraph {
+    font-size:0.75rem;
+    font-weight:lighter;
+    line-height: 20px;
+    margin-bottom:20px;
+  }
+
+  .c_item-auxiliar__footer {
+    display:none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
