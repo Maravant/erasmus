@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ICO_MENU</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Perfil_colegio_MOBILE_2" transform="translate(-326.000000, -86.000000)" fill="#2D2D2D">
+            <path d="M330,87 C330,86.4477153 330.455306,86 330.991803,86 L349.008197,86 C349.555955,86 350,86.4438648 350,87 C350,87.5522847 349.544694,88 349.008197,88 L330.991803,88 C330.444045,88 330,87.5561352 330,87 Z M326,94 C326,93.4477153 326.447469,93 327.000695,93 L348.999305,93 C349.551974,93 350,93.4438648 350,94 C350,94.5522847 349.552531,95 348.999305,95 L327.000695,95 C326.448026,95 326,94.5561352 326,94 Z M338,101 C338,100.447715 338.455761,100 339.002473,100 L348.997527,100 C349.551177,100 350,100.443865 350,101 C350,101.552285 349.544239,102 348.997527,102 L339.002473,102 C338.448823,102 338,101.556135 338,101 Z" id="ICO_MENU"></path>
+        </g>
+    </g>
+</svg>
