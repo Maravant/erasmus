@@ -164,3 +164,11 @@
 .icon--slider-forward {
   background-image: url(../images/slider_mobile_forward.svg);
 }
+
+.icon--login {
+  background-image: url(../images/ico_login_mobile.svg);
+}
+
+.icon--menu {
+  background-image: url(../images/ico_menu_mobile.svg);
+}
