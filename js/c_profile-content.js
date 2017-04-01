@@ -3,9 +3,9 @@
 
   window.MAIN_APP.push(function initHeaderObserver() {
     var button = document.querySelector('.c_profile-content__searchbuttonformobile');
-    var sendcv = document.querySelector('.c_profile-content__sendcv');
+    var footer = document.querySelector('.footer');
 
-    var manageHeaderPositionChanges = function(changes) {
+    var manageHeaderPositionChanges = function(changes, observer) {
       if (changes && changes[0].intersectionRatio > 0) {
         button.classList.remove('button--floating');
       } else {
@@ -13,9 +13,11 @@
       }
     };
 
-    if (sendcv) {
-      var observer = new IntersectionObserver(manageHeaderPositionChanges, {});
-      observer.observe(sendcv);
+    if (footer) {
+      var observer = new IntersectionObserver(manageHeaderPositionChanges, {
+        rootMargin: '136px 0px'
+      });
+      observer.observe(footer);
     }
   });
 

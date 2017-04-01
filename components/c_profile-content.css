@@ -1,6 +1,6 @@
 .c_profile-content {
   padding-top:134px;
-  background: linear-gradient(to right, white calc(calc(calc(100% - var(--main-layout-width)) / 2) + var(--small-column-width)), var(--bg-gray-dark) calc(calc(calc(100% - var(--main-layout-width)) / 2) + var(--small-column-width)));
+  background: linear-gradient(to right, white calc(calc(calc(100% - var(--main-layout-width)) / 2) + var(--small-column-width) + var(--main-layout-gap)), var(--bg-gray-dark) calc(calc(calc(100% - var(--main-layout-width)) / 2) + var(--small-column-width) + var(--main-layout-gap)));
 }
 
 @media (max-width: 1200px) {
@@ -30,7 +30,7 @@
 .c_profile-content__column-one {
   text-align: right;
   width:var(--small-column-width);
-  padding-right: 70px;
+  padding-right: 50px;
   box-sizing: border-box;
 }
 
@@ -44,12 +44,12 @@
 
 .c_profile-content__p--number {
   font-size:2rem;
-  padding-left:70px;
+  padding-left:80px;
 }
 
 .c_profile-content__p {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .c_profile-content__searchbuttonformobile {
