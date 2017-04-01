@@ -148,24 +148,18 @@
 
 .header__loginbutton,
 .header__menubutton {
-  display: flex;
+  display: none;
   align-items: center;
   margin-left: var(--main-layout-gap);
   margin-right: var(--main-layout-gap);
 }
 
 @media (max-width: 600px) {
-  .header__logo {
-    /*background-image: url(../images/isotipo-color.svg);*/
-    /*height:90px;*/
+  .header__loginbutton,
+  .header__menubutton {
+    display: flex;
   }
 
-/*  .header,
-  .header__logo,
-  .header--floating .header__wrapper {
-    height:90px;
-  }
-*/
   .header__userbox-profile {
     display:none;
   }
