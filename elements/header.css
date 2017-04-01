@@ -45,6 +45,7 @@
   box-shadow: 0 -10px 80px -16px black;
 }
 
+.header--opened .header__wrapper .header__logo,
 .header--floating .header__wrapper .header__logo {
   background-image: url(../images/isotipo-color.svg);
   height:90px;
@@ -92,6 +93,12 @@
   }
 }
 
+@keyframes scrollDown {
+  from {
+    transform: translateY(-100vh);
+  }
+}
+
 .header__menu {
   display: none;
   margin-left: 70px;
@@ -120,6 +127,59 @@
 
 .header__menulist a:hover {
   box-shadow: 0 20px 0 -18px var(--color-primary);
+}
+
+.header--opened {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header--opened > .header__menulist {
+  background-color: var(--color-primary);
+  color: var(--color-text-primary);
+  flex-direction: column;
+  flex: 1;
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header--opened > .header__menulist .header__menulist-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--opened > .header__menulist .header__menulist-item:not(:last-of-type) {
+  border-bottom: 2px solid rgba(0,0,0,0.05);
+}
+
+.header--opened > .header__menulist .header__menulist-item a {
+  display: flex;
+  height: calc(100% - 4px);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.header--opened .header__menubutton .icon {
+  background-image: url(../images/ico_aspa.svg);
+  filter: brightness(0);
+}
+
+.header--opened .header__logo,
+.header--opened .header__userbox,
+.header--opened .header__loginbutton {
+  opacity: 0.2;
+}
+
+body.menu--opened {
+  overflow-y: hidden;
+  animation: scrollDown 300ms 16ms ease-out forwards;
 }
 
 .header__userbox {
