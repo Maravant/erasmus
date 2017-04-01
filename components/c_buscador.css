@@ -125,14 +125,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:152px;
+    width: calc(50% - 12px);
+    height: 144px;
     margin-right:0;
     margin-bottom:48px;
+    white-space: normal;
+    line-height: 1.45;
+  }
+
+  .c_buscador__button__icon {
+    margin-bottom: 15px;
   }
 
   .c_buscador__user {
     flex-wrap:wrap;
-
+    justify-content: space-between;
   }
 
   .c_buscador__select {
