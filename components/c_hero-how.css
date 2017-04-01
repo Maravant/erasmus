@@ -52,7 +52,7 @@
   position:absolute;
   top:70px;
   right: -20%;
-  margin:0px;
+  margin:0;
 }
 
 .c_hero-how__box:not(:last-of-type):after {
@@ -66,7 +66,7 @@
   position:absolute;
   top:calc(70px - 3.5px);
   right: calc(-20% - 5px);
-  margin:0px;
+  margin:0;
 }
 
 .c_hero-how__title{
@@ -88,7 +88,7 @@
 }
 
 .c_hero-how__box h6 {
-  margin:0px;
+  margin:0;
   font-size:1.5rem;
   text-transform:capitalize;
 }
@@ -127,5 +127,9 @@
 
   .c_hero-how__box {
     margin-bottom:40px;
+  }
+
+  .c_hero-how__box:not(:last-of-type):after {
+    display: none;
   }
 }
