@@ -156,3 +156,11 @@
 .icon--social-linkedin {
   background-image: url(../images/ico_social-linkedin.svg);
 }
+
+.icon--slider-back {
+  background-image: url(../images/slider_mobile_back.svg);
+}
+
+.icon--slider-forward {
+  background-image: url(../images/slider_mobile_forward.svg);
+}

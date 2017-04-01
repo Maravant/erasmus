@@ -10,6 +10,7 @@
 
   <!-- <link rel="stylesheet" href="build/import.css?v=1" type="text/css"/> -->
   <link rel="stylesheet" href="import.css?v=1" type="text/css"/>
+  <link rel="stylesheet" href="js/slick/slick.css" type="text/css"/>
 
 </head>
 <body>
@@ -40,14 +41,18 @@
   <section class="c_profile-school">
 
     <div class="c_galeria">
-      <img class="c_galeria__image" src="http://cdn.20m.es/img2/recortes/2013/09/25/139470-944-550.jpg">
+      <div class="c_galeria__images">
+        <img class="c_galeria__image" src="http://cdn.20m.es/img2/recortes/2013/09/25/139470-944-550.jpg">
+        <img class="c_galeria__image" src="http://cdn.20m.es/img2/recortes/2012/05/31/63072-637-439.jpg?v=20120531121809">
+        <img class="c_galeria__image" src="http://www.heptaconsultores.com/rs/165/6a5522b1-6798-48d4-900b-5afb6cee22aa/872/filename/ext.jpg">
+      </div>
       <div class="c_galeria__box">
-        <div class="c_galeria__number">2<sup>/6</sup></div>
+        <div class="c_galeria__number"><span>1</span><sup>/1</sup></div>
         <div class="c_galeria__button c_galeria__button--up">
-          <i class="slider_mobile_back" aria-hidden="true"></i>
+          <i class="icon icon--small icon--slider-back" aria-hidden="true"></i>
         </div>
         <div class="c_galeria__button c_galeria__button--down">
-          <i class="icon icon--small icon--calendario" aria-hidden="true"></i>
+          <i class="icon icon--small icon--slider-forward" aria-hidden="true"></i>
         </div>
       </div>
     </div>
@@ -187,6 +192,8 @@
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/c_galeria.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/c_buscador.js"></script>
   <script type="text/javascript" src="js/header.js"></script>

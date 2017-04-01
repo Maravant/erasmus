@@ -1,7 +1,7 @@
 (function() {
   window.MAIN_APP = window.MAIN_APP || [];
 
-  window.MAIN_APP.push(function initQuestionsAccordion() {
+  window.MAIN_APP.push(function initBuscador() {
     var cToggleFilter = $('.js-toggle-advanced-filter');
 
     cToggleFilter.on('click', function(e) {
