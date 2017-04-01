@@ -9,6 +9,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .c_profile-content {
+    background: var(--bg-gray-dark);
+  }
+}
+
 .c_profile-content__box {
   padding-bottom:112px;
   display:flex;
