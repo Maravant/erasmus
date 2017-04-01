@@ -60,10 +60,7 @@
 @media (max-width: 600px) {
   .c_galeria {
     width:100%;
-  }
-
-  .c_galeria__image {
-    width:100%;
+    height: 240px;
   }
 
   .c_galeria__box {
@@ -80,5 +77,4 @@
     height:80px;
     order:2;
   }
-
 }

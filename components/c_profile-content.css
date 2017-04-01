@@ -3,6 +3,12 @@
   background: linear-gradient(to right, white calc(calc(calc(100% - var(--main-layout-width)) / 2) + var(--small-column-width)), var(--bg-gray-dark) calc(calc(calc(100% - var(--main-layout-width)) / 2) + var(--small-column-width)));
 }
 
+@media (max-width: 1200px) {
+  .c_profile-content {
+    background: linear-gradient(to right, white var(--small-column-width), var(--bg-gray-dark) var(--small-column-width));
+  }
+}
+
 .c_profile-content__box {
   padding-bottom:112px;
   display:flex;
@@ -76,11 +82,4 @@
     line-height:28px;
     letter-spacing: 3.6px;
   }
-
 }
-
-
-
-
-
-
