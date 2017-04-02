@@ -13,5 +13,8 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-sourcemaps": "^2.4.1",
     "precss": "^1.4.0"
+  },
+  "devDependencies": {
+    "sw-precache": "^5.1.0"
   }
 }
