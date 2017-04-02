@@ -132,7 +132,14 @@
 .header--opened {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 2;
+  animation: scrollDown 233ms ease-out forwards;
 }
 
 .header--opened > .header__menulist {
@@ -179,7 +186,6 @@
 
 body.menu--opened {
   overflow-y: hidden;
-  animation: scrollDown 300ms 16ms ease-out forwards;
 }
 
 .header__userbox {
