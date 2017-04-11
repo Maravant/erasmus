@@ -4,13 +4,21 @@
 }
 
 .c_profile-school__box {
-  padding: 60px 0 56px 70px;
+  padding: 63px 34px 12px 56px;
   width: 50%;
   box-sizing: border-box;
 }
 
 .c_profile-school__title {
-  font-size:2.2rem;
+  font-size:1rem;
+  letter-spacing:4px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin:0;
+}
+
+.c_profile-school__subtitle {
+  font-size:2rem;
   letter-spacing:6.4px;
   line-height: 48px;
   text-transform: uppercase;
@@ -20,25 +28,37 @@
 .c_item-colegio__icons.c_profile-school__icons {
   margin-top:59px;
   padding:0;
+  display:block;
 }
 
 .c_item-colegio__li.c_profile-school__li {
   margin-bottom:30px;
+  white-space: nowrap;
+  margin-right: 24px;
+  padding-top:30px;
 }
 
 .c_item-colegio__label.c_profile-school__label {
-  font-size:0.87rem;
+  font-size:0.75rem;
 }
 
 .c_item-colegio--one.c_profile-school__box1 {
   padding-top:0;
-  margin-right: 88px;
-  flex: 0 0 auto;
-  width: 220px;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .c_item-colegio--two.c_profile-school__box2 {
   padding-top:0;
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  border-top:2px solid var(--bg-gray);
+
+}
+
+.c_profile-school__box2 .c_profile-school__li:first-of-type {
+  align-self:flex-end;
 }
 
 .c_profile-school__button {
@@ -46,6 +66,17 @@
   bottom: -48px;
   right: calc(50% - 48px);
 }
+
+/*.c_profile-school__box1:before {
+  content:"";
+  display:block;
+  height:2px;
+  width:43%;
+  background-color:var(--bg-gray);
+  position:absolute;
+  bottom:198px;
+
+}*/
 
 @media (max-width: 600px) {
   .c_profile-school {
@@ -81,21 +112,27 @@
     padding-right: 0;
     margin-right: 0;
     width: 100%;
+    white-space: normal;
   }
 
   .c_item-colegio--two.c_profile-school__box2 {
     padding-left:0;
+    padding-top:30px;
+  }
+
+  .c_item-colegio__li.c_profile-school__li {
+    margin-right:0;
+    padding-top:0;
   }
 
   .c_profile-school__box2 .c_profile-school__li:first-of-type {
     display:flex;
     flex:1 1 auto;
-    width:100%;
   }
 
   .c_profile-school__box2 {
     display: flex;
-    flex-wrap:wrap;
+    justify-content: space-around;
   }
 
   .c_profile-school__box2 .c_item-colegio__li {

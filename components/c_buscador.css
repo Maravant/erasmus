@@ -159,7 +159,7 @@
   .c_buscador__form {
     display: flex;
     flex-flow:wrap;
-    border-top: 2px solid #777777;
+    border-top: 2px solid #96a7ba;
     padding-bottom:20px;
   }
 
@@ -237,6 +237,28 @@
     display:none;
   }
 
+  .c_buscador_button--search {
+    background-color: var(--bg-white);
+    border:2px solid var(--bg-white);
+    width:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
+    line-height:74px;
+  }
+
+  .button--floating {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .c_profile-content__searchbuttonformobile {
+    height: 74px;
+    transform:rotate(0deg);
+  }
 }
 
 
