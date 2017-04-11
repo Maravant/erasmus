@@ -14,19 +14,16 @@
 }
 
 .c_questions__link {
-  display: inline-block;
   text-decoration:none;
   color:black;
   position:relative;
   text-transform:uppercase;
-  font-weight: bold;
-  line-height: 2;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100px;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading), sans-serif;
   font-size: 1.1rem;
   font-weight: normal;
   line-height: 2;

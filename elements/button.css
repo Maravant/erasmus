@@ -2,7 +2,7 @@
   background:var(--color-primary);
   color:var(--color-text-primary);
   border-radius:4px;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading), sans-serif;
   font-size:0.875rem;
   line-height: 2.29;
   letter-spacing: 2.8px;

@@ -68,7 +68,7 @@
 .header__userbox-profile__box {
   display: block;
   font-size:0.81rem;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading), sans-serif;
   color:inherit;
   height: 80px;
   padding: 30px 20px;
@@ -112,7 +112,7 @@
 .header__menulist {
   display:flex;
   justify-content:space-between;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading), sans-serif;
   font-weight: 900;
   font-size: 0.81rem;
   letter-spacing: 1px;

@@ -160,7 +160,7 @@ main > article > h2 {
 }
 
 .font-heading {
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading), sans-serif;
 }
 
 .icon-list {
