@@ -118,6 +118,7 @@
 
   .c_buscador__wrap {
     padding:24px;
+    background-color:var(--color-primary);
   }
 
   .c_buscador__button {
@@ -140,47 +141,100 @@
   .c_buscador__user {
     flex-wrap:wrap;
     justify-content: space-between;
+    padding-bottom:0;
   }
 
   .c_buscador__select {
     display: flex;
     flex: 1 1 auto;
     margin-bottom:47px;
+    background-color: var(--color-primary)
+  }
+
+  .button--selected {
+    background: var(--bg-white);
+    border: 2px solid var(--bg-white);
   }
 
   .c_buscador__form {
     display: flex;
-    flex-direction: column;
-    flex-flow: row wrap;
-    order:2;
+    flex-flow:wrap;
+    border-top: 2px solid #777777;
+    padding-bottom:20px;
   }
 
-  .c_buscador--localitation {
-    margin-right:-1;
-    margin-right:23px;
+  .c_buscador__box__icon {
+    width: 40%;
+    height:64px;
+    border:2px solid var(--bg-white);
+    color:var(--bg-black);
+    display:flex;
+    text-transform:uppercase;
+    border-radius:4px;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+    font-family: var(--font-family-main), sans-serif;
+    flex:1;
+    text-decoration:none;
+    margin-bottom:0;
   }
 
-  .c_buscador--start-date {
-    width:219px;
-    margin-right:37px;
+  .c_buscador__box__icon--mujer {
+    margin-right:24px;
   }
 
   .c_buscador__icon--mujer {
-    width: 50%;
+    margin-right:24px;
   }
 
   .c_buscador__icon--hombre {
-    width: 50%;
+    margin-right:24px;
   }
 
   .select-alternativo {
     margin-bottom:24px;
     height: 64px;
     font-size:1rem;
+    color:var(--bg-black);
   }
 
   .c_buscador_button--search {
     order:3;
+    display:none;
+  }
+
+  .c_buscador__select {
+    color:var(--bg-black);
+    border-top:2px solid var(--bg-white);
+    border-bottom:2px solid var(--bg-white);
+  }
+
+  .c_buscador--languages,
+  .c_buscador--localitation,
+  .c_buscador--start-date,
+  .c_buscador--duration {
+    display:flex;
+    flex:1 1 auto;
+    width:80%;
+    margin-right:0;
+  }
+
+  .c_buscador__icon {
+    display:flex;
+    width:10%;
+  }
+
+  .main-title {
+    display:none;
+  }
+
+  .c_load-more {
+    display:none;
+  }
+
+  .c_container-icons {
+    display:none;
   }
 
 }
