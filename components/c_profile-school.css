@@ -1,6 +1,5 @@
 .c_profile-school {
   display:flex;
-  position:relative;
 }
 
 .c_profile-school__box {
@@ -26,7 +25,7 @@
 }
 
 .c_item-colegio__icons.c_profile-school__icons {
-  margin-top:59px;
+  margin-top:48px;
   padding:0;
   display:block;
 }
@@ -42,13 +41,20 @@
   font-size:0.75rem;
 }
 
-.c_item-colegio--one.c_profile-school__box1 {
+.c_profile-school__box1 {
+  padding-top:0;
+  display:flex;
+  flex-wrap:wrap;
+  border-bottom:2px solid var(--bg-gray);
+}
+
+.c_profile-school__box2 {
   padding-top:0;
   display:flex;
   flex-wrap:wrap;
 }
 
-.c_item-colegio--two.c_profile-school__box2 {
+.c_profile-school__box3 {
   padding-top:0;
   display:flex;
   flex-flow:row;
@@ -67,26 +73,39 @@
   right: calc(50% - 48px);
 }
 
-/*.c_profile-school__box1:before {
-  content:"";
-  display:block;
-  height:2px;
-  width:43%;
-  background-color:var(--bg-gray);
-  position:absolute;
-  bottom:198px;
-
-}*/
-
 @media (max-width: 600px) {
   .c_profile-school {
     display:block;
   }
 
-  .c_profile-school__title {
-    font-size:1.75rem;
-    letter-spacing:5.6px;
-    line-height: 40px;
+  .c_profile-school__box1 {
+    border-bottom:none;
+  }
+
+  .c_profile-school__box2 {
+    display:block;
+  }
+
+  .c_item-colegio--two.c_profile-school__box3 {
+    border-top:none;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+
+  .c_profile-school__box3 .c_profile-school__li {
+    margin-right:24px;
+    width:50%;
+  }
+
+  .c_profile-school__label {
+    width:100%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .c_profile-school__box1 {
+    display:block;
   }
 
   .c_profile-school__button {
@@ -115,7 +134,15 @@
     white-space: normal;
   }
 
-  .c_item-colegio--two.c_profile-school__box2 {
+  .c_profile-school__box2 {
+    padding-left:0;
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+    white-space: normal;
+    display:block;
+  }
+  .c_profile-school__box3 {
     padding-left:0;
     padding-top:30px;
   }
@@ -125,18 +152,15 @@
     padding-top:0;
   }
 
-  .c_profile-school__box2 .c_profile-school__li:first-of-type {
-    display:flex;
-    flex:1 1 auto;
+  .c_profile-school__box2 .c_item-colegio__li:first-of-type {
+    margin-top:30px;
   }
 
-  .c_profile-school__box2 {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .c_profile-school__box2 .c_item-colegio__li {
-    width: 50%;
+  .c_profile-school__label {
+    white-space:normal;
+    /*background:red;*/
+    display: inline-block;
+    line-height: normal;
   }
 }
 
