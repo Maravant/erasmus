@@ -56,7 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8px 0px;
+  margin: 8px 0;
   padding: 22px 12px;
   margin-left:50px;
 }
@@ -93,7 +93,6 @@
   width:164px;
   margin-right:48px;
 }
-
 
 .c_buscador__button__icon {
   padding-right:24px;
@@ -200,7 +199,6 @@
   }
 
   .c_buscador_button--search {
-    order:3;
     display:none;
   }
 
@@ -247,17 +245,31 @@
     line-height:74px;
   }
 
+
+.button--floating ~ .container-items {
+    margin-top: 74px;
+  }
+
+  .c_profile-content__searchbutton {
+    display: none;
+  }
+
+  .c_buscador__searchbuttonformobile {
+    display: block;
+    height: 74px;
+  }
+
+  .c_buscador__searchbuttonformobile span {
+    display: block;
+  }
+
   .button--floating {
     display: block;
     position: fixed;
     bottom: 0;
+    left:0;
     width: 100%;
     z-index: 1;
-  }
-
-  .c_profile-content__searchbuttonformobile {
-    height: 74px;
-    transform:rotate(0deg);
   }
 }
 
