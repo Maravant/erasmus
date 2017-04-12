@@ -24,10 +24,11 @@
   margin:0;
 }
 
+
 .c_item-colegio__icons.c_profile-school__icons {
-  margin-top:48px;
   padding:0;
   display:block;
+  margin-top:0;
 }
 
 .c_item-colegio__li.c_profile-school__li {
