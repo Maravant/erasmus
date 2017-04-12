@@ -3,9 +3,11 @@
 }
 
 .c_profile-school__box {
-  padding: 63px 34px 12px 56px;
+  padding: 63px 34px 12px 70px;
   width: 50%;
+  max-width: calc(var(--main-layout-width) / 2);
   box-sizing: border-box;
+  position: relative;
 }
 
 .c_profile-school__title {
@@ -24,7 +26,6 @@
   margin:0;
 }
 
-
 .c_item-colegio__icons.c_profile-school__icons {
   padding:0;
   display:block;
@@ -33,9 +34,8 @@
 
 .c_item-colegio__li.c_profile-school__li {
   margin-bottom:30px;
+  margin-top:30px;
   white-space: nowrap;
-  margin-right: 24px;
-  padding-top:30px;
 }
 
 .c_item-colegio__label.c_profile-school__label {
@@ -45,14 +45,14 @@
 .c_profile-school__box1 {
   padding-top:0;
   display:flex;
-  flex-wrap:wrap;
+  justify-content: space-between;
   border-bottom:2px solid var(--bg-gray);
 }
 
 .c_profile-school__box2 {
   padding-top:0;
   display:flex;
-  flex-wrap:wrap;
+  justify-content: space-between;
 }
 
 .c_profile-school__box3 {
@@ -64,14 +64,10 @@
 
 }
 
-.c_profile-school__box2 .c_profile-school__li:first-of-type {
-  align-self:flex-end;
-}
-
 .c_profile-school__button {
   position: absolute;
-  top: calc(100% + 20px);
-  right: calc(50% - 48px);
+  bottom: -48px;
+  left: -48px;
 }
 
 .c_profile-school--answer {
@@ -100,6 +96,7 @@
 
   .c_profile-school__box3 .c_profile-school__li {
     margin-right:24px;
+    margin-top: 0;
     width:50%;
   }
 
@@ -108,9 +105,7 @@
   }
 
   .c_profile-school__button {
-    right:0;
-    top:0;
-    left:0;
+    left: 47px;
   }
 }
 
@@ -118,19 +113,12 @@
   .c_profile-school__box1 {
     display:block;
   }
-
-  .c_profile-school__button {
-    right: auto;
-    left: 47px;
-  }
 }
 
 @media (max-width: 1040px) {
   .c_profile-school__box {
     width:100%;
-    padding-top:37px;
-    padding-left:52px;
-    padding-right:52px;
+    padding:37px 52px 76px;
   }
 
   .c_item-colegio__icons.c_profile-school__icons {
@@ -153,14 +141,14 @@
     white-space: normal;
     display:block;
   }
+
   .c_profile-school__box3 {
     padding-left:0;
-    padding-top:30px;
   }
 
   .c_item-colegio__li.c_profile-school__li {
     margin-right:0;
-    padding-top:0;
+    /*margin-top:0;*/
   }
 
   .c_profile-school__box2 .c_item-colegio__li:first-of-type {

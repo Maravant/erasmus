@@ -57,6 +57,10 @@
 }
 
 @media (max-width: 600px) {
+  .c_profile-content {
+    padding-top:90px;
+  }
+
   .c_profile-content__box {
     flex-direction: column;
     padding-bottom:70px;
