@@ -99,11 +99,18 @@
   font-family:var(--font-family-heading);
   letter-spacing: 2px;
   padding-bottom:12px;
-  font-weight: normal;
+  font-weight: lighter;
+}
+
+.c_login__email::-webkit-input-placeholder {
+  color:rgba(0,0,0,0.2);
 }
 
 .c_login__password.c_login__password {
   padding-top:26px;
+}
+.c_login__password::-webkit-input-placeholder {
+  color:rgba(0,0,0,0.2);
 }
 
 .c_login__box {
@@ -118,28 +125,28 @@
 
 .c_login__checkbox {
  opacity:0;
-
 }
 
 label:after {
   content: '';
   width:22px;
   height:22px;
-  border:2px solid var(--color-text-disabled);
+  border:2px solid rgba(0,0,0,0.2);
   top: 27px;
   left: 3px;
   position:absolute;
-  transform: translateY(3px);
+  transform: translateY(4px);
 }
 
 .c_login__label {
   font-family:var(--font-family-heading);
   font-size:0.87rem;
-  color:var(--color-text-disabled);
+  color:rgba(0,0,0,0.2);
   letter-spacing: 1.8px;
   font-weight: normal;
   margin-left:15px;
 }
+
 
 .c_login__forgetpassword {
   text-decoration: none;
