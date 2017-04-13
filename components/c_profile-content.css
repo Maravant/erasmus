@@ -52,10 +52,6 @@
   padding-right: 80px;
 }
 
-.c_profile-content__searchbuttonformobile {
-  display: none;
-}
-
 @media (max-width: 600px) {
   .c_profile-content {
     padding-top:90px;
@@ -97,31 +93,8 @@
     letter-spacing: 3.6px;
   }
 
-  .button--floating ~ .c_profile-content__sendcv {
-    margin-top: 74px;
-  }
-
   .c_profile-content__searchbutton {
     display: none;
-  }
-
-  .c_profile-content__searchbuttonformobile {
-    display: block;
-    height: 74px;
-    transform: rotate(-180deg);
-  }
-
-  .c_profile-content__searchbuttonformobile span {
-    transform: rotate(-180deg);
-    display: block;
-  }
-
-  .button--floating {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
   }
 
 }

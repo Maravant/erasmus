@@ -36,6 +36,10 @@ input[type="password"]::-moz-placeholder {
   margin: 0 16px 8px 0;
 }
 
+.input-radio ~ .input-radio {
+  margin-right: 0;
+}
+
 .input-checkbox input[type],
 .input-radio input[type] {
   display: none;
@@ -48,7 +52,7 @@ input[type="password"]::-moz-placeholder {
   font-size: 0.8rem;
   overflow: hidden;
   outline-width: 2px;
-  padding: 16px 22px;
+  padding: 18px 22px;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -59,6 +63,14 @@ input[type="password"]::-moz-placeholder {
   border-radius: 3px;
   background-color: white;
   border: 2px solid rgba(0,0,0,0.05);
+}
+
+@media (min-width: 600px) {
+  .input-checkbox input[type] + span,
+  .input-radio input[type] + span {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 label > .input-checkbox,

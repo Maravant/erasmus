@@ -46,45 +46,82 @@
 
   <section class="c_buscador c_buscador-colegio">
     <div class="c_buscador__wrap">
-      <div class="c_buscador__user">
-        <a href="#" class="c_buscador__button button button--big button--transparent button--selected">
-        <i class="c_buscador__button__icon icon icon--auxiliar icon--middle" aria-hidden="true"></i>
-        Auxiliar de conversación</a>
-        <a href="resultadoscolegios.html" class="c_buscador__button button button--big button--transparent">
-        <i class="c_buscador__button__icon icon icon--colegios icon--middle" aria-hidden="true"></i>
-        Colegio / Empresa</a>
-        <select class="c_buscador__select select">
-          <option>Seleccione País</option>
-        </select>
-        <a href="" class="c_buscador_button--search button c_profile-content__searchbuttonformobile button--floating">Buscar</a>
-      </div>
 
-      <div class="c_buscador__form">
-        <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
-        <select class="c_buscador--languages select-alternativo">
-          <option>Idiomas</option>
-        </select>
-        <i class="c_buscador__icon icon icon--small icon--pointer" aria-hidden="true"></i>
-        <select class="c_buscador--localitation select-alternativo">
-          <option>Residente en </option>
-        </select>
-        <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
-        <select class="c_buscador--start-date select-alternativo">
-          <option>FEcha de comienzo </option>
-        </select>
-        <i class="c_buscador__icon icon icon--small icon--duracion" aria-hidden="true"></i>
-        <select class="c_buscador--duration select-alternativo">
-          <option>Duración </option>
-        </select>
+      <form id="buscador" action="" method="GET">
+        <div class="c_buscador__main">
+          <a href="#" class="c_buscador__button button button--big button--transparent button--selected">
+            <i class="c_buscador__button__icon icon icon--auxiliar icon--middle" aria-hidden="true"></i>
+            Auxiliar de conversación
+          </a>
 
-        <a href="" class="c_buscador__box__icon c_buscador__box__icon--mujer c_buscador__select"><i class="c_buscador__icon icon c_buscador__icon--mujer icon icon--small icon--mujer" aria-hidden="true"></i>Mujer</a>
-        <a href="" class="c_buscador__box__icon c_buscador__box__icon--hombre c_buscador__select"><i class="c_buscador__icon icon c_buscador__icon--hombre icon icon--small icon--hombre" aria-hidden="true"></i>Hombre</a>
+          <a href="resultadoscolegios.html" class="c_buscador__button button button--big button--transparent">
+            <i class="c_buscador__button__icon icon icon--colegios icon--middle" aria-hidden="true"></i>
+            Colegio / Empresa
+          </a>
 
-      </div>
+          <select class="c_buscador__select select">
+            <option>Seleccione País</option>
+          </select>
+
+          <button type="submit" class="c_buscador__button-search button"><span>Buscar</span></button>
+        </div>
+
+        <div class="c_buscador__form">
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
+            <select class="c_buscador--languages select-alternativo">
+              <option>Idiomas</option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--pointer" aria-hidden="true"></i>
+            <select class="c_buscador--localitation select-alternativo">
+              <option>Residente en </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
+            <select class="c_buscador--start-date select-alternativo">
+              <option>Fecha de comienzo </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--duracion" aria-hidden="true"></i>
+            <select class="c_buscador--duration select-alternativo">
+              <option>Duración </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <label class="input-radio">
+              <input type="radio" name="rai" value="1" checked><span>
+                <i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer
+              </span>
+            </label>
+            <label class="input-radio">
+              <input type="radio" name="rai" value="0"><span>
+                <i class="icon icon--small icon--hombre" aria-hidden="true"></i> Hombre
+              </span>
+            </label>
+          </div>
+
+        </div>
+      </form>
+
     </div>
 
     <h1 class="main-title js-toggle-advanced-filter">Filtrar búsqueda</h1>
   </section>
+
+  <div class="c_buscador__toggle-search">
+    <button form="buscador" type="submit" class="c_buscador__toggle-search-button"><span>Buscar</span></button>
+    <a href="#" class="c_buscador__close-search js-toggle-search">
+      <i class="c_buscador__close-search-icon icon icon--small icon--no" aria-hidden="true"></i>
+    </a>
+  </div>
 
   <section class="container-results">
     <div class="container-results__wrap">
@@ -151,6 +188,8 @@
     <a class="c_load-more__a" href="">Cargar más</a>
   </section>
 
+  <h1 class="main-title button--ghost button--floating js-toggle-search"><span>Modificar Búsqueda</span></h1>
+
   <section class="c_container-icons">
     <div class="c_container-icons__wrap">
       <ul class="c_container__icons__ul">
@@ -159,7 +198,7 @@
           <span class="c_container__icon__title">Idioma</span>
         </li>
         <li class="c_container__icons__li">
-          <i class="c_container__icons__icon icon icon--small icon--pointer aria-hidden="true"></i>
+          <i class="c_container__icons__icon icon icon--small icon--pointer" aria-hidden="true"></i>
           <span class="c_container__icon__title">Residencia</span>
         </li>
         <li class="c_container__icons__li">
@@ -221,6 +260,7 @@
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/c_buscador.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/c_profile-content.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
 </body>

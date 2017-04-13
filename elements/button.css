@@ -66,3 +66,31 @@
   height: 96px;
 }
 
+.button--ghost {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .button--floating {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .button--ghost {
+    display: block;
+    height: 74px;
+    transform: rotate(-180deg);
+  }
+
+  .button--ghost span {
+    transform: rotate(-180deg);
+    display: block;
+  }
+
+  body.menu--opened .button--floating {
+    transform: translateY(100%);
+  }
+}

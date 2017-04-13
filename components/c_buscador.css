@@ -10,10 +10,11 @@
   margin:0 auto;
 }
 
-.c_buscador__user {
+.c_buscador__main {
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-bottom:46px;
 }
 
@@ -22,10 +23,40 @@
   font-weight:600;
   box-sizing: border-box;
   text-align:center;
-  line-height: 72px;
-  margin-right: 48px;
+  height: 80px;
+  line-height: 80px;
   color:var(--color-text-secondary);
   font-family: var(--font-family-main), sans-serif;
+}
+
+.c_buscador__button-search {
+  height:48px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  letter-spacing: 3.2px;
+}
+
+.c_buscador__toggle-search {
+  display: none;
+  position: relative;
+}
+
+.c_buscador__close-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid rgba(0,0,0,0.1);
+  width: 64px;
+  height: 64px;
+}
+
+.c_buscador__close-search-icon {
+  filter: brightness(0);
+  width: 16px;
+  height: 16px;
 }
 
 .c_buscador__button__icon {
@@ -43,22 +74,7 @@
   padding-top:46px;
   display: flex;
   align-items: center;
-}
-
-/*.c_buscador__button:hover {
-  background-color:var(--color-primary-hover);
-  border:2px solid var(--color-primary-hover);*/
-
-
-.c_buscador_button--search {
-  height:40px;
-  line-height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 8px 0;
-  padding: 22px 12px;
-  margin-left:50px;
+  justify-content: space-between;
 }
 
 .c_buscador__select {
@@ -70,47 +86,45 @@
 }
 
 .c_buscador__icon {
-  margin: 8px 24px 8px 0;
-}
-
-.c_buscador--languages {
-  width:192px;
-  margin-right:30px;
-}
-
-.c_buscador--localitation {
-  width:240px;
-  margin-right:44px;
-}
-
-
-.c_buscador--start-date {
-  width: 182px;
-  margin-right:44px;
-}
-
-.c_buscador--duration {
-  width:164px;
-  margin-right:48px;
+  margin: 8px 8px 8px 0;
 }
 
 .c_buscador__button__icon {
   padding-right:24px;
 }
 
-.c_buscador__icon--mujer {
-  margin-right:7px;
-  width:20px;
-  height:24px;
-  color:var(--color-primary);
+.c_buscador__form_label {
+  white-space: nowrap;
+  flex: 1;
 }
 
-.c_buscador__icon--hombre {
-  margin-right:-32px;
-  height:24px;
+.c_buscador__form_label:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.c_buscador__form_label:not(:last-of-type) .select-alternativo {
+  min-width: calc(100% - 40px);
 }
 
 @media (max-width: 600px) {
+  .c_buscador {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow-y: auto;
+    z-index: 1;
+    will-change: transform;
+    transition: transform 300ms ease-in-out;
+    transform: translateY(100vh);
+    border-top: 162px solid var(--color-primary);
+  }
+
+  .c_buscador--visible {
+    transform: translateY(0);
+  }
+
   .c_buscador-colegio {
     padding-top:0;
   }
@@ -118,6 +132,15 @@
   .c_buscador__wrap {
     padding:24px;
     background-color:var(--color-primary);
+    min-height: 100vh;
+  }
+
+  .c_buscador__mobile-search-button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
   }
 
   .c_buscador__button {
@@ -133,11 +156,18 @@
     line-height: 1.45;
   }
 
-  .c_buscador__button__icon {
-    margin-bottom: 15px;
+  .c_buscador__button-search {
+    display: none;
   }
 
-  .c_buscador__user {
+  .c_buscador__button__icon {
+    margin-bottom: 14px;
+    margin-top: 6px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .c_buscador__main {
     flex-wrap:wrap;
     justify-content: space-between;
     padding-bottom:0;
@@ -150,16 +180,72 @@
     background-color: var(--color-primary)
   }
 
-  .button--selected {
+  .c_buscador__toggle-search {
+    display: none;
+    flex-grow: 1 1 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 64px;
+    line-height: 64px;
+    z-index: 2;
+    box-shadow: 0 -10px 10px 0 rgba(0,0,0,0.2);
+    background-color: var(--bg-white);
+  }
+
+  .c_buscador--visible ~ .c_buscador__toggle-search {
+    display: flex;
+  }
+
+  .c_buscador__toggle-search-button {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    color:var(--color-text-primary);
+    text-align:center;
+    font-family: var(--font-family-heading), sans-serif;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    flex: 1;
+  }
+
+  .c_buscador__button.button--selected {
     background: var(--bg-white);
     border: 2px solid var(--bg-white);
   }
 
   .c_buscador__form {
     display: flex;
-    flex-flow:wrap;
-    border-top: 2px solid #96a7ba;
-    padding-bottom:20px;
+    align-items: stretch;
+    flex-direction: column;
+    border-top: 2px solid rgba(0,0,0,0.04);
+    padding-bottom: 0;
+  }
+
+  .c_buscador__form_label {
+    white-space: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .c_buscador__form_label:not(:last-of-type) {
+    margin-bottom: 24px;
+  }
+
+  .input-radio input[type] + span {
+    background-color: transparent;
+    border-color: white;
+  }
+
+  .input-radio input[type]:checked + span {
+    background-color: white;
   }
 
   .c_buscador__box__icon {
@@ -192,10 +278,11 @@
   }
 
   .select-alternativo {
-    margin-bottom:24px;
     height: 64px;
     font-size:1rem;
     color:var(--bg-black);
+    flex: 1;
+    margin-left: 10px;
   }
 
   .c_buscador_button--search {
@@ -208,30 +295,7 @@
     border-bottom:2px solid var(--bg-white);
   }
 
-  .c_buscador--languages,
-  .c_buscador--localitation,
-  .c_buscador--start-date,
-  .c_buscador--duration {
-    display:flex;
-    flex:1 1 auto;
-    width:80%;
-    margin-right:0;
-  }
-
-  .c_buscador__icon {
-    display:flex;
-    width:10%;
-  }
-
-  .main-title {
-    display:none;
-  }
-
   .c_load-more {
-    display:none;
-  }
-
-  .c_container-icons {
     display:none;
   }
 
@@ -245,8 +309,7 @@
     line-height:74px;
   }
 
-
-.button--floating ~ .container-items {
+  .button--floating ~ .container-items {
     margin-top: 74px;
   }
 
@@ -262,24 +325,4 @@
   .c_buscador__searchbuttonformobile span {
     display: block;
   }
-
-  .button--floating {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    left:0;
-    width: 100%;
-    z-index: 1;
-  }
 }
-
-
-
-
-
-
-
-
-
-
-
