@@ -11,13 +11,26 @@
 .c_login__popup {
   max-width:376px;
   padding:24px 24px 16px;
-  border:2px solid var(--bg-gray);
   border-radius:4px;
   box-sizing: border-box;
   background:var(--bg-white);
   right:0;
   position:absolute;
   margin-top:164px;
+}
+
+.c_login__popup:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-right: 12px solid transparent;
+  border-top: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-bottom: 12px solid var(--bg-white);
+  position:absolute;
+  right: 121px;
+  top: -20px;
+  border-radius: 12px;
 }
 
 .c_login__socialmedia1 {
