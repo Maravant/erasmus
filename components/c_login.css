@@ -157,10 +157,12 @@ label:after {
   letter-spacing: 2px;
   white-space: normal;
   flex-flow: flex-end;
-  display:block;
   width:40%;
   text-align:right;
   color:#ff5767;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
