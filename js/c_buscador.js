@@ -5,9 +5,12 @@
     var cToggleFilter = $('.js-toggle-advanced-filter');
 
     cToggleFilter.on('click', function(e) {
-      $(this).closest('.c_buscador').addClass('c_buscador--advanced-filters-opened');
-      $(this).text('Aplicar Filtros');
-      e.preventDefault();
+      if (!$(this).data('cl')) {
+        $(this).closest('.c_buscador').addClass('c_buscador--advanced-filters-opened');
+        $(this).text('Aplicar Filtros');
+        $(this).data('cl', true);
+        e.preventDefault();
+      }
     });
 
     var cToggleSearchPanel = $('.js-toggle-search');

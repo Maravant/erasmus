@@ -116,6 +116,8 @@ h6 em {
   line-height: 72px;
   font-family: var(--font-family-heading), sans-serif;
   text-decoration: none;
+  border: 0;
+  width: 100%;
 }
 
 .last-title {

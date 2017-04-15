@@ -56,50 +56,77 @@
 
 
   <section class="c_buscador c_buscador-colegio">
-    <div class="c_buscador__wrap">
-      <div class="c_buscador__user">
-        <a href="resultadosauxiliares.html" class="c_buscador__button button button--big button--transparent">
-        <i class="c_buscador__button__icon icon icon--auxiliar icon--middle" aria-hidden="true"></i>
-        Auxiliar de conversación</a>
-        <a href="#" class="c_buscador__button button button--big button--transparent button--selected">
-        <i class="c_buscador__button__icon icon icon--colegios icon--middle" aria-hidden="true"></i>
-        Colegio/Empresa</a>
-        <select class="c_buscador__select select">
-          <option>Seleccione País</option>
-        </select>
-        <a href="" class="c_buscador_button--search button">Buscar</a>
+    <form id="buscador" action="" method="GET">
+
+      <div class="c_buscador__wrap">
+        <div class="c_buscador__main">
+          <a href="resultadosauxiliares.html" class="c_buscador__button button button--big button--transparent">
+            <i class="c_buscador__button__icon icon icon--auxiliar icon--middle" aria-hidden="true"></i>
+            Auxiliar de conversación
+          </a>
+
+          <a href="#" class="c_buscador__button button button--big button--transparent button--selected">
+            <i class="c_buscador__button__icon icon icon--colegios icon--middle" aria-hidden="true"></i>
+            Colegio / Empresa
+          </a>
+
+          <select class="c_buscador__select select" name="country">
+            <option>Seleccione País</option>
+          </select>
+
+          <button type="submit" class="c_buscador__button-search button"><span>Buscar</span></button>
+        </div>
+
+        <div class="c_buscador__form">
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
+            <select class="c_buscador--languages select-alternativo" name="languages">
+              <option>Idiomas</option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--pointer" aria-hidden="true"></i>
+            <select class="c_buscador--localitation select-alternativo" name="residence">
+              <option>Residente en </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
+            <select class="c_buscador--start-date select-alternativo" name="startdate">
+              <option>Fecha de comienzo </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--duracion" aria-hidden="true"></i>
+            <select class="c_buscador--duration select-alternativo" name="duration">
+              <option>Duración </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--dinero" aria-hidden="true"></i>
+            <label class="checkbox-toggle c_buscador__checked">
+              <input type="checkbox" name="pay" value="0"/>
+              <span>Toggle</span>
+            </label>
+          </div>
+
+        </div>
       </div>
 
-      <div class="c_buscador__form">
-        <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
-        <select class="c_buscador--languages select-alternativo">
-          <option>Idiomas</option>
-        </select>
-        <i class="c_buscador__icon icon icon--small icon--pointer" aria-hidden="true"></i>
-        <select class="c_buscador--localitation select-alternativo">
-          <option>Residente en </option>
-        </select>
-        <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
-        <select class="c_buscador--start-date select-alternativo">
-          <option>Fecha de comienzo </option>
-        </select>
-        <i class="c_buscador__icon icon icon--small icon--duracion" aria-hidden="true"></i>
-        <select class="c_buscador--duration select-alternativo">
-          <option>Duración </option>
-        </select>
-
-        <i class="c_buscador__icon icon icon--small icon--dinero" aria-hidden="true"></i>
-        <label class="checkbox-toggle c_buscador__checked">
-          <input type="checkbox"/>
-          <span>Toggle</span>
-        </label>
-      </div>
-    </div>
-
-    <h1 class="main-title c_buscador__searchbuttonformobile button--floating"><span>Buscar</span></h1>
-
-    <h1 class="main-title js-toggle-advanced-filter">Filtrar búsqueda</h1>
+      <button type="submit" class="main-title js-toggle-advanced-filter">Filtrar búsqueda</button>
+    </form>
   </section>
+
+  <div class="c_buscador__toggle-search">
+    <button form="buscador" type="submit" class="c_buscador__toggle-search-button"><span>Buscar</span></button>
+    <a href="#" class="c_buscador__close-search js-toggle-search">
+      <i class="c_buscador__close-search-icon icon icon--small icon--no" aria-hidden="true"></i>
+    </a>
+  </div>
 
   <section class="container-results">
     <div class="container-results__wrap">
@@ -111,7 +138,7 @@
       </div>
       <div class="c_results-label">
         <p class="c_results-label__title">Hemos encontrado</p>
-        <p class="c_results-label__subtitle">5 colegios</p>
+        <p class="c_results-label__subtitle">2 colegios</p>
       </div>
       <div class="c_results-messages">
         <div class="c_results-messages__circle">28</div>
@@ -181,6 +208,8 @@
         </div>
       </div>
 
+      <div class="c_item"><a href="perfil-colegio.html"><img class="c_item__image" src="http://imagenes.universia.net/gc//net/images/universidades/u/un/uni/universidad-de-buenos-aires-1463408116443.jpg" alt=""></a><div class="c_item__content"><div class="c_item__icon"><i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i><h6 class="c_item__image__paragraph">Madrid, España</h6></div><a class="button c_item__button" href=""><i class="c_item__button__icon icon icon--enviar" aria-hidden="true"></i></a><h3 class="c_item__title">Colegio Barrio de Bilbao</h3></div><div class="item__box c_item-colegio"><i class="c_item-colegio__p-icon icon icon--idioma icon--small" aria-hidden="true"></i><p class="c_item-colegio__paragraph">Inglés nativo, Español, Francés</p><div class="c_item-colegio__icons"><ul class="c_item-colegio--one"><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--calendario" aria-hidden="true"></i><span class="c_item-colegio__label">Septiembre 2017</span></li><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--duracion" aria-hidden="true"></i><span class="c_item-colegio__label">3 meses</span></li><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--reloj" aria-hidden="true"></i><span class="c_item-colegio__label">30h/semana</span></li><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--dinero" aria-hidden="true"></i><span class="c_item-colegio__label">600$</span></li></ul><ul class="c_item-colegio--two"><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--casa" aria-hidden="true"></i><i class="c_item-colegio__icon icon icon--xsmall icon--yes" aria-hidden="true"></i></li><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--comida" aria-hidden="true"></i><i class="c_item-colegio__icon icon icon--xsmall icon--yes" aria-hidden="true"></i></li><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--coche" aria-hidden="true"></i><i class="c_item-colegio__icon icon icon--xsmall icon--no" aria-hidden="true"></i></li><li class="c_item-colegio__li"><i class="c_item-colegio__icon icon icon--small icon--tandem" aria-hidden="true"></i><i class="c_item-colegio__icon icon icon--xsmall icon--no" aria-hidden="true"></i></li></ul></div></div></div>
+
     </div>
    </section>
 
@@ -189,6 +218,7 @@
     <a class="c_load-more__a" href="">Cargar más</a>
   </section>
 
+  <h1 class="main-title button--ghost button--floating js-toggle-search"><span>Modificar Búsqueda</span></h1>
 
   <section class="c_container-icons c_container-icons--two-lines">
     <div class="c_container-icons__wrap">
@@ -284,6 +314,7 @@
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/c_buscador.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/c_profile-content.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
 </body>

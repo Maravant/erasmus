@@ -8,8 +8,9 @@
   font-size:0.87rem;
   text-transform: uppercase;
   letter-spacing: 2.8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
 
 .c_item-colegio__icons {
   display:flex;
@@ -56,11 +57,30 @@
 
 
 @media (max-width: 600px) {
+  .c_item-colegio {
+    margin-top: 85px;
+  }
+
+  .c_item-colegio--one {
+    padding: 0;
+  }
+
+  .c_item-colegio--two {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .c_item-colegio__icons {
     display:block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-top: 20px;
   }
 
   .c_item-colegio__icon {
-    margin-right :28px;
+    margin-right: 10px;
   }
 }

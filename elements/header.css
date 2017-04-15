@@ -23,6 +23,8 @@
   align-items: stretch;
   height: 100%;
   box-sizing: border-box;
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
 }
 
 .header__logo {
@@ -219,7 +221,10 @@ body.menu--opened {
   display: none;
   align-items: center;
   margin-left: var(--main-layout-gap);
-  margin-right: var(--main-layout-gap);
+}
+
+.header__loginbutton {
+  margin-left: 0;
 }
 
 @media (max-width: 600px) {
@@ -240,7 +245,6 @@ body.menu--opened {
     order:-1;
     border-left:none;
     padding-left: 0;
-    margin-left: var(--main-layout-gap);
   }
 
   .header__userbox-name {

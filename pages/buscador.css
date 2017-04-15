@@ -7,9 +7,14 @@
 .container-results__wrap {
   display:flex;
   max-width: var(--main-layout-width);
+  margin: 0 auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.container-results__wrap {
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
-  margin: 0 auto;
 }
 
 .container-items {
@@ -20,7 +25,7 @@
 .container-items__wrap {
   flex-flow: row wrap;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .main-title {
@@ -28,7 +33,7 @@
 }
 
 @media (max-width: 600px) {
-.container-results {
-  padding:20px 0;
+  .container-results {
+    padding:18px 0;
   }
 }
