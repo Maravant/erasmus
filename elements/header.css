@@ -79,6 +79,7 @@
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .header__userbox-profile__box:first-of-type {
