@@ -68,15 +68,13 @@ body.login--opened .c_login__title {
   border-radius: 12px;
 }
 
-.c_login__socialmedia1 {
-  background-color: #3462a4;
+.c_login__socialmedia1,
+.c_login__socialmedia2 {
+  display: block;
   height:56px;
   border-radius:4px;
   margin-bottom:24px;
-  width:100%
-}
-
-.c_login__socialmedia1__title {
+  width:100%;
   text-decoration: none;
   text-transform: uppercase;
   color:var(--bg-white);
@@ -86,12 +84,13 @@ body.login--opened .c_login__title {
   white-space: nowrap;
 }
 
+.c_login__socialmedia1 {
+  background-color: #3462a4;
+}
+
 .c_login__socialmedia2 {
   background-color:var(--bg-gray-dark);
-  height:56px;
-  border-radius:4px;
-  margin-bottom:26px;
-  width:100%;
+  color:var(--bg-black);
 }
 
 .c_login__socialmedia1__icon {
@@ -102,15 +101,6 @@ body.login--opened .c_login__title {
 .c_login__socialmedia2__icon {
     margin:16px 38px 16px 30px;
   }
-
-.c_login__socialmedia2__title {
-  text-decoration: none;
-  text-transform: uppercase;
-  color:var(--bg-black);
-  font-family:var(--font-family-heading);
-  font-size:1rem;
-  letter-spacing: 2px;
-}
 
 .c_login__paragraph {
   text-transform: uppercase;
