@@ -192,9 +192,7 @@ select:focus {
 .input-checkbox {
   overflow: hidden;
   position: relative;
-  line-height: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
+  line-height: 28px;
   user-select: none;
 }
 
