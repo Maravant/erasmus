@@ -15,7 +15,10 @@
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
   box-sizing: border-box;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .c_login__popup {
@@ -26,7 +29,6 @@
   background:var(--bg-white);
   right:0;
   position:absolute;
-  margin-top:164px;
   transform: translateY(-50px);
   opacity: 0;
   transition: opacity 200ms 200ms ease-out, transform 200ms 200ms ease-out;
@@ -207,6 +209,20 @@ body.login--opened .c_login__title {
 
 
 @media (min-width: 600px) {
+  .c_login__wrap {
+    top: 164px;
+  }
+
+  .header--floating ~ .c_login .c_login__wrap {
+    top: 126px;
+    position: fixed;
+    animation: slideDown 400ms ease-out forwards;
+  }
+
+  .c_login__popup {
+    box-shadow: 0 20px 40px 10px rgba(0,0,0,0.5);
+  }
+
   .c_login__title {
     padding-left: var(--main-layout-gap);
     padding-right: var(--main-layout-gap);

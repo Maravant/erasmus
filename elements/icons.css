@@ -141,6 +141,10 @@
   background-image: url(../images/ico_social-facebook.svg);
 }
 
+.icon--social-google {
+  background-image: url(../images/google_logo32.png);
+}
+
 .icon--social-twitter {
   background-image: url(../images/ico_social-twitter.svg);
 }
