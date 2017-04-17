@@ -21,16 +21,6 @@
   align-items: flex-start;
 }
 
-@media (max-width: 600px) {
-  .container-call-for-action__wrapper,
-  .container-search__wrapper {
-    display: block;
-  }
-}
-
-
-
-
 .container-corporative {
   background:var(--bg-gray-dark);
   text-align:center;
@@ -50,6 +40,35 @@
 .container-how-it-works .button {
   min-width:236px;
 }
+
+
+@media (max-width: 600px) {
+  .container-call-for-action__wrapper,
+  .container-search__wrapper {
+    display: block;
+  }
+
+  .container-corporative {
+    padding: 48px 0 0 0;
+  }
+
+  .c_hero-corporative__main-paragraph {
+    font-size:1.12rem;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+  }
+
+  .c_hero-corporative__subtitle {
+    font-size:1.25rem;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+  }
+}
+
+
+
+
+
 
 
 

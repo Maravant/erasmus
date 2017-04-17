@@ -161,3 +161,27 @@ h3.c_hero-search__wrapper__subtitle {
   line-height: 16px;
   letter-spacing: 2px;
 }
+
+@media (max-width: 600px) {
+  .c_hero-search__wrapper {
+    width:100%;
+    margin:0;
+  }
+
+  .c_hero-search {
+    display:block;
+  }
+
+  .c_hero-search__image-intersection {
+    display:none;
+  }
+
+}
+
+
+
+
+
+
+
+
