@@ -16,13 +16,6 @@
     var cToggleSearchPanel = $('.js-toggle-search');
     cToggleSearchPanel.on('click', function(e) {
       $('.c_buscador').toggleClass('c_buscador--visible');
-      $(document.body).toggleClass('menu--opened');
-
-      setTimeout(function() {
-        window.scrollTo({
-          top: 0
-        });
-      }, 300);
       e.preventDefault();
     });
   });

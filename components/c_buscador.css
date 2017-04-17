@@ -151,11 +151,10 @@
     left: 0;
     width: 100%;
     overflow-y: auto;
-    z-index: 1;
+    z-index: 2;
     will-change: transform;
     transition: transform 300ms ease-in-out;
     transform: translateY(100vh);
-    border-top: 162px solid var(--color-primary);
   }
 
   .c_buscador--visible {
