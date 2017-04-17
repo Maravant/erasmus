@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300px" height="518px" viewBox="0 0 300 518" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Group</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-dasharray="1,7" transform="matrix(1, 0, 0, 1, 150, 0)">
+    <g id="HOME_MOBILE" transform="translate(-187.000000, -1061.000000)" stroke="#000000" stroke-width="2">
+      <g id="linea_punteada_esquema" transform="translate(69.000000, 1061.000000)">
+        <g id="Group" transform="translate(118.000000, 0.000000)">
+          <path d="M1,65.9956055 L1,98 C1,111.184 11.745,121.871 25,121.871 L125,121.871 C138.255,121.871 149,132.559 149,145.742 L149,390.597713" id="Stroke-1"/>
+          <path d="M1,394.995605 L1,427 C1,440.184 11.745,450.871 25,450.871 L125,450.871 C138.255,450.871 149,461.559 149,474.742 L149,522.597713" id="Stroke-1-Copy-3" transform="translate(75.000000, 458.796659) scale(-1, 1) translate(-75.000000, -458.796659) "/>
+          <path d="M1,0.995605469 L1,18" id="Stroke-1-Copy-2"/>
+          <path d="M-1.8189894e-12,98 C-1.8189894e-12,111.184 -1.59161573e-12,146.791016 -1.8189894e-12,146.945312" id="Stroke-1-Copy" transform="translate(0.500000, 122.472656) scale(-1, 1) translate(-0.500000, -122.472656) "/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
