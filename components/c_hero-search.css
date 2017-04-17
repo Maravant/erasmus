@@ -122,6 +122,11 @@ h3.c_hero-search__wrapper__subtitle {
 
   .c_hero-search__image-intersection__box {
     width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
   }
 
   .c_hero-search__image-intersection__box2 {

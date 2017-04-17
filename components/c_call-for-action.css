@@ -69,12 +69,9 @@
 
   .c_call-for-action p {
     margin:20px 0 31px;
+  }
+
+  .c_call-for-action__box-icon {
+    margin: 0 auto 56px;
+  }
 }
-
-.c_call-for-action__box-icon {
-  margin: 0px auto 56px;
-}
-
-
-
-

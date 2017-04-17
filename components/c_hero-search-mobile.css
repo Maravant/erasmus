@@ -56,20 +56,26 @@
   align-items: center;
 }
 
-h3.c_hero-search__wrapper__title {
-font-size:0.75rem;
-margin:24px 0 0;
+h3.c_hero-search__mobile__wrapper__title {
+  white-space: normal;
+  text-align:center;
+  letter-spacing:2.5px;
+  line-height: 24px;
+  font-size:0.75rem;
+  margin:24px 0 0;
 }
 
-
-h3.c_hero-search__wrapper__subtitle {
-font-size:0.75rem;
-margin:0;
-text-align: center;
+h3.c_hero-search__mobile__wrapper__subtitle {
+  letter-spacing:1.5px;
+  line-height: 24px;
+  padding:0;
+  font-size:0.75rem;
+  margin:0;
+  text-align: center;
 }
 
 .c_hero-search__select {
-height:54px;
+  height:54px;
 }
 
 .c_hero-search__mobile__select {
