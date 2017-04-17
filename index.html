@@ -11,6 +11,7 @@
 
   <!-- <link rel="stylesheet" href="build/import.css?v=1" type="text/css"/> -->
   <link rel="stylesheet" href="import.css" type="text/css"/>
+  <link rel="stylesheet" href="js/slick/slick.css" type="text/css"/>
 
 </head>
 <body>
@@ -117,50 +118,48 @@
 
 
   <section class="c_hero-search__mobile">
-    <div class="c_hero-search__mobile__image1">
-      <div class="c_hero-search__mobile__image1__box">
-        <span class="c_hero-search__mobile__image1__icon icon icon--auxiliar icon--middle" aria-hidden="true"></span>
-        <a href="resultadosauxiliares.html" class="c_hero-search__mobile__link">
-        Regístrate como auxiliar
-        </a>
-        <div class="c_hero-search__mobile__image1__slider-forward"></div>
+    <div class="c_hero-search__mobile__wrapper js-mobile-slider">
+      <div class="c_hero-search__mobile__item">
+        <div class="c_hero-search__mobile__image1">
+          <a href="registrate.html" class="c_hero-search__mobile__image1__box">
+            <span class="c_hero-search__mobile__image1__icon icon icon--auxiliar icon--middle" aria-hidden="true"></span>
+
+            <span class="c_hero-search__mobile__link">
+            Regístrate como auxiliar
+            </span>
+
+            <i class="icon icon--arrow-forward icon--xsmall" aria-hidden="true"></i>
+          </a>
+          <img src="images/img_aux.png" class="c_hero-search__mobile__image" alt="">
+        </div>
+
+        <h3 class="c_hero-search__wrapper__title"><em>Quiero ser</em> auxiliar de conversación</h3>
+        <h3 class="c_hero-search__wrapper__subtitle"><em>busco</em> colegios/academias</h3>
+        <select class="c_hero-search__mobile__select">
+          <option>Seleccione País</option>
+        </select>
       </div>
-      <img src="images/img_aux.png" class="c_hero-search__mobile__image" alt="">
-    </div>
-
-    <div class="c_hero-search__mobile__wrapper">
-      <h3 class="c_hero-search__wrapper__title"><em>Quiero ser</em> auxiliar de conversación</h3>
-      <h3 class="c_hero-search__wrapper__subtitle"><em>busco</em> colegios/academias</h3>
-      <select class="c_hero-search__mobile__select">
-        <option>Seleccione País</option>
-      </select>
-      <div class="c_hero-search__mobile__circles">
-        <div class="c_hero-search__mobile__circle1"></div>
-        <div class="c_hero-search__mobile__circle2"></div>
-      </div>
-    </div>
 
 
-    <div class="c_hero-search__mobile__image1">
-      <div class="c_hero-search__mobile__image1__box">
-        <span class="c_hero-search__mobile__image1__icon icon icon--colegios icon--middle" aria-hidden="true"></span>
-        <a href="resultadosauxiliares.html" class="c_hero-search__mobile__link">
-        Regístrate como colegio
-        </a>
-        <div class="c_hero-search__mobile__image1__slider-back"></div>
-      </div>
-      <img src="images/img_col.png" class="c_hero-search__mobile__image" alt="">
-    </div>
+      <div class="c_hero-search__mobile__item">
+        <div class="c_hero-search__mobile__image1">
+          <a href="registrate.html" class="c_hero-search__mobile__image1__box">
+            <span class="c_hero-search__mobile__image1__icon icon icon--colegios icon--middle" aria-hidden="true"></span>
 
-    <div class="c_hero-search__mobile__wrapper">
-      <h3 class="c_hero-search__wrapper__title"><em>Soy un</em>colegio / academia</h3>
-      <h3 class="c_hero-search__wrapper__subtitle"><em>Busco</em>auxiliar de conversacion</h3>
-      <select class="c_hero-search__mobile__select">
-        <option>Seleccione País</option>
-      </select>
-       <div class="c_hero-search__mobile__circles">
-        <div class="c_hero-search__mobile__circle1"></div>
-        <div class="c_hero-search__mobile__circle2"></div>
+            <span class="c_hero-search__mobile__link">
+            Regístrate como colegio
+            </span>
+
+            <i class="icon icon--arrow-forward icon--xsmall" aria-hidden="true"></i>
+          </a>
+          <img src="images/img_col.png" class="c_hero-search__mobile__image" alt="">
+        </div>
+
+        <h3 class="c_hero-search__wrapper__title"><em>Soy un</em>colegio / academia</h3>
+        <h3 class="c_hero-search__wrapper__subtitle"><em>Busco</em>auxiliar de conversacion</h3>
+        <select class="c_hero-search__mobile__select">
+          <option>Seleccione País</option>
+        </select>
       </div>
     </div>
   </section>
@@ -225,7 +224,7 @@
     <div class="container-how-it-works__wrapper">
       <h2>Cómo Funciona</h2>
 
-      <div class="c_hero-how">
+      <div class="c_hero-how js-mobile-slider">
         <div class="c_hero-how__box">
           <div class="c_hero-how__circle">
             1
@@ -351,8 +350,10 @@
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/c_home_mobile.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -118,6 +118,10 @@
   .c_hero-how__box:not(:last-of-type):before {
     display:none;
   }
+
+  .c_hero-how__box:not(:last-of-type):after {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -127,9 +131,5 @@
 
   .c_hero-how__box {
     margin-bottom:40px;
-  }
-
-  .c_hero-how__box:not(:last-of-type):after {
-    display: none;
   }
 }

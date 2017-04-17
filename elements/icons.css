@@ -176,3 +176,39 @@
 .icon--menu {
   background-image: url(../images/ico_menu_mobile.svg);
 }
+
+.icon--arrow-forward {
+  background: url(../images/slider_mobile_forward.svg) no-repeat center left;
+  background-size: 100% 100%;
+  margin-left:48px;
+  position: relative;
+}
+
+.icon--arrow-forward:after {
+  content:"";
+  position:absolute;
+  display:block;
+  top: calc(50% - 1px);
+  left: -40px;
+  width:40px;
+  border:1px solid var(--color-primary);
+}
+
+.icon--arrow-back {
+  background: url(../images/slider_mobile_back.svg) no-repeat center right;
+  background-size: 100% 100%;
+  margin-right:52px;
+  position: relative;
+}
+
+.icon--arrow-back:after {
+  content:"";
+  position:absolute;
+  display:block;
+  bottom: 7px;
+  left: 14px;
+  width:40px;
+  border:1px solid var(--color-primary);
+}
+
+
