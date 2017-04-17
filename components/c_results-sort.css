@@ -3,7 +3,9 @@
   align-items: center;
   text-transform: uppercase;
   font-size:0.6rem;
-  flex:1;
+  flex:1 0 auto;
+  width: 33%;
+  flex-wrap: wrap;
 }
 
 .c_results-sort-auxiliares {
@@ -17,6 +19,8 @@
   letter-spacing: 2px;
   font-weight: bold;
   margin-right:13px;
+  flex:1 0 auto;
+  width: 100%;
 }
 
 .c_results-sort__button {
@@ -50,6 +54,8 @@
   .c_results-sort {
     margin-bottom: 20px;
     width: 100%;
+    text-align: center;
+    justify-content: center;
   }
 
   .c_results-sort-auxiliares {

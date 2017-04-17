@@ -15,6 +15,7 @@
 .container-results__wrap {
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
+  justify-content: space-between;
 }
 
 .container-items {

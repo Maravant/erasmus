@@ -1,7 +1,8 @@
 .c_results-messages {
   justify-content:flex-end;
   display:flex;
-  flex:1;
+  flex:1 0 auto;
+  width: 33%;
 }
 
 .c_results-messages__circle {
@@ -16,4 +17,11 @@
   font-size:0.9rem;
   font-weight: bold;
   margin-top:-10px;
+}
+
+@media (max-width: 600px) {
+  .c_results-messages {
+    width: auto;
+    flex: 0 0 54px;
+  }
 }
