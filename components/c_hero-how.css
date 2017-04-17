@@ -1,6 +1,6 @@
 .c_hero-how {
   display:flex;
-  margin-top:86px;
+  margin-top:54px;
   margin-bottom:86px;
 }
 
@@ -15,7 +15,7 @@
   font-size:3.5rem;
   font-weight:bold;
   margin:auto;
-  margin-bottom:45px;
+  margin-bottom:40px;
   position: relative;
 }
 
@@ -69,7 +69,7 @@
   margin:0;
 }
 
-.c_hero-how__title{
+.c_hero-how__title {
   font-size: 0.95rem;
   font-weight: bold;
   letter-spacing: 4px;
@@ -121,6 +121,10 @@
 
   .c_hero-how__box:not(:last-of-type):after {
     display: none;
+  }
+
+  .c_hero-how__title {
+    margin-bottom: 20px;
   }
 }
 
