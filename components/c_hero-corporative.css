@@ -71,15 +71,37 @@
   .c_hero-corporative__box {
     display: block;
     margin-top: 0;
+    background: url(../images/linea-punteada-esquema-mobile.svg) no-repeat center -180px;
   }
 
   .c_hero-corporative__box__icon {
-    background: none;
+    text-align:center;
+    background: url(../images/linea-punteada-esquema-mobile.svg) no-repeat center 110px;
+    height: 290px;
   }
 
   .c_hero-corporative__item {
     width: auto;
-    margin: 0 auto 80px;
+    margin: 0 auto 70px;
   }
+
+  .c_hero-corporative__item:not(:last-of-type) {
+    margin-bottom: 160px;
+  }
+
+  .c_hero-corporative__subtitle {
+    text-align: center;
+  }
+
+  .c_hero-corporative__image {
+    text-align: center;
+  }
+
+  .c_hero-corporative__item h3 {
+    margin-top: 12px;
+  }
+
+
+
 
 }

@@ -54,3 +54,27 @@
 .c_call-for-action .button {
   min-width:236px;
 }
+
+
+
+@media (max-width: 600px) {
+  .c_call-for-action {
+    padding:71px 0;
+  }
+
+  .c_call-for-action--line {
+    border-bottom: 2px solid var(--bg-gray);
+    border-right:none;
+  }
+
+  .c_call-for-action p {
+    margin:20px 0 31px;
+}
+
+.c_call-for-action__box-icon {
+  margin: 0px auto 56px;
+}
+
+
+
+
