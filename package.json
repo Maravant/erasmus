@@ -7,6 +7,10 @@
   "engines": {
     "node": ">=4.0"
   },
+  "browserslist": [
+    "last 3 versions",
+    "iOS > 8"
+  ],
   "private": true,
   "dependencies": {
     "autoprefixer": "^6.7.6",

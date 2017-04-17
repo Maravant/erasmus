@@ -106,6 +106,13 @@
   }
 }
 
+@media (max-width: 400px) {
+  .c_item {
+    width: calc((100%) - calc(var(--main-layout-gap) * 2));
+    margin-bottom: 6vw;
+  }
+}
+
 
 @media (max-width: 600px) {
 /*  .c_item {

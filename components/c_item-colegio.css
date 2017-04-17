@@ -55,6 +55,16 @@
   line-height: 32px;
 }
 
+@media (max-width: 400px) {
+  .c_item-colegio--one {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .c_item-colegio__li {
+    flex: 1 0 50%;
+  }
+}
 
 @media (max-width: 600px) {
   .c_item-colegio {
