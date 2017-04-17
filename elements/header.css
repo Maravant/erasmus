@@ -221,17 +221,20 @@ body.menu--opened {
 .header__menubutton {
   display: none;
   align-items: center;
-  margin-left: var(--main-layout-gap);
-}
-
-.header__loginbutton {
-  margin-left: 0;
 }
 
 @media (max-width: 600px) {
   .header__loginbutton,
   .header__menubutton {
     display: flex;
+  }
+
+  .header__menubutton {
+    margin-left: var(--main-layout-gap);
+  }
+
+  .header__loginbutton {
+    margin-right: var(--main-layout-gap);
   }
 
   .header__userbox-profile {

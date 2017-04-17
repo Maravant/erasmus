@@ -15,6 +15,7 @@
   box-sizing: border-box;
   white-space: nowrap;
   padding:6px;
+  appearance: none;
 }
 
 .button.button--dark {
@@ -81,7 +82,8 @@
 
   .button--ghost {
     display: block;
-    height: 74px;
+    height: 64px;
+    line-height: 64px;
     transform: rotate(-180deg);
   }
 

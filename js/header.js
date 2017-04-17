@@ -19,22 +19,22 @@
   });
 
   window.MAIN_APP.push(function initMenuForMobile() {
-    var header = document.querySelector('.header');
-    var menuButton = document.querySelector('.header__menubutton');
-    var menu = document.querySelector('.header__menu');
-    var menuList = document.querySelector('.header__menulist');
+    var header = $('.header');
+    var menuButton = $('.header__menubutton');
+    var menu = $('.header__menu');
+    var menuList = $('.header__menulist');
 
-    menuButton.addEventListener('click', function(e) {
+    menuButton.on('click', function(e) {
       e.preventDefault();
 
-      if (header.classList.contains('header--opened')) {
+      if (header.hasClass('header--opened')) {
         menu.prepend(menuList);
-        header.classList.remove('header--opened');
-        document.body.classList.remove('menu--opened')
+        header.removeClass('header--opened');
+        $('body').removeClass('menu--opened')
       } else {
         header.prepend(menuList);
-        header.classList.add('header--opened');
-        document.body.classList.add('menu--opened')
+        header.addClass('header--opened');
+        $('body').addClass('menu--opened')
         window.scrollTo(0, 0);
       }
 

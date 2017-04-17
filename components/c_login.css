@@ -176,7 +176,7 @@ body.login--opened .c_login__title {
   font-size:0.9rem;
   font-weight: normal;
   line-height: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   white-space: normal;
   flex-flow: flex-end;
   width:40%;

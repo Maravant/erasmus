@@ -121,7 +121,7 @@
   }*/
 
   .c_item__image {
-    height: 120px;
+    height: 180px;
   }
 
   .c_item__button {
@@ -135,7 +135,7 @@
    }
 
    .c_item__content {
-    top:40px;
+    top:100px;
    }
 
    .c_item__image__paragraph  {
