@@ -118,3 +118,19 @@ h3.c_hero-search__mobile__wrapper__subtitle {
     display: none;
   }
 }
+
+@media (max-width: 320px) {
+  h3.c_hero-search__mobile__wrapper__title {
+    white-space: nowrap;
+    padding:0 10px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+  }
+
+  .c_hero-corporative__subtitle {
+    line-height: 0;
+  }
+}
+
+
+

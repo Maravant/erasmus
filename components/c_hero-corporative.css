@@ -91,6 +91,7 @@
 
   .c_hero-corporative__subtitle {
     text-align: center;
+
   }
 
   .c_hero-corporative__image {
@@ -101,7 +102,19 @@
     margin-top: 12px;
   }
 
-
-
-
 }
+
+@media (max-width: 320px) {
+  .c_hero-corporative__subtitle {
+    white-space: nowrap;
+  }
+
+  .c_hero-corporative__box__icon {
+    margin-right:5px;
+  }
+
+  .c_hero-corporative__box {
+    margin-right:5px;
+  }
+}
+
