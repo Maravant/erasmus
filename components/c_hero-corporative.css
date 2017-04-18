@@ -108,13 +108,8 @@
   .c_hero-corporative__subtitle {
     white-space: nowrap;
   }
-
-  .c_hero-corporative__box__icon {
-    margin-right:5px;
-  }
-
   .c_hero-corporative__box {
-    margin-right:5px;
+    margin-right:1px;
   }
 }
 
