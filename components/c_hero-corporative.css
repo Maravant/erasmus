@@ -22,6 +22,10 @@
   margin-top: 16px;
 }
 
+.c_hero-corporative__subtitle2 {
+  white-space:nowrap;
+}
+
 .c_hero-corporative__box__icon {
   text-align:center;
   height: 258px;
@@ -107,9 +111,6 @@
 @media (max-width: 320px) {
   .c_hero-corporative__subtitle {
     white-space: nowrap;
-  }
-  .c_hero-corporative__box {
-    margin-right:1px;
   }
 }
 
