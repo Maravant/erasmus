@@ -228,3 +228,16 @@ select:focus {
   opacity: 0;
 }
 
+input.input-line {
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom:2px solid var(--bg-gray);
+  text-transform: uppercase;
+  font-size:1rem;
+  font-family:var(--font-family-heading);
+  letter-spacing: 2px;
+  padding-bottom:12px;
+  font-weight: lighter;
+}
+
