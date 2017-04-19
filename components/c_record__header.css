@@ -1,6 +1,5 @@
 .c_record__header {
   padding:48px 0 43px;
-
 }
 
 .c_record-assitant-icon {
@@ -15,27 +14,5 @@
   text-align:center;
   letter-spacing: 2.8px;
   font-family:var(--font-family-heading);
-}
-
-.c_record__personal-form__wrap1,
-.c_record__personal-form__wrap2,
-.c_record__personal-form__wrap3,
-.c_record__personal-form__wrap4 {
-  display:flex;
-  justify-content: space-between;
-}
-
-.c_record__personal-form__wrap1 {
-  padding:89px 0 35px;
-}
-
-.c_record__personal-form__wrap2,
-.c_record__personal-form__wrap3,
-.c_record__personal-form__wrap4 {
-  padding:35px 0;
-}
-
-.c_record__personal-form__box {
-  display:flex;
 }
 
