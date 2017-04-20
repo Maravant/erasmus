@@ -228,7 +228,7 @@ select:focus {
   opacity: 0;
 }
 
-input.input-line {
+.input-line {
   border-top:none;
   border-right:none;
   border-left:none;

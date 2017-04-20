@@ -1,22 +1,24 @@
-.c_record__personal-form__wrap1,
-.c_record__personal-form__wrap2,
-.c_record__personal-form__wrap3,
-.c_record__personal-form__wrap4 {
+.c_record-personal__form__wrap1,
+.c_record-personal__form__wrap2,
+.c_record-personal__form__wrap3,
+.c_record-personal__form__wrap4 {
   display:flex;
   justify-content: space-between;
+  border-bottom:2px solid var(--bg-white);
+  background:var(--bg-gray);
 }
 
-.c_record__personal-form__wrap1 {
+.c_record-personal__form__wrap1 {
   padding:89px 0 35px;
 }
 
-.c_record__personal-form__wrap2,
-.c_record__personal-form__wrap3,
-.c_record__personal-form__wrap4 {
+.c_record-personal__form__wrap2,
+.c_record-personal__form__wrap3,
+.c_record-personal__form__wrap4 {
   padding:35px 0;
 }
 
-.c_record__personal-form__box {
+.c_record-personal__form__box {
   display:flex;
 }
 
