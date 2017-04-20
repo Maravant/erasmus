@@ -55,23 +55,26 @@
   line-height: 32px;
 }
 
-@media (max-width: 400px) {
-  .c_item-colegio--one {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
+@media (max-width: 600px) {
   .c_item-colegio__li {
     flex: 1 0 50%;
+    text-align: center;
   }
-}
 
-@media (max-width: 600px) {
+  .c_item-colegio__label {
+    font-size: 0.7rem;
+    display: block;
+    line-height: 1.4;
+    text-overflow: ellipsis;
+  }
+
   .c_item-colegio {
     margin-top: 85px;
   }
 
   .c_item-colegio--one {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0;
   }
 
@@ -84,13 +87,13 @@
 
   .c_item-colegio__icons {
     display:block;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
     padding-bottom: 0;
     margin-top: 20px;
   }
 
   .c_item-colegio__icon {
-    margin-right: 10px;
+    margin-right: 0;
   }
 }
