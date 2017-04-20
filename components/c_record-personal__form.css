@@ -3,7 +3,7 @@
 .c_record-personal__form__wrap3,
 .c_record-personal__form__wrap4 {
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border-bottom:2px solid var(--bg-white);
   background:var(--bg-gray);
 }
@@ -17,5 +17,11 @@
 .c_record-personal__form__wrap4 {
   padding:35px 0;
 }
+
+.c_record-personal__form__box {
+  display:flex;
+}
+
+
 
 

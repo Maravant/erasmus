@@ -1,0 +1,23 @@
+.c_record-contact__wrap1,
+.c_record-contact__wrap2,
+.c_record-contact__wrap3 {
+  display:flex;
+  justify-content: space-around;
+  border-bottom:2px solid var(--bg-white);
+  background:var(--bg-gray);
+}
+
+.c_record-contact__wrap1 {
+  padding-top:88px;
+  padding-bottom:33px;
+}
+
+.c_record-contact__wrap2 {
+  padding-top:49px;
+  padding-bottom:33px;
+}
+
+.c_record-contact__wrap3 {
+  padding-top:49px;
+  padding-bottom:94px;
+}
