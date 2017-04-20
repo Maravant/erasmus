@@ -1,0 +1,11 @@
+.c_record-languages__form__box1 {
+  display:flex;
+  justify-content: space-around;
+  margin-top:96px;
+}
+
+.c_record-languages__form__box2 {
+  display:flex;
+  justify-content: space-around;
+  margin-bottom:96px;
+}
