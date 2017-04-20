@@ -1,0 +1,26 @@
+.c_record-availabiliy__wrap {
+  display:flex;
+  justify-content: space-around;
+  padding-bottom:96px;
+  background:var(--bg-gray);
+}
+
+.c_record-availabiliy__wrap1 {
+  border-bottom:2px solid var(--bg-white);
+}
+
+.c_record-availabity__box {
+  display:flex;
+}
+
+.c_record_availability__paragraph {
+  text-align:center;
+  padding:68px 0;
+  text-transform: uppercase;
+  font-family:var(--font-family-heading);
+  letter-spacing: 2px;
+  font-size: 0.87rem;
+  background:var(--bg-gray);
+}
+
+
