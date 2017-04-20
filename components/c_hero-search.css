@@ -130,7 +130,6 @@ h3.c_hero-search__wrapper__subtitle {
   }
 
   .c_hero-search__image-intersection__box2 {
-    border-top:2px solid rgba(0,0,0,0.1);
     padding-top:39px;
     margin-top:39px;
   }
@@ -148,6 +147,17 @@ h3.c_hero-search__wrapper__subtitle {
     font-weight:bold;
     line-height: 16px;
     letter-spacing: 2px;
+    margin: -20px 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c_hero-search__link {
+    font-size:0.7rem;
+  }
+
+  .c_hero-search__images {
+    width: 530px;
   }
 }
 
@@ -161,11 +171,3 @@ h3.c_hero-search__wrapper__subtitle {
     display:none;
   }
 }
-
-
-
-
-
-
-
-
