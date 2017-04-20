@@ -1,6 +1,6 @@
 .c_item {
   position:relative;
-  box-shadow: -7px 4px 50px 0 rgba(171,171,173,0.99);
+  box-shadow: 0 28px 70px -30px rgba(171,171,173,0.99);
   border-radius:8px;
   overflow: hidden;
   background-color: var(--bg-white);
@@ -55,7 +55,7 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  box-shadow:1px 14px 50px 6px rgba(19, 156, 219, 0.2);
+  box-shadow: 0 0 50px 6px rgba(19, 156, 219, 0.2);
 }
 
 .c_item__button.button--active {
@@ -134,6 +134,7 @@
   .c_item__button {
     width: 48px;
     height: 48px;
+    box-shadow: 0 4px 30px 0 rgba(19, 156, 219, 0.2);
   }
 
   .c_item__button__icon {
