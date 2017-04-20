@@ -1,0 +1,19 @@
+.c_record-general-conditions__wrap {
+  text-align:center;
+  background: var(--bg-gray);
+}
+
+
+.c_record-general-conditions__button {
+  margin-top:80px;
+}
+
+.c_record-general-conditions__paragraph {
+  text-align:center;
+  margin:54px auto;
+  width:70%;
+}
+
+.c_record-general-conditions__button__click {
+  margin-bottom:96px;
+}
