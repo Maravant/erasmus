@@ -2,7 +2,7 @@
   padding:48px 0 43px;
 }
 
-.c_record-assitant-icon {
+.c_record__icon {
   margin:0 auto;
   background:red;
   display:block;
@@ -10,7 +10,7 @@
   height:63px;
 }
 
-.c_record-assitant-title {
+.c_record__title {
   text-align:center;
   letter-spacing: 2.8px;
   font-family:var(--font-family-heading);
