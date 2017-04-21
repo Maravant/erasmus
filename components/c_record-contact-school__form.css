@@ -1,0 +1,26 @@
+.c_record-contact-school__form {
+  background:var(--bg-gray);
+}
+
+.c_record-school__wrap {
+  display:flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border-bottom:2px solid var(--bg-white);
+}
+
+.c_record-contact-school__wrap1 {
+  padding:72px 0 32px;
+}
+
+.c_record-contact-school__wrap2,
+.c_record-contact-school__wrap3 {
+  padding:49px 0 35px;
+}
+
+.c_record-contact-school__wrap4 {
+  padding:35px 0 96px
+}
+
+
+

@@ -36,5 +36,7 @@
 @import url(components/c_record-password__form.css);
 @import url(components/c_record-general-conditions__form.css);
 @import url(components/c_record-accept.css);
+@import url(components/c_record-contact-school__form.css);
+@import url(components/c_record-offert-school__form.css);
 @import url(pages/home.css);
 @import url(pages/buscador.css);
