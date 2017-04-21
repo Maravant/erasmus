@@ -54,6 +54,7 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 h3.c_hero-search__mobile__wrapper__title {
@@ -76,6 +77,10 @@ h3.c_hero-search__mobile__wrapper__subtitle {
 
 .c_hero-search__select {
   height:54px;
+}
+
+.c_hero-search__mobile__button {
+  margin-bottom: 25px;
 }
 
 .c_hero-search__mobile__select {

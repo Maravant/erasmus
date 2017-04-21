@@ -17,6 +17,18 @@
       ]
     });
 
+    $('.js-select-country-show-search-button').on('change', function(e) {
+      var cur = $(e.currentTarget);
+      var value = cur.val();
+      var button = cur.closest('form').find('.button');
+
+      if (value) {
+        button.removeAttr('hidden');
+      } else {
+        button.attr('hidden', true);
+      }
+    });
+
   });
 
 }());

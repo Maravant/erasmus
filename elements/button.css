@@ -71,6 +71,10 @@
   display: none;
 }
 
+.button[hidden] {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .button--floating {
     display: block;
