@@ -1,0 +1,349 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"main-layou",
+				"main-layout-width"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"color",
+				"color-primary"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 51.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ruth/Documents/Proyectos/erasmus/registro-colegio.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/elements/registrocolegios.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-contact-school__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/import.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-offert__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record__header.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-accept.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/login.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_login.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/generic/typography.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-general-conditions__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-password__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-personal__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-contact__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-avaibility__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record-languages__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/resultadosauxiliares.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_results-label.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_record__personal__form.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/index.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/pages/buscador.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/elements/icons.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/settings/s_typography.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_hero-how.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/pages/home.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_hero-corporative.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_hero-search-mobile.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_hero-search.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/hero-search-mobile.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/perfil-colegio.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/images/linea-punteada-esquema-movil.svg",
+		"/Users/ruth/Documents/Proyectos/erasmus/images/linea-punteada-esquema.svg",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_call-for-action.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/images/ico-home-colegios-empresas-color.svg",
+		"/Users/ruth/Documents/Proyectos/erasmus/pages/Hero-search-mobile.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_hero-search__mobile.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/elements/button.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/ResultadosColegios.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/elements/forms.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_profile-school.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_profile-content.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_item-colegio.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/registrate.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_buscador.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_register.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/js/c_register.js",
+		"/Users/ruth/Documents/Proyectos/erasmus/miperfil.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_results-sort.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_item.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_item-auxiliar.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/elements/header.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/elements/footer.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_galeria.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_profile-school__content.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/settings/s_layout.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/resultadosauxiliar.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/resultadoscolegios.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/.gitignore",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/perfil-colegio.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/perfil.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_buscador-colegio.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/miperfil.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_buscador-auxiliar.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_container-icons.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_results-messages.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/components/c_load-more.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/contenedor-iconos.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/contenedor-iconos.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/style.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/buscador.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/colors.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/home.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/buscador.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/home.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/footer.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/typography.css",
+		"/Users/ruth/Documents/Proyectos/erasmus/guide.html",
+		"/Users/ruth/Documents/Proyectos/erasmus/forms.css",
+		"/Users/ruth/Documents/hola.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"240",
+			"260",
+			"<p>",
+			"\n",
+			"flex-",
+			"/*",
+			"c_profile-school__box3",
+			"c_profile-school__li",
+			"item",
+			"c_item-colegio__icon c_profile-school--answer",
+			".c_item-colegio__icon",
+			"134",
+			".c_profile-school__button",
+			"button--floating",
+			"formobile",
+			"c_buscador_button",
+			"c_register--option",
+			"c_register--option--selected",
+			"70px",
+			"c_item-colegio__label",
+			"sss",
+			"30%",
+			";\n",
+			"container-icons",
+			"container__icons",
+			"42px",
+			"item__footer",
+			"c_item__content--",
+			"c_item-colegio__icon--selected icon--reloj",
+			"c_item-colegio__icon icon ",
+			"__content",
+			"content",
+			"item__box",
+			"container__icons__icon ",
+			"icon ",
+			"fa fa-sign-language",
+			"fa fa-car",
+			"fa fa-cutlery",
+			"fa fa-home",
+			"fa fa-usd",
+			"fa fa-times",
+			"container__icons__icon fa f",
+			"fa fa-hourglass-end",
+			"fa fa-tachometer",
+			"item",
+			"resultats-quantity",
+			"resultats-filtered",
+			"resultats-filtered ",
+			"resultats-filtered",
+			"</div>",
+			"box-sh",
+			"--",
+			"resultats-filtered__a",
+			"h6",
+			"linguístico",
+			"wrap-how-it-works__box p",
+			"wrap-how-it-works__",
+			"footer__logo-title",
+			"--text-color-primary",
+			"text-color-primary",
+			"wrap-search__image",
+			"</a>",
+			"<a>",
+			"<div class=\"call-of-action__button\">",
+			"container",
+			"call",
+			"container",
+			"class=\"",
+			"class=\"footer-social-media__",
+			"before",
+			"<a ",
+			"<a>",
+			"30px",
+			"ra",
+			"h3",
+			">",
+			"<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "registro-colegio.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
