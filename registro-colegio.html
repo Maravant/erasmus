@@ -55,12 +55,13 @@
   <section class="c_record-contact-school__form">
   <h1 class="c_record-contact-school__main-title main-title">Datos de contacto</h1>
     <div class="c_record-school__wrap c_record-contact-school__wrap1">
-      <label class="c_record-contact-school__span">Institución</label>
+      <label class="c_record-contact-school__span">Institución
       <div class="c_record-contact-school__button button button--selected">Colegio</div>
       <div class="c_record-contact-school__button button button--selected">Academias</div>
       <div class="c_record-contact-school__button button button--selected">Otros</div>
+     </label>
       <label class="c_record_personal__form__label">Nombre
-          <input class="c_record-personal__form__name input-line" name="name" type="text" placeholder="Nombre" required/>
+        <input class="c_record-personal__form__name input-line" name="name" type="text" placeholder="Nombre" required/>
       </label>
     </div>
     <div class="c_record-school__wrap c_record-contact-school__wrap2">
@@ -75,16 +76,16 @@
       <label class="c_record_contact-school__label">Localización
         <input class="c_record-contact-school__email input-line" name="website" type="text" placeholder="Ciudad, País" required/>
       </label>
-      <label class="c_record_contact__label">Dirección
-        <input class="c_record-contact-school__email input-line" name="direccion" type="text" placeholder="Calle, Ciudad" required/>
+      <label class="c_record_contact-school__label">Dirección
+        <input class="c_record-contact-school__direction input-line" name="direccion" type="text" placeholder="Calle, Ciudad" required/>
       </label>
     </div>
     <div class="c_record-school__wrap c_record-contact-school__wrap4">
       <label class="c_record_contact-school__label">Dirección postal
-        <input class="c_record-contact-school__email input-line" name="direccion postal" type="number" placeholder="Ciudad, País" required/>
+        <input class="c_record-contact-school__direction input-line" name="direccion postal" type="number" placeholder="Número" required/>
       </label>
       <label class="c_record-contac-school__label">Foto perfil
-          <input type="file" name="archivo" placeholder="Selecciona archivo"/>
+          <input class="c_record-contac-school__photo input-file" type="file" name="archivo" placeholder="Selecciona archivo"/>
         </label>
     </div>
 
@@ -92,7 +93,7 @@
       <h1 class="c_record-offert-school__title main-title">Descripción oferta</h1>
       <div class="c_record-school__wrap c_record-offert-school__wrap1">
       <label class="c_record-offert-school__label">Número de vacantes
-        <input class="c_record-offert-school__email input-line" name="vacantes" type="number" placeholder="3" required/>
+        <input class="c_record-offert-school__email input-line input-number" name="vacantes" type="number" placeholder="3" required/>
       </label>
       <label class="c_record-offert-school__label">Idiomas solicitados
         <select class="c_record-offert-school__select select-alternativo" name="selecciona lengua">
@@ -127,7 +128,7 @@
         <input class="c_record-school__input-radio input-radio" type="radio" name="ra" value="0"><span>No</span>
       </label>
       <label class="c_record-offert-school__label">Cantidad
-        <input class="c_record-offert-school__email input-line" name="c" type="cantidad" placeholder="1.200" required/>
+        <input class="c_record-offert-school__email input-line input-number" name="c" type="cantidad" placeholder="1.200" required/>
       </label>
       <label class="c_record-offert-school__label">Moneda
         <select class="c_record_offert-school__select select-alternativo" name="hora semana">

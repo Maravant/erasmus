@@ -30,6 +30,13 @@ input[type="password"]::-moz-placeholder {
   color: #aaa;
 }
 
+
+.input-number {
+  background:var(--bg-white);
+  border-bottom:2px solid var(--bg-white);
+  width:80px;
+}
+
 .button-checkbox,
 .input-radio {
   display: inline-block;
@@ -232,12 +239,24 @@ select:focus {
   border-top:none;
   border-right:none;
   border-left:none;
-  border-bottom:2px solid var(--bg-gray);
   text-transform: uppercase;
   font-size:1rem;
   font-family:var(--font-family-heading);
   letter-spacing: 2px;
   padding-bottom:12px;
   font-weight: lighter;
+  background-color:var(--bg-white);
+  border-bottom:2px solid var(--bg-white);
+  margin-left:45px;
+}
+
+.input-file {
+  text-decoration:none;
+  height:48px;
+  border-radius:4px;
+  color:var(--bg-black);
+  background-color:var(--color-text-disabled);
+  width:252px;
+  border:none;
 }
 

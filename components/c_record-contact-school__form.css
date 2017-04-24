@@ -11,6 +11,7 @@
 
 .c_record-contact-school__wrap1 {
   padding:72px 0 32px;
+  flex:1;
 }
 
 .c_record-contact-school__wrap2,
@@ -25,6 +26,18 @@
 .c_record-contact-school__wrap4 {
   border-bottom:none;
 }
+
+.c_record-school__wrap input.input-line {
+  background:var(--bg-gray);
+  border-bottom:2px solid white;
+  width:252px;
+}
+
+.c_record-school__wrap input.input-number {
+  width:80px;
+}
+
+
 
 
 
