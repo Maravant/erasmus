@@ -41,6 +41,7 @@
   background-image: url(../images/ico_colegios-empresas.svg);
 }
 
+.icon--cancel,
 .icon--no {
   background-image: url(../images/ico_aspa.svg);
 }
@@ -62,6 +63,7 @@
   background-image: url(../images/ico_check.svg);
 }
 
+.icon--cancel,
 .icon--check {
   filter: brightness(0);
 }

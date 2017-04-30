@@ -46,4 +46,9 @@
   .container-results {
     padding:18px 0 8px;
   }
+
+  .container-results__wrap > :first-child {
+    text-align: center;
+  }
+
 }

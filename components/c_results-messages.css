@@ -9,34 +9,8 @@
   margin-left: 32px;
 }
 
-/*
-.c_results-messages__circle {
-  width:36px;
-  height:36px;
-  padding-left:18px;
-  padding-bottom:12px;
-  background:url(../images/ico-mensajes-notificacion.svg) no-repeat left top;
-  background-size: 100% 100%;
-  line-height:36px;
-  color:var(--bg-white);
-  text-align:center;
-  font-size:0.9rem;
-  font-weight: bold;
-  margin-top:-10px;
-}
-
 @media (max-width: 600px) {
-  .c_results-messages {
-    width: auto;
-    flex: 0 0 54px;
-  }
-
-  .c_results-messages__circle {
-    width: 30px;
-    height: 28px;
-    line-height: 32px;
-    padding-left: 16px;
-    font-size: 0.85rem;
+  .c_results-messages > * {
+    margin-left: 16px;
   }
 }
-*/

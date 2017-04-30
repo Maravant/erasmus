@@ -58,7 +58,6 @@
 @media (max-width: 600px) {
   .c_item-colegio__li {
     flex: 1 0 50%;
-    text-align: center;
   }
 
   .c_item-colegio__label {
