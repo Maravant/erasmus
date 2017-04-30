@@ -16,6 +16,15 @@
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
   justify-content: space-between;
+  text-align: center;
+}
+
+.container-results__wrap > :first-child {
+  text-align: left;
+}
+
+.container-results__wrap > :last-child {
+  text-align: right;
 }
 
 .container-items {

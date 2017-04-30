@@ -11,11 +11,20 @@
   text-decoration:none;
   font-weight:bold;
   display:inline-block;
-  cursor: pointer;
   box-sizing: border-box;
   white-space: nowrap;
   padding:6px;
+  cursor: pointer;
   appearance: none;
+  position: relative;
+}
+
+.button[disabled] {
+  border-color: white;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+  cursor: default;
 }
 
 .button.button--dark {
@@ -24,7 +33,7 @@
   background:inherit;
 }
 
-.button:hover {
+.button:not([disabled]):hover {
   background: var(--color-primary-hover);
   border-color:var(--color-primary-hover);
 }
@@ -35,26 +44,28 @@
   background: var(--color-primary);
 }
 
-.button--big {
+.button.button--big {
   padding:0 16px;
   line-height: 72px;
 }
 
-.button--transparent {
+.button.button--transparent {
   background-color:transparent;
   border:2px solid var(--bg-white);
   color:var(--color-text-secondary);
 }
 
-.button--selected {
+.button.button--selected {
   background:var(--color-primary);
   color:var(--color-text-primary);
   border:2px solid var(--color-primary);
 }
 
-.button--circle {
+.button.button--circle {
   width: 80px;
   height: 80px;
+  color: var(--color-primary);
+  border: 0;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -62,21 +73,47 @@
   box-shadow: 1px 14px 50px 6px rgba(19, 156, 219, 0.2);
 }
 
-.button--circle.button--big {
+.button.button--circle[disabled] {
+  color: rgba(0, 0, 0, 0.25);
+  background-color: currentColor;
+}
+
+
+.button.button--circle.button--big {
   width: 96px;
   height: 96px;
 }
 
-.button--ghost {
+.button.button--circle.button--small {
+  width: 64px;
+  height: 64px;
+}
+
+.button.button--selectable:before {
+  content: '';
+  display: block;
+  transform-origin: center;
+  transform: scale(1.3);
+  border: 2px dashed;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.button.button--ghost {
   display: none;
 }
 
 .button[hidden] {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 600px) {
-  .button--floating {
+  .button.button--floating {
     display: block;
     position: fixed;
     bottom: 0;
@@ -84,19 +121,19 @@
     z-index: 1;
   }
 
-  .button--ghost {
+  .button.button--ghost {
     display: block;
     height: 64px;
     line-height: 64px;
     transform: rotate(-180deg);
   }
 
-  .button--ghost span {
+  .button.button--ghost span {
     transform: rotate(-180deg);
     display: block;
   }
 
-  body.menu--opened .button--floating {
+  body.menu--opened .button.button--floating {
     transform: translateY(100%);
   }
 }

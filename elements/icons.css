@@ -57,8 +57,13 @@
   background-image: url(../images/ico_casa.svg);
 }
 
+.icon--check,
 .icon--yes {
   background-image: url(../images/ico_check.svg);
+}
+
+.icon--check {
+  filter: brightness(0);
 }
 
 .icon--coche {

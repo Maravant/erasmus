@@ -315,15 +315,19 @@
       <section>
         <aside>
           <h3>Simples</h3>
-          Botones simples con clase <code>button</code>.
+          Botones simples con clase <code>button</code>. Acepta enlaces, botones e inputs del tipo submit.
         </aside>
 
         <section>
           <a href="#" class="button">Simple</a>
           <button class="button">Enviar</button>
+          <input type="submit" class="button" value="Aceptar">
+          <button class="button" disabled>Deshabilitado</button>
 <pre>
 &lt;a href="#" class="button"&gt;Simple&lt;/a&gt;
 &lt;button class="button"&gt;Enviar&lt;/button&gt;
+&lt;input type="submit" class="button" value="Aceptar"&gt;
+&lt;button class="button" disabled&gt;Deshabilitado&lt;/button&gt;
 </pre>
         </section>
       </section>
@@ -331,18 +335,68 @@
       <section>
         <aside>
           <h3>Claros</h3>
-          Botones en fondo oscuro con clase <code>button--dark</code>.
+          Botones en fondo oscuro con clase <code>button--dark</code> y <code>button--transparent</code>.
         </aside>
 
         <section>
-          <a href="#" class="button button--dark">Redondo</a>
-          <button class="button button--dark">Enviar</button>
+          <a href="#" class="button button--dark">Simple</a>
+          <button class="button button--transparent">Aceptar</button>
 <pre>
 &lt;a href="#" class="button button--dark"&gt;Simple&lt;/a&gt;
-&lt;button class="button button--dark"&gt;Enviar&lt;/button&gt;
+&lt;button class="button button--transparent"&gt;Aceptar&lt;/button&gt;
 </pre>
         </section>
       </section>
+
+
+
+      <section>
+        <aside>
+          <h3>Tamaños</h3>
+          Diferentes tamaños de botones <code>button--big</code> y <code>button--small</code>.
+        </aside>
+
+        <section>
+          <a href="#" class="button button--big">Simple</a>
+          <a href="#" class="button button--small">Enviar</a>
+<pre>
+&lt;a href="#" class="button button--big"&gt;Simple&lt;/a&gt;
+&lt;a href="#" class="button button--small"&gt;Enviar&lt;/a&gt;
+</pre>
+        </section>
+      </section>
+
+
+      <section>
+        <aside>
+          <h3>Formas</h3>
+          Botones redondos con <code>button--circle</code>.
+        </aside>
+
+        <section>
+          <a style="margin: 30px; display: inline-flex;" href="#" class="button button--circle button--big">
+            <i class="icon icon--small icon--colegios" aria-hidden="true"></i>
+          </a>
+
+          <a style="margin: 30px; display: inline-flex;" href="#" class="button button--circle">
+            <i class="icon icon--small icon--pointer" aria-hidden="true"></i>
+          </a>
+<pre>
+&lt;a href="#" class="button button--circle button--big"&gt;
+  &lt;i class="icon icon--small icon--colegios" aria-hidden="true"&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+&lt;a href="#" class="button button--circle"&gt;
+  &lt;i class="icon icon--small icon--pointer" aria-hidden="true"&gt;&lt;/i&gt;
+&lt;/a&gt;
+</pre>
+        </section>
+      </section>
+
+
+
+
+
     </article>
 
     <article id="forms">

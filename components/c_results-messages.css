@@ -3,17 +3,13 @@
   display:flex;
   flex:1 0 auto;
   width: 33%;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
 }
 
-.c_results-messages.button--visible {
-  visibility: visible;
-  opacity: 1;
-  pointer-events: auto;
+.c_results-messages > * {
+  margin-left: 32px;
 }
 
+/*
 .c_results-messages__circle {
   width:36px;
   height:36px;
@@ -43,3 +39,4 @@
     font-size: 0.85rem;
   }
 }
+*/
