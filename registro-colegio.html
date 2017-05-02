@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>Erasmus In School</title>
@@ -47,164 +47,263 @@
 
   <section class="container-record-school">
   <div class="c_record__header">
-    <div class="c_record__icon icon--home-auxiliares" zzaria-hidden="true"></div>
+    <div class="c_record__icon icon icon--home-colegios-color" aria-hidden="true"></div>
     <h3 class="c_record__title">Registro como colegio</h3>
   </div>
   </section>
 
-  <section class="c_record-contact-school__form">
-  <h1 class="c_record-contact-school__main-title main-title">Datos de contacto</h1>
-    <div class="c_record-school__wrap c_record-contact-school__wrap1">
-      <label class="c_record-contact-school__span">Institución
-      <div class="c_record-contact-school__button button button--selected">Colegio</div>
-      <div class="c_record-contact-school__button button button--selected">Academias</div>
-      <div class="c_record-contact-school__button button button--selected">Otros</div>
-     </label>
-      <label class="c_record_personal__form__label">Nombre
-        <input class="c_record-personal__form__name input-line" name="name" type="text" placeholder="Nombre" required/>
-      </label>
-    </div>
-    <div class="c_record-school__wrap c_record-contact-school__wrap2">
-      <label class="c_record-contact-school__label">Website
-        <input class="c_record-contact-school__email input-line" name="website" type="text" placeholder="www.website.com" required/>
-      </label>
-      <label class="c_record_contact-school__label">E-mail
-        <input class="c_record-contact-school__email input-line" name="email" type="text" placeholder="Email" required/>
-      </label>
-    </div>
-    <div class="c_record-school__wrap c_record-contact-school__wrap3">
-      <label class="c_record_contact-school__label">Localización
-        <input class="c_record-contact-school__email input-line" name="website" type="text" placeholder="Ciudad, País" required/>
-      </label>
-      <label class="c_record_contact-school__label">Dirección
-        <input class="c_record-contact-school__direction input-line" name="direccion" type="text" placeholder="Calle, Ciudad" required/>
-      </label>
-    </div>
-    <div class="c_record-school__wrap c_record-contact-school__wrap4">
-      <label class="c_record_contact-school__label">Dirección postal
-        <input class="c_record-contact-school__direction input-line" name="direccion postal" type="number" placeholder="Número" required/>
-      </label>
-      <label class="c_record-contac-school__label">Foto perfil
-          <input class="c_record-contac-school__photo input-file" type="file" name="archivo" placeholder="Selecciona archivo"/>
+  <section class="c_register-form__section">
+    <h1 class="main-title">Datos de contacto</h1>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label" for="x">
+        <span>Institución</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="institucion" value="colegio" checked><span>Colegio</span>
         </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="institucion" value="academia"><span>Academia</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="institucion" value="otros"><span>Otro</span>
+        </label>
+      </label>
+
+      <label class="c_register-form__label">
+        <span>Nombre</span>
+        <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
+      </label>
     </div>
 
-    <section class="c_record-offert-school__form">
-      <h1 class="c_record-offert-school__title main-title">Descripción oferta</h1>
-      <div class="c_record-school__wrap c_record-offert-school__wrap1">
-      <label class="c_record-offert-school__label">Número de vacantes
-        <input class="c_record-offert-school__email input-line input-number" name="vacantes" type="number" placeholder="3" required/>
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label">
+        <span>Website</span>
+        <input class="input input--white" name="website" type="text" placeholder="www.website.com" required/>
       </label>
-      <label class="c_record-offert-school__label">Idiomas solicitados
-        <select class="c_record-offert-school__select select-alternativo" name="selecciona lengua">
-        </select>
-      </label>
-      </div>
-      <div class="c_record-school__wrap c_record-offert-school__wrap2">
-        <label class="c_record-offert-school__label">Fecha de inicio
-          <select class="c_record_offert-school__select select-alternativo" name="duración">
-          </select>
-        </label>
-        <label class="c_record-offert-school__label">Duración
-          <select class="c_record_offert-school__select select-alternativo" name="duración">
-        </select>
-        </label>
-      </div>
-      <div class="c_record-school__wrap c_record-offert-school__wrap3">
-        <label class="c_record-offert-school__label">Hora/Semana
-          <select class="c_record_offert-school__select select-alternativo" name="hora semana">
-        </select>
-        </label>
-      </div>
-    </section>
 
-
-
-  <section class="c_record-what-we-offert-school__form">
-    <h1 class="c_record-what-we-offert-school__title main-title">Qué ofrecemos</h1>
-    <div class="c_record-school__wrap c_record-what-we-offert-school__wrap1">
-      <label class="c_record-school__label input-radio"> Compensación económica
-        <input class="c_record-school__input-radio input-radio" type="radio" name="ra" value="1" checked><span>Sí</span>
-        <input class="c_record-school__input-radio input-radio" type="radio" name="ra" value="0"><span>No</span>
-      </label>
-      <label class="c_record-offert-school__label">Cantidad
-        <input class="c_record-offert-school__email input-line input-number" name="c" type="cantidad" placeholder="1.200" required/>
-      </label>
-      <label class="c_record-offert-school__label">Moneda
-        <select class="c_record_offert-school__select select-alternativo" name="hora semana">
-        </select>
+      <label class="c_register-form__label">
+        <span>E-mail</span>
+        <input class="input--white" name="email" type="text" placeholder="Email" required/>
       </label>
     </div>
-    <div class="c_record-school__wrap c_record-what-we-offert-school__wrap2">
-      <label class="c_record-school__label input-radio"> Alojamiento
-        <input class="c_record-school__input-radio input-radio" type="radio" name="ra" value="1" checked><span>Sí</span>
-        <input class="c_record-school__input-radio input-radio" type="radio" name="ra" value="0"><span>No</span>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label">
+        <span>Localización</span>
+        <input class="input--white" name="website" type="text" placeholder="Ciudad, País" required/>
       </label>
-      <label class="c_record-school__label input-radio"> Comida
-        <input class="c_record-school__label input-radio" type="radio" name="ra" value="1" checked><span>Sí</span>
-        <input class="c_record-school__label input-radio" type="radio" name="ra" value="0"><span>No</span>
-      </label>
-      <label class="c_record-school__label input-radio"> Transporte
-        <input class="c_record-school__label input-radio" type="radio" name="ra" value="1" checked><span>Sí</span>
-        <input class="c_record-school__label input-radio" type="radio" name="ra" value="0"><span>No</span>
+
+      <label class="c_register-form__label">
+        <span>Dirección</span>
+        <input class="input--white" name="direccion" type="text" placeholder="Calle, Número" required/>
       </label>
     </div>
-    <div class="c_record-school__wrap c_record-what-we-offert-school__wrap3">
-      <label class="c_record-school__label input-radio">Tandem lingüístico
-        <input class="c_record-school__input-radio input-radio" type="radio" name="ra" value="1" checked><span>Sí</span>
-        <input class="c_record-school__input-radio input-radio" type="radio" name="ra" value="0"><span>No</span>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label">
+        <span>Código postal</span>
+        <input class="input input--tel input--white" name="direccion postal" type="tel" placeholder="Número" required/>
       </label>
-      <label class="c_record-offert-school__label">Hora/Semana
-        <input class="c_record-offert-school__email input-line" name="c" type="number" placeholder="" required/>
+      <label class="c_register-form__label">
+        <span>Foto perfil</span>
+        <input class="input-file" type="file" name="archivo" placeholder="Selecciona archivo"/>
       </label>
     </div>
   </section>
 
-  <section class="c_record-explanation-school__form">
-  <h1 class="c_record-explanation-school__title main-title">Texto explicativo</h1>
-    <div class="c_record-school__wrap c_record-explanation-school__wrap1">
-      <label class="c_record-school__label">Nombre</label>
-        <textarea class="c-record-school__textarea" name="nombre" rows="2" cols="40"></textarea>
+  <section class="c_register-form__section">
+    <h1 class="main-title">Descripción oferta</h1>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label">
+        <span>Número de vacantes</span>
+        <input class="input input--tel input--white input-number" name="vacantes" type="tel" placeholder="3" required/>
+      </label>
+
+      <label class="c_register-form__label">
+        <span>Idiomas solicitados</span>
+        <select class="select-alternativo" name="Lengua">
+          <option value="">Selecciona lengua</option>
+        </select>
+      </label>
     </div>
-    <div class="c_record-school__wrap c_record-explanation-school__wrap2">
-      <label class="c_record-school__label">qué ofrecemos</label>
-        <textarea class="c-record-school__textarea" name="nombre" rows="10" cols="40"></textarea>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label">
+        <span>Fecha de inicio</span>
+        <select class="select-alternativo" name="duración">
+          <option value="">Selecciona fecha <i class="icon icon--small icon--calendario" aria-hidden="true"></i></option>
+        </select>
+      </label>
+
+      <label class="c_register-form__label">
+        <span>Duración</span>
+        <select class="select-alternativo" name="duración">
+          <option value="">Duración</option>
+        </select>
+      </label>
     </div>
-    <div class="c_record-school__wrap c_record-explanation-school__wrap3">
-      <label class="c_record-school__label">Tareas auxiliares</label>
-        <textarea class="c-record-school__textarea" name="nombre" rows="10" cols="40"></textarea>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label">
+        <span>Hora/Semana</span>
+        <select class="select-alternativo" name="hora semana">
+          <option value="">Hora/Semana</option>
+        </select>
+      </label>
     </div>
   </section>
 
-  <section class="c_record-general-conditions__form">
-    <div class="c_record-general-conditions__title main-title">Condiciones generales</div>
-    <div class="c_record-general-conditions__wrap">
-      <a href="" class="c_record-general-conditions__button button button:hover">Leer condiciones</a>
-      <p class="c_record-general-conditions__paragraph">He leído y acepto las
-      condicones de contratación,condiciones de uso de la plataforma, política de protección
-      de datos y definición sobre qué es un auxiliar de conversación.</p>
-      <a href="" class="c_record-general-conditions__button__click button button:hover">sí, he leído y acepto las condicones</a>
+
+
+  <section class="c_register-form__section">
+    <h1 class="main-title">Qué ofrecemos</h1>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label" for="x">
+        <span>Compensación económica</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="compensacion" value="si" checked><span>Sí</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="compensacion" value="no"><span>No</span>
+        </label>
+      </label>
+
+      <label class="c_register-form__label">
+        <span>Cantidad</span>
+        <input class="input-line input-number" name="c" type="tel" placeholder="1.200" required/>
+      </label>
+
+      <label class="c_register-form__label">
+        <span>Moneda</span>
+        <select class="select-alternativo input--small" name="moneda">
+          <option>Euro</option>
+          <option>Dólar</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label" for="x">
+        <span>Alojamiento</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="alojamiento" value="si" checked><span>Sí</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="alojamiento" value="no"><span>No</span>
+        </label>
+      </label>
+
+      <label class="c_register-form__label" for="x">
+        <span>Comida</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="comida" value="si" checked><span>Sí</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="comida" value="no"><span>No</span>
+        </label>
+      </label>
+
+      <label class="c_register-form__label" for="x">
+        <span>Transporte</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="transporte" value="si" checked><span>Sí</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="transporte" value="no"><span>No</span>
+        </label>
+      </label>
+    </div>
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label" for="x">
+        <span>Tandem lingüístico</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="tandem" value="si" checked><span>Sí</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="tandem" value="no"><span>No</span>
+        </label>
+      </label>
+
+      <label class="c_register-form__label">
+        <span>Hora/Semana</span>
+        <select class="select-alternativo input--small" name="horasemana">
+          <option>15h</option>
+          <option>20h</option>
+        </select>
+      </label>
     </div>
   </section>
 
-  <section class="c_record-accept">
-      <div class="c_record-accept__box__disabled"></div>
-      <div class="c_record-accept__last-title__disabled last-title">Crear perfil</div>
-      <div class="c_record-accept__box-enabled">
-        <div class="c_record-accept__box">
-          <label class="c_record-accept__checked">
-            <input class="c_record-accept__checkbox input-checkbox" type="checkbox"/>
-            <span class="c_record-accept__label">Todos los datos son correctos</span>
-          </label>
+
+
+
+  <section class="c_register-form__section">
+    <h1 class="main-title">Texto explicativo</h1>
+
+    <div class="c_register-form__wrapper c_register-form__textarea-wrapper">
+      <label class="c_register-form__label c_register-form__label--fullscreen">
+        <span>Nombre</span>
+        <textarea name="nombre" rows="2" placeholder=""></textarea>
+      </label>
+    </div>
+
+    <div class="c_register-form__wrapper c_register-form__textarea-wrapper">
+      <label class="c_register-form__label c_register-form__label--fullscreen">
+        <span>Qué ofrecemos</span>
+        <textarea name="nombre" rows="2" placeholder=""></textarea>
+      </label>
+    </div>
+
+    <div class="c_register-form__wrapper c_register-form__textarea-wrapper">
+      <label class="c_register-form__label c_register-form__label--fullscreen">
+        <span>Tareas auxiliares</span>
+        <textarea name="nombre" rows="2" placeholder=""></textarea>
+      </label>
+    </div>
+  </section>
+
+
+
+  <section class="c_register-form__section">
+    <div class="main-title">Condiciones generales</div>
+
+    <div class="c_register-form__wrapper c_register-form__accept-wrapper">
+      <div>
+        <a href="#" class="button">Leer condiciones</a>
+
+        <p>He leído y acepto las
+        condiciones de contratación, condiciones de uso de la plataforma, política de protección
+        de datos y definición sobre qué es un auxiliar de conversación.</p>
+
+        <label class="button-checkbox">
+          <input type="checkbox" name="acceptedconditions" value="1"><span>Sí, he leído y acepto las condicones</span>
+        </label>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <section class="c_register-form__validation-box">
+    <div class="c_register-form__validation-box__alert">
+      <label class="c_register-form__validation-box__alert--success">
+        <i class="icon icon--yes icon--middle" aria-hidden="true"></i>
+        <div class="c_register-form__validation-box__alert__label">
+          Todos los datos son correctos
         </div>
-      </div>
-      <div class="last-title c_record-accept__last-title__enabled">Crear perfil</div>
-    </section>
+      </label>
+    </div>
 
-
-
-
-
+    <input type="submit" class="button button--fullscreen" value="Crear perfil" disabled>
+  </section>
 
 
 

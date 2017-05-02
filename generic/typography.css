@@ -122,8 +122,11 @@ h6 em {
 }
 
 .last-title {
+  border: 0;
   background-color:var(--color-text-primary);
   color:var(--color-primary);
+  box-shadow: none;
+  border-radius: 0;
 }
 
 @font-face{

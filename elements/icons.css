@@ -25,6 +25,10 @@
 
 
 
+.icon--home-colegios-color {
+  background-image: url(../images/ico-home-colegios-empresas-color.svg);
+}
+
 .icon--home-auxiliares {
   background-image: url(../images/ico_home_auxiliares_monocromo.svg);
 }

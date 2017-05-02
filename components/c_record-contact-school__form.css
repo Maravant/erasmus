@@ -1,43 +1,95 @@
-.c_record-contact-school__form {
+.c_register-form__section {
   background:var(--bg-gray);
+  overflow: hidden;
 }
 
-.c_record-school__wrap {
+.c_register-form__section p {
+  text-align:center;
+  margin:54px auto;
+  width:70%;
+}
+
+.c_register-form__wrapper {
   display:flex;
   justify-content: space-around;
   box-sizing: border-box;
+  max-width: var(--main-layout-width);
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
+  margin: 85px auto 65px;
+}
+
+.c_register-form__wrapper ~ .c_register-form__wrapper {
+  margin-top: 65px;
+}
+
+.c_register-form__wrapper:not(:last-child) {
   border-bottom:2px solid var(--bg-white);
+  padding-bottom: 65px;
 }
 
-.c_record-contact-school__wrap1 {
-  padding:72px 0 32px;
+.c_register-form__label {
   flex:1;
+  line-height: 1.1;
 }
 
-.c_record-contact-school__wrap2,
-.c_record-contact-school__wrap3 {
-  padding:49px 0 35px;
+.c_register-form__label > span {
+  display:inline-block;
+  margin-right:40px;
+  text-align: right;
+  width:39%;
 }
 
-.c_record-contact-school__wrap4 {
-  padding:35px 0 96px
+.c_register-form__label .select-alternativo:not(.input--small) {
+  min-width:252px;
+  margin-left: 16px;
 }
 
-.c_record-contact-school__wrap4 {
-  border-bottom:none;
+.c_register-form__label textarea {
+  min-width:auto;
+  flex: 1;
+  margin-left: 16px;
 }
 
-.c_record-school__wrap input.input-line {
-  background:var(--bg-gray);
-  border-bottom:2px solid white;
-  width:252px;
+.c_register-form__label--fullscreen {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.c_record-school__wrap input.input-number {
-  width:80px;
+.c_register-form__label--fullscreen  > span {
+  width: 20%;
+  margin-top: 25px;
 }
 
+.c_register-form__wrapper.c_register-form__textarea-wrapper {
+  border:0;
+  padding-bottom: 0;
+}
 
+.c_register-form__accept-wrapper {
+  text-align: center;
+}
 
+.c_register-form__validation-box__alert {
+  width:100%;
+  height:200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.c_register-form__validation-box__alert__label {
+  margin-top: 20px;
+}
 
+.c_register-form__validation-box__alert .c_register-form__validation-box__alert--success {
+  opacity: 0;
+  transition: opacity 233ms;
+  will-change: opacity;
+}
+
+.c_register-form__validation-box__alert.correct .c_register-form__validation-box__alert--success {
+  opacity: 1;
+}

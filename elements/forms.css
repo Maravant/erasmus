@@ -1,15 +1,18 @@
 label {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 0.87rem;
   line-height: 2.5;
+  letter-spacing: 2px;
   text-transform: uppercase;
   display: block;
 }
 
+label input[type="tel"],
 label input[type="text"] {
   margin-left: 16px;
 }
 
+input[type="tel"],
 input[type="text"],
 input[type="password"] {
   min-width: 280px;
@@ -25,16 +28,36 @@ input[type="password"] {
   border-bottom: 2px solid var(--color-primary);
 }
 
+textarea {
+  font-family: inherit;
+  letter-spacing: inherit;
+  color: var(--color-primary);
+  border: 0;
+  outline: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: normal;
+  background-color: transparent;
+  min-width: 400px;
+  line-height: 64px;
+  background-image: linear-gradient(transparent 62px, white 2px);
+  background-size: 50px 64px;
+  resize: none;
+}
+
 input[type="text"]::-moz-placeholder,
 input[type="password"]::-moz-placeholder {
   color: #aaa;
 }
 
+input[type="tel"] {
+  min-width:80px;
+  width: 80px;
+}
 
-.input-number {
-  background:var(--bg-white);
+input.input--white {
+  background: transparent;
   border-bottom:2px solid var(--bg-white);
-  width:80px;
 }
 
 .button-checkbox,
@@ -68,8 +91,8 @@ input[type="password"]::-moz-placeholder {
   user-select: none;
   box-sizing: border-box;
   border-radius: 3px;
-  background-color: white;
-  border: 2px solid rgba(0,0,0,0.05);
+  background-color: transparent;
+  border: 2px solid white;
 }
 
 @media (min-width: 600px) {
@@ -85,6 +108,16 @@ label > .input-radio {
   margin-left: 16px;
   margin-right: 0;
 }
+
+.input-radio.input--small input[type] + span {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+label > .input-radio.input--small {
+  margin-left: 10px;
+}
+
 
 .button-checkbox input[type] + span:hover,
 .input-radio input[type] + span:hover {
@@ -130,6 +163,10 @@ select::-ms-expand {
 
 select:focus {
   border-color: var(--color-primary);
+}
+
+select.input--small {
+  min-width: 180px;
 }
 
 .select-alternativo {
@@ -245,7 +282,7 @@ select:focus {
   letter-spacing: 2px;
   padding-bottom:12px;
   font-weight: lighter;
-  background-color:var(--bg-white);
+  background-color:transparent;
   border-bottom:2px solid var(--bg-white);
   margin-left:45px;
 }
@@ -257,6 +294,5 @@ select:focus {
   color:var(--bg-black);
   background-color:var(--color-text-disabled);
   width:252px;
-  border:none;
 }
 
