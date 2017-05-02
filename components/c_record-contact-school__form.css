@@ -3,6 +3,11 @@
   overflow: hidden;
 }
 
+.c_register-form__section .main-title {
+  box-shadow: none;
+  cursor:default;
+}
+
 .c_register-form__section p {
   text-align:center;
   margin:54px auto;
@@ -83,13 +88,14 @@
 .c_register-form__validation-box__alert__label {
   margin-top: 20px;
 }
-
-.c_register-form__validation-box__alert .c_register-form__validation-box__alert--success {
-  opacity: 0;
-  transition: opacity 233ms;
-  will-change: opacity;
+.c_register-form__validation-box__alert .c_register-form__validation-box__alert--required,
+.c_register-form__validation-box__alert .c_register-form__validation-box__alert--success,
+.c_register-form__validation-box__alert .c_register-form__validation-box__alert--error {
+  display:none;
 }
 
-.c_register-form__validation-box__alert.correct .c_register-form__validation-box__alert--success {
-  opacity: 1;
+.c_register-form__validation-box__alert.required .c_register-form__validation-box__alert--required,
+.c_register-form__validation-box__alert.correct .c_register-form__validation-box__alert--success,
+.c_register-form__validation-box__alert.error .c_register-form__validation-box__alert--error  {
+  display:block;
 }

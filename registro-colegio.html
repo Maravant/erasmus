@@ -17,10 +17,14 @@
 <body>
 
 
-<!-- header template -->
+  <!-- header template -->
   <header class="header">
     <div class="header__wrapper">
       <div class="header__wrapper-limit">
+
+        <a href="#" class="header__loginbutton js-open-login-popup">
+          <i class="icon icon--small icon--login" aria-hidden="true"></i>
+        </a>
 
         <a href="index.html" class="header__logo"></a>
 
@@ -36,14 +40,62 @@
           </ul>
         </nav>
 
-        <div class="header__userbox">
-          <img class="header__userbox-avatar" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
-          <h5 class="header__userbox-name">José María</h5>
+        <div class="header__userbox-profile">
+          <a href="registrate.html" class="header__userbox-profile__box">Regístrate</a>
+          <a href="#" class="header__userbox-profile__box js-open-login-popup">Iniciar sesión</a>
         </div>
       </div>
     </div>
   </header>
   <!-- /header template -->
+
+
+
+
+  <section class="c_login js-close-login-popup">
+    <div class="c_login__wrap">
+      <div class="c_login__popup">
+        <div class="c_login__title">
+          Iniciar Sesión
+          <div class="c_login__close js-close-login-popup">
+            <i class="icon icon--small icon--no" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="c_login__popup-wrapper">
+          <a href="" class="c_login__socialmedia1">
+            <i class="c_login__socialmedia1__icon icon icon--small icon--social-facebook" aria-hidden="true"></i>
+            Entrar con facebook
+          </a>
+          <a href="" class="c_login__socialmedia2">
+            <i class="c_login__socialmedia2__icon icon icon--small icon--social-google" aria-hidden="true"></i>
+            Entrar con google
+          </a>
+          <p class="c_login__paragraph">O entra con tu correo</p>
+          <form class="c_login__form">
+            <input class="c_login__email" name="email" type="text" placeholder="Correo electrónico" required/>
+            <input class="c_login__password" name="password" type="password" placeholder="Contraseña" required/>
+            <div class="c_login__box">
+              <label class="c_login__checked input-checkbox">
+                <input class="c_login__checkbox" checked="" type="checkbox" name="rememberme"/>
+                <span class="c_login__label">Recuérdame</span>
+              </label>
+              <a href="" class="c_login__forgetpassword">He olvidado mi contraseña</a>
+            </div>
+            <input class="c_login__submit button" type="submit" placeholder="Entrar" value="Entrar"/>
+          </form>
+          <div class="c_login__register">
+            <p class="c_login__register__paragraph">¿No estás registrado?</p>
+            <a href="registrate.html" class="c_login__register__link">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
 
   <section class="container-record-school">
   <div class="c_record__header">
@@ -279,7 +331,7 @@
         de datos y definición sobre qué es un auxiliar de conversación.</p>
 
         <label class="button-checkbox">
-          <input type="checkbox" name="acceptedconditions" value="1"><span>Sí, he leído y acepto las condicones</span>
+          <input class="js-click-condition" type="checkbox" name="acceptedconditions" value="1"><span>Sí, he leído y acepto las condicones</span>
         </label>
       </div>
     </div>
@@ -300,9 +352,21 @@
           Todos los datos son correctos
         </div>
       </label>
+      <label class="c_register-form__validation-box__alert--error">
+        <i class="icon icon--no icon--middle" aria-hidden="true"></i>
+        <div class="c_register-form__validation-box__alert__label">
+          Debes aceptar las condiciones de uso
+        </div>
+      </label>
+      <label class="c_register-form__validation-box__alert--required">
+        <i class="icon icon--no icon--middle" aria-hidden="true"></i>
+        <div class="c_register-form__validation-box__alert__label">
+          Debes completar correctamente el formulario
+        </div>
+      </label>
     </div>
 
-    <input type="submit" class="button button--fullscreen" value="Crear perfil" disabled>
+    <input type="submit" class="button-submit button button--fullscreen" value="Crear perfil" disabled>
   </section>
 
 
@@ -344,9 +408,41 @@
 
 
 
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/c_questions.js"></script>
+  <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/c_login.js"></script>
+  <script type="text/javascript" src="js/c_register.js"></script>
 
 
 
+  <script>
+  (function() {
+  window.MAIN_APP = window.MAIN_APP || [];
+
+  window.MAIN_APP.push(function initLogin() {
+    $('.js-click-condition').on('click', function(e) {
+      if ($('.js-click-condition').prop('checked')){
+        $('.button-submit').removeAttr('disabled');
+        $('.c_register-form__validation-box__alert').addClass('correct');
+        $('.c_register-form__validation-box__alert').removeClass('error');
+      } else {
+        $('.button-submit').attr('disabled', 'disabled');
+        $('.c_register-form__validation-box__alert').removeClass('correct');
+        $('.c_register-form__validation-box__alert').addClass('error');
+      }
+
+    });
+  });
+
+}());
+
+</script>
+
+<script type="text/javascript" src="js/main.js"></script>
 
 
 
