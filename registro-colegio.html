@@ -96,7 +96,7 @@
 
 
 
-
+  <form method="GET">
   <section class="container-record-school">
   <div class="c_record__header">
     <div class="c_record__icon icon icon--home-colegios-color" aria-hidden="true"></div>
@@ -368,7 +368,7 @@
 
     <input type="submit" class="button-submit button button--fullscreen" value="Crear perfil" disabled>
   </section>
-
+  </form>
 
 
 
@@ -425,6 +425,8 @@
 
   window.MAIN_APP.push(function initLogin() {
     $('.js-click-condition').on('click', function(e) {
+
+
       if ($('.js-click-condition').prop('checked')){
         $('.button-submit').removeAttr('disabled');
         $('.c_register-form__validation-box__alert').addClass('correct');
