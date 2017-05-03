@@ -57,89 +57,94 @@
 
   <section class="c_register-auxiliar__form">
     <h1 class="main-title">Datos personales</h1>
-    <div class="c_register-form__wrapper c_record-personal__form__wrap1">
-      <!--<div class="c_record-personal__form__box">-->
-        <label class="c_register-form__label"><span>Nombre</span>
-          <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
-        </label>
-      <!--</div>-->
-      <!--<div class="c_record-personal__form__box">-->
-        <label class="c_register-form__label"><span>Apellido</span>
-          <input class="input--white" name="surname" type="text" placeholder="Apellidos" required/>
-        </label>
-      <!--</div>-->
+
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label"><span>Nombre</span>
+        <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
+      </label>
+
+      <label class="c_register-form__label"><span>Apellido</span>
+        <input class="input--white" name="surname" type="text" placeholder="Apellidos" required/>
+      </label>
     </div>
 
-    <div class="c_register-form__wrapper c_record-personal__form__wrap2">
-      <!--<div class="c_record-personal__form__box">-->
-        <label class="c_register-form__label"><span>Nacimiento</span>
-            <select class=" select-alternativo" name="nacimiento">
-              <option value="">Selecciona fecha</option>
-            </select>
-          </label>
-      <!--</div>-->
-      <div class="c_register-form__label c_record-personal__form__box">
-        <span>Sexo</span>
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label"><span>Nacimiento</span>
+        <select class=" select-alternativo" name="nacimiento">
+          <option value="">Selecciona fecha</option>
+        </select>
+      </label>
+      <label class="c_register-form__label" for="x"><span>Sexo</span>
         <label class="input-radio input--small">
           <input type="radio" name="gender" value="mujer" checked>
-            <span><i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer</span>
+          <span><i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer</span>
         </label>
+
         <label class="input-radio input--small">
           <input type="radio" name="gender" value="hombre">
-            <span><i class="icon icon--small icon--hombre" aria-hidden="true"></i> Hombre</span>
+          <span><i class="icon icon--small icon--hombre" aria-hidden="true"></i> Hombre</span>
         </label>
-      </div>
+      </label>
     </div>
 
-    <div class="c_register-form__wrapper c_record-personal__form__wrap3">
-      <!--<div class="c_record-personal__form__box">-->
-        <label class="c_register-form__label"><span>Nacionalidad</span>
-          <select class="select-alternativo" name="nacionalidad">
-            <option value="">Nacionalidad</option>
-          </select>
-        </label>
-      <!--</div>-->
-      <!--<div class="c_record-personal__form__box">-->
-        <label class="c_register-form__label"><span>Lugar de residencia</span>
-          <input class="input--white" name="lugar de residencia" type="text" placeholder="ciudad, país" required/>
-        </label>
-      <!--</div>-->
+    <div class="c_register-form__wrapper">
+
+      <label class="c_register-form__label"><span>Nacionalidad</span>
+        <select class="select-alternativo" name="nacionalidad">
+          <option value="">Nacionalidad</option>
+        </select>
+      </label>
+
+      <label class="c_register-form__label"><span>Lugar de residencia</span>
+        <input class="input--white" name="lugar de residencia" type="text" placeholder="ciudad, país" required/>
+      </label>
     </div>
 
-    <div class="c_register-form__wrapper c_record-personal__form__wrap4">
-      <!--<div class="c_record_personal__form__box">-->
-        <label class="c_register-form__label"><span>Foto perfil</span>
-          <input type="file" name="archivo" placeholder="Selecciona archivo"/>
+    <div class="c_register-form__wrapper">
+
+      <label class="c_register-form__label"><span>Foto perfil</span>
+        <label class="input-file">
+          <input type="file" name="archivo" placeholder=""/>
+          <span>Selecciona archivo</span>
         </label>
-      <!--</div>-->
-      <!--<div class="c_record-personal__form__box">-->
-        <div>
-        <label class="c_register-form__label"><span>Adjuntar cv</span>
-          <input type="file" name="archivo" placeholder="Selecciona archivo"/>
+      </label>
+
+      <label class="c_register-form__label">
+        <span>
+          Adjuntar cv
+          <small>
+            (Tu cv no se mostrará en el perfil. Sólo se enviará cuando hagas click en "enviar cv")
+          </small>
+        </span>
+        <label class="input-file">
+          <input type="file" name="archivo" placeholder=""/>
+          <span>Selecciona archivo</span>
         </label>
-        <p class="c_register-form__note">
-        (Tú no sé mostrará en el perfil.Sólo se enviará cuando hagas click en enviar cv)</p>
-        </div>
+      </label>
     </div>
   </section>
 
   <section class="c_register-auxiliar__form">
     <div class="main-title">Conocimiento lingüístico</div>
-    <div class="c_record-languages__form__box c_record-languages__form__box1">
-      <label class="c_record-languages__form__label"><span>Idioma materno</span>
-        <select class="c_record_languages__form__select select-alternativo" name="selecciona lengua">
+    <div class="c_register-form__wrapper">
+      <label class="c_register-form__label">
+        <span>
+          Idioma materno
+          <small>(Puedes seleccionar varios)</small>
+        </span>
+        <select class="select-alternativo" name="selecciona lengua">
           <option value="">Selecciona idiomas</option>
         </select>
       </label>
-      <label class="c_record-languages__form__label"><span>Otros idiomas</span>
-        <select class="c_record_languages__form__select select-alternativo" name="selecciona lengua">
+      <label class="c_register-form__label">
+        <span>
+          Otros idiomas
+          <small>(Conocimiento avanzado c1-c2)</small>
+        </span>
+        <select class="select-alternativo" name="selecciona lengua">
           <option value="">Selecciona otros</option>
         </select>
       </label>
-    </div>
-    <div class="c_record-languages__form__box c_record-languages__form__box2">
-      <p class="c_register-form__note">(Puedes seleccionar varios)</p>
-      <p class="c_register-form__note">(Conocimiento avanzado c1-c2)</p>
     </div>
   </section>
 
@@ -186,33 +191,42 @@
   <section class="c_register-auxiliar__form">
 
     <h1 class="main-title">Disponibilidad</h1>
-    <p class="c_record_availability__paragraph">Cuándo te gustaría trabajar como auxiliar lingüístico?</p>
-    <div class="c_register-form__wrapper c_record-availabiliy__wrap">
 
-        <label class="c_record-availabity__label"><span>Podría empezar a partir de</span>
-          <select class="select-alternativo" name="date" type="text">
-            <option value="">Selecciona fecha</option>
-          </select>
-        </label>
-
-
-        <label class="c_record-availabity__label"><span>Me gustaría empezar como muy tarde en</span>
-          <select class="c_record_availibity__date select-alternativo" name="date" type="number">
-            <option value="">Selecciona fecha</option>
-          </select>
-        </label>
-
+    <div class="c_register-form__wrapper c_register-form__textarea-wrapper">
+      <p class="c_record_availability__paragraph c_record_availability__paragraph--one">Cuándo te gustaría trabajar como auxiliar lingüístico?</p>
     </div>
-    <p class="c_record_availability__paragraph">Por cuánto tiempo deseas ser auxiliar lingüístico?</p>
-    <div class="c_register-form__wrapper c_record-availabiliy__wrap">
 
-        <label class="c_record-availabity__label"><span>Duración mínima</span>
+    <div class="c_register-form__wrapper">
+
+      <label class="c_register-form__label"><span class="c_register-form__span">Podría empezar a partir de </span>
+        <select class="select-alternativo" name="date" type="text">
+          <option value="">Selecciona fecha</option>
+        </select>
+      </label>
+
+
+      <label class="c_register-form__label"><span class="">Me gustaría empezar como muy tarde en</span>
+        <select class="c_record_availibity__date select-alternativo" name="date" type="number">
+          <option value="">Selecciona fecha</option>
+        </select>
+      </label>
+    </div>
+  <!--</section>-->
+
+  <!--<section class="c_register-auxiliar__form">-->
+    <div class="c_register-form__wrapper c_register-form__textarea-wrapper">
+      <p class="c_record_availability__paragraph">Por cuánto tiempo deseas ser auxiliar lingüístico?</p>
+    </div>
+
+    <div class="c_register-form__wrapper">
+
+        <label class="c_register-form__label"><span>Duración mínima</span>
           <select class="select-alternativo" name="selecciona duración">
           <option value="">Duración mínima</option>
           </select>
         </label>
 
-        <label class="c_record-availabity__label"><span>Duración máxima</span>
+        <label class="c_register-form__label"><span>Duración máxima</span>
           <select class="c_record_languages__form__select select-alternativo" name="selecciona duración">
           <option value="">Duración máxima</option>
           </select>
@@ -222,42 +236,83 @@
   </section>
 
 
-    <section class="c_record-password__form">
-      <div class="c_record-password__title main-title">Contraseña</div>
-      <div class="c_record-password__wrap">
-        <label class="c_record_personal__form__label">Contraseña
-          <input class="c_record-personal__form__name input-line" name="password" type="password" placeholder="" required/>
+    <section class="c_register-auxiliar__form">
+
+      <h1 class="c_register-auxiliar__title main-title">Contraseña
+        <!--<p class="c_register-auxiliar__subtitle main-subtitle">(6 caracteres mínimo)</p>-->
+      </h1>
+      <div class="c_register-form__wrapper">
+        <label class="c_register-form__label">
+          <span>
+            Contraseña
+            <small>(6 carácteres mínimo)</small>
+          </span>
+          <input class="input--white" name="password" type="password" placeholder="" required/>
         </label>
-        <label class="c_record_personal__form__label">Confirmar contraseña
-          <input class="c_record-personal__form__name input-line" name="password" type="password" placeholder="" required/>
+        <label class="c_register-form__label"><span>Confirmar contraseña</span>
+          <input class="input--white" name="password" type="password" placeholder="" required/>
         </label>
       </div>
+
     </section>
 
-    <section class="c_record-general-conditions__form">
-      <div class="c_record-general-conditions__title main-title">Condiciones generales</div>
-      <div class="c_record-general-conditions__wrap">
-      <a href="" class="c_record-general-conditions__button button button:hover">Leer condiciones</a>
-      <p class="c_record-general-conditions__paragraph">He leído y acepto las
-      condicones de contratación,condiciones de uso de la plataforma, política de protección
-      de datos y definición sobre qué es un auxiliar de conversación.</p>
-      <a href="" class="c_record-general-conditions__button__click button button:hover">sí, he leído y acepto las condicones</a>
-      </div>
-    </section>
+    <section class="c_register-form__section">
+      <div class="main-title">Condiciones generales</div>
 
-    <section class="c_record-accept">
-      <div class="c_record-accept__box__disabled"></div>
-      <div class="c_record-accept__last-title__disabled last-title">Crear perfil</div>
-      <div class="c_record-accept__box-enabled">
-        <div class="c_record-accept__box">
-          <label class="c_record-accept__checked">
-            <input class="c_record-accept__checkbox input-checkbox" type="checkbox"/>
-            <span class="c_record-accept__label">Todos los datos son correctos</span>
+      <div class="c_register-form__wrapper c_register-form__accept-wrapper">
+        <div>
+          <a href="#" class="button">Leer condiciones</a>
+
+          <p>He leído y acepto las
+          condiciones de contratación, condiciones de uso de la plataforma, política de protección
+          de datos y definición sobre qué es un auxiliar de conversación.</p>
+
+          <label class="button-checkbox">
+            <input class="js-click-condition" type="checkbox" name="acceptedconditions" value="1"><span>Sí, he leído y acepto las condicones</span>
           </label>
         </div>
       </div>
-      <div class="last-title c_record-accept__last-title__enabled">Crear perfil</div>
     </section>
+
+
+    <section class="c_register-form__validation-box">
+    <div class="c_register-form__validation-box__alert">
+      <label class="c_register-form__validation-box__alert--success">
+        <i class="icon icon--yes icon--middle" aria-hidden="true"></i>
+        <div class="c_register-form__validation-box__alert__label">
+          Todos los datos son correctos
+        </div>
+      </label>
+      <label class="c_register-form__validation-box__alert--error">
+        <i class="icon icon--no icon--middle" aria-hidden="true"></i>
+        <div class="c_register-form__validation-box__alert__label">
+          Debes aceptar las condiciones de uso
+        </div>
+      </label>
+      <label class="c_register-form__validation-box__alert--required">
+        <i class="icon icon--no icon--middle" aria-hidden="true"></i>
+        <div class="c_register-form__validation-box__alert__label">
+          Debes completar correctamente el formulario
+        </div>
+      </label>
+    </div>
+
+    <input type="submit" class="button-submit button button--fullscreen" value="Crear perfil" disabled>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- footer template -->

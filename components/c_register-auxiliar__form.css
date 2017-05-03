@@ -19,22 +19,20 @@
   max-width: var(--main-layout-width);
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
+  border-bottom:2px solid var(--bg-white);
   }
 
 .c_register-form__label > span {
   display:inline-block;
+  vertical-align: middle;
   margin-right:40px;
   text-align: right;
   width:39%;
 }
 
-.c_register-form__note {
-  font-size:0.65rem;
-  text-align: center;
-  letter-spacing:1.7px;
-  line-height: 16px;
-  font-family:var(--font-family-heading);
-  white-space:normal;
+.c_register-form__label > span small {
+  font-size: 10px;
+  display: block;
 }
 
 
@@ -103,7 +101,6 @@
 
 .c_record_availability__paragraph {
   text-align:center;
-  padding:68px 0;
   text-transform: uppercase;
   font-family:var(--font-family-heading);
   letter-spacing: 2px;
@@ -111,22 +108,22 @@
   background:var(--bg-gray);
 }
 
-
 /*.c_record-availabiliy__wrap {
 padding-bottom:96px;
 }*/
 
+/*contraseña*/
 
-
-.c_register-form__wrapper.c_record-availabiliy__wrap {
-  margin:0;
-  padding-bottom:96px;
+.c_register-auxiliar__subtitle {
+  font-family:var(--font-family-heading);
+  font-size: 0.87rem;
+  letter-spacing:1.7px;
+  line-height: 1;
 }
 
-.c_register-form__wrapper ~ .c_register-form__wrapper:not(.c_record-availabiliy__wrap) {
-  margin-top: 0;
-
-}
+/*.c_record-password__wrap {
+  padding:73px 0 99px;
+}*/
 
 
 

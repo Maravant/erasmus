@@ -128,6 +128,12 @@ h6 em {
   box-shadow: none;
   border-radius: 0;
 }
+.main-subtitle {
+  font-family:var(--font-family-heading);
+  font-size: 0.87rem;
+  letter-spacing:1.7px;
+  line-height: 1px;
+}
 
 @font-face{
   font-family: 'Blogger Sans';
