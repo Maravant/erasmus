@@ -55,6 +55,7 @@ input[type="tel"] {
   width: 80px;
 }
 
+
 input.input--white {
   background: transparent;
   border-bottom:2px solid var(--bg-white);

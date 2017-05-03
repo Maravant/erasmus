@@ -45,164 +45,180 @@
   <!-- /header template -->
 
 
-  <section class="container-record-assistant">
-  <div class="c_record__header">
-    <div class="c_record__icon icon--home-auxiliares" zzaria-hidden="true"></div>
-    <h3 class="c_record__title">Registro como auxiliar lingüístico</h3>
-  </div>
-  </section>
+  <section class="c_register-auxiliar__form">
+    <div class="c_record__header">
+      <div class="c_record__icon icon icon--home-auxiliares-color" aria-hidden="true"></div>
+      <h3 class="c_record__title">Registro como auxiliar lingüístico</h3>
+    </div>
+    </section>
 
-  <section class="c_record-personal__form">
-    <h1 class="c_record-personal__form__main-title main-title">Datos personales</h1>
-    <div class="c_record-personal__form__wrap1">
-      <div class="c_record-personal__form__box">
-        <label class="c_record_personal__form__label">Nombre
-          <input class="c_record-personal__form__name input-line" name="name" type="text" placeholder="Nombre" required/>
+
+
+
+  <section class="c_register-auxiliar__form">
+    <h1 class="main-title">Datos personales</h1>
+    <div class="c_register-form__wrapper c_record-personal__form__wrap1">
+      <!--<div class="c_record-personal__form__box">-->
+        <label class="c_register-form__label"><span>Nombre</span>
+          <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
         </label>
-      </div>
-      <div class="c_record-personal__form__box">
-        <label class="c_record-personal__form__label">Apellido
-          <input class="c_record-personal__form__surname input-line" name="surname" type="text" placeholder="Apellidos" required/>
+      <!--</div>-->
+      <!--<div class="c_record-personal__form__box">-->
+        <label class="c_register-form__label"><span>Apellido</span>
+          <input class="input--white" name="surname" type="text" placeholder="Apellidos" required/>
         </label>
-      </div>
+      <!--</div>-->
     </div>
 
-    <div class="c_record-personal__form__wrap2">
-      <div class="c_record-personal__form__box">
-        <label class="c_record-personal__form__label">Nacimiento
-            <input class="c_record_personal__form__date-birth select-alternativo" name="name" type="text" placeholder="Selecciona fecha" required/>
+    <div class="c_register-form__wrapper c_record-personal__form__wrap2">
+      <!--<div class="c_record-personal__form__box">-->
+        <label class="c_register-form__label"><span>Nacimiento</span>
+            <select class=" select-alternativo" name="nacimiento">
+              <option value="">Selecciona fecha</option>
+            </select>
           </label>
-      </div>
-      <div class="c_record-personal__form__box">
-        <label class="c_record-personal__form__radio input-radio">
-          <input type="radio" name="gender" value="f" checked>
-          <span><i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer</span>
+      <!--</div>-->
+      <div class="c_register-form__label c_record-personal__form__box">
+        <span>Sexo</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="gender" value="mujer" checked>
+            <span><i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer</span>
         </label>
-        <label class="c_record-personal__form__radio input-radio">
-          <input type="radio" name="gender" value="m">
+        <label class="input-radio input--small">
+          <input type="radio" name="gender" value="hombre">
             <span><i class="icon icon--small icon--hombre" aria-hidden="true"></i> Hombre</span>
         </label>
       </div>
     </div>
 
-    <div class="c_record-personal__form__wrap3">
-      <div class="c_record-personal__form__box">
-        <label class="c_record-personal__form__label">Nacionalidad
-          <select class="c_record-personal__form__select select-alternativo" name="nacionality">
+    <div class="c_register-form__wrapper c_record-personal__form__wrap3">
+      <!--<div class="c_record-personal__form__box">-->
+        <label class="c_register-form__label"><span>Nacionalidad</span>
+          <select class="select-alternativo" name="nacionalidad">
+            <option value="">Nacionalidad</option>
           </select>
         </label>
-      </div>
-      <div class="c_record-personal__form__box">
-        <label class="c_record-personal__form__label">Lugar de residencia
-          <input class="c_record-personal__form__place input-line" name="lugar de residencia" type="text" placeholder="ciudad, país" required/>
+      <!--</div>-->
+      <!--<div class="c_record-personal__form__box">-->
+        <label class="c_register-form__label"><span>Lugar de residencia</span>
+          <input class="input--white" name="lugar de residencia" type="text" placeholder="ciudad, país" required/>
         </label>
-      </div>
+      <!--</div>-->
     </div>
 
-    <div class="c_record-personal__form__wrap4">
-      <div class="c_record_personal__form__box">
-        <label class="c_record-personal__form__label">Foto perfil
+    <div class="c_register-form__wrapper c_record-personal__form__wrap4">
+      <!--<div class="c_record_personal__form__box">-->
+        <label class="c_register-form__label"><span>Foto perfil</span>
           <input type="file" name="archivo" placeholder="Selecciona archivo"/>
         </label>
-      </div>
-      <div class="c_record-personal__form__box">
-        <label class="c_record-ersonal__form__label">Adjuntar cv
+      <!--</div>-->
+      <!--<div class="c_record-personal__form__box">-->
+        <div>
+        <label class="c_register-form__label"><span>Adjuntar cv</span>
           <input type="file" name="archivo" placeholder="Selecciona archivo"/>
         </label>
-        <!--<p class="c_record__personal-form__note">
-        Tú no sé mostrará en el perfil.Sólo se enviará cuando hagas click en enviar cv<p>-->
-      </div>
+        <p class="c_register-form__note">
+        (Tú no sé mostrará en el perfil.Sólo se enviará cuando hagas click en enviar cv)</p>
+        </div>
     </div>
   </section>
 
-  <section class="c_record-languages__form">
-    <div class="c_record-languages__form__title main-title">Conocimiento lingüístico</div>
+  <section class="c_register-auxiliar__form">
+    <div class="main-title">Conocimiento lingüístico</div>
     <div class="c_record-languages__form__box c_record-languages__form__box1">
-      <label class="c_record-languages__form__label">Idioma materno
+      <label class="c_record-languages__form__label"><span>Idioma materno</span>
         <select class="c_record_languages__form__select select-alternativo" name="selecciona lengua">
+          <option value="">Selecciona idiomas</option>
         </select>
       </label>
-      <label class="c_record-languages__form__label">Otros idiomas
+      <label class="c_record-languages__form__label"><span>Otros idiomas</span>
         <select class="c_record_languages__form__select select-alternativo" name="selecciona lengua">
+          <option value="">Selecciona otros</option>
         </select>
       </label>
     </div>
     <div class="c_record-languages__form__box c_record-languages__form__box2">
-      <p class="c_record-languages__form__note">(Puedes seleccionar varios)</p>
-      <p class="c_record-languages__form__note">(Conocimiento avanzado c1-c2)</p>
-    </div>
-  </section>
-
-  <section class="c_record-contact__form">
-    <div class="c_record-contact__title main-title">Datos de contacto</div>
-    <div class="c_record-contact__wrap1">
-      <div class="c_record_contact__box">
-        <label class="c_record_contact__label">Email
-          <input class="c_record-contact__email input-line" name="email" type="text" placeholder="Email" required/>
-        </label>
-      </div>
-      <div class="c_record_contact__box">
-        <label class="c_record_contact__label">Confirmar email
-          <input class="c_record-contact__confirm input-line" name="email" type="text" placeholder="Confirmar email" required/>
-        </label>
-      </div>
-    </div>
-    <div class="c_record-contact__wrap2">
-      <div class="c_record_contact__box">
-        <label class="c_record_contact__label">Teléfono móvil
-          <input class="c_record-contact__mobile input-line" name="phone" type="number" placeholder="Teléfono móvil" required/>
-        </label>
-      </div>
-      <div class="c_record_contact__box">
-        <label class="c_record_contact__label">Teléfono fijo
-          <input class="c_record-contact__phone input-line" name="phone" type="number" placeholder="Teléfono fijo" required/>
-        </label>
-      </div>
-    </div>
-    <div class="c_record-contact__wrap3">
-      <div class="c_record_contact__box">
-        <label class="c_record_contact__label">Dirección
-          <input class="c_record-contact__address input-line" name="address" type="text" placeholder="Dirección" required/>
-        </label>
-      </div>
-      <div class="c_record_contact__box">
-        <label class="c_record_contact__label">Código postal
-          <input class="c_record-contact__phone input-line" name="postal code" type="number" placeholder="Código postal" required/>
-        </label>
-      </div>
+      <p class="c_register-form__note">(Puedes seleccionar varios)</p>
+      <p class="c_register-form__note">(Conocimiento avanzado c1-c2)</p>
     </div>
   </section>
 
 
-  <section class="c_record_availability__form">
+
+
+
+  <section class="c_register-auxiliar__form">
+
+    <h1 class="main-title">Datos de contacto</h1>
+    <div class="c_register-form__wrapper c_record-contact__wrap1">
+      <label class="c_register-form__label"><span>Email</span>
+        <input class="input--white" name="email" type="text" placeholder="Email" required/>
+      </label>
+
+      <label class="c_register-form__label"><span>Confirmar email</span>
+        <input class="input--white" name="email" type="text" placeholder="Confirmar email" required/>
+      </label>
+    </div>
+
+    <div class="c_register-form__wrapper c_record-contact__wrap2">
+      <label class="c_register-form__label"><span>Teléfono móvil</span>
+        <input class="input--white" name="phone" type="text" placeholder="694 32 32 32" required/>
+      </label>
+
+      <label class="c_register-form__label"><span>Teléfono fijo</span>
+        <input class=" input input--white" name="phone" type="text" placeholder="91 456 78 91" required/>
+      </label>
+    </div>
+
+    <div class="c_register-form__wrapper c_record-contact__wrap3">
+      <label class="c_register-form__label"><span>Dirección</span>
+        <input class="input--white" name="address" type="text" placeholder="Dirección" required/>
+      </label>
+
+      <label class="c_register-form__label"><span>Código postal</span>
+        <input class="input-tel input--white" name="postal code" type="tel" placeholder="34091" required/>
+      </label>
+    </div>
+
+  </section>
+
+
+  <section class="c_register-auxiliar__form">
+
+    <h1 class="main-title">Disponibilidad</h1>
     <p class="c_record_availability__paragraph">Cuándo te gustaría trabajar como auxiliar lingüístico?</p>
-    <div class="c_record-availabiliy__wrap c_record-availabiliy__wrap1">
-      <div class="c_record-availabity__box">
-        <label class="c_record-availabity__label">Podría empezar a partir de
-            <input class="c_record_availibity__date select-alternativo" name="date" type="number" placeholder="Selecciona fecha" required/>
-          </label>
-      </div>
-      <div class="c_record-availabity__box">
-        <label class="c_record-availabity__label">Me gustaría empezar como muy tarde en
-          <input class="c_record_availibity__date select-alternativo" name="date" type="number" placeholder="Selecciona fecha" required/>
+    <div class="c_register-form__wrapper c_record-availabiliy__wrap">
+
+        <label class="c_record-availabity__label"><span>Podría empezar a partir de</span>
+          <select class="select-alternativo" name="date" type="text">
+            <option value="">Selecciona fecha</option>
+          </select>
         </label>
-      </div>
+
+
+        <label class="c_record-availabity__label"><span>Me gustaría empezar como muy tarde en</span>
+          <select class="c_record_availibity__date select-alternativo" name="date" type="number">
+            <option value="">Selecciona fecha</option>
+          </select>
+        </label>
+
     </div>
     <p class="c_record_availability__paragraph">Por cuánto tiempo deseas ser auxiliar lingüístico?</p>
-    <div class="c_record-availabiliy__wrap">
-      <div class="c_record-availabity__box">
-        <label class="c_record-availabity__label">Duración mínima
-          <select class="c_record_availabity__select select-alternativo" name="selecciona duración">
+    <div class="c_register-form__wrapper c_record-availabiliy__wrap">
+
+        <label class="c_record-availabity__label"><span>Duración mínima</span>
+          <select class="select-alternativo" name="selecciona duración">
+          <option value="">Duración mínima</option>
           </select>
         </label>
-      </div>
-      <div class="c_record-availabity__box">
-        <label class="c_record-availabity__label">Duración máxima
+
+        <label class="c_record-availabity__label"><span>Duración máxima</span>
           <select class="c_record_languages__form__select select-alternativo" name="selecciona duración">
+          <option value="">Duración máxima</option>
           </select>
         </label>
-      </div>
     </div>
+
   </section>
 
 

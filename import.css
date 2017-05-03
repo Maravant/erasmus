@@ -29,10 +29,8 @@
 @import url(components/c_login.css);
 @import url(components/c_hero-search-mobile.css);
 @import url(components/c_record__header.css);
-@import url(components/c_record-personal__form.css);
-@import url(components/c_record-languages__form.css);
+@import url(components/c_register-auxiliar__form.css);
 @import url(components/c_record-contact__form.css);
-@import url(components/c_record-avaibility__form.css);
 @import url(components/c_record-password__form.css);
 @import url(components/c_record-contact-school__form.css);
 @import url(pages/home.css);

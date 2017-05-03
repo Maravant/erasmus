@@ -1,0 +1,137 @@
+.c_register-auxiliar__form {
+  background:var(--bg-gray);
+}
+
+.c_register-auxiliar__form {
+  background:var(--bg-gray);
+  overflow: hidden;
+}
+
+.c_register-auxiliar__form .main-title {
+  box-shadow: none;
+  cursor:default;
+}
+
+.c_register-auxiliar__form.c_register-form__wrapper {
+  display:flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  max-width: var(--main-layout-width);
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
+  }
+
+.c_register-form__label > span {
+  display:inline-block;
+  margin-right:40px;
+  text-align: right;
+  width:39%;
+}
+
+.c_register-form__note {
+  font-size:0.65rem;
+  text-align: center;
+  letter-spacing:1.7px;
+  line-height: 16px;
+  font-family:var(--font-family-heading);
+  white-space:normal;
+}
+
+
+/*.c_record-personal__form__wrap1,
+.c_record-personal__form__wrap2,
+.c_record-personal__form__wrap3,
+.c_record-personal__form__wrap4 {
+  display:flex;
+  justify-content: space-around;
+  border-bottom:2px solid var(--bg-white);
+}
+
+/*.c_record-personal__form__wrap1 {
+  padding:89px 0 35px;
+}
+
+.c_record-personal__form__wrap2,
+.c_record-personal__form__wrap3,
+.c_record-personal__form__wrap4 {
+  padding:35px 0;
+}
+
+.c_record-personal__form__box {
+  display:flex;
+}*/
+
+
+/*Conocimiento linguístico*/
+
+.c_record-languages__form__box1 {
+  padding-top:96px;
+
+}
+
+.c_record-languages__form__box2 {
+  padding-bottom:96px;
+}
+
+.c_record-languages__form__box {
+  display:flex;
+  justify-content: space-around;
+}
+
+.c_record-languages__form {
+  background:var(--bg-gray);
+}
+
+/*Datos de contacto*/
+
+/*.c_record-contact__wrap1 {
+  padding-top:88px;
+  padding-bottom:33px;
+}
+
+.c_record-contact__wrap2 {
+  padding-top:49px;
+  padding-bottom:33px;
+}
+
+.c_record-contact__wrap3 {
+  padding-top:49px;
+  padding-bottom:94px;
+}*/
+
+/*Disponibilidad*/
+
+.c_record_availability__paragraph {
+  text-align:center;
+  padding:68px 0;
+  text-transform: uppercase;
+  font-family:var(--font-family-heading);
+  letter-spacing: 2px;
+  font-size: 0.87rem;
+  background:var(--bg-gray);
+}
+
+
+/*.c_record-availabiliy__wrap {
+padding-bottom:96px;
+}*/
+
+
+
+.c_register-form__wrapper.c_record-availabiliy__wrap {
+  margin:0;
+  padding-bottom:96px;
+}
+
+.c_register-form__wrapper ~ .c_register-form__wrapper:not(.c_record-availabiliy__wrap) {
+  margin-top: 0;
+
+}
+
+
+
+
+
+
+
+

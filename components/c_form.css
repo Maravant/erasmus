@@ -1,0 +1,89 @@
+.c_register-auxiliar__form {
+  background:var(--bg-gray);
+}
+
+.c_register-auxiliar__form {
+  background:var(--bg-gray);
+  overflow: hidden;
+}
+
+.c_register-auxiliar__form .main-title {
+  box-shadow: none;
+  cursor:default;
+}
+
+.c_register-form__label > span {
+  display:inline-block;
+  margin-right:40px;
+  text-align: right;
+  width:39%;
+}
+
+.c_register-form__note {
+  font-size:0.65rem;
+  text-align: center;
+  letter-spacing:1.7px;
+  line-height: 16px;
+  font-family:var(--font-family-heading);
+  white-space:normal;
+}
+
+
+/*.c_record-personal__form__wrap1,
+.c_record-personal__form__wrap2,
+.c_record-personal__form__wrap3,
+.c_record-personal__form__wrap4 {
+  display:flex;
+  justify-content: space-around;
+  border-bottom:2px solid var(--bg-white);
+}
+
+/*.c_record-personal__form__wrap1 {
+  padding:89px 0 35px;
+}
+
+.c_record-personal__form__wrap2,
+.c_record-personal__form__wrap3,
+.c_record-personal__form__wrap4 {
+  padding:35px 0;
+}
+
+.c_record-personal__form__box {
+  display:flex;
+}*/
+
+
+/*Conocimiento linguístico*/
+
+.c_record-languages__form__box1 {
+  padding-top:96px;
+
+}
+
+.c_record-languages__form__box2 {
+  padding-bottom:96px;
+}
+
+.c_record-languages__form__box {
+  display:flex;
+  justify-content: space-around;
+}
+
+.c_record-languages__form {
+  background:var(--bg-gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
