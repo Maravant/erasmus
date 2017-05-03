@@ -45,7 +45,12 @@
 }
 
 .button.button--big {
-  padding:0 16px;
+  padding:16px;
+}
+
+.button.button--small {
+  padding:4px 6px;
+  font-size: 0.8rem;
 }
 
 .button.button--transparent {
@@ -175,20 +180,20 @@
     bottom: 0;
     width: 100%;
     z-index: 1;
-    font-size:0.97rem;
-    letter-spacing:2.8px;
-    font-weight:bold;
-    line-height: 72px;
-    font-family: var(--font-family-heading), sans-serif;
   }
 
   .button.button--ghost {
     display: flex;
+    border-radius: 0;
     height: 64px;
     line-height: 64px;
     transform: rotate(-180deg);
     align-items: center;
     justify-content: center;
+    font-size:0.97rem;
+    letter-spacing:2.8px;
+    font-weight:bold;
+    font-family: var(--font-family-heading), sans-serif;
   }
 
   .button.button--ghost span {
