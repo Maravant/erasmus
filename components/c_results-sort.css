@@ -19,8 +19,6 @@
   letter-spacing: 2px;
   font-weight: bold;
   margin-right:13px;
-  flex:1 0 auto;
-  width: 100%;
 }
 
 .c_results-sort__button {
@@ -28,14 +26,14 @@
   display:inline-block;
   border:2px solid var(--bg-white);
   background:var(--bg-gray);
-  font-size:0.75rem;
+  font-size:0.72rem;
   border-radius:4px;
   padding:4px;
-  letter-spacing: 2.4px;
+  letter-spacing: 2px;
   font-weight: bold;
   text-decoration: none;
   color:var(--color-text-secondary);
-  margin-right:16px;
+  margin-left:10px;
 
 }
 

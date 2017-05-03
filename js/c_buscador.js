@@ -30,6 +30,15 @@
       $('.js-cancel-email-cc').removeAttr('hidden');
     });
 
+    $('.js-send-bulk-emails').on('click', function(e) {
+      e.preventDefault();
+      if ($(e.currentTarget).attr('disabled')) {
+        return;
+      }
+
+      console.log('send cc emails to:', users);
+    });
+
     $('.js-cancel-email-cc').on('click', function(e) {
       e.preventDefault();
       users = [];
@@ -67,7 +76,7 @@
     });
 
     var checkIfHasEmails = function() {
-      $('.js-send-bulk-emails').attr('disabled', !users.length);
+      $('.js-send-bulk-emails, .js-send-bulk-emails .button').attr('disabled', !users.length);
     }
   });
 

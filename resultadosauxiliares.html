@@ -146,15 +146,24 @@
         <p class="c_results-label__subtitle">4 auxiliares</p>
       </div>
       <div class="c_results-messages">
-        <a class="button button--circle button--selectable button--small js-add-to-email-cc" href="#">
-          <i class="icon icon--small icon--check" aria-hidden="true"></i>
-        </a>
-        <a class="button button--circle button--selectable button--small js-cancel-email-cc" href="#" hidden>
-          <i class="icon icon--small icon--cancel" aria-hidden="true"></i>
-        </a>
-        <a class="button button--circle button--selectable button--small js-send-bulk-emails" href="#" disabled>
-          <i class="icon icon--small icon--enviar" aria-hidden="true"></i>
-        </a>
+        <div class="c_results-messages__button js-add-to-email-cc">
+          <a class="button button--circle button--selectable button--small" href="#">
+            <i class="icon icon--xsmall icon--check" aria-hidden="true"></i>
+          </a>
+          <span>Seleccionar</span>
+        </div>
+        <div class="c_results-messages__button js-cancel-email-cc" hidden>
+          <a class="button button--circle button--selectable button--small" href="#">
+            <i class="icon icon--xsmall icon--cancel" aria-hidden="true"></i>
+          </a>
+          <span>Cancelar</span>
+        </div>
+        <div class="c_results-messages__button js-send-bulk-emails" disabled>
+          <a class="button button--circle button--selectable button--small" href="#" disabled>
+            <i class="icon icon--xsmall icon--enviar" aria-hidden="true"></i>
+          </a>
+          <span>Enviar Copia Oculta</span>
+        </div>
       </div>
     </div>
   </section>
