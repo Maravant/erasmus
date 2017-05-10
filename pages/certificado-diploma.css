@@ -1,0 +1,137 @@
+body {
+  background:var(--bg-gray);
+}
+
+.main-title {
+  box-shadow:none;
+}
+
+.container-certification {
+  background:var(--bg-gray);
+  padding:79px 0;
+  display:flex;
+  padding-left:96px;
+  margin:0 80px;
+  border-bottom:1px dashed var(--color-primary);
+}
+
+.container-certification__box {
+  display:flex;
+  flex-flow:column;
+  max-width: 55%;
+  margin:10px auto;
+}
+
+.container-certificaction__title,
+ .container-diploma__title {
+  text-align: center;
+  font-size:1.5rem;
+  line-height: 32px;
+  letter-spacing: 4.8px;
+  margin:0;
+}
+
+.container-certification__paragraph {
+   text-align: center;
+   font-family:var(--font-family-main);
+   line-height:24px;
+}
+
+.container-certification__main-paragraph {
+  padding-top:46px;
+}
+
+.container-certification__button.button--circle {
+  display:flex;
+  box-shadow:none;
+}
+
+.container-certification__select {
+  margin:26px auto 5px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.container-certification__button span {
+  font-size:40px;
+  text-align: center;
+  font-family:var(--font-family-heading);
+  color:black;
+  letter-spacing: 0;
+}
+
+.container-certification__button sup {
+  font-size:20px;
+  vertical-align:super;
+}
+
+.container-diploma {
+  margin: 0 80px;
+}
+
+.container-diploma__title {
+  padding:63px 0 35px;
+}
+
+.container-diploma__subtitle {
+  font-size:0.87rem;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color:var(--color-primary);
+  text-align: center;
+  margin:0;
+}
+.container-diploma__paragraph {
+  text-align:center;
+}
+
+.container-diploma__paragraph span {
+  text-transform: capitalize;
+  font-weight:initial;
+  font-size:1rem;
+}
+
+
+.container-diploma__wraper-personal {
+  display:flex;
+  padding:74px 0 32px;
+}
+
+.container-diploma__box {
+  width:100%;
+}
+
+.container-diploma__box--right .container-diploma__label {
+  text-align: right;
+}
+
+label.container-diploma__label--big {
+width:100%;
+display:flex;
+justify-content: space-between;
+}
+
+.container-diploma__label {
+ padding-bottom:42px;
+}
+
+.container-diploma__subtitle2 {
+  padding-bottom:58px;
+}
+
+.container-diploma__wraper {
+  display:flex;
+  padding-top:58px;
+}
+
+.container-diploma__box {
+  width:50%;
+}
+
+.container-diploma-pago {
+margin:51px auto 96px;
+text-align:center;
+padding:0 20px;
+}
+
