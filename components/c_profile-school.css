@@ -1,5 +1,6 @@
 .c_profile-school {
   display:flex;
+  background:var(--bg-white);
 }
 
 .c_profile-school__box {
