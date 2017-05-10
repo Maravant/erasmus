@@ -180,6 +180,10 @@ select.input--small {
   min-width:auto;
 }
 
+.select-alternativo--big {
+  min-width:280px;
+}
+
 .checkbox-toggle {
   position: relative;
   width: 40px;

@@ -114,6 +114,8 @@ justify-content: space-between;
 
 .container-diploma__label {
  padding-bottom:42px;
+ display:flex;
+justify-content: space-between;
 }
 
 .container-diploma__subtitle2 {
@@ -129,9 +131,22 @@ justify-content: space-between;
   width:50%;
 }
 
+.container-diploma__box--left {
+  margin-right:50px;
+}
+
+.container-diploma__box--right {
+  margin-left:50px;
+}
+
 .container-diploma-pago {
 margin:51px auto 96px;
 text-align:center;
 padding:0 20px;
 }
+
+.container-diploma-pago__link {
+  min-width:230px;
+}
+
 
