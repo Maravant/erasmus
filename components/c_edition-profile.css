@@ -1,0 +1,31 @@
+.c_edition-profile {
+  border-top:2px solid #e4e3e3;
+  border-bottom:2px solid #e4e3e3;
+  display:flex;
+  justify-content: space-around;
+  margin-top:30px;
+}
+
+.c_edition-profile__box {
+   padding:33px 0;
+   flex:1;
+}
+
+.c_edition-profile__box-profile {
+  border-right:2px solid #e4e3e3;
+}
+
+.c_edition-profile__box-ad {
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+
+.c_edition__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size:0.87rem;
+  letter-spacing: 2px;
+  color:var(--color-text-secondary);
+}

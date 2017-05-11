@@ -14,3 +14,35 @@
   border-right: 2px solid #e4e3e3;
   background:var(--bg-gray);
 }
+
+.c_edition__icon {
+  padding-bottom:25px;
+}
+
+.c_edition__title {
+  padding-bottom:63px;
+}
+
+.c_edition__button {
+  margin-bottom:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1.5rem;
+
+}
+
+.button--circle.c_edition__button  {
+  box-shadow: none;
+}
+
+.c_edition-paragraph {
+  width:60%;
+  text-align: center;
+  font-size:1rem;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+
+

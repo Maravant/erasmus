@@ -141,6 +141,22 @@
   border-radius: 0;
 }
 
+.button--circle.button--red {
+  background-color:#ff686f;
+  color:var(--bg-white);
+  width:48px;
+  height:48px;
+}
+
+.button--circle.button--color-primary {
+  background-color:var(--color-primary);
+  color:var(--color-text-secondary);
+  width:48px;
+  height:48px;
+}
+
+
+
 @media (max-width: 600px) {
   .button.button--floating {
     display: block;
@@ -181,4 +197,6 @@
   body.menu--opened .button.button--floating {
     transform: translateY(100%);
   }
-}
+
+  .
+

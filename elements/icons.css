@@ -104,6 +104,12 @@
   background-image: url(../images/ico_enviar.svg);
 }
 
+.icon--diploma {
+  background-image: url(../images/ico_diploma.svg);
+}
+
+
+
 .icon--idioma {
   background-image: url(../images/ico_idioma.svg);
 }
