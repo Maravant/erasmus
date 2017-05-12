@@ -1,0 +1,31 @@
+
+
+.c_edition-auxiliar__button {
+  margin-bottom:26px;
+}
+
+.c_edition-auxiliar__paragraph {
+  margin-bottom:54px;
+}
+
+.c_edition-auxiliar__paragraph:last-child {
+  margin-bottom: 12px;
+}
+
+
+.c_edition-auxiliar__button {
+  font-size:1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--circle.c_edition-auxiliar__button {
+  box-shadow: none;
+}
+
+.c_edition__messages {
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+}

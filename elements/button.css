@@ -155,6 +155,12 @@
   height:48px;
 }
 
+.button--circle.button--black {
+  background-color:var(--bg-black);
+  color:var(--bg-white);
+  width:48px;
+  height:48px;
+}
 
 
 @media (max-width: 600px) {
