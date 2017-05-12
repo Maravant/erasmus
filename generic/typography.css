@@ -121,6 +121,12 @@ h6 em {
   width: 100%;
 }
 
+.main-title--white {
+  background:var(--bg-white);
+  color:var(--bg-black);
+  font-size:2rem;
+}
+
 .last-title {
   border: 0;
   background-color:var(--color-text-primary);
