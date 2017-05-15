@@ -416,41 +416,7 @@
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/c_login.js"></script>
   <script type="text/javascript" src="js/c_register.js"></script>
-
-
-
-  <script>
-  (function() {
-  window.MAIN_APP = window.MAIN_APP || [];
-
-  window.MAIN_APP.push(function initLogin() {
-    $('.js-click-condition').on('click', function(e) {
-
-
-      if ($('.js-click-condition').prop('checked')){
-        $('.button-submit').removeAttr('disabled');
-        $('.c_register-form__validation-box__alert').addClass('correct');
-        $('.c_register-form__validation-box__alert').removeClass('error');
-      } else {
-        $('.button-submit').attr('disabled', 'disabled');
-        $('.c_register-form__validation-box__alert').removeClass('correct');
-        $('.c_register-form__validation-box__alert').addClass('error');
-      }
-
-    });
-  });
-
-}());
-
-</script>
-
-<script type="text/javascript" src="js/main.js"></script>
-
-
-
-
-
-
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
