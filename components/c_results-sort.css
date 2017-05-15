@@ -56,6 +56,10 @@
     justify-content: center;
   }
 
+  .c_results-sort__paragraph {
+    width: 100%;
+  }
+
   .c_results-sort-auxiliares {
     display:none;
   }
