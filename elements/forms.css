@@ -26,6 +26,7 @@ input[type="password"] {
   font-size: 0.8rem;
   font-weight: normal;
   border-bottom: 2px solid var(--color-primary);
+  background-color: transparent;
 }
 
 textarea {
