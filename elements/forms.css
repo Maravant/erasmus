@@ -134,6 +134,35 @@ label > .input-radio.input--small {
   color: var(--color-text-primary);
 }
 
+input[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px 38px 10px 16px;
+  background: #fff url('../images/ico_calendario.svg') no-repeat right 16px center;
+  background-size: 20px;
+  transition: border-color .1s ease-in-out, box-shadow .1s ease-in-out;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: inherit;
+  cursor: pointer;
+  height:48px;
+  box-sizing: border-box;
+  border:2px solid var(--bg-gray-dark);
+  border-radius:4px;
+  font-size:0.75rem;
+  color:var(--color-text-secondary);
+  min-width:auto;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
