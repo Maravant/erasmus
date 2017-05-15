@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing:0;
 }
 
 .button--circle.c_edition-auxiliar__button {
