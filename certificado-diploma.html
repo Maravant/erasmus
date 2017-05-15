@@ -45,142 +45,144 @@
   <!-- /header template -->
 
   <h1 class="main-title">Solicitud de diploma</h1>
-  <section class="container-certification">
-  <div class="container-certification__box">
-    <h1 class="container-certificaction__title">Certifica tu experiencia como auxiliar lingüístico
-    solicitando tu diploma oficial</h1>
-    <p class="container-certification__paragraph container-certification__main-paragraph">?Has sido seleccionado para un colegio / empresa?</p>
-    <p class="container-certification__paragraph container-certification__last-paragraph">Introduce la fecha de finalización del programa y te enviaremos un recordatorio para que solicites
-    diploma oficial.</p>
-    <label class="container-certification__select c_register-form__label">
-      <select class="select-alternativo select-alternativo--big" name="duración">
-        <option value="">Selecciona fecha <i class="icon icon--small icon--calendario" aria-hidden="true"></i></option>
-      </select>
-    </label>
+
+  <div class="container-certification">
+    <section class="container-certification">
+      <div class="container-certification__box">
+        <h1 class="container-certificaction__title">Certifica tu experiencia como auxiliar lingüístico
+        solicitando tu diploma oficial</h1>
+        <p class="container-certification__paragraph container-certification__main-paragraph">¿Has sido seleccionado para un colegio / empresa?</p>
+        <p class="container-certification__paragraph container-certification__last-paragraph">Introduce la fecha de finalización del programa y te enviaremos un recordatorio para que solicites
+        diploma oficial.</p>
+        <label class="container-certification__select c_register-form__label">
+          <select class="select-alternativo select-alternativo--big" name="duración">
+            <option value="">Selecciona fecha <i class="icon icon--small icon--calendario" aria-hidden="true"></i></option>
+          </select>
+        </label>
+      </div>
+      <div class="container-certification__button button button--circle button--big"><span>30<sup>€</sup></span></div>
+    </section>
+
+    <section class="container-diploma">
+      <form action="" method="GET">
+        <h1 class="container-diploma__title">Solicita tu diploma</h1>
+        <h3 class="container-diploma__subtitle">Datos personales</h3>
+
+        <p class="container-diploma__paragraph">Quiero utilizar los datos personales del registro
+          <label class="checkbox-toggle">
+            <input type="checkbox" name="pay" value="0"/>
+            <span>Toggle</span>
+          </label>
+        </p>
+
+        <div class="container-diploma__wraper-personal">
+          <div class="container-diploma__box container-diploma__box--left">
+            <label class="container-diploma__label"><span>Nombre</span>
+              <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
+            </label>
+
+            <label class="container-diploma__label"><span>Apellido</span>
+              <input class="input--white" name="surname" type="text" placeholder="Apellidos" required/>
+            </label>
+
+            <label class="container-diploma__label"><span>Nacionalidad</span>
+              <select class="select-alternativo select-alternativo--big" name="nacionalidad">
+                <option value="">Nacionalidad</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="container-diploma__box container-diploma__box--right">
+
+            <label class="container-diploma__label"><span>Fecha Nacimiento</span>
+            <select class=" select-alternativo select-alternativo--big" name="nacimiento">
+              <option value="">Selecciona fecha</option>
+            </select>
+          </label>
+
+          <label class="container-diploma__label"><span>Email</span>
+            <input class="input--white" name="email" type="text" placeholder="Email" required/>
+          </label>
+          </div>
+
+        </div>
+
+
+        <div class="">
+          <h3 class="container-diploma__subtitle container-diploma__subtitle2">Datos colegios / empresas para validación</h3>
+
+          <label class="container-diploma__label--big" for="x">
+            <span>Tipo de entidad en la que has trabajado</span>
+            <label class="input-radio input--small">
+              <input type="radio" name="institucion" value="colegio" checked><span>Colegio</span>
+            </label>
+            <label class="input-radio input--small">
+              <input type="radio" name="institucion" value="academia"><span>Academia</span>
+            </label>
+            <label class="input-radio input--small">
+              <input type="radio" name="institucion" value="otros"><span>Otro</span>
+            </label>
+              <input class="input--white" name="name" type="text" placeholder="Especificar" required/>
+          </label>
+
+          <div class="container-diploma__wraper">
+
+            <div class="container-diploma__box container-diploma__box--left">
+              <label class="container-diploma__label"><span>Nombre de la entidad</span>
+                <input class="input--white" name="name" type="text" placeholder="Nombre de la entidad" required/>
+              </label>
+
+              <label class="container-diploma__label"><span>Puesto desarrolado</span>
+              <select class="select-alternativo select-alternativo--big" name="puesto">
+                <option value="">Elegir Puesto</option>
+              </select>
+              </label>
+
+              <label class="container-diploma__label"><span>Nombre tutor</span>
+                <input class="input--white" name="name" type="text" placeholder="Nombre tutor" required/>
+              </label>
+
+              <label class="container-diploma__label"><span>Inicio Programa</span>
+              <select class=" select-alternativo select-alternativo--big" name="program">
+                <option value="">Selecciona fecha</option>
+              </select>
+              </label>
+
+              <label class="container-diploma__label"><span>N° Horas / Semana</span>
+              <select class=" select-alternativo select-alternativo--big" name="hours">
+                <option value="">Selecciona Horas</option>
+              </select>
+              </label>
+            </div>
+
+            <div class="container-diploma__box container-diploma__box--right">
+              <label class="container-diploma__label"><span>Web entidad</span>
+                <input class="input--white" name="web" type="text" placeholder="Web entidad" required/>
+              </label>
+
+              <label class="container-diploma__label"><span>Otros</span>
+                <input class="input--white" name="others" type="text" placeholder="Nombre" required/>
+              </label>
+
+              <label class="container-diploma__label"><span>Email tutor</span>
+                <input class="input--white" name="email" type="text" placeholder="Email tutor" required/>
+              </label>
+
+              <label class="container-diploma__label"><span>Fin Programa</span>
+              <select class=" select-alternativo select-alternativo--big" name="program">
+                <option value="">Selecciona fecha</option>
+              </select>
+              </label>
+            </div>
+
+          </div>
+
+          <input type="submit" value="Realizar Pago / 30€" class="button">
+        </div>
+      </form>
+    </section>
+
   </div>
-  <div class="container-certification__button button button--circle button--big"><span>30<sup>€</sup></span></div>
-  </section>
-
-  <section class="container-diploma">
-    <h1 class="container-diploma__title">Solicita tu diploma</h1>
-    <h3 class="container-diploma__subtitle">Datos personales</h3>
-    <label class="container-diploma__paragraph"><span>Quiero utilizar los datos personales del registro</span>
-      <input class="checkbox-toggle" type="checkbox"/>
-    </label>
-
-
-    <div class="container-diploma__wraper-personal">
-      <div class="container-diploma__box container-diploma__box--left">
-        <label class="container-diploma__label"><span>Nombre</span>
-          <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
-        </label>
-
-        <label class="container-diploma__label"><span>Apellido</span>
-          <input class="input--white" name="surname" type="text" placeholder="Apellidos" required/>
-        </label>
-
-        <label class="container-diploma__label"><span>Nacionalidad</span>
-          <select class="select-alternativo select-alternativo--big" name="nacionalidad">
-            <option value="">Nacionalidad</option>
-          </select>
-        </label>
-      </div>
-
-      <div class="container-diploma__box container-diploma__box--right">
-
-        <label class="container-diploma__label"><span>Fecha Nacimiento</span>
-        <select class=" select-alternativo select-alternativo--big" name="nacimiento">
-          <option value="">Selecciona fecha</option>
-        </select>
-      </label>
-
-      <label class="container-diploma__label"><span>Email</span>
-        <input class="input--white" name="email" type="text" placeholder="Email" required/>
-      </label>
-      </div>
-
-    </div>
-
-
-    <div class="container-diploma__wraper-validation">
-      <h3 class="container-diploma__subtitle container-diploma__subtitle2">Datos colegios / empresas para validación</h3>
-
-      <label class="container-diploma__label--big" for="x">
-        <span>Tipo de entidad en la que has trabajado</span>
-        <label class="input-radio input--small">
-          <input type="radio" name="institucion" value="colegio" checked><span>Colegio</span>
-        </label>
-        <label class="input-radio input--small">
-          <input type="radio" name="institucion" value="academia"><span>Academia</span>
-        </label>
-        <label class="input-radio input--small">
-          <input type="radio" name="institucion" value="otros"><span>Otro</span>
-        </label>
-          <input class="input--white" name="name" type="text" placeholder="Especificar" required/>
-      </label>
-
-      <div class="container-diploma__wraper">
-
-        <div class="container-diploma__box container-diploma__box--left">
-
-          <label class="container-diploma__label"><span>Nombre de la entidad</span>
-            <input class="input--white" name="name" type="text" placeholder="Nombre de la entidad" required/>
-          </label>
-
-          <label class="container-diploma__label"><span>Puesto desarrolado</span>
-          <select class="select-alternativo select-alternativo--big" name="puesto">
-            <option value="">Elegir Puesto</option>
-          </select>
-          </label>
-
-          <label class="container-diploma__label"><span>Nombre tutor</span>
-            <input class="input--white" name="name" type="text" placeholder="Nombre tutor" required/>
-          </label>
-
-          <label class="container-diploma__label"><span>Inicio Programa</span>
-          <select class=" select-alternativo select-alternativo--big" name="program">
-            <option value="">Selecciona fecha</option>
-          </select>
-          </label>
-
-          <label class="container-diploma__label"><span>N° Horas / Semana</span>
-          <select class=" select-alternativo select-alternativo--big" name="hours">
-            <option value="">Selecciona Horas</option>
-          </select>
-          </label>
-        </div>
-
-
-
-        <div class="container-diploma__box container-diploma__box--right">
-
-          <label class="container-diploma__label"><span>Web entidad</span>
-            <input class="input--white" name="web" type="text" placeholder="Web entidad" required/>
-          </label>
-
-          <label class="container-diploma__label"><span>Otros</span>
-            <input class="input--white" name="others" type="text" placeholder="Nombre" required/>
-          </label>
-
-          <label class="container-diploma__label"><span>Email tutor</span>
-            <input class="input--white" name="email" type="text" placeholder="Email tutor" required/>
-          </label>
-
-          <label class="container-diploma__label"><span>Fin Programa</span>
-          <select class=" select-alternativo select-alternativo--big" name="program">
-            <option value="">Selecciona fecha</option>
-          </select>
-          </label>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container-diploma-pago">
-    <a class="container-diploma-pago__link button" href="#">Realizar pago / 30€</a>
-  </section>
-
-
 
 
 

@@ -1,21 +1,25 @@
 .container-certification {
   background:var(--bg-gray);
-  padding:79px 0;
-  display:flex;
-  padding-left:96px;
-  margin:0 80px;
+  text-align:center;
+  position:relative;
+}
+
+.container-certification > section {
+  padding:60px 0;
+  margin: 0 80px;
+}
+
+.container-certification > section:not(:last-child) {
   border-bottom:1px dashed var(--color-primary);
 }
 
 .container-certification__box {
-  display:flex;
-  flex-flow:column;
-  max-width: 55%;
+  max-width: 580px;
   margin:10px auto;
 }
 
 .container-certificaction__title,
- .container-diploma__title {
+.container-diploma__title {
   text-align: center;
   font-size:1.5rem;
   line-height: 32px;
@@ -34,8 +38,10 @@
 }
 
 .container-certification__button.button--circle {
-  display:flex;
   box-shadow:none;
+  position: absolute;
+  top: 76px;
+  right: 76px;
 }
 
 .container-certification__select {
@@ -63,7 +69,7 @@
 }
 
 .container-diploma__title {
-  padding:63px 0 35px;
+  padding:0 0 35px;
 }
 
 .container-diploma__subtitle {
@@ -76,12 +82,6 @@
 }
 .container-diploma__paragraph {
   text-align:center;
-}
-
-.container-diploma__paragraph span {
-  text-transform: capitalize;
-  font-weight:initial;
-  font-size:1rem;
 }
 
 
@@ -116,7 +116,7 @@ justify-content: space-between;
 
 .container-diploma__wraper {
   display:flex;
-  padding-top:58px;
+  padding:58px 0;
 }
 
 .container-diploma__box {
@@ -132,13 +132,7 @@ justify-content: space-between;
 }
 
 .container-diploma-pago {
-margin:51px auto 96px;
-text-align:center;
-padding:0 20px;
+  margin:51px auto 96px;
+  text-align:center;
+  padding:0 20px;
 }
-
-.container-diploma-pago__link {
-  min-width:230px;
-}
-
-
