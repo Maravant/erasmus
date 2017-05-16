@@ -156,9 +156,13 @@
         <span>Código postal</span>
         <input class="input input--tel input--white" name="direccion postal" type="tel" placeholder="Número" required/>
       </label>
-      <label class="c_register-form__label">
-        <span>Foto perfil</span>
-        <input class="input-file" type="file" name="archivo" placeholder="Selecciona archivo"/>
+
+
+      <label class="c_register-form__label"><span>Foto perfil</span>
+        <label class="input-file">
+          <input type="file" name="archivo" placeholder="Selecciona archivo"/>
+          <span>Selecciona archivo</span>
+        </label>
       </label>
     </div>
   </section>
@@ -183,9 +187,7 @@
     <div class="c_register-form__wrapper">
       <label class="c_register-form__label">
         <span>Fecha de inicio</span>
-        <select class="select-alternativo" name="duración">
-          <option value="">Selecciona fecha <i class="icon icon--small icon--calendario" aria-hidden="true"></i></option>
-        </select>
+        <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
       </label>
 
       <label class="c_register-form__label">

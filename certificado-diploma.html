@@ -55,9 +55,7 @@
         <p class="container-certification__paragraph container-certification__last-paragraph">Introduce la fecha de finalización del programa y te enviaremos un recordatorio para que solicites
         diploma oficial.</p>
         <label class="container-certification__select c_register-form__label">
-          <select class="select-alternativo select-alternativo--big" name="duración">
-            <option value="">Selecciona fecha <i class="icon icon--small icon--calendario" aria-hidden="true"></i></option>
-          </select>
+          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
         </label>
       </div>
       <div class="container-certification__button button button--circle button--big"><span>30<sup>€</sup></span></div>
@@ -86,19 +84,18 @@
             </label>
 
             <label class="container-diploma__label"><span>Nacionalidad</span>
-              <select class="select-alternativo select-alternativo--big" name="nacionalidad">
-                <option value="">Nacionalidad</option>
-              </select>
+              <span>Nacionalidad</span>
+              <input class="input--white" name="nacionality" type="text" placeholder="Nacionalidad" required/>
             </label>
+
           </div>
 
           <div class="container-diploma__box container-diploma__box--right">
 
             <label class="container-diploma__label"><span>Fecha Nacimiento</span>
-            <select class=" select-alternativo select-alternativo--big" name="nacimiento">
-              <option value="">Selecciona fecha</option>
-            </select>
-          </label>
+              <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+            </label>
+
 
           <label class="container-diploma__label"><span>Email</span>
             <input class="input--white" name="email" type="text" placeholder="Email" required/>
@@ -143,9 +140,7 @@
               </label>
 
               <label class="container-diploma__label"><span>Inicio Programa</span>
-              <select class=" select-alternativo select-alternativo--big" name="program">
-                <option value="">Selecciona fecha</option>
-              </select>
+                <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
               </label>
 
               <label class="container-diploma__label"><span>N° Horas / Semana</span>
@@ -169,9 +164,10 @@
               </label>
 
               <label class="container-diploma__label"><span>Fin Programa</span>
-              <select class=" select-alternativo select-alternativo--big" name="program">
-                <option value="">Selecciona fecha</option>
-              </select>
+                <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+              </label>
+
+
               </label>
             </div>
 
