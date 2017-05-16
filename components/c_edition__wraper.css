@@ -16,12 +16,22 @@
 }
 
 .c_edition__icon {
-  padding-bottom:25px;
+  padding-bottom:30px;
 }
 
 .c_edition__title {
   padding-bottom:63px;
+  text-decoration: none;
+  color:var(--bg-black);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:0.9rem;
 }
+
+.c_edition__title:hover {
+  color:var(--color-primary);
+}
+
 
 .c_edition__button {
   margin-bottom:25px;

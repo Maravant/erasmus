@@ -1,11 +1,8 @@
 .c_edition-profile {
-  border-top:2px solid #e4e3e3;
-  border-bottom:2px solid #e4e3e3;
+  border-top:2px solid var(--color-border);
+  border-bottom:2px solid var(--color-border);
   display:flex;
   justify-content: space-around;
-  border-top:2px solid #e4e3e3;
-  border-bottom:2px solid #e4e3e3;
-  display:flex;
 }
 
 .c_edition-profile__box {
@@ -14,7 +11,7 @@
 }
 
 .c_edition-profile__box-profile {
-  border-right:2px solid #e4e3e3;
+  border-right:2px solid var(--color-border);
 }
 
 .c_edition-profile__box-ad {
