@@ -3,6 +3,7 @@
   border-bottom:2px solid var(--color-border);
   display:flex;
   justify-content: space-around;
+  margin-top:24px;
 }
 
 .c_edition-profile__box {
