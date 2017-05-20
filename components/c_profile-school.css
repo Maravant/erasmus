@@ -77,6 +77,10 @@
   text-transform: uppercase;
 }
 
+.c_profile-school__diploma {
+  margin-top: 50px;
+}
+
 @media (max-width: 600px) {
   .c_profile-school {
     display:block;

@@ -8,6 +8,7 @@ label {
 }
 
 label input[type="tel"],
+label input[type="date"],
 label input[type="text"] {
   margin-left: 16px;
 }

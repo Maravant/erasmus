@@ -1,0 +1,32 @@
+.c_profile-notification-item {
+  text-decoration: none;
+  margin-bottom: 54px;
+  color: var(--color-text-secondary);
+}
+
+.c_profile-notification-item__number {
+  background-color: var(--color-primary);
+  color: var(--color-text-secondary);
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  margin: 0 auto 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  font-family: var(--font-family-heading), sans-serif;
+}
+
+.c_profile-notification-item.c_profile-notification-item--black .c_profile-notification-item__number {
+  background-color: var(--color-text-secondary);
+  color: white;
+}
+
+.c_profile-notification-item.c_profile-notification-item--red .c_profile-notification-item__number {
+  background-color: #ff686f;
+  color: white;
+}

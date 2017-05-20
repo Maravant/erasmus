@@ -8,10 +8,6 @@
   background:var(--bg-gray);
 }
 
-.c_edition__box {
-  padding:0;
-}
-
 .c_edition__wraper-favourite {
   display:flex;
   flex:1;
@@ -42,7 +38,6 @@
   align-items: center;
   flex:3;
   padding:16px 0;
-}
 }
 
 .c_edition__box__circle {
