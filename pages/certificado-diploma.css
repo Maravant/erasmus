@@ -88,6 +88,12 @@
 .container-diploma__wraper-personal {
   display:flex;
   padding:74px 0 32px;
+  opacity:1;
+}
+
+.container-diploma__wraper-personal__disabled {
+  opacity:0.2;
+  pointer-events: none;
 }
 
 .container-diploma__box {
