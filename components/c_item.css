@@ -38,6 +38,13 @@
   width: 100%;
 }
 
+.c_item__image--star {
+  position:absolute;
+  color:white;
+  top:10px;
+  right:10px;
+}
+
 .c_item__content {
   position:absolute;
   text-align:center;
