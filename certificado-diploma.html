@@ -44,13 +44,19 @@
   </header>
   <!-- /header template -->
 
+
+<div class="container-certification">
   <h1 class="main-title">Solicitud de diploma</h1>
 
-  <div class="container-certification">
-    <section class="container-certification">
+  <div class="container-certification__wrapper">
+    <section class="container-certification__hero">
+      <div class="container-certification__button button button--circle button--big"><span>30<sup>€</sup></span></div>
+
       <div class="container-certification__box">
-        <h1 class="container-certificaction__title">Certifica tu experiencia como auxiliar lingüístico
-        solicitando tu diploma oficial</h1>
+        <h1 class="container-certificaction__title">
+          Certifica tu experiencia como auxiliar lingüístico<br>
+          solicitando tu diploma oficial
+        </h1>
         <p class="container-certification__paragraph container-certification__main-paragraph">¿Has sido seleccionado para un colegio / empresa?</p>
         <p class="container-certification__paragraph container-certification__last-paragraph">Introduce la fecha de finalización del programa y te enviaremos un recordatorio para que solicites
         diploma oficial.</p>
@@ -58,7 +64,6 @@
           <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
         </label>
       </div>
-      <div class="container-certification__button button button--circle button--big"><span>30<sup>€</sup></span></div>
     </section>
 
     <section class="container-diploma">
@@ -76,29 +81,58 @@
         <div class="container-diploma__wraper-personal container-diploma__wraper-personal__disabled">
           <div class="container-diploma__box container-diploma__box--left">
             <label class="container-diploma__label"><span>Nombre</span>
-              <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
+              <input class="input--white" name="name" type="text" placeholder="" required/>
             </label>
 
             <label class="container-diploma__label"><span>Apellido</span>
-              <input class="input--white" name="surname" type="text" placeholder="Apellidos" required/>
+              <input class="input--white" name="surname" type="text" placeholder="" required/>
             </label>
 
             <label class="container-diploma__label"><span>Nacionalidad</span>
-              <input class="input--white" name="nacionality" type="text" placeholder="Nacionalidad" required/>
+              <input class="input--white" name="nacionality" type="text" placeholder="" required/>
             </label>
-
           </div>
 
           <div class="container-diploma__box container-diploma__box--right">
-
             <label class="container-diploma__label"><span>Fecha Nacimiento</span>
               <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
             </label>
 
+            <label class="container-diploma__label"><span>Email Contacto</span>
+              <input class="input--white" name="email" type="text" placeholder="" required/>
+            </label>
 
-          <label class="container-diploma__label"><span>Email</span>
-            <input class="input--white" name="email" type="text" placeholder="Email" required/>
-          </label>
+
+            <label class="container-diploma__label--big" for="x">
+              <label class="input-radio input--small">
+                <input type="radio" name="idtype" value="dni" checked><span>DNI</span>
+              </label>
+              <label class="input-radio input--small">
+                <input type="radio" name="idtype" value="pasaporte"><span>Pasaporte</span>
+              </label>
+              <input class="input--white" name="idnumber" type="text" placeholder="" required/>
+            </label>
+
+          </div>
+
+          <div class="container-diploma__box container-diploma__box--both">
+            <label class="container-diploma__label"><span>Dirección</span>
+              <input class="input--white" name="address" type="text" placeholder="" required/>
+            </label>
+          </div>
+
+          <div class="container-diploma__box container-diploma__box--both">
+            <label class="container-diploma__label"><span>Ciudad</span>
+              <input class="input--white" name="city" type="text" placeholder="" required/>
+            </label>
+
+            <label class="container-diploma__label"><span>Provincia</span>
+              <input class="input--white" name="city" type="text" placeholder="" required/>
+            </label>
+
+            <label class="container-diploma__label"><span>Código Postal</span>
+              <input class="input-tel input--white" name="postalcode" type="tel" placeholder="" required/>
+            </label>
           </div>
 
         </div>
@@ -125,7 +159,7 @@
 
             <div class="container-diploma__box container-diploma__box--left">
               <label class="container-diploma__label"><span>Nombre de la entidad</span>
-                <input class="input--white" name="name" type="text" placeholder="Nombre de la entidad" required/>
+                <input class="input--white" name="name" type="text" placeholder="" required/>
               </label>
 
               <label class="container-diploma__label"><span>Puesto desarrolado</span>
@@ -135,7 +169,7 @@
               </label>
 
               <label class="container-diploma__label"><span>Nombre tutor</span>
-                <input class="input--white" name="name" type="text" placeholder="Nombre tutor" required/>
+                <input class="input--white" name="name" type="text" placeholder="" required/>
               </label>
 
               <label class="container-diploma__label"><span>Inicio Programa</span>
@@ -151,23 +185,26 @@
 
             <div class="container-diploma__box container-diploma__box--right">
               <label class="container-diploma__label"><span>Web entidad</span>
-                <input class="input--white" name="web" type="text" placeholder="Web entidad" required/>
+                <input class="input--white" name="web" type="text" placeholder="" required/>
               </label>
 
               <label class="container-diploma__label"><span>Otros</span>
-                <input class="input--white" name="others" type="text" placeholder="Nombre" required/>
+                <input class="input--white" name="others" type="text" placeholder="" required/>
               </label>
 
               <label class="container-diploma__label"><span>Email tutor</span>
-                <input class="input--white" name="email" type="text" placeholder="Email tutor" required/>
+                <input class="input--white" name="email" type="text" placeholder="" required/>
               </label>
 
               <label class="container-diploma__label"><span>Fin Programa</span>
                 <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
               </label>
 
-
-
+              <label class="container-diploma__label"><span>Idioma Enseñado</span>
+              <select class=" select-alternativo select-alternativo--big" name="dfxc">
+                <option value=""></option>
+              </select>
+              </label>
             </div>
 
           </div>
@@ -176,8 +213,8 @@
         </div>
       </form>
     </section>
-
   </div>
+</div>
 
 
 
