@@ -23,7 +23,21 @@
   height:36px;
 }
 
+.ico--change {
+  background-image: url(../images/ico-change.svg);
+}
 
+.ico--cv {
+ background-image: url(../images/ico-CV.svg);
+}
+
+.ico--favoritos {
+   background-image: url(../images/ico-favoritos.svg);
+}
+
+.icon--mensajes {
+  background-image: url(../images/ico-mensajes.svg);
+}
 
 .icon--home-colegios-color {
   background-image: url(../images/ico-home-colegios-empresas-color.svg);
