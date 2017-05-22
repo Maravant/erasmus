@@ -23,20 +23,20 @@
   height:36px;
 }
 
-.ico--change {
-  background-image: url(../images/ico-change.svg);
+.icon--change {
+  background-image: url(../images/icon--change.svg);
 }
 
-.ico--cv {
- background-image: url(../images/ico-CV.svg);
+.icon--cv {
+ background-image: url(../images/icon--cv.svg);
 }
 
-.ico--favoritos {
-   background-image: url(../images/ico-favoritos.svg);
+.icon--favoritos {
+   background-image: url(../images/icon--favoritos.svg);
 }
 
 .icon--mensajes {
-  background-image: url(../images/ico-mensajes.svg);
+  background-image: url(../images/icon--mensajes.svg);
 }
 
 .icon--home-colegios-color {
@@ -78,6 +78,9 @@
 
 .icon--casa {
   background-image: url(../images/ico_casa.svg);
+  /* color: var(--color-primary); */
+  /* filter: brightness(2) invert(2); */
+  color: red;
 }
 
 .icon--check,

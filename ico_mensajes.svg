@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_mensajes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="PERFIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mi_perfil_AUXILIAR_imgperfil_hover" transform="translate(-704.000000, -717.000000)" fill="#2D2D2D">
+            <path d="M733,737 L707,737 C706.449,737 706,736.552 706,736 L706,720.229 L719.419,729.813 C719.593,729.938 719.796,730 720,730 C720.204,730 720.407,729.938 720.581,729.813 L734,720.229 L734,736 C734,736.552 733.551,737 733,737 L733,737 Z M732.28,719 L720,727.771 L707.72,719 L732.28,719 Z M733,717 L707,717 C705.346,717 704,718.346 704,720 L704,736 C704,737.654 705.346,739 707,739 L733,739 C734.654,739 736,737.654 736,736 L736,720 C736,718.346 734.654,717 733,717 L733,717 Z" id="ico_mensajes"></path>
+        </g>
+    </g>
+</svg>

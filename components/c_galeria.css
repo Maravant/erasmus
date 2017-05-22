@@ -96,11 +96,6 @@
   opacity:1;
 }
 
-.c_galeria-auxiliar__image__icon {
-   filter:brightness() invert();
-   color:var(--color-primary);
-
-}
 
 .c_galeria-auxiliar__image__paragraph {
   color:var(--bg-white);
