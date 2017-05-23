@@ -61,6 +61,7 @@
 
 .c_galeria-auxiliar__image__black {
   /* visibility: hidden; */
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,8 +70,7 @@
   right: 0;
 }
 
-.c_galeria-auxiliar__image__black:hover {
-  background-image: none;
+.c_galeria-auxiliar:hover .c_galeria-auxiliar__image__black {
   background-color:black;
   opacity:0.8;
   z-index:12;
@@ -85,15 +85,11 @@
 }
 
 .c_galeria-auxiliar__image__content {
-  opacity:0;
+  opacity:1;
   display:flex;
   flex-flow:column;
   justify-content: center;
   align-items: center;
-}
-
-.c_galeria-auxiliar__image__content:hover {
-  opacity:1;
 }
 
 
