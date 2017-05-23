@@ -1,18 +1,22 @@
 
 .main-title--white {
   box-shadow:none;
+  padding:8px 0;
+  font-size:2.2rem;
+  text-align: center;
 }
 
 .c_auxiliar-favourites {
   display:flex;
-  justify-content: space-around;
+  box-shadow: inset 0 8px 33px -8px rgba(0, 0, 0, 0.1);
 }
 
 .c_auxiliar-favourites__chosen,
 .c_auxiliar-favourites__messages,
 .c_auxiliar-favourites__sendCV {
-flex:1;
-padding:32px 0 35px;
+  flex:1;
+  padding:32px 35px 35px 0 ;
+  justify-content: space-around;
 }
 
 
@@ -37,8 +41,12 @@ padding:32px 0 35px;
   color:#e4e3e3;
 }
 
-.c_auxiliar-favourites__icon {
+.c_auxiliar-favourites__link.c_auxiliar-favourites__link__disabled:hover {
   color:#e4e3e3;
+}
+
+.c_auxiliar-favourites__icon {
+  filter:brightness(0) invert(0);
 }
 
 
@@ -47,20 +55,20 @@ padding:32px 0 35px;
 }
 
 .c_auxiliar-favourites__messages {
-  border-right: 2px solid #e4e3e3;
-  border-top: 2px solid #e4e3e3;
+  border-right: 2px solid rgba(0,0,0,0.04)
 }
 
 .c_auxiliar-favourites__sendCV {
-  border-top: 2px solid #e4e3e3;
+
 }
 
 
 .c_auxiliar-favourites__messages,
 .c_auxiliar-favourites__sendCV {
   display:flex;
-  justify-content:center;
+  justify-content: center;
   background: rgba(0, 0, 0, 0.03);
+  box-sizing:border-box;
 }
 
 .c_auxiliar-favourites__messages__box,
@@ -72,7 +80,6 @@ padding:32px 0 35px;
   flex:2;
   color:#e4e3e3;
 }
-
 
 
 .c_auxiliar-favoritos-item__number {

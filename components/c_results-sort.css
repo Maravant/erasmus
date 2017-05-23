@@ -9,8 +9,8 @@
 }
 
 .c_results-sort-auxiliares {
-  visibility: hidden;
-  overflow: hidden;
+  justify-content: center;
+  padding:36px 0;
 }
 
 .c_results-sort__paragraph {
