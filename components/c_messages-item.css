@@ -40,6 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .c_messages-item__avatar {
@@ -48,13 +49,13 @@
   border-radius:50%;
 }
 
-.c_messages-item__avatar--two {
+.c_messages-item__avatar--small {
   width: 32px;
   height: 32px;
   border-radius:50%;
 }
 
-.c_messages-item__avatar--two:first-of-type {
+.c_messages-item__avatar--small:first-of-type {
   margin-right:8px;
 }
 
@@ -62,10 +63,27 @@
   display:flex;
   flex-wrap: wrap;
   max-width:72px;
+  position:relative;
 }
 
-.c_messages-item__avatar--two:last-of-type.c_messages-item__avatar__box--group {
-  margin-left:8px;
+.c_messages-item__avatar--small:nth-of-type(3) {
+  margin-right:8px;
+}
+
+.c_messages-item_notification_number {
+  width: 32px;
+  height: 32px;
+  border-radius:50%;
+  background-color: var(--color-primary);
+  color:var(--bg-black);
+  font-size:1rem;
+  font-weight: bold;
+  font-family: var(--font-family-heading), sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  top: 22px;
 }
 
 .c_messages-item__personal {
@@ -74,7 +92,7 @@
   justify-content: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  max-width: 16%;
+  max-width: 18%;
 }
 
 .c_messages-item__name {
@@ -83,13 +101,15 @@
   font-weight: bold;
   text-align: left;
 }
+
+
 .c_messages-item__date {
   font-size:0.75rem;
   text-align: left;
 }
 
 .c_messages-item__paragraph {
-  width:50%;
+  max-width:50%;
   line-height:24px;
   /*white-space: nowrap;
   overflow: hidden;
@@ -125,7 +145,6 @@
 .c_messages-item__number--hidden {
   visibility: hidden;
 }
-
 
 
 
