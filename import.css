@@ -34,13 +34,10 @@
 @import url(components/c_edition.css);
 @import url(components/c_edition-auxiliar__wraper.css);
 @import url(components/c_edition-profile.css);
-<<<<<<< HEAD
 @import url(components/c_auxiliar-favourites.css);
-@import url(components/c_auxiliar-favourites-messages.css);
+@import url(components/c_messages-item.css);
 @import url(components/c_auxiliar-favourites-messages-closed.css);
-=======
 @import url(components/c_tabs.css);
->>>>>>> 78ffd033933a3825f09f03627b149f5a669fe89c
 @import url(components/c_profile-notification-item.css);
 @import url(pages/certificado-diploma.css);
 @import url(pages/home.css);
