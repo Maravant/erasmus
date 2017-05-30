@@ -1,24 +1,39 @@
+.c_messages-item {
+  background-color: var(--bg-gray);
+}
+
 .c_messages-item__wraper {
   display:flex;
-  /* justify-content: space-between; */
   align-items: center;
+  background-color:var(--bg-white);
+  border-radius: 4px;
+  margin-bottom:16px;
+  background-color:var(--bg-gray);
+  max-width: 1244px;
+
+}
+
+.c_messages-item__wraper--unread {
+  background-color:var(--bg-white);
 }
 
 .c_messages-item__read {
   width: 32px;
   height: 31px;
-  margin-right:31px;
+  background-image: url(../images/ico_enviar.svg);
+  background-repeat: no-repeat;
+  margin:0 44px;
 }
 
 .c_messages-item__box {
   display:flex;
   flex-flow:row;
-  background:var(--bg-white);
   width:960px;
   justify-content: space-between;
   color:var(--bg-black);
   padding:24px;
   border-radius: 4px;
+  background-color:var(--bg-white);
 }
 
 .c_messages-item__avatar {
@@ -47,26 +62,40 @@
 .c_messages-item__paragraph {
   width:50%;
   line-height:24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .c_messages-item__notification {
   display:flex;
   flex-flow:column;
   justify-content: space-between;
+  /* position: relative; */
+  /* top: 5px; */
+  /* right: 0; */
+  /* bottom: 19px; */
+  /* background-color: red; */
 }
 
-.c_messages-item__icon {
-
-}
+.c_messages-item__icon {/* position: absolute; *//* top: 0; *//* right: 10px; */}
 
 .c_messages-item__number {
   font-weight:bold;
   font-size:0.87rem;
+  /* bottom: 10px; */
+  /* right: 0; */
+  /* position: absolute; */
+}
+
+.c_messages-item__number--visibility {
+  display:block;
 }
 
 .c_messages-item__number--hidden {
-  display:none;
+  visibility: hidden;
 }
+
 
 
 
