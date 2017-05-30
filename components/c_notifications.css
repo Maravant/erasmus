@@ -1,0 +1,21 @@
+
+/*.c_notifications {
+  background-color:var(--bg-gray);
+}
+
+.c_notifications__wraper {
+  max-width:960px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.c_notifications-received {
+  display:flex;
+  justify-content:left;
+}
+
+.c_notifications-number {
+  display:flex;
+  flex-flow:row;
+  justify-content:flex-end;
+}
