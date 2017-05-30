@@ -10,7 +10,7 @@
   margin-right:31px;
 }
 
-.c_messages-item__content {
+.c_messages-item__box {
   display:flex;
   flex-flow:row;
   background:var(--bg-white);
@@ -67,14 +67,6 @@
 .c_messages-item__number--hidden {
   display:none;
 }
-
-.c_messages-item__wraper.c_messages-item__wraper--unread {
-background-color: white;
-padding-left:31px;
-box-sizing:border-box;
-border-radius:4px;
-}
-
 
 
 
