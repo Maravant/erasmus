@@ -77,6 +77,26 @@
   color: white;
 }
 
-.c_tab--active .c_tab__notification_number {
+.c_tab__notification_number.c_tab__notification_number--blue {
+  background-color: var(--color-primary);
+}
+
+.c_tab--active .c_tab__notification_number--blue {
   display: none;
 }
+
+
+.c_tab--active .c_tab__notification_number--black {
+  display:none;
+}
+
+.c_tab--active .c_tab__notification_number.c_tab__notification_number__disabled {
+  display:block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
