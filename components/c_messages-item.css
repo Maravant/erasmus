@@ -1,7 +1,7 @@
 .messages-container {
   background-color: var(--bg-gray);
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 96px;
 }
 
 .messages-container__wrapper {
