@@ -1,0 +1,30 @@
+.c_item-notifications {
+  background-color:var(--color-text-primary);
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  align-items: center;
+  padding:12px 0;
+}
+
+.c_item-notifications__paragraph {
+  color:var(--color-primary);
+  line-height: 24px;
+  letter-spacing: 2.8px;
+  font-family:var(--font-family-main);
+  text-transform: uppercase;
+  padding-right:16px;
+  font-size:0.87rem;
+}
+
+.c_item-notifications__icon {
+  filter:brightness() invert();
+  color:var(--color-primary);
+  padding-right:-1px;
+}
+
+.c_item-notifications__span {
+  display:flex;
+  flex-flow: row;
+  width:30px;
+}
