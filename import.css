@@ -37,7 +37,9 @@
 @import url(components/c_messages-item.css);
 @import url(components/c_tabs.css);
 @import url(components/c_notifications.css);
+@import url(components/c_item__notifications.css);
 @import url(components/c_profile-notification-item.css);
 @import url(pages/certificado-diploma.css);
+
 @import url(pages/home.css);
 @import url(pages/buscador.css);
