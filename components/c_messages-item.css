@@ -124,31 +124,18 @@
   box-sizing: border-box;
   flex: 1;
   line-height:24px;
-  /*white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;*/
+
 }
 
 .c_messages-item__notification {
   display:flex;
   flex-flow:column;
   justify-content: space-between;
-  /* position: relative; */
-  /* top: 5px; */
-  /* right: 0; */
-  /* bottom: 19px; */
-
 }
-
-.c_messages-item__icon {
-/* position: absolute; *//* top: 0; *//* right: 10px; */}
 
 .c_messages-item__number {
   font-weight:bold;
   font-size:0.87rem;
-  /* bottom: 10px; */
-  /* right: 0; */
-  /* position: absolute; */
 }
 
 .c_messages-item__number--visibility {
