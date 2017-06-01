@@ -51,34 +51,98 @@
 
   <section class="c_profile-edition">
 
+    <div class="c_profile-edition__container">
+      <div class="c_profile-edition__paragraph">Recibe alertas en tu email cuando un colegio / empresa
+      de tu interés presente una oferta.</div>
 
-    <div class="c_profile-edition__paragraph">Recibe alertas en tu email cuando un colegio / empresa
-    de tu interés presente una oferta.</div>
-
-    <div class="c_profile-edition__wrapper">
-      <label class="c_profile-edition-form__label" for="x">
-        <span>Estoy buscando</span>
-        <label class="input-radio input--small">
-          <input type="radio" name="institucion" value="todos"><span>Todos</span>
+      <div class="c_profile-edition__wrapper">
+        <label class="c_profile-edition-form__label" for="x">
+          <span>Estoy buscando</span>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="todos"><span>Todos</span>
+          </label>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="colegio"><span>Colegio</span>
+          </label>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="academia"><span>Academia</span>
+          </label>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="otros"><span>Otro</span>
+          </label>
         </label>
-        <label class="input-radio input--small">
-          <input type="radio" name="institucion" value="colegio" checked><span>Colegio</span>
-        </label>
-        <label class="input-radio input--small">
-          <input type="radio" name="institucion" value="academia"><span>Academia</span>
-        </label>
-        <label class="input-radio input--small">
-          <input type="radio" name="institucion" value="otros"><span>Otro</span>
-        </label>
-      </label>
 
-      <label class="c_profile-edition__label">
-        <span>En</span>
-        <input class="input--white" name="name" type="text" placeholder="Ciudad, País" required/>
-      </label>
-    </div>
+        <label class="c_profile-edition__label">
+          <span>En</span>
+          <input class="input--white" name="name" type="text" placeholder="Ciudad, País" required/>
+        </label>
+      </div>
+
+      <div class="c_profile-edition__box">
+        <label class="c_profile-edition-form__label">
+          <span class="c_profile-edition-form__label__span">
+            Idiomas requeridos
+              <small class="c_profile-edition-form__subtitle">(Puedes seleccionar varios)</small>
+          </span>
+          <select class="select-alternativo" name="selecciona lengua">
+            <option value="">Selecciona lengua</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="c_profile-edition__wraper--disp">
+        <label class="c_profile-edition-form__label">
+          <span class="c_register-form__span">
+          Disponibilidad<small class="c_profile-edition-form__small--disp">Empezar como pronto</small>
+          </span>
+          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        </label>
 
 
+        <label class="c_profile-edition-form__label">
+          <small class="c_profile-edition-form__small">Empezar como tarde</small>
+          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        </label>
+      </div>
+
+      <div class="c_profile-edition__wrapper">
+
+        <div class="c_profile-edition__duration">
+          <label class="c_profile-edition-form__label">
+            <span>Duración</span>
+            <select class="select-alternativo" name="selecciona duración">
+              <option value="">Selecciona Duración</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="c_profile-edition__benefits">
+          <label class="c_profile-edition-form__label" for="x">
+            <span>Beneficios</span>
+              <label class="input-radio input--small">
+                <input type="radio" name="dinero" value="" checked><span><i class="c_item-colegio__icon icon icon--xsmall icon--duracion" aria-hidden="true"></i></span>
+              </label>
+              <label class="input-radio input--small">
+                <input type="radio" name="dinero" value="" checked><span><i class="c_item-colegio__icon icon icon--xsmall icon--duracion" aria-hidden="true"></i></span>
+              </label>
+              <label class="input-radio input--small">
+                <input type="radio" name="dinero" value="" checked><span><i class="c_item-colegio__icon icon icon--xsmall icon--duracion" aria-hidden="true"></i></span>
+              </label>
+              <label class="input-radio input--small">
+                <input type="radio" name="dinero" value="" checked><span><i class="c_item-colegio__icon icon icon--xsmall icon--duracion" aria-hidden="true"></i></span>
+              </label>
+              <label class="input-radio input--small">
+                <input type="radio" name="dinero" value="" checked><span><i class="c_item-colegio__icon icon icon--xsmall icon--duracion" aria-hidden="true"></i></span>
+              </label>
+          </label>
+          <p class="c_profile-edition__text">Haz click en los beneficios que estás buscando</p>
+        </div>
+      </div>
+
+
+
+
+      </div>
   </section>
 
 
