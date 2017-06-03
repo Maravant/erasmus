@@ -31,14 +31,17 @@
   display: flex;
 }
 
+.c_profile-edition-form__label select {
+  margin-left: 20px;
+}
+
 .c_profile-edition-form__label__span {
   display: inline-block;
-  margin-right: 40px;
   text-align: right;
   justify-content: center;
   align-items: center;
   line-height: 1;
-  width: 30%;
+  width: 200px;
 }
 
  .c_profile-edition-form__subtitle {
@@ -70,7 +73,6 @@
   text-transform:none;
   padding-left:40px;
 }
-
 
 .c_profile-edition__benefits {
   display:flex;
