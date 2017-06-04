@@ -146,12 +146,3 @@
   visibility: hidden;
 }
 
-.c_messages-item__icon--remove {
-  width: 120px;
-  background-image: url(../images/ico_enviar.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-
-

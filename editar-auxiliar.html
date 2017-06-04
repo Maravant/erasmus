@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<!-- header template -->
+  <!-- header template -->
   <header class="header">
     <div class="header__wrapper">
       <div class="header__wrapper-limit">
@@ -37,114 +37,156 @@
 
         <div class="header__userbox">
           <img class="header__userbox-avatar" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
-          <h5 class="header__userbox-name">José María</h5>
+          <h5 class="header__userbox-name"><a href="mi-perfil-auxiliar.html">José María</a></h5>
         </div>
       </div>
     </div>
   </header>
   <!-- /header template -->
 
-  <h1 class="main-title">Mi perfil</h1>
 
+  <h1 class="main-title">Edición de perfil</h1>
 
-  <section class="c_profile-school">
-
-    <div class="c_galeria c_galeria-auxiliar">
-      <div class="c_galeria__images">
-        <img class="c_galeria__image c_galeria-auxiliar__image" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
-        <div class="c_galeria-auxiliar__image__black">
-          <div class="c_galeria-auxiliar__image__content">
-            <i class="c_galeria-auxiliar__image__icon icon icon--change" aria-hidden="true"></i>
-           <p class="c_galeria-auxiliar__image__paragraph">Cambiar imagen</p>
-            <div class="c_galeria-auxiliar__image__box">
-              <a href="" class="c_galeria-auxiliar__image__link c_galeria-auxiliar__image__file">Subir archivo</a>
-              <a href="" class="c_galeria-auxiliar__image__link c_galeria-auxiliar__image__webcam">Usar webcam</a>
-            </div>
-          </div>
-        </div>
+  <section class="c_tabs">
+    <a class="c_tab c_tab--active c_tab--medium" href="#">
+      <div class="c_tab__box">
+        <span class="c_tab__link">Datos de registro</span>
       </div>
-    </div>
+    </a>
 
-    <div class="c_profile-school__box">
-      <h3 class="c_profile-school__title">Hola, </h3>
-      <h1 class="c_profile-school__subtitle">Lola Ferreira</h1>
-
-      <div class="c_edition-profile">
-        <div class="c_edition-profile__box">
-          <a href="#" class="c_edition-profile__link">Editar perfil</a>
-        </div>
-        <div class="c_edition-profile__box">
-          <a href="#" class="c_edition-profile__link">Subir CV</a>
-        </div>
-        <div class="c_edition-profile__box">
-          <a href="#" class="c_edition-profile__link">Modificar anuncio</a>
-        </div>
+    <a class="c_tab" href="#">
+      <div class="c_tab__box c_tab--medium">
+        <span class="c_tab__link">Contraseña</span>
       </div>
+    </a>
 
-      <div class="c_profile-school__diploma">
-        <a class="button" href="#">Solicitar Diploma</a>
+    <a class="c_tab" href="#">
+      <div class="c_tab__box c_tab--medium">
+        <span class="c_tab__link">Foto</span>
       </div>
+    </a>
 
-    </div>
+    <a class="c_tab" href="#">
+      <div class="c_tab__box c_tab--medium">
+        <span class="c_tab__link">Notificaciones</span>
+      </div>
+    </a>
+
+    <a class="c_tab c_tab--red c_tab--medium" href="#">
+      <div class="c_tab__box">
+        <span class="c_tab__link">Desactivar Perfil</span>
+      </div>
+    </a>
 
   </section>
 
-  <section class="c_edition">
 
-    <div class="c_edition__wrapper">
-      <div class="c_edition__box">
-        <i class="c_edition__icon icon icon--small icon--favoritos" aria-hidden="true"></i>
-        <a class="c_edition__title" href="#">Favoritos</a>
 
-        <a href="#" class="c_profile-notification-item">
-          <span class="c_profile-notification-item__number">5</span>
-          <span class="c_profile-notification-item__title">Colegios</span>
-        </a>
+  <section class="c_profile-edition">
 
-        <a href="#" class="c_profile-notification-item">
-          <span class="c_profile-notification-item__number">3</span>
-          <span class="c_profile-notification-item__title">Academias</span>
-        </a>
+    <div class="c_profile-edition__container">
+      <div class="c_profile-edition__paragraph">Recibe alertas en tu email cuando un colegio / empresa
+      de tu interés presente una oferta.</div>
 
-        <a href="#" class="c_profile-notification-item">
-          <span class="c_profile-notification-item__number">7</span>
-          <span class="c_profile-notification-item__title">Otros</span>
-        </a>
+      <div class="c_profile-edition__wrapper">
+        <label class="c_profile-edition-form__label" for="x">
+          <span>Estoy buscando</span>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="todos" checked><span>Todos</span>
+          </label>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="colegio"><span>Colegio</span>
+          </label>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="academia"><span>Academia</span>
+          </label>
+          <label class="input-radio input--small">
+            <input type="radio" name="institucion" value="otros"><span>Otro</span>
+          </label>
+        </label>
+
+        <label class="c_profile-edition__label">
+          <span>En</span>
+          <input class="input--white" name="name" type="text" placeholder="Ciudad, País" required/>
+        </label>
       </div>
 
-      <div class="c_edition__box">
-        <i class="c_edition__icon icon icon--small icon--enviar" aria-hidden="true"></i>
-        <a class="c_edition__title" href="#">Mensajes</a>
-
-        <a href="#" class="c_profile-notification-item c_profile-notification-item--black">
-          <span class="c_profile-notification-item__number">0</span>
-          <span class="c_profile-notification-item__title">Sin leer</span>
-        </a>
-
+      <div class="c_profile-edition__box">
+        <label class="c_profile-edition-form__label">
+          <span class="c_profile-edition-form__label__span">
+            Idiomas requeridos
+              <small class="c_profile-edition-form__subtitle">(Puedes seleccionar varios)</small>
+          </span>
+          <select class="select-alternativo" name="selecciona lengua">
+            <option value="">Selecciona lengua</option>
+          </select>
+        </label>
       </div>
 
-      <div class="c_edition__box">
-        <i class="c_edition__icon icon icon--small icon--cv" aria-hidden="true"></i>
-        <a class="c_edition__title" href="#">CV enviados</a>
+      <div class="c_profile-edition__wraper--disp">
+        <label class="c_profile-edition-form__label">
+          <span class="c_register-form__span">
+          Disponibilidad<small class="c_profile-edition-form__small--disp">Empezar como pronto</small>
+          </span>
+          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        </label>
 
-        <a href="#" class="c_profile-notification-item">
-          <span class="c_profile-notification-item__number">5</span>
-          <span class="c_profile-notification-item__title">Colegios</span>
-        </a>
 
-        <a href="#" class="c_profile-notification-item c_profile-notification-item--red">
-          <span class="c_profile-notification-item__number">3</span>
-          <span class="c_profile-notification-item__title">Academias</span>
-        </a>
-
-        <a href="#" class="c_profile-notification-item">
-          <span class="c_profile-notification-item__number">7</span>
-          <span class="c_profile-notification-item__title">Otros</span>
-        </a>
+        <label class="c_profile-edition-form__label">
+          <small class="c_profile-edition-form__small">Empezar como tarde</small>
+          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        </label>
       </div>
-    </div>
 
+      <div class="c_profile-edition__wrapper">
+
+        <div class="c_profile-edition__duration">
+          <label class="c_profile-edition-form__label">
+            <span>Duración</span>
+            <select class="select-alternativo" name="selecciona duración">
+              <option value="">Selecciona Duración</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="c_profile-edition__benefits">
+          <label class="c_profile-edition-form__label" for="x">
+            <span>Beneficios</span>
+              <label class="button-checkbox input--small">
+                <input type="checkbox" name="beneficios" value="" checked><span><i class="c_item-colegio__icon icon icon--small icon--dinero" aria-hidden="true"></i></span>
+              </label>
+              <label class="button-checkbox input--small">
+                <input type="checkbox" name="beneficios" value="" ><span><i class="c_item-colegio__icon icon icon--small icon--casa" aria-hidden="true"></i></span>
+              </label>
+              <label class="button-checkbox input--small">
+                <input type="checkbox" name="beneficios" value="" ><span><i class="c_item-colegio__icon icon icon--small icon--comida" aria-hidden="true"></i></span>
+              </label>
+              <label class="button-checkbox input--small">
+                <input type="checkbox" name="beneficios" value="" checked><span><i class="c_item-colegio__icon icon icon--small icon--coche" aria-hidden="true"></i></span>
+              </label>
+              <label class="button-checkbox input--small">
+                <input type="checkbox" name="beneficios" value="" ><span><i class="c_item-colegio__icon icon icon--small icon--tandem" aria-hidden="true"></i></span>
+              </label>
+          </label>
+          <p class="c_profile-edition__text">Haz click en los beneficios que estás buscando</p>
+        </div>
+      </div>
+
+
+
+
+      </div>
   </section>
+
+  <input type="submit" class="last-title" value="Guardar"/>
+
+
+
+
+
+
+
+
 
 
 
@@ -187,28 +229,14 @@
 
 
 
-
-
-
-
-
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/c_questions.js"></script>
+  <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/c_home_mobile.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
