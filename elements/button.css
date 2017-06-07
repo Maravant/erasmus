@@ -53,6 +53,13 @@
   font-size: 0.8rem;
 }
 
+.button--oval {
+  width:96px;
+  height:32px;
+  border-radius:18px;
+}
+
+
 .button.button--transparent {
   background-color:transparent;
   border:2px solid var(--bg-white);
@@ -64,6 +71,7 @@
   color:var(--color-text-primary);
   border:2px solid var(--color-primary);
 }
+
 
 .button.button--circle {
   width: 80px;

@@ -1,0 +1,85 @@
+.c_conversaciones {
+  background-color: var(--bg-gray);
+}
+
+.c_conversaciones__wrapper {
+  display:flex;
+}
+
+.c_conversaciones__wrapper:first-of-type {
+  padding-top:64px;
+}
+
+.c_conversaciones__box {
+  width:568px;
+  background-color:var(--bg-white);
+  border-radius:6px;
+  margin-right:24px;
+  box-sizing: border-box;
+  padding:0 24px;
+  margin-bottom:64px;
+  height:200px;
+}
+
+.c_conversaciones__box__footer {
+  display:flex;
+  justify-content: space-between;
+  border-top:2px solid #f3f3f3;
+  padding:12px 0;
+  align-items: center;
+}
+
+.c_conversaciones__avatar__img {
+  width:80px;
+  height:80px;
+  border-radius:50%;
+}
+
+.c_conversaciones__box__button {
+  background-color: rgba(97, 207, 255, 0.23);
+  border-color:transparent;
+  color:var(--bg-white);
+  opacity:0.3px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight:bold;
+}
+
+.c_conversaciones__avatar--first {
+  margin-right: 24px;
+}
+
+.c_conversaciones__avatar--second {
+  margin-left: 24px;
+}
+
+.c_conversaciones__box__name {
+  color:#41c3bb;
+  text-transform: capitalize;
+  letter-spacing:1;
+  line-height:24px;
+  font-size:1rem;
+}
+
+.c_conversaciones__box__item {
+  padding:30px 24px;
+  box-sizing:border-box;
+  background-color:var(--bg-white);
+  border-radius:6px;
+  width:568px;
+  padding-bottom:64px;
+}
+
+.c_conversaciones__box__name--red {
+  color:#ff8685;
+}
+
+.c_conversaciones__box__name--purple {
+  color:#494fae;
+}
+
+.c_conversaciones__date--end {
+  text-align:right;
+}
+
+
