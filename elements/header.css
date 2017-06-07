@@ -123,6 +123,11 @@
   letter-spacing: 1px;
 }
 
+.header__menulist-item__active {
+  background-color: rgba(97, 207, 255, 0.2);
+  box-sizing:border-box;
+}
+
 .header__menulist a {
   text-decoration: none;
   color: inherit;

@@ -68,6 +68,7 @@
   color:var(--bg-dark);
   font-size:0,87rem;
   padding-top:18px;
+  font-family:var(--font-family-main);
 }
 
 
