@@ -1,19 +1,77 @@
 .c_conversaciones {
   background-color: var(--bg-gray);
+  width:var(--main-layout-width);
+  margin:0 auto;
+}
+
+.c_conversaciones__container-general {
+  display:flex;
+  justify-content: space-around;
+  padding-bottom:132px;
+}
+
+.c_conversaciones__container__items {
+  flex:1;
+  padding-left:100px
+}
+
+.c_conversaciones__container__wrappers {
+  flex:3;
 }
 
 .c_conversaciones__wrapper {
   display:flex;
+  width:680px;
 }
 
 .c_conversaciones__wrapper:first-of-type {
   padding-top:64px;
+  border-bottom:1px dashed #61cfff;
+}
+
+.c_conversaciones__item.c_item {
+  width: 168px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 6vw;
+  margin-bottom:24px;
+}
+
+.c_conversaciones__item.c_item:first-of-type {
+  margin-top:64px;
+}
+
+
+.c_conversaciones__item__image.c_item__image {
+  height:144px;
+}
+
+.c_conversaciones__item__content.c_item__content {
+  top:90px;
+}
+
+.c_conversaciones__item__title.c_item__title {
+  font-size:0.75rem;
+  line-height: 16px;
+  letter-spacing:2.4px;
+  max-width: 91px;
+  margin: 0 auto;
+}
+
+.c_conversaciones__item-auxiliar.c_item-auxiliar {
+  margin:60px auto 0;
+  width:50%;
+}
+
+.c_conversaciones__item__nacionality__span.c_item-auxiliar__nacionality__span {
+  font-size:0.75rem;
+  font-weight:normal;
 }
 
 .c_conversaciones__box {
   width:568px;
   background-color:var(--bg-white);
-  border-radius:6px;
+  border-radius:5px;
   margin-right:24px;
   box-sizing: border-box;
   padding:0 24px;
@@ -79,7 +137,19 @@
 }
 
 .c_conversaciones__date--end {
-  text-align:right;
+  max-width:672px;
+  text-align: right;
+  font-size:1rem;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color:#d2d2d2;
+  margin:30px 0 10px;
 }
 
-
+.c_conversaciones__date {
+  font-size:1rem;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color:#d2d2d2;
+  margin:30px 0 10px;
+}
