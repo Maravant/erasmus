@@ -103,6 +103,14 @@
   font-weight:bold;
 }
 
+.c_conversaciones__box__button--active {
+  background-color: var(--color-primary);
+}
+
+.c_conversaciones__box__file--active.input-file--transparent {
+  color:var(--bg-dark);
+}
+
 .c_conversaciones__avatar--first {
   margin-right: 24px;
 }
