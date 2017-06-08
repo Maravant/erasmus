@@ -28,6 +28,38 @@
   height:36px;
 }
 
+.ico--adjunto-on {
+  background-image: url(../images/ico_adjunto_on.svg);
+}
+
+.ico--adjunto-off {
+  background-image: url(../images/ico_adjunto_off.svg);
+}
+
+.ico-user-peq-profile-mensajes {
+  background-image: url(../images/ico_user_peq_profile_mensajes.svg);
+}
+
+.ico--estrella-off.svg {
+  background-image: url(../images/ico_estrella_off.svg);
+}
+
+.ico--estrella-on.svg {
+  background-image: url(../images/ico_estrella_on.svg);
+}
+
+.ico--sobre-no-leido {
+  background-image: url(../images/Ico_sobre_no_leido.svg);
+}
+
+.ico--sobre-leido {
+  background-image: url(../images/ico-sobre-leido.svg);
+}
+
+.ico--flecha-paginado {
+  background-image: url(../images/ico_flecha-paginado.svg);
+}
+
 .icon--change {
   background-image: url(../images/icon--change.svg);
 }
