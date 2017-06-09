@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_adjunto_off</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="PERFIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MENSAJES_GRUPO" transform="translate(-552.000000, -292.000000)" fill="#D2D2D2">
+            <g id="PASTILLA-ESCRIBIR-Copy-2" transform="translate(528.000000, 136.000000)">
+                <path d="M33,156 C28.038,156 24,160.037 24,165 L24,173 C24,176.859 27.14,180 31,180 C34.86,180 38,176.859 38,173 L38,165 C38,162.243 35.757,160 33,160 C30.243,160 28,162.243 28,165 L28,173 C28,173.553 28.448,174 29,174 C29.552,174 30,173.553 30,173 L30,165 C30,163.346 31.346,162 33,162 C34.654,162 36,163.346 36,165 L36,173 C36,175.757 33.757,178 31,178 C28.243,178 26,175.757 26,173 L26,165 C26,161.141 29.14,158 33,158 C36.86,158 40,161.141 40,165 L40,173 C40,173.553 40.448,174 41,174 C41.552,174 42,173.553 42,173 L42,165 C42,160.037 37.962,156 33,156" id="ico_adjunto_off"></path>
+            </g>
+        </g>
+    </g>
+</svg>

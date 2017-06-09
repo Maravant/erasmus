@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="PERFIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MENSAJES_ESCRIBIENDO" transform="translate(-304.000000, -336.000000)" stroke="#2D2D2D">
+            <g id="Group-4" transform="translate(240.000000, 136.000000)">
+                <g id="Group-3" transform="translate(65.000000, 200.000000)">
+                    <g id="Group-2">
+                        <path d="M7.5,2.5 C7.5,1.39739237 6.60260763,0.5 5.5,0.5 C4.39739237,0.5 3.5,1.39739237 3.5,2.5 C3.5,3.60260763 4.39739237,4.5 5.5,4.5 C6.60260763,4.5 7.5,3.60260763 7.5,2.5 Z" id="Fill-1"></path>
+                        <path d="M10.3626162,13.9706429 L6.36857163,7.00657143 C6.18671168,6.68964286 5.86236351,6.5 5.49989351,6.5 C5.13804845,6.5 4.81307534,6.68964286 4.63121538,7.00657143 L0.637170861,13.9706429 C0.456560805,14.2856429 0.454061012,14.6636429 0.630296429,14.9805714 C0.810906485,15.3058571 1.13837939,15.5 1.50647393,15.5 L9.49393803,15.5 C9.86203257,15.5 10.1895055,15.3058571 10.3694906,14.9805714 C10.545726,14.6636429 10.5432262,14.2856429 10.3626162,13.9706429" id="Fill-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

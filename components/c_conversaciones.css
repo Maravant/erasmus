@@ -4,6 +4,13 @@
   margin:0 auto;
 }
 
+.c_conversaciones__title__icon {
+  filter:brightness(0) invert();
+  position: absolute;
+  right: 25px;
+  top: 30px;
+}
+
 .c_conversaciones__container-general {
   display:flex;
   justify-content: space-around;
@@ -75,9 +82,21 @@
   margin-right:24px;
   box-sizing: border-box;
   padding:0 24px;
-  margin-bottom:64px;
   height:200px;
 }
+
+.c_conversaciones__box__item {
+  padding:30px 24px;
+  box-sizing:border-box;
+  background-color:var(--bg-white);
+  border-radius:6px;
+  width:568px;
+}
+
+.c_conversaciones__box:first-of-type {
+  margin-bottom:64px;
+}
+
 
 .c_conversaciones__box__footer {
   display:flex;
@@ -85,6 +104,11 @@
   border-top:2px solid #f3f3f3;
   padding:12px 0;
   align-items: center;
+}
+
+.c_conversaciones__box__footer__icon {
+  width:18px;
+  height:24px;
 }
 
 .c_conversaciones__avatar__img {
@@ -125,15 +149,6 @@
   letter-spacing:1;
   line-height:24px;
   font-size:1rem;
-}
-
-.c_conversaciones__box__item {
-  padding:30px 24px;
-  box-sizing:border-box;
-  background-color:var(--bg-white);
-  border-radius:6px;
-  width:568px;
-  padding-bottom:64px;
 }
 
 .c_conversaciones__box__name--red {

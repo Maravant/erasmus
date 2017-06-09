@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Ico_sobre_no_leido</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="PERFIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mi_perfil_AUXILIAR_MENSAJES-Copy" transform="translate(-166.000000, -1082.000000)" fill="#FF686F">
+            <g id="Group-2-Copy-3" transform="translate(122.000000, 1032.000000)">
+                <path d="M73,70 L47,70 C46.449,70 46,69.552 46,69 L46,53.229 L59.419,62.813 C59.593,62.938 59.796,63 60,63 C60.204,63 60.407,62.938 60.581,62.813 L74,53.229 L74,69 C74,69.552 73.551,70 73,70 L73,70 Z M72.28,52 L60,60.771 L47.72,52 L72.28,52 Z M73,50 L47,50 C45.346,50 44,51.346 44,53 L44,69 C44,70.654 45.346,72 47,72 L73,72 C74.654,72 76,70.654 76,69 L76,53 C76,51.346 74.654,50 73,50 L73,50 Z" id="Ico_sobre_no_leido"></path>
+            </g>
+        </g>
+    </g>
+</svg>
