@@ -57,7 +57,7 @@ textarea.textarea--conversaciones {
   tab-size:0;
 }
 
-textarea.textarea--conversaciones::-webkit-scroll  {
+textarea.textarea--conversaciones::-webkit-scrollbar {
   display:none;
 }
 
