@@ -143,11 +143,6 @@ h6 em {
   line-height: 1px;
 }
 
-.main-title--padding {
-  padding:0;
-  margin:0;
-}
-
 @font-face{
   font-family: 'Blogger Sans';
   font-weight: bold;
