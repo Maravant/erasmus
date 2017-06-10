@@ -69,14 +69,16 @@
 
       <div class="c_conversaciones__wrapper">
         <div class="c_conversaciones__box">
-          <textarea class="c_conversaciones__box__textarea" type="text" row="4" name="texto" placeholder="Escribe aquí"></textarea>
+          <textarea class="c_conversaciones__box__textarea" name="texto" placeholder="Escribe aquí"></textarea>
+
           <div class="c_conversaciones__box__footer">
-            <label class="input-file input-file--transparent"><span>
-              <i class="c_conversaciones__box__footer__icon icon ico--adjunto-off" aria-hidden="true"></i></span>
+            <label class="input-file input-file--transparent">
+              <i class="c_conversaciones__box__footer__icon icon ico--adjunto-off" aria-hidden="true"></i>
               <input type="file" name="archivo" placeholder="Adjuntar archivo">
               <span>Adjuntar archivo</span>
             </label>
-            <button form="buscador" type="submit" class="c_conversaciones__box__button button--oval"><span>Enviar</span></button>
+
+            <button disabled type="submit" class="c_conversaciones__box__button button button--oval"><span>Enviar</span></button>
           </div>
         </div>
         <div class="c_conversaciones__avatar">
@@ -84,87 +86,86 @@
         </div>
       </div>
 
-      <p class="c_conversaciones__date--end">Hoy a las 13:45</p>
 
-      <div class="c_conversaciones__wrapper">
-        <div class="c_conversaciones__avatar--first">
-          <img class="c_conversaciones__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+
+
+
+
+
+
+
+
+
+
+      <div class="c_chat-item">
+        <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+        <div class="c_chat-item__avatar">
+          <img class="c_chat-item__avatar__img" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
         </div>
 
-        <div class="c_conversaciones__box__item">
-          <h3 class="c_conversaciones__box__name">Ana Rodríguez</h3>
-          <textarea class="c_conversaciones__box__textarea textarea--conversaciones" type="text" cols="6" name="texto" placeholder="">
+        <div class="c_chat-item__box__item">
+          <h3 class="c_chat-item__box__name c_chat-item__box__name--purple">Ana Rodríguez</h3>
 
+          <div class="c_chat-item__box__text">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
             Nulla consequat massa quis enim.
-          </textarea>
+          </div>
         </div>
       </div>
 
-      <p class="c_conversaciones__date c_conversaciones__date">Ayer a las 16:45</p>
+      <div class="c_chat-item">
+        <p class="c_chat-item__date">Hoy a las 13:45</p>
 
-      <div class="c_conversaciones__wrapper">
-        <div class="c_conversaciones__box__item">
-          <textarea class="c_conversaciones__box__textarea textarea--conversaciones" type="text" name="texto" placeholder="">
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis.
-          </textarea>
-        </div>
-        <div class="c_conversaciones__avatar--second">
-          <img class="c_conversaciones__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
-        </div>
-      </div>
-
-      <p class="c_conversaciones__date c_conversaciones__date--end">Hoy a las 13:45</p>
-
-      <div class="c_conversaciones__wrapper">
-        <div class="c_conversaciones__avatar--first">
-          <img class="c_conversaciones__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+        <div class="c_chat-item__avatar">
+          <img class="c_chat-item__avatar__img" src="https://d1bvpoagx8hqbg.cloudfront.net/259/fa1ea63526201d518df42421e7e380cd.jpg" alt="">
         </div>
 
-        <div class="c_conversaciones__box__item">
-          <h3 class="c_conversaciones__box__name c_conversaciones__box__name--red">Pedro Álvarez</h3>
-          <textarea class="c_conversaciones__box__textarea textarea--conversaciones" type="text" name="texto" placeholder="">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </textarea>
+        <div class="c_chat-item__box__item">
+          <h3 class="c_chat-item__box__name c_chat-item__box__name--red">George Smith</h3>
+
+          <div class="c_chat-item__box__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          </div>
         </div>
       </div>
 
-      <p class="c_conversaciones__date c_conversaciones__date--end">Hoy a las 13:45</p>
 
-      <div class="c_conversaciones__wrapper">
-        <div class="c_conversaciones__avatar--first">
-          <img class="c_conversaciones__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+      <div class="c_chat-item c_chat-item--me">
+        <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+        <div class="c_chat-item__avatar">
+          <img class="c_chat-item__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
         </div>
 
-        <div class="c_conversaciones__box__item">
-          <h3 class="c_conversaciones__box__name c_conversaciones__box__name--purple">Sara Pérez</h3>
-          <textarea class="c_conversaciones__box__textarea textarea--conversaciones" type="text" name="texto" placeholder="">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor.Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </textarea>
-        </div>
-      </div>
+        <div class="c_chat-item__box__item">
+          <h3 class="c_chat-item__box__name">Yo</h3>
 
-      <p class="c_conversaciones__date">Jueves el 21 de Mayo a las 19:27</p>
-
-      <div class="c_conversaciones__wrapper">
-        <div class="c_conversaciones__box__item">
-          <textarea class="c_conversaciones__box__textarea textarea--conversaciones" type="text" name="texto" placeholder="">
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </textarea>
-        </div>
-        <div class="c_conversaciones__avatar--second">
-          <img class="c_conversaciones__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+          <div class="c_chat-item__box__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </div>
         </div>
       </div>
+
 
     </div>
   </div>
   </section>
 
 
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/c_questions.js"></script>
+  <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/c_login.js"></script>
+  <script type="text/javascript" src="js/c_register.js"></script>
+  <script type="text/javascript" src="js/input-file.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 
 

@@ -47,20 +47,6 @@ textarea {
   resize: none;
 }
 
-textarea.textarea--conversaciones {
-  line-height: 24px;
-  width:100%;
-  color:var(--bg-dark);
-  background-size: 0;
-  text-indent:-57px;
-  white-space:pre-wrap;
-  tab-size:0;
-}
-
-textarea.textarea--conversaciones::-webkit-scrollbar {
-  display:none;
-}
-
 input[type="text"]::-moz-placeholder,
 input[type="password"]::-moz-placeholder {
   color: #aaa;
@@ -342,8 +328,10 @@ select.input--small {
 
 .input-file {
   color:var(--bg-black);
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 240px;
 }
 
 .input-file input[type] {
@@ -353,6 +341,9 @@ select.input--small {
 .input-file input[type] + span {
   background-color: #d2d2d2;
   border-color: #d2d2d2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .input-file--transparent input[type] + span {
