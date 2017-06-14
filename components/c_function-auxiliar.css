@@ -25,7 +25,7 @@
 
 .c_function-auxiliar__list:first-of-type {
   padding-bottom:76px;
-  border-bottom: 1px solid #61cfff;
+  border-bottom: 1px solid rgba(97, 207, 255, 0.18);
 }
 
 .c_function-auxiliar__list:last-of-type {
@@ -46,7 +46,7 @@
 .c_function-auxiliar__li:first-letter {
   font-size:2rem;
   color:var(--bg-white);
-  font;font-weight: bold;
+  font-weight: bold;
 }
 
 
