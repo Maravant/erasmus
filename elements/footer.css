@@ -72,6 +72,12 @@
   line-height: 1.33;
 }
 
+.footer-language {
+  text-align: right;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
 
 
 @media (max-width: 600px) {
