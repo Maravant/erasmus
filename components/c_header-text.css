@@ -23,33 +23,6 @@
   padding-top:64px;
 }
 
-.table {
-  border:2px solid var(--bg-white);
-  width:830px;
-  margin:50px auto;
-}
-
-.table-td {
-  border-bottom:2px solid var(--bg-white);
-  vertical-align: middle;
-  height:78px;
-  padding-left:24px;
-}
-
-.table-icon {
-  border-right:2px solid var(--bg-white);
-  padding:34px 32px 0;
-}
-
-
-.table-icon:first-child {
-  border-bottom: 2px solid var(--bg-white);
-}
-
-.table:first-child {
- margin-bottom:62px;
-}
-
 
 
 

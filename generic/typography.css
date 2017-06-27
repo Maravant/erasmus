@@ -136,6 +136,12 @@ h6 em {
   box-shadow: none;
   border-radius: 0;
 }
+
+.last-title--red {
+  background-color: #ff686f;
+  color:var(--bg-white);
+}
+
 .main-subtitle {
   font-family:var(--font-family-heading);
   font-size: 0.87rem;
