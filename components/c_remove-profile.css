@@ -1,7 +1,40 @@
+
+.remove-profile {
+  display:flex;
+  padding-top:50px;
+  width:var(--main-layout-width);
+  margin: 0 auto;
+}
+
+.remove-profile__label {
+  white-space:wrap;
+  margin-right:40px;
+  width:192px;
+  text-align: center;
+}
+
+.input-radio.input--small {
+  margin:0;
+
+}
+
+.remove-profile__button--active  {
+  width:24px;
+  height:24px;
+}
+
+.remove-profile__span {
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 3.2px;
+  margin-left:24px;
+  font-family:var(--font-family-main);
+}
+
 .table {
   border:2px solid var(--bg-white);
   width:830px;
-  margin:50px auto;
+
 }
 
 .table-td {

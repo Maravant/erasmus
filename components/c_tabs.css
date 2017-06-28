@@ -102,6 +102,14 @@
   background-color: rgba(255, 104, 111, 0.3);
 }
 
+.c_tab.c_tab--color {
+  background-color: #ff686f;
+}
+
+.c_tab.c_tab--color.c_tab--active  .c_tab__link  {
+  color:white;
+}
+
 .c_tab.c_tab--red:hover {
   color: white;
   background-color: #ff686f;

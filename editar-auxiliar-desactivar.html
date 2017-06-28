@@ -45,12 +45,12 @@
   <!-- /header template -->
 
 
-  <section class="container">
+
 
     <h1 class="main-title">Edición de perfil</h1>
 
     <section class="c_tabs">
-      <a class="c_tab c_tab--active c_tab--medium" href="#">
+      <a class="c_tab c_tab--medium" href="#">
         <div class="c_tab__box">
           <span class="c_tab__link">Datos de registro</span>
         </div>
@@ -74,13 +74,14 @@
         </div>
       </a>
 
-      <a class="c_tab c_tab--red c_tab--medium" href="#">
+      <a class="c_tab c_tab--color c_tab--medium c_tab--active" href="#">
         <div class="c_tab__box">
           <span class="c_tab__link">Desactivar Perfil</span>
         </div>
       </a>
-
     </section>
+
+    <section class="container">
 
     <section class="header-text">
       <div class="header-text__container">
@@ -95,12 +96,12 @@
 
     <section class="remove-profile">
 
-    <div class="remove-profile__checkbox">
+    <div class="remove-profile__radio">
       <label class="remove-profile__label" for="x">
+        <label class="remove-profile__button button input-radio input--small">
+          <input type="radio" name="desactivar perfil" value="" checked>
+        </label>
         <span class="remove-profile__span">Desactivar perfil</span>
-          <label class="button button-checkbox input--big">
-            <input type="checkbox" name="desactivar perfil" value="" checked>
-          </label>
       </label>
     </div>
 
@@ -123,13 +124,16 @@
         <td class="table-td">Ser contactado por nuevos usuarios</td>
       </tr>
     </table>
+    </section>
 
-     <div class="remove-profile__checkbox">
+
+    <section class="remove-profile">
+     <div class="remove-profile__radio">
       <label class="remove-profile__label" for="x">
-        <span class="remove-profile__span">Dar de baja el perfil</span>
-          <label class="button button-checkbox input--big">
-            <input type="checkbox" name="desactivar perfil" value="" checked>
-          </label>
+        <label class="remove-profile__button button input-radio input--small">
+          <input type="radio" name="baja perfil" value="">
+        </label>
+          <span class="remove-profile__span">Dar de baja mi perfil</span>
       </label>
     </div>
 
