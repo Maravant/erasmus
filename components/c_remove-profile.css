@@ -8,12 +8,6 @@
   box-sizing: border-box;
 }
 
-.remove-profile__container {
-  width:var(--main-layout-width);
-  margin:0 auto;
-}
-
-
 .remove-profile__label {
   white-space:wrap;
   margin-right:40px;
