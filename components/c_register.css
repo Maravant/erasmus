@@ -50,6 +50,11 @@
   align-items: center;
 }
 
+.c_register__box_wrapper {
+  width: 280px;
+  margin: 20px auto;
+}
+
 .c_register__box__button--click {
   margin:72px 0;
   width:168px;
