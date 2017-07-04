@@ -42,6 +42,16 @@
   margin-top: 0;
 }
 
+.c_chat-item__box__icon {
+  filter:brightness(0) invert(0);
+}
+
+.c_chat-item__box__label {
+  width:100%;
+  display:block;
+  padding-top:20px;
+}
+
 .c_chat-item--me .c_chat-item__date {
   text-align: left;
 }
