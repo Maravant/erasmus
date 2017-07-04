@@ -10,7 +10,7 @@
 }
 
 .c_login__popup-wrapper {
-  min-width: 328px;
+  min-width: 260px;
 }
 
 .c_login__wrap {
@@ -224,6 +224,77 @@ body.login--opened .c_login__title {
   align-items: center;
 }
 
+.c_login__popup.c_login__popup__profile {
+  padding:0;
+}
+
+ .c_popup__profile {
+  display:flex;
+  flex-flow: column;
+  align-items: flex-end;
+  box-sizing:border-box;
+}
+
+.c_popup__profile__link {
+  text-decoration: none;
+  border-bottom: 2px solid var(--bg-gray);
+  width: 260px;
+  display: flex;
+  justify-content: flex-end;
+  padding:24px 16px;
+}
+
+.c_popup__profile__link:last-child {
+  border-bottom:none;
+}
+
+.c_popup__profile__link:first-child {
+  padding-top:20px;
+  padding-bottom:18px;
+}
+
+ .c_popup__profile__span {
+  font-size:0.75rem;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family:var(--font-family-heading);
+  color:black;
+ }
+
+.button--red.c_popup__profile__circle {
+  border-radius:50%;
+  background-color:#ff6c7e;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width:24px;
+  height:24px;
+  font-size:0.6rem;
+  position:relative;
+  content: "";
+  top: -11px;
+  overflow:hidden;
+}
+
+.c_popup__profile__messages {
+  margin-left: 4px;
+  font-weight:bold;
+  position: relative;
+  content: "";
+  left: 5px;
+  z-index: 11;
+}
+
+.c_popup__profile__icon {
+  margin-left:24px;
+  width:16px;
+  height:16px;
+}
+
+
 
 @media (min-width: 600px) {
   body.login--opened .c_login--logged .c_login__wrap {
@@ -269,10 +340,11 @@ body.login--opened .c_login__title {
     width: 260px;
     border-left: 0;
     position: absolute;
-    right: 74px;
+    right: 50px;
     top: -23px;
   }
 }
+
 
 
 @media (max-width: 600px) {
