@@ -47,8 +47,9 @@
 
 
 
-    <h1 class="main-title">Edición de perfil</h1>
+  <h1 class="main-title">Edición de perfil</h1>
 
+  <form>
   <section class="c_tabs">
     <a class="c_tab c_tab--medium" href="registro-auxiliar.html">
       <div class="c_tab__box">
@@ -87,18 +88,16 @@
       ¿O simplemente te gustaría dejar de buscar por un tiempo?</p>
       <p class="c_header-text__paragraph">Tanto si ya has encontrado lo que buscas como
       si lo que deseas es dejar de buscar por un tiempo, lo mejor es desactivar tu perfil
-      para que esté no sea visible por el resto de usuarios.Tienes dos opciones</p>
+      para que esté no sea visible por el resto de usuarios. Tienes dos opciones.</p>
       <p class="c_header-text__subtitle">¿Qué te gustaría hacer?</p>
     </div>
 
 
     <section class="remove-profile">
       <div class="remove-profile__radio">
-        <label class="remove-profile__label" for="x">
-          <label class="remove-profile__button button input-radio input--small">
-            <input type="radio" name="desactivar perfil" value="" checked>
-          </label>
-          <span class="remove-profile__span">Desactivar perfil</span>
+        <label class="input-checkbox remove-profile__input-radio">
+          <input type="radio" name="disableprofile" value="1" checked>
+          <span>Desactivar perfil</span>
         </label>
       </div>
 
@@ -123,12 +122,10 @@
 
 
     <section class="remove-profile">
-       <div class="remove-profile__radio">
-        <label class="remove-profile__label" for="x">
-          <label class="remove-profile__button button input-radio input--small">
-            <input type="radio" name="baja perfil" value="">
-          </label>
-            <span class="remove-profile__span">Dar de baja mi perfil</span>
+      <div class="remove-profile__radio">
+        <label class="input-checkbox remove-profile__input-radio">
+          <input type="radio" name="disableprofile" value="0">
+          <span>Dar de baja mi perfil</span>
         </label>
       </div>
 
@@ -151,10 +148,8 @@
   </section>
 
 
-
-
   <input type="submit" class="last-title last-title--red" value="Dar de baja mi perfil"/>
-
+  </form>
 
 
 
