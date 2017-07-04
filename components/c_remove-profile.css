@@ -43,7 +43,7 @@
   border-bottom:2px solid var(--bg-white);
   vertical-align: middle;
   height:78px;
-  padding-left:24px;
+  padding:0 24px;
 }
 
 .table-icon {
@@ -54,6 +54,7 @@
 
 .table-icon:first-child {
   border-bottom: 2px solid var(--bg-white);
+  width:20px;
 }
 
 .table:first-child {
