@@ -44,9 +44,8 @@
 @import url(components/c_function-auxiliar.css);
 @import url(components/c_conversaciones.css);
 @import url(components/c_chat-item.css);
-@import url(components/c_header-text.css);
-@import url(components/c_table.css);
 @import url(components/c_remove-profile.css);
+@import url(components/c_remove-profile__form.css);
 @import url(components/c_edition-profile__password.css);
 @import url(pages/certificado-diploma.css);
 @import url(pages/home.css);
