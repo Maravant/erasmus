@@ -12,6 +12,10 @@
   position: relative;
 }
 
+.c_profile-auxiliar__box {
+  padding: 64px 40px 64px 70px;
+}
+
 .c_profile-school__title {
   font-family:var(--font-family-heading);
   font-size:1rem;
@@ -80,6 +84,10 @@
 
 .c_profile-school__diploma {
   margin-top: 50px;
+}
+
+.c_profile-auxiliar__diploma {
+  margin-top: 40px;
 }
 
 @media (max-width: 600px) {

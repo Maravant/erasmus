@@ -1,6 +1,6 @@
 .c_edition-profile {
-  border-top:2px solid var(--color-border);
-  border-bottom:2px solid var(--color-border);
+  border-top:2px solid #F3F3F3;
+  border-bottom:2px solid #F3F3F3;
   display:flex;
   justify-content: space-around;
   margin-top:24px;
@@ -12,7 +12,7 @@
 }
 
 .c_edition-profile__box:not(:first-of-type) {
-  border-left:2px solid var(--color-border);
+  border-left:2px solid #F3F3F3;
 }
 
 .c_edition-profile__link {
