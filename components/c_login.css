@@ -295,7 +295,6 @@ body.login--opened .c_login__title {
 }
 
 
-
 @media (min-width: 600px) {
   body.login--opened .c_login--logged .c_login__wrap {
     margin-top: -30px;
