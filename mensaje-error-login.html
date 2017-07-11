@@ -63,17 +63,29 @@
 
         <div class="c_login__popup-wrapper">
 
-           <div class="c_login__mistake">
-            <p class="c_login__mistake__message">Su correo electrónico o
-            contraseña son incorrectos.Vuelva a intentarlo de nuevo.</p>
-            <a href="registrate.html" class="c_login__mistake__icon"><i class="icon icon--xsmall icon--no" aria-hidden="true"></i></a>
-           </div>
+          <p class="c_login__paragraph">Entra con tu correo</p>
 
-          <!--<div class="c_login__register">
+          <div class="c_login__error">
+            <p class="c_login__error__message">Correo electrónico o
+            contraseña incorrecta. Vuelva a intentarlo de nuevo.</p>
+          </div>
+
+          <form class="c_login__form">
+            <input class="c_login__email" name="email" type="text" placeholder="Correo electrónico" required/>
+            <input class="c_login__password" name="password" type="password" placeholder="Contraseña" required/>
+            <div class="c_login__box">
+              <label class="c_login__checked input-checkbox">
+                <input class="c_login__checkbox" checked="" type="checkbox" name="rememberme"/>
+                <span class="c_login__label">Recuérdame</span>
+              </label>
+              <a href="remember-password.html" class="c_login__forgetpassword">He olvidado mi contraseña</a>
+            </div>
+            <input class="c_login__submit button" type="submit" placeholder="Entrar" value="Entrar"/>
+          </form>
+          <div class="c_login__register">
             <p class="c_login__register__paragraph">¿No estás registrado?</p>
             <a href="registrate.html" class="c_login__register__link">Regístrate</a>
-          </div>-->
-
+          </div>
 
         </div>
 
