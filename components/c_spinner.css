@@ -1,23 +1,19 @@
-.container-items {
-overflow:hidden;
-}
-
-.loader,
-.loader:after {
+.c_spinner,
+.c_spinner:after {
   border-radius: 50%;
   width: 10em;
   height: 10em;
 }
 
-.loader {
+.c_spinner {
   margin: 100px auto;
   font-size: 10px;
   position: relative;
   text-indent: -9999em;
-  border-top: 1.1em solid var(--color-primary);
-  border-right: 1.1em solid var(--color-primary);
-  border-bottom: 1.1em solid var(--color-primary);
-  border-left: 1.1em solid #ffffff;
+  border-top: 1.1em solid #fff;
+  border-right: 1.1em solid #fff;
+  border-bottom: 1.1em solid #fff;
+  border-left: 1.1em solid var(--color-primary);
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
@@ -47,7 +43,7 @@ overflow:hidden;
 }
 
 .loader-login {
-   width: 8em;
+  width: 8em;
   height: 8em;
 }
 
