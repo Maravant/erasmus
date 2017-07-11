@@ -1,0 +1,20 @@
+.c_auxiliar-favourites__messages--closed {
+  display:flex;
+  justify-content: space-around;
+  margin:0 120px;
+  background-color: #f3f3f3;
+}
+
+.c_auxiliar-favourites__messages-closed__content {
+  width:1080px;
+  display:flex;
+  background:var(--bg-white);
+  color:var(--bg-black);
+  padding:24px;
+  border-radius: 4px;
+}
+
+.c_auxiliar-favourites__messages-closed__wraper {
+  justify-content: space-between;
+  display:flex;
+}
