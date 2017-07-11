@@ -295,7 +295,7 @@ body.login--opened .c_login__title {
     text-align: center;
     width: 100%;
     font-size: 0.81rem;
-    margin-left: 3px;
+    margin-left: -31px;
     font-family: var(--font-family-heading);
     opacity: 0;
     transition: opacity 200ms 0 ease-out;
