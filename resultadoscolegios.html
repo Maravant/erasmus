@@ -80,8 +80,12 @@
         <div class="c_buscador__form">
           <div class="c_buscador__form_label">
             <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
-            <select class="c_buscador--languages select-alternativo" name="languages">
-              <option>Idiomas</option>
+            <select class="c_buscador--languages select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+              <option value="es">Español</option>
+              <option value="en">Inglés</option>
+              <option value="fr">Francés</option>
+              <option value="de">Alemán</option>
+              <option value="ch">Chino</option>
             </select>
           </div>
 
@@ -330,6 +334,7 @@
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/sumo/jquery.sumoselect.min.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/c_buscador.js"></script>
   <script type="text/javascript" src="js/header.js"></script>

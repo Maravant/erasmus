@@ -102,6 +102,7 @@
   flex: 1;
 }
 
+.c_buscador__form_label:not(:last-of-type) .SumoSelect,
 .c_buscador__form_label:not(:last-of-type) .select-alternativo {
   min-width: calc(100% - 40px);
 }
@@ -293,6 +294,7 @@
     margin-right:24px;
   }
 
+  .SumoSelect,
   .select-alternativo {
     height: 64px;
     font-size:1rem;
