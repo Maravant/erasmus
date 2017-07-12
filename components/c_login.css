@@ -13,6 +13,10 @@
   min-width: 260px;
 }
 
+.c_login__popup-wrapper__spinner {
+  width:328px;
+}
+
 .c_login__wrap {
   max-width: var(--main-layout-width);
   margin: 0 auto;

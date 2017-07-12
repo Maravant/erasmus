@@ -43,8 +43,6 @@
 }
 
 .c_spinner-login {
-  width: 8em;
-  height: 8em;
   border-top: 1.1em solid var(--color-primary-hover);
   border-right: 1.1em solid var(--color-primary-hover);
   border-bottom: 1.1em solid var(--color-primary-hover);
