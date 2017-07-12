@@ -30,6 +30,7 @@
 .container-items {
   margin:0;
   background:var(--bg-gray);
+  overflow:hidden;
 }
 
 .container-items__wrap {
