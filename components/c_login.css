@@ -172,6 +172,16 @@ body.login--opened .c_login__title {
   margin-bottom:24px;
 }
 
+.c_login__submit__loading {
+  background-color:var(--bg-gray);
+  font-size:0;
+  border-color:var(--bg-gray);
+}
+
+.c_login__submit .c_login__submit__loading:hover {
+  background-color:var(--bg-gray);
+}
+
 .c_login__register__paragraph {
   font-family:var(--font-family-heading);
   font-size:0.77rem;

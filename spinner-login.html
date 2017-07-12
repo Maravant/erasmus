@@ -49,9 +49,7 @@
   <!-- /header template -->
 
 
-
-
-  <section class="c_login js-close-login-popup">
+   <section class="c_login js-close-login-popup">
     <div class="c_login__wrap">
       <div class="c_login__popup">
         <div class="c_login__title">
@@ -61,14 +59,35 @@
           </div>
         </div>
 
-        <div class="c_login__popup-wrapper c_login__popup-wrapper__spinner">
+        <div class="c_login__popup-wrapper">
+          <p class="c_login__paragraph">Entra con tu correo</p>
+          <form class="c_login__form">
+            <input class="c_login__email" name="email" type="text" placeholder="Correo electrónico" required/>
+            <input class="c_login__password" name="password" type="password" placeholder="Contraseña" required/>
+            <div class="c_login__box">
+              <label class="c_login__checked input-checkbox">
+                <input class="c_login__checkbox" checked="" type="checkbox" name="rememberme"/>
+                <span class="c_login__label">Recuérdame</span>
+              </label>
+              <a href="remember-password.html" class="c_login__forgetpassword">He olvidado mi contraseña</a>
+            </div>
+            <div class="c_login__submit button">
+              <div class="c_spinner c_spinner__login"></div>
+            </div>
 
-         <div class="c_spinner c_spinner-login">Loading...</div>
-
+          </form>
+          <div class="c_login__register">
+            <p class="c_login__register__paragraph">¿No estás registrado?</p>
+            <a href="registrate.html" class="c_login__register__link">Regístrate</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+
+
+
 
 
 
