@@ -157,7 +157,7 @@ input[type="date"] {
   font-size:0.75rem;
   color:var(--color-text-secondary);
   min-width:auto;
-  min-width:252px;
+  min-width:180px;
 }
 
 input[type="date"]::-webkit-inner-spin-button,

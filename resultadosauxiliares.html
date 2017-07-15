@@ -72,6 +72,9 @@
 
           <select class="c_buscador__select select" name="country">
             <option>Seleccione País</option>
+            <option>España</option>
+            <option>Inglaterra</option>
+            <option>Francia</option>
           </select>
 
           <button type="submit" class="c_buscador__button-search button"><span>Buscar</span></button>
@@ -91,16 +94,14 @@
 
           <div class="c_buscador__form_label">
             <i class="c_buscador__icon icon icon--small icon--pointer" aria-hidden="true"></i>
-            <select class="c_buscador--localitation select-alternativo" name="residence">
+            <select class="c_buscador--localization select-alternativo" name="residence">
               <option>Residente en </option>
             </select>
           </div>
 
           <div class="c_buscador__form_label">
             <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
-            <select class="c_buscador--start-date select-alternativo" name="startdate">
-              <option>Fecha de comienzo </option>
-            </select>
+            <input type="date" value="" class="c_buscador--start-date">
           </div>
 
           <div class="c_buscador__form_label">
@@ -285,10 +286,12 @@
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/sumo/jquery.sumoselect.min.js"></script>
+  <script type="text/javascript" src="js/datepicker/datepicker.min.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/c_buscador.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/c_profile-content.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
 </body>
