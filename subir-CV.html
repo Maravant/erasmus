@@ -48,28 +48,30 @@
   </header>
   <!-- /header template -->
 
+  <h1 class="main-title">Subir CV</h1>
   <section class="c_subir-cv">
-
-    <h3 class="c_subir-cv__title">¿Qué ventajas tienen subir mi CV?</h3>
-    <p class="c_subir-cv__paragraph">Tu CV no es público, queda guardado en tu perfil privado</p>
-    <p class="c_subir-cv__paragraph">Tu CV solo visible a los colegios-empresas a los que tú decidas enviar tu CV</p>
-    <p class="c_subir-cv__paragraph">Podrás enviar CV haciendo click en enviar CV, sin necesidad de subirlo constantemente</p>
-    <h3 class="c_subir-cv__title-file">CV</h3>
+    <div class="c_subir-cv__content">
+      <h3 class="c_subir-cv__title">¿Qué ventajas tienen subir mi CV?</h3>
+      <ul>
+        <li>Tu CV no es público, queda guardado en tu perfil privado</li>
+        <li>Tu CV solo visible a los colegios-empresas a los que tú decidas enviar tu CV</li>
+        <li>Podrás enviar CV haciendo click en enviar CV, sin necesidad de subirlo constantemente</li>
+      </ul>
+      <h3 class="c_subir-cv__title-file">Subir CV</h3>
+    </div>
 
     <div class="c_subir-cv__box">
-      <label class="input-file">
+      <label class="c_subir-cv__box__input-file input-file">
         <input type="file" name="archivo" placeholder="cargar archivo"/>
-        <span>cv_Lolaferreira.pdf</span>
+        <span></span>
       </label>
 
-      <label class="input-file">
-        <input type="file" name="archivo" placeholder="Cargar archivo"/>
-        <span>Cargar archivo</span>
-        <small>
-            (Max. 2MB/ archivos soportados - D0C, RTF, PDF)
-        </small>
-      </label>
+      <button type="submit" class="c_subir-cv__box__button button"><span>Cargar archivo</span></button>
     </div>
+
+    <p class="c_subir-cv__paragraph--small">
+      (Max. 2MB/ archivos soportados - D0C, RTF, PDF)
+    </p>
   </section>
 
 
@@ -125,6 +127,8 @@
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/c_login.js"></script>
   <script type="text/javascript" src="js/c_register.js"></script>
+  <script type="text/javascript" src="js/input-file.js"></script>
+
   <script type="text/javascript" src="js/main.js"></script>
 
 
