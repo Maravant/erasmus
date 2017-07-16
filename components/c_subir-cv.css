@@ -1,13 +1,11 @@
 .c_subir-cv {
-  width:var(--main-layout-width);
   margin:0 auto;
   background-color:var(--bg-gray);
   overflow:hidden;
-
 }
 
 .c_subir-cv__content {
-  padding:70px 0 44px;
+  padding:70px 10px 44px;
   text-align: center;
   font-size:1rem;
 }
@@ -37,7 +35,6 @@
   letter-spacing: 3.2px;
   text-transform: uppercase;
   padding-top:70px;
-
 }
 
 .c_subir-cv__box {
@@ -55,7 +52,7 @@
   margin-left:12px;
 }
 
-.c_subir-cv__paragraph--small{
+.c_subir-cv__paragraph--small {
   text-align: center;
   display:block;
   font-size:0.6rem;
@@ -63,15 +60,3 @@
   letter-spacing:1.7px;
   padding-bottom:70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
