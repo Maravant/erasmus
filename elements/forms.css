@@ -165,6 +165,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
 }
 
+input[type="date"][required]:not(:valid)[placeholder] {
+  font-size: 0 !important;
+}
+
+input[type="date"][required]:not(:valid)[placeholder]:before {
+  content: attr(placeholder);
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
 .select-box,
 select {
   -webkit-appearance: none;

@@ -56,7 +56,7 @@
 
 
   <section class="c_buscador c_buscador-colegio">
-    <form id="buscador" action="" method="GET">
+    <form id="buscador" action="" method="GET" novalidate>
 
       <div class="c_buscador__wrap">
         <div class="c_buscador__main">
@@ -101,7 +101,7 @@
 
           <div class="c_buscador__form_label">
             <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
-            <input type="date" value="" class="c_buscador--start-date">
+            <input name="since" type="date" value="" class="c_buscador--start-date" required placeholder="Fecha comienzo">
           </div>
 
           <div class="c_buscador__form_label">
