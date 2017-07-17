@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Erasmus In School</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#61cfff">
+
+  <link href="https://fonts.googleapis.com/css?family=Ek+Mukta:700&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="icon" href="favicon.ico?v=2" />
+
+  <!-- <link rel="stylesheet" href="build/import.css?v=1" type="text/css"/> -->
+  <link rel="stylesheet" href="import.css?v=5" type="text/css"/>
+</head>
+<body>
+
+
+
+
+
+
+  <!-- header template -->
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__wrapper-limit">
+
+        <a href="index.html" class="header__logo"></a>
+
+        <a href="#" class="header__menubutton">
+          <i class="icon icon--small icon--menu" aria-hidden="true"></i>
+        </a>
+
+        <nav class="header__menu">
+          <ul class="header__menulist">
+            <li class="header__menulist-item"><a href="que-es-auxiliar.html">Qué es un auxiliar lingüístico</a></li>
+            <li class="header__menulist-item"><a href="como-funciona.html">Cómo funciona</a></li>
+            <li class="header__menulist-item"><a href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__userbox">
+          <img class="header__userbox-avatar" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+          <h5 class="header__userbox-name"><a href="mi-perfil-auxiliar.html">José María</a></h5>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /header template -->
+
+
+
+
+
+
+
+
+
+  <section class="c_buscador c_buscador-colegio">
+    <form id="buscador" action="" method="GET" novalidate>
+
+      <div class="c_buscador__wrap">
+        <div class="c_buscador__main">
+          <a href="#" class="c_buscador__button button button--big button--transparent button--selected">
+            <i class="c_buscador__button__icon icon icon--auxiliar icon--middle" aria-hidden="true"></i>
+            Auxiliar de conversación
+          </a>
+
+          <a href="resultadoscolegios.html" class="c_buscador__button button button--big button--transparent">
+            <i class="c_buscador__button__icon icon icon--colegios icon--middle" aria-hidden="true"></i>
+            Colegio / Empresa
+          </a>
+
+          <select class="c_buscador__select select" name="country">
+            <option>Seleccione País</option>
+            <option>España</option>
+            <option>Inglaterra</option>
+            <option>Francia</option>
+          </select>
+
+          <button type="submit" class="c_buscador__button-search button"><span>Buscar</span></button>
+        </div>
+
+        <div class="c_buscador__form">
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
+            <select class="c_buscador--languages select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+              <option value="es">Español</option>
+              <option value="en">Inglés</option>
+              <option value="fr">Francés</option>
+              <option value="de">Alemán</option>
+              <option value="ch">Chino</option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--pointer" aria-hidden="true"></i>
+            <select class="c_buscador--localization select-alternativo" name="residence">
+              <option>Residente en </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--calendario" aria-hidden="true"></i>
+            <input name="since" type="date" value="" class="c_buscador--start-date" required placeholder="Fecha comienzo">
+          </div>
+
+          <div class="c_buscador__form_label">
+            <i class="c_buscador__icon icon icon--small icon--duracion" aria-hidden="true"></i>
+            <select class="c_buscador--duration select-alternativo" name="duration">
+              <option>Duración </option>
+            </select>
+          </div>
+
+          <div class="c_buscador__form_label">
+            <label class="input-radio">
+              <input type="radio" name="gender" value="f" checked><span>
+                <i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer
+              </span>
+            </label>
+            <label class="input-radio">
+              <input type="radio" name="gender" value="m"><span>
+                <i class="icon icon--small icon--hombre" aria-hidden="true"></i> Hombre
+              </span>
+            </label>
+          </div>
+
+        </div>
+      </div>
+
+      <button type="submit" class="main-title js-toggle-advanced-filter">Filtrar búsqueda</button>
+    </form>
+  </section>
+
+  <div class="c_buscador__toggle-search">
+    <button form="buscador" type="submit" class="c_buscador__toggle-search-button"><span>Buscar</span></button>
+    <a href="#" class="c_buscador__close-search js-toggle-search">
+      <i class="c_buscador__close-search-icon icon icon--small icon--no" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <section class="container-results">
+    <div class="container-results__wrap">
+      <div class="c_results-sort c_results-sort-auxiliares">
+      </div>
+      <div class="c_results-label">
+        <p class="c_results-label__title">Hemos encontrado</p>
+        <p class="c_results-label__subtitle">4 auxiliares</p>
+      </div>
+      <div class="c_results-messages">
+        <div class="c_results-messages__button js-add-to-email-cc">
+          <a class="button button--circle button--selectable button--small" href="#">
+            <i class="icon icon--xsmall icon--check" aria-hidden="true"></i>
+          </a>
+          <span>Seleccionar</span>
+        </div>
+        <div class="c_results-messages__button js-cancel-email-cc" hidden>
+          <a class="button button--circle button--selectable button--small" href="#">
+            <i class="icon icon--xsmall icon--cancel" aria-hidden="true"></i>
+          </a>
+          <span>Cancelar</span>
+        </div>
+        <div class="c_results-messages__button js-send-bulk-emails" disabled>
+          <a class="button button--circle button--selectable button--small js-open-modal" href="" data-target-modal="modal-mensajes-grupo" disabled>
+            <i class="icon icon--xsmall icon--enviar" aria-hidden="true"></i>
+          </a>
+          <span>Enviar Copia Oculta</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-items">
+    <div class="container-items__wrap">
+      <div class="c_item" data-item-id="0">
+        <img class="c_item__image" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+
+        <div class="c_item__content">
+          <div class="c_item__icon">
+            <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i>
+            <h6 class="c_item__image__paragraph">Santander, España</h6>
+          </div>
+          <a class="button c_item__button js-open-modal" href="" data-target-modal="modal-mensajes">
+            <i class="c_item__button__icon icon icon--enviar" aria-hidden="true"></i>
+          </a>
+          <h3 class="c_item__title">Raquel Martínez</h3>
+        </div>
+
+        <div class="c_item__box c_item-auxiliar">
+          <div class="c_item-auxiliar__nacionality">
+            <i class="c_item-auxiliar__nacionality__icon icon icon--small icon--mujer" aria-hidden="true"></i>
+            <span class="c_item-auxiliar__nacionality__span">19 / Argentina</span>
+          </div>
+          <p class="c_item-auxiliar__paragraph">Español <span class="c_item-auxiliar__paragraph__span">(nativo),</span> Inglés</p>
+
+          <div class="c_item-auxiliar__footer">
+            <div class="c_item-auxiliar__footer__calendar">
+              <i class="c_item-auxiliar__footer__icon icon icon--small icon--calendario" aria-hidden="true"></i>
+              <div class="c_item-auxiliar__footer__span">May - Jun 2018</div>
+            </div>
+            <div class="c_item-auxiliar__footer__duration">
+              <i class="c_item-auxiliar__footer__icon icon icon--small icon--duracion" aria-hidden="true"></i>
+              <div class="c_item-auxiliar__footer__span">8 - 24 meses</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="c_item" data-item-id="1"><img class="c_item__image" src="https://d1bvpoagx8hqbg.cloudfront.net/259/fa1ea63526201d518df42421e7e380cd.jpg" alt=""> <div class="c_item__content"> <div class="c_item__icon"> <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i> <h6 class="c_item__image__paragraph">London, England</h6> </div><a class="button c_item__button js-open-modal" href="" data-target-modal="modal-mensajes"> <i class="c_item__button__icon icon icon--enviar" aria-hidden="true"></i> </a> <h3 class="c_item__title">George Smith</h3> </div><div class="c_item__box c_item-auxiliar"> <div class="c_item-auxiliar__nacionality"> <i class="c_item-auxiliar__nacionality__icon icon icon--small icon--hombre" aria-hidden="true"></i> <span class="c_item-auxiliar__nacionality__span">22 / Inglaterra</span> </div><p class="c_item-auxiliar__paragraph">Inglés <span class="c_item-auxiliar__paragraph__span">(nativo),</span> Español</p><div class="c_item-auxiliar__footer"> <div class="c_item-auxiliar__footer__calendar"> <i class="c_item-auxiliar__footer__icon icon icon--small icon--calendario" aria-hidden="true"></i> <div class="c_item-auxiliar__footer__span">Sep - Dic 2019</div></div><div class="c_item-auxiliar__footer__duration"> <i class="c_item-auxiliar__footer__icon icon icon--small icon--duracion" aria-hidden="true"></i> <div class="c_item-auxiliar__footer__span">8 - 24 meses</div></div></div></div></div>
+      <div class="c_item" data-item-id="2"><img class="c_item__image" src="https://d1bvpoagx8hqbg.cloudfront.net/259/72f67e47572ef0c1f14e4fb31cf6213e.jpg" alt=""> <div class="c_item__content"> <div class="c_item__icon"> <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i> <h6 class="c_item__image__paragraph">London, England</h6> </div><a class="button c_item__button js-open-modal" href="" data-target-modal="modal-mensajes"> <i class="c_item__button__icon icon icon--enviar" aria-hidden="true"></i> </a> <h3 class="c_item__title">Richardson Whitehouse</h3> </div><div class="c_item__box c_item-auxiliar"> <div class="c_item-auxiliar__nacionality"> <i class="c_item-auxiliar__nacionality__icon icon icon--small icon--hombre" aria-hidden="true"></i> <span class="c_item-auxiliar__nacionality__span">21 / Inglaterra</span> </div><p class="c_item-auxiliar__paragraph">Español <span class="c_item-auxiliar__paragraph__span">(nativo),</span> Inglés</p><div class="c_item-auxiliar__footer"> <div class="c_item-auxiliar__footer__calendar"> <i class="c_item-auxiliar__footer__icon icon icon--small icon--calendario" aria-hidden="true"></i> <div class="c_item-auxiliar__footer__span">May - Jun 2018</div></div><div class="c_item-auxiliar__footer__duration"> <i class="c_item-auxiliar__footer__icon icon icon--small icon--duracion" aria-hidden="true"></i> <div class="c_item-auxiliar__footer__span">8 - 24 meses</div></div></div></div></div>
+      <div class="c_item" data-item-id="3"><img class="c_item__image" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Indian_Student_UOA_0478.jpg" alt=""> <div class="c_item__content"> <div class="c_item__icon"> <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i> <h6 class="c_item__image__paragraph">India</h6> </div><a class="button c_item__button js-open-modal" href="" data-target-modal="modal-mensajes"> <i class="c_item__button__icon icon icon--enviar" aria-hidden="true"></i> </a> <h3 class="c_item__title">Punj Chandrasekar</h3> </div><div class="c_item__box c_item-auxiliar"> <div class="c_item-auxiliar__nacionality"> <i class="c_item-auxiliar__nacionality__icon icon icon--small icon--mujer" aria-hidden="true"></i> <span class="c_item-auxiliar__nacionality__span">19 / India</span> </div><p class="c_item-auxiliar__paragraph">Español <span class="c_item-auxiliar__paragraph__span">(nativo),</span> Inglés</p><div class="c_item-auxiliar__footer"> <div class="c_item-auxiliar__footer__calendar"> <i class="c_item-auxiliar__footer__icon icon icon--small icon--calendario" aria-hidden="true"></i> <div class="c_item-auxiliar__footer__span">May - Jun 2018</div></div><div class="c_item-auxiliar__footer__duration"> <i class="c_item-auxiliar__footer__icon icon icon--small icon--duracion" aria-hidden="true"></i> <div class="c_item-auxiliar__footer__span">8 - 24 meses</div></div></div></div></div>
+
+    </div>
+  </section>
+
+  <section class="c_load-more">
+    <a class="c_load-more__a" href="">Cargar más</a>
+  </section>
+
+  <h1 class="main-title button button--ghost button--floating js-toggle-search"><span>Modificar Búsqueda</span></h1>
+
+  <section class="c_container-icons">
+    <div class="c_container-icons__wrap">
+      <ul class="c_container__icons__ul">
+        <li class="c_container__icons__li">
+          <i class="c_container__icons__icon icon icon--small icon--idioma" aria-hidden="true"></i>
+          <span class="c_container__icon__title">Idioma</span>
+        </li>
+        <li class="c_container__icons__li">
+          <i class="c_container__icons__icon icon icon--small icon--pointer" aria-hidden="true"></i>
+          <span class="c_container__icon__title">Residencia</span>
+        </li>
+        <li class="c_container__icons__li">
+          <i class="c_container__icons__icon icon icon--small icon--calendario" aria-hidden="true"></i>
+          <span class="c_container__icon__title">Fecha Comienzo</span>
+        </li>
+        <li class="c_container__icons__li">
+          <i class="c_container__icons__icon icon icon--small icon--duracion" aria-hidden="true"></i>
+          <span class="c_container__icon__title">Duración</span>
+        </li>
+        <li class="c_container__icons__li">
+          <i class="c_container__icons__icon icon icon--small icon--mujer" aria-hidden="true"></i>
+          <span class="c_container__icon__title">Chica</span>
+        </li>
+        <li class="c_container__icons__li">
+          <i class="c_container__icons__icon icon icon--small icon--hombre" aria-hidden="true"></i>
+          <span class="c_container__icon__title">Chico</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="c_modal" id="modal-mensajes">
+    <div class="c_modal__container">
+      <h1 class="main-title">
+        Conversación Ráquel
+        <i class="icon icon--xsmall icon--cancel c_modal__close js-modal-dismiss" aria-hidden="true"></i>
+      </h1>
+
+      <div class="c_modal__content c_conversaciones">
+        <div class="c_conversaciones__container-general">
+          <div class="c_conversaciones__container__items">
+
+            <div class="c_conversaciones__item c_item">
+              <img class="c_conversaciones__item__image c_item__image" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+              <div class="c_conversaciones__item__content c_item__content">
+                <div class="c_item__icon">
+                  <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i>
+                  <h6 class="c_item__image__paragraph">Santander, España</h6>
+                </div>
+                <h3 class="c_conversaciones__item__title c_item__title">Raquel Martínez</h3>
+              </div>
+
+              <div class="c_conversaciones__item-auxiliar c_item__box c_item-auxiliar">
+                <div class="c_conversaciones__item__nacionality c_item-auxiliar__nacionality">
+                  <i class="c_item-auxiliar__nacionality__icon icon icon--xsmall icon--mujer" aria-hidden="true"></i>
+                  <span class="c_conversaciones__item__nacionality__span c_item-auxiliar__nacionality__span">19 / Argentina</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="c_conversaciones__container__wrappers">
+
+            <div class="c_conversaciones__wrapper">
+              <div class="c_conversaciones__box">
+                <textarea class="c_conversaciones__box__textarea" name="texto" placeholder="Escribe aquí"></textarea>
+
+                <div class="c_conversaciones__box__footer">
+                  <label class="input-file input-file--transparent">
+                    <i class="c_conversaciones__box__footer__icon icon ico--adjunto-off" aria-hidden="true"></i>
+                    <input type="file" name="archivo" placeholder="Adjuntar archivo">
+                    <span>Adjuntar archivo</span>
+                  </label>
+
+                  <button disabled type="submit" class="c_conversaciones__box__button button button--oval"><span>Enviar</span></button>
+                </div>
+              </div>
+              <div class="c_conversaciones__avatar">
+                <img class="c_conversaciones__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="c_chat-item">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name c_chat-item__box__name--purple">Raquel</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                  Nulla consequat massa quis enim.
+
+                  <a href="#" class="c_chat-item__box__attachment">
+                    <i class="c_chat-item__box__icon icon icon--small ico--adjunto-off" aria-hidden="true"></i>
+                    <span>mi_disponibilidad.pdf</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="c_chat-item c_chat-item--me">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name">Yo</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                  Nulla consequat massa quis enim.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="c_chat-item">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name c_chat-item__box__name--purple">Raquel</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="c_chat-item c_chat-item--me">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name">Yo</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                  Nulla consequat massa quis enim.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="c_modal" id="modal-mensajes-grupo">
+    <div class="c_modal__container">
+      <h1 class="main-title">
+        Conversación Punj, George, Raquel
+        <i class="icon icon--xsmall icon--cancel c_modal__close js-modal-dismiss" aria-hidden="true"></i>
+      </h1>
+
+      <div class="c_modal__content c_conversaciones">
+        <div class="c_conversaciones__container-general">
+          <div class="c_conversaciones__container__items">
+
+            <div class="c_conversaciones__item c_item">
+              <img class="c_conversaciones__item__image c_item__image" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Indian_Student_UOA_0478.jpg" alt="">
+              <div class="c_conversaciones__item__content c_item__content">
+                <div class="c_item__icon">
+                  <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i>
+                  <h6 class="c_item__image__paragraph">India</h6>
+                </div>
+                <h3 class="c_conversaciones__item__title c_item__title">Punj Chandrasekar</h3>
+              </div>
+
+              <div class="c_conversaciones__item-auxiliar c_item__box c_item-auxiliar">
+                <div class="c_conversaciones__item__nacionality c_item-auxiliar__nacionality">
+                  <i class="c_item-auxiliar__nacionality__icon icon icon--xsmall icon--mujer" aria-hidden="true"></i>
+                  <span class="c_conversaciones__item__nacionality__span c_item-auxiliar__nacionality__span">19 / India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="c_conversaciones__item c_item">
+              <img class="c_conversaciones__item__image c_item__image" src="https://d1bvpoagx8hqbg.cloudfront.net/259/fa1ea63526201d518df42421e7e380cd.jpg" alt="">
+              <div class="c_conversaciones__item__content c_item__content">
+                <div class="c_item__icon">
+                  <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i>
+                  <h6 class="c_item__image__paragraph">Bilbao, España</h6>
+                </div>
+                <h3 class="c_conversaciones__item__title c_item__title">George Smith</h3>
+              </div>
+
+              <div class="c_conversaciones__item-auxiliar c_item__box c_item-auxiliar">
+                <div class="c_conversaciones__item__nacionality c_item-auxiliar__nacionality">
+                  <i class="c_item-auxiliar__nacionality__icon icon icon--xsmall icon--mujer" aria-hidden="true"></i>
+                  <span class="c_conversaciones__item__nacionality__span c_item-auxiliar__nacionality__span">22 / Inglaterra</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="c_conversaciones__item c_item">
+              <img class="c_conversaciones__item__image c_item__image" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+              <div class="c_conversaciones__item__content c_item__content">
+                <div class="c_item__icon">
+                  <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i>
+                  <h6 class="c_item__image__paragraph">Santander, España</h6>
+                </div>
+                <h3 class="c_conversaciones__item__title c_item__title">Raquel Martínez</h3>
+              </div>
+
+              <div class="c_conversaciones__item-auxiliar c_item__box c_item-auxiliar">
+                <div class="c_conversaciones__item__nacionality c_item-auxiliar__nacionality">
+                  <i class="c_item-auxiliar__nacionality__icon icon icon--xsmall icon--mujer" aria-hidden="true"></i>
+                  <span class="c_conversaciones__item__nacionality__span c_item-auxiliar__nacionality__span">19 / Argentina</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="c_conversaciones__container__wrappers">
+
+            <div class="c_conversaciones__wrapper">
+              <div class="c_conversaciones__box">
+                <textarea class="c_conversaciones__box__textarea" name="texto" placeholder="Escribe aquí"></textarea>
+
+                <div class="c_conversaciones__box__footer">
+                  <label class="input-file input-file--transparent">
+                    <i class="c_conversaciones__box__footer__icon icon ico--adjunto-off" aria-hidden="true"></i>
+                    <input type="file" name="archivo" placeholder="Adjuntar archivo">
+                    <span>Adjuntar archivo</span>
+                  </label>
+
+                  <button disabled type="submit" class="c_conversaciones__box__button button button--oval"><span>Enviar</span></button>
+                </div>
+              </div>
+              <div class="c_conversaciones__avatar">
+                <img class="c_conversaciones__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="c_chat-item">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name c_chat-item__box__name--purple">Raquel</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                  Nulla consequat massa quis enim.
+                </div>
+              </div>
+            </div>
+
+            <div class="c_chat-item">
+              <p class="c_chat-item__date">Ayer a las 09:28</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="https://d1bvpoagx8hqbg.cloudfront.net/259/fa1ea63526201d518df42421e7e380cd.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name c_chat-item__box__name--red">George</h3>
+
+                <div class="c_chat-item__box__text">
+                  Nulla consequat massa quis enim.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="c_chat-item c_chat-item--me">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name">Yo</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                  Nulla consequat massa quis enim.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="c_chat-item">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name c_chat-item__box__name--purple">Raquel</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="c_chat-item c_chat-item--me">
+              <p class="c_chat-item__date">Hoy a las 13:45</p>
+
+              <div class="c_chat-item__avatar">
+                <img class="c_chat-item__avatar__img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+              </div>
+
+              <div class="c_chat-item__box__item">
+                <h3 class="c_chat-item__box__name">Yo</h3>
+
+                <div class="c_chat-item__box__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolor, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                  Nulla consequat massa quis enim.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__wrap">
+        <nav class="footer__menu">
+          <ul class="footer__ul">
+            <li><a href="que-es-auxiliar.html">Qué es erasmus in school</a></li>
+            <li><a href="#">Cómo funciona</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__navegation">
+          <ul class="footer__ul">
+            <li><a href="#"><i class="icon icon--small icon--social-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-youtube" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__logo">
+        <div class="footer__logo-icon">
+          <img src="images/isotipo-monocromo.svg" alt="">
+        </div>
+        <h6 class="footer__logo-title">Erasmus In School</h6>
+        <h6 class="footer__logo-title">2017</h6>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/sumo/jquery.sumoselect.min.js?v=5"></script>
+  <script type="text/javascript" src="js/datepicker/datepicker.min.js?v=5"></script>
+  <script type="text/javascript" src="js/c_questions.js?v=5"></script>
+  <script type="text/javascript" src="js/c_buscador.js?v=5"></script>
+  <script type="text/javascript" src="js/c_modal.js?v=5"></script>
+  <script type="text/javascript" src="js/header.js?v=5"></script>
+  <script type="text/javascript" src="js/c_profile-content.js?v=5"></script>
+  <script type="text/javascript" src="js/form.js?v=5"></script>
+  <script type="text/javascript" src="js/main.js?v=5"></script>
+
+</body>
+</html>

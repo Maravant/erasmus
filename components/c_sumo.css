@@ -360,7 +360,7 @@
     border-radius: 0 0 3px 3px;
 }
 
-.SumoSelect > .optWrapper.multiple.isFloating > .MultiControls {
+.SumoSelect > .optWrapper.multiple.okCancelInMulti.isFloating > .MultiControls {
     display: block;
     margin-top: 5px;
     position: absolute;
@@ -419,7 +419,7 @@
     padding-left: 35px;
 }
 
-.SumoSelect > .optWrapper.multiple.isFloating {
+.SumoSelect > .optWrapper.multiple.okCancelInMulti.isFloating {
     padding-bottom: 43px;
 }
 
