@@ -4,6 +4,7 @@
   window.MAIN_APP.push(function initModal() {
 
     $('.js-open-modal').on('click', function(e) {
+      e.preventDefault();
       var modal = $('#' + $(e.currentTarget).data('target-modal'));
 
       modal.addClass('opened');
