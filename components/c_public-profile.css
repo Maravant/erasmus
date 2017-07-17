@@ -1,0 +1,133 @@
+.c_public-profile {
+  background-color:var(--bg-gray);
+}
+
+.c_public-profile__wrapper {
+  display:flex;
+  width:var(--main-layout-width);
+  margin:0 auto;
+  padding:86px 0 128px;
+}
+
+.c_public-profile__column-item {
+  width:50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right:32px;
+}
+
+.c_public-profile__column-item__annotation {
+  display:flex;
+  width:300px;
+  font-size:1rem;
+  padding-bottom:34px;
+  font-family:var(--font-family-main);
+  justify-content: center;
+  align-items: center;
+}
+
+.c_item {
+  width:300px;
+}
+
+.c_public-profile__column-item__box {
+  width:300px;
+  margin-right:16px;
+  display:flex;
+  flex-flow: column;
+  margin-top:40px;
+}
+
+.c_public-profile__column-item__label {
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c_public-profile__column-item__label span {
+  padding-bottom:30px;
+}
+
+.c_public-profile__column-item__label-file,
+.c_public-profile__column-item__label-radio  {
+  padding-bottom:30px;
+}
+
+.c_public-profile__column__button {
+  width:180px;
+  margin-top:38px;
+}
+
+ .c_public-profile__column__small {
+  font-size:0.6rem;
+  text-align: center;
+  padding-top:29px;
+  line-height: 16px;
+}
+
+
+.c_public-profile__column-form {
+  width:50%;
+  padding-left:48px;
+}
+
+.c_public-profile__column-form__label {
+  margin-bottom:40px;
+}
+
+
+.c_public-profile__column-form__label span {
+  display: inline-block;
+  margin-right: 40px;
+  text-align: left;
+  line-height:14px;
+  width:36%;
+}
+
+.c_public-profile__column-form__label span small {
+  display:block;
+  text-align:left;
+}
+
+
+.c_public-profile__column-form__span {
+  width: 36%;
+  vertical-align:middle;
+}
+
+.c_public-profile__column-form__wrapper {
+
+}
+
+.c_public-profile__column-form__box {
+  padding-bottom:50px;
+  display:flex;
+  flex-flow:column;
+  justify-content: left;
+  align-items: left;
+  padding-top:17px;
+}
+
+.c_public-profile__column-form__title,
+.c_public-profile__column-form__paragraph {
+  font-size:0.9rem;
+  letter-spacing:1px;
+  margin:0;
+  line-height:24px;
+  font-family:var(--font-family-main);
+  text-align: center;
+}
+
+.c_public-profile__column-form__title {
+  text-transform:uppercase;
+  width:344px;
+}
+
+
+
+
+
+

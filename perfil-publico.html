@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Erasmus In School</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#61cfff">
+
+  <link href="https://fonts.googleapis.com/css?family=Ek+Mukta:700&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- <link rel="stylesheet" href="build/import.css?v=1" type="text/css"/> -->
+  <link rel="stylesheet" href="import.css" type="text/css"/>
+  <link rel="stylesheet" href="js/slick/slick.css" type="text/css"/>
+
+</head>
+<body>
+
+<!-- header template -->
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__wrapper-limit">
+
+        <a href="index.html" class="header__logo"></a>
+
+        <a href="#" class="header__menubutton">
+          <i class="icon icon--small icon--menu" aria-hidden="true"></i>
+        </a>
+
+        <nav class="header__menu">
+          <ul class="header__menulist">
+            <li class="header__menulist-item"><a href="que-es-auxiliar.html">Qué es un auxiliar lingüístico</a></li>
+            <li class="header__menulist-item"><a href="como-funciona.html">Cómo funciona</a></li>
+            <li class="header__menulist-item"><a href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__userbox">
+          <img class="header__userbox-avatar" src="https://media.licdn.com/media/AAEAAQAAAAAAAAKRAAAAJGU0OWNhMTcxLWY4NDItNGExZC1hNmFjLTU2YmVjZTA0NGU0OA.jpg" alt="">
+          <h5 class="header__userbox-name">José María</h5>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /header template -->
+
+  <section class="c_tabs">
+    <a class="c_tab c_tab--medium" href="registro-auxiliar.html">
+      <div class="c_tab__box">
+        <span class="c_tab__link">Datos de registro</span>
+      </div>
+    </a>
+
+    <a class="c_tab" href="editar-perfil-password.html">
+      <div class="c_tab__box c_tab--medium">
+        <span class="c_tab__link">Contraseña</span>
+      </div>
+    </a>
+
+    <a class="c_tab c_tab--active" href="mi-perfil-auxiliar.html">
+      <div class="c_tab__box c_tab--medium">
+        <span class="c_tab__link">Perfil público</span>
+      </div>
+    </a>
+
+    <a class="c_tab" href="#">
+      <div class="c_tab__box c_tab--medium">
+        <span class="c_tab__link">Notificaciones</span>
+      </div>
+    </a>
+
+    <a class="c_tab c_tab--color c_tab--medium c_tab--active" href="editar-perfil-desactivar.html">
+      <div class="c_tab__box">
+        <span class="c_tab__link">Desactivar Perfil</span>
+      </div>
+    </a>
+
+  </section>
+
+
+
+
+  <section class="c_public-profile">
+  <div class="c_public-profile__wrapper">
+    <div class="c_public-profile__column-item">
+      <p class="c_public-profile__column-item__annotation">(Tu perfil se verá así)</p>
+      <div class="c_item" data-item-id="0">
+        <img class="c_item__image" src="http://insights.dice.com/wp-content/uploads/2016/04/stacy-zapar.jpg" alt="">
+
+        <div class="c_item__content">
+          <div class="c_item__icon">
+            <i class="icon icon--pointer-blanco icon--small" aria-hidden="true"></i>
+            <h6 class="c_item__image__paragraph">Santander, España</h6>
+          </div>
+          <a class="button c_item__button js-open-modal" href="" data-target-modal="modal-mensajes">
+            <i class="c_item__button__icon icon icon--enviar" aria-hidden="true"></i>
+          </a>
+          <h3 class="c_item__title">Raquel Martínez</h3>
+        </div>
+
+        <div class="c_item__box c_item-auxiliar">
+          <div class="c_item-auxiliar__nacionality">
+            <i class="c_item-auxiliar__nacionality__icon icon icon--small icon--mujer" aria-hidden="true"></i>
+            <span class="c_item-auxiliar__nacionality__span">19 / Argentina</span>
+          </div>
+          <p class="c_item-auxiliar__paragraph">Español <span class="c_item-auxiliar__paragraph__span">(nativo),</span> Inglés</p>
+
+          <div class="c_item-auxiliar__footer">
+            <div class="c_item-auxiliar__footer__calendar">
+              <i class="c_item-auxiliar__footer__icon icon icon--small icon--calendario" aria-hidden="true"></i>
+              <div class="c_item-auxiliar__footer__span">May - Jun 2018</div>
+            </div>
+            <div class="c_item-auxiliar__footer__duration">
+              <i class="c_item-auxiliar__footer__icon icon icon--small icon--duracion" aria-hidden="true"></i>
+              <div class="c_item-auxiliar__footer__span">8 - 24 meses</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="c_public-profile__column-item__box">
+        <label class="c_public-profile__column-item__label"><span>Subir foto</span>
+          <label class="input-file">
+            <input type="file" name="archivo" placeholder="archivos seleccionados"/>
+            <span></span>
+          </label>
+           <small class="c_public-profile__column__small">
+              (Max. 6 fotos - Peso máximo 1MB cada una / archivos soportados - D0C, RTF, PDF)
+          </small>
+        <button type="submit" class="c_public-profile__column__button button"><span>Cargar archivo</span></button>
+      </label>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="c_public-profile__column-form">
+
+      <label class="c_public-profile__column-item__label-file"><span>Residencia</span>
+        <input class="input--white" name="lugar de residencia" type="text" placeholder="ciudad, país" required/>
+      </label>
+
+      <label class="c_public-profile__column-item__label-radio" for="x"><span>Sexo</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="gender" value="mujer" checked>
+          <span><i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer</span>
+        </label>
+
+        <label class="input-radio input--small">
+          <input type="radio" name="gender" value="hombre">
+          <span><i class="icon icon--small icon--hombre" aria-hidden="true"></i> Hombre</span>
+        </label>
+      </label>
+
+
+      <label class="c_public-profile__column-form__label">
+        <span>
+          Idioma nativo
+          <small>(Puedes seleccionar varios)</small>
+        </span>
+        <select class="select-alternativo" name="selecciona idioma">
+          <option value="">Selecciona idiomas</option>
+        </select>
+      </label>
+
+
+      <label class="c_public-profile__column-form__label">
+        <span>
+          Otros idiomas
+          <small>(Nivel c1 mínimo)</small>
+        </span>
+        <select class="select-alternativo" name="selecciona idioma">
+          <option value="">Selecciona otros</option>
+        </select>
+      </label>
+
+
+      <div class="c_public-profile__column-form__wrapper">
+
+        <div class="c_public-profile__column-form__box">
+          <p class="c_public-profile__column-form__title">Fecha comienzo</p>
+          <p class="c_public-profile__column-form__paragraph">¿Cuándo te gustaría trabajar de auxiliar de conversación?</p>
+        </div>
+
+        <label class="c_public-profile__column-form__label"><span class="c_public-profile__column-form__span">Podría empezar a partir de </span>
+          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        </label>
+
+        <label class="c_public-profile__column-form__label"><span class="c_public-profile__column-form__span">Me gustaría empezar como muy tarde en </span>
+          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        </label>
+      </div>
+
+      <div class="c_public-profile__column-form__wrapper">
+
+        <div class="c_public-profile__column-form__box">
+          <p class="c_public-profile__column-form__title">Duración</p>
+          <p class="c_public-profile__column-form__paragraph">¿Por cuánto tiempo deseas ser auxiliar lingüístico?</p>
+        </div>
+
+        <label class="c_public-profile__column-form__label"><span>Duración mínima</span>
+          <select class="select-alternativo" name="selecciona duración">
+          <option value="">Duración mínima</option>
+          </select>
+        </label>
+
+        <label class="c_public-profile__column-form__label"><span>Duración máxima</span>
+          <select class="c_public-profile__column-form__select select-alternativo" name="selecciona duración">
+          <option value="">Duración máxima</option>
+          </select>
+        </label>
+    </div>
+
+    </div>
+  </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer template -->
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__wrap">
+        <nav class="footer__menu">
+          <ul class="footer__ul">
+            <li><a href="que-es-auxiliar.html">Qué es erasmus in school</a></li>
+            <li><a href="#comofunciona">Cómo funciona</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__navegation">
+          <ul class="footer__ul">
+            <li><a href="#"><i class="icon icon--small icon--social-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-youtube" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="icon icon--small icon--social-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__logo">
+        <div class="footer__logo-icon">
+          <img src="images/isotipo-monocromo.svg" alt="">
+        </div>
+        <h6 class="footer__logo-title">Erasmus In School</h6>
+        <h6 class="footer__logo-title">2017</h6>
+      </div>
+    </div>
+  </footer>
+  <!-- /footer template -->
+
+
+
+
+
+
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/datepicker/datepicker.min.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  <script type="text/javascript" src="js/c_questions.js"></script>
+  <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/c_login.js"></script>
+  <script type="text/javascript" src="js/c_register.js"></script>
+  <script type="text/javascript" src="js/input-file.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
