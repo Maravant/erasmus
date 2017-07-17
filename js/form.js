@@ -5,6 +5,7 @@
 
     if ($.fn.datepicker) {
       $('input[type="date"').datepicker({
+        autoHide: true,
         format: 'yyyy-mm-dd',
         language: document.documentElement.lang
       });
