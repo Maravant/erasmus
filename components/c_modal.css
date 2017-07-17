@@ -33,9 +33,27 @@
   transition: transform 233ms 100ms ease-in-out, opacity 233ms 100ms ease-in-out;
 }
 
+.c_modal__content {
+  max-height: calc(100vh - 74px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 .c_modal.opened .c_modal__container {
   transform: translateY(0);
   opacity: 1;
+}
+
+.c_modal__close {
+  filter: brightness(0) invert();
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-size: 16px 16px;
+  background-position: center;
 }
 
 @media (max-width: 640px) {
