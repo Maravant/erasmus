@@ -1,0 +1,14 @@
+.c_notificaciones-III {
+  background-color: var(--bg-gray);
+}
+
+.c_notificaciones-III__paragraph {
+  text-align: center;
+}
+
+.c_notificaciones-III__button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
