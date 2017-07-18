@@ -98,9 +98,6 @@
   vertical-align:middle;
 }
 
-.c_public-profile__column-form__wrapper {
-
-}
 
 .c_public-profile__column-form__box {
   padding-bottom:50px;
@@ -125,6 +122,46 @@
   text-transform:uppercase;
   width:344px;
 }
+
+.c_public-profile__column-form__wrapper {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.c_public-profile__column-form__wrapper__title {
+  display:flex;
+  justify-content: center;
+  width:100%;
+  padding-bottom:40px;
+}
+
+.c_public-profile__column-form__wrapper__input,
+.c_public-profile__column-form__wrapper__select {
+  display:flex;
+  flex:2;
+  padding-bottom:40px;
+}
+
+
+.c_public-profile__column-form__wrapper__label__title span {
+  display:flex;
+  flex:2;
+  justify-content: center;
+}
+
+
+.c_public-profile__column-form__wrapper__input-radio {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:row;
+
+}
+
+
+
+
+
 
 
 
