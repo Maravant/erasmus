@@ -83,7 +83,6 @@
     <div class="c_public-profile__column-item">
       <p class="c_public-profile__column-item__annotation">(Tu perfil se verá así)</p>
       <div class="c_item" data-item-id="0">
-      <div class="c_item" data-item-id="0">
         <a href="perfil-colegio.html"><img class="c_item__image" src="http://cdn.20m.es/img2/recortes/2013/09/25/139470-944-550.jpg" alt=""></a>
 
         <div class="c_item__content">
@@ -144,136 +143,150 @@
       </div>
 
 
-      <div class="c_public-profile__column-item__box">
-        <label class="c_public-profile__column-item__label"><span>Subir foto</span>
+      <div class="c_public-profile__col-item__box">
+        <label class="c_public-profile__col-item__label"><span>Subir foto</span>
           <label class="input-file">
             <input type="file" name="archivo" placeholder="archivos seleccionados"/>
             <span></span>
           </label>
-           <small class="c_public-profile__column__small">
+           <small class="c_public-profile__col__small">
               (Max. 6 fotos - Peso máximo 1MB cada una / archivos soportados - D0C, RTF, PDF)
           </small>
-        <button type="submit" class="c_public-profile__column__button button"><span>Cargar archivo</span></button>
+        <button type="submit" class="c_public-profile__col__button button"><span>Cargar archivo</span></button>
       </label>
       </div>
     </div>
 
-    </div>
+    <div class="c_public-profile__col-form">
 
-
-    <div class="c_public-profile__column-form">
-
-      <div class="c_public-profile__column-form__wrapper">
-        <label class="_public-profile__column-form__label" for="x">
-          <span>Institución</span>
-          <label class="input-radio input--small">
-            <input type="radio" name="institucion" value="colegio" checked><span>Colegio</span>
-          </label>
-          <label class="input-radio input--small">
-            <input type="radio" name="institucion" value="academia"><span>Academia</span>
-          </label>
-          <label class="input-radio input--small">
-            <input type="radio" name="institucion" value="otros"><span>Otro</span>
-          </label>
+      <div class="c_public-profile__col-form__intitution">
+        <span>Institución</span>
+        <label class="input-radio input--small">
+          <input type="radio" name="institucion" value="colegio" checked><span>Colegio</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="institucion" value="academia"><span>Academia</span>
+        </label>
+        <label class="input-radio input--small">
+          <input type="radio" name="institucion" value="otros"><span>Otro</span>
         </label>
       </div>
 
-      <label class="c_public-profile__column-form__label">
+      <div class="c_public-profile__col-form__name">
         <span>Nombre</span>
         <input class="input--white" name="name" type="text" placeholder="Nombre" required/>
-      </label>
+      </div>
 
 
-      <label class="c_public-profile__column-form__label">
+      <div class="c_public-profile__col-form__localication">
         <span>Localización</span>
         <input class="input--white" name="website" type="text" placeholder="Ciudad, País" required/>
-      </label>
+      </div>
 
-      <label class="c_public-profile__column-form__label">
+      <div class="c_public-profile__col-form__date">
         <span>Fecha comienzo</span>
         <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
-      </label>
+      </div>
 
-       <label class="c_public-profile__column-form__label">
+       <div class="c_public-profile__col-form__duration">
         <span>Duración</span>
-        <select class="select-alternativo" name="duración">
+        <select class="select-alternativo" name="duracion">
           <option value="">Duración</option>
         </select>
-      </label>
+      </div>
 
-      <label class="c_public-profile__column-form__label">
+      <div class="c_public-profile__col-form__hours">
         <span>Hora/Semana</span>
         <select class="select-alternativo" name="hora semana">
           <option value="">Hora/Semana</option>
         </select>
-      </label>
-
-
-      <div class="c_public-profile__column-form__wrapper">
-        <span class="c_public-profile__column-form__wrapper__title">Compensación económica</span>
-        <label class="c_public-profile__column-form__wrapper__input">
-          <span>Cantidad</span>
-          <input class="input-line input-number" name="c" type="tel" placeholder="1.200" required/>
-        </label>
-
-        <label class="c_public-profile__column-form__wrapper__select">
-          <span>Moneda</span>
-          <select class="select-alternativo input--small" name="moneda">
-            <option>Euro</option>
-            <option>Dólar</option>
-          </select>
-        </label>
       </div>
 
-      <label class="c_public-profile__column-form__wrapper__label__title" for="x">
-        <span>Alojamiento</span>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="alojamiento" value="si" checked><span>Sí</span>
-        </label>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="alojamiento" value="no"><span>No</span>
-        </label>
-      </label>
+      <div class="c_public-profile__col-form__economic-compensation">
 
-       <label class="c_public-profile__column-form__wrapper__label__title" for="x">
-        <span>Comida</span>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="comida" value="si" checked><span>Sí</span>
-        </label>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="comida" value="no"><span>No</span>
-        </label>
-      </label>
+        <span class="c_public-profile__col-form__wrapper__title">
+          <i class="c_public-profile__col-form__icon icon icon--xsmall icon--dinero" aria-hidden="true"></i>Compensación económica
+        </span>
 
-      <label class="c_public-profile__column-form__wrapper__label__title" for="x">
-        <span>Transporte</span>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="transporte" value="si" checked><span>Sí</span>
-        </label>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="transporte" value="no"><span>No</span>
-        </label>
-      </label>
+        <div class="c_public-profile__label-col">
+          <label class="c_public-profile__col-form__wrapper__input">
+            <span>Cantidad</span>
+            <input class="input-line input-number" name="c" type="tel" placeholder="1.200" required/>
+          </label>
 
-      <label class="c_public-profile__column-form__wrapper__label__title" for="x">
-        <span>Tandem lingüístico</span>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="tandem" value="si" checked><span>Sí</span>
-        </label>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="tandem" value="no"><span>No</span>
-        </label>
-      </label>
+          <label class="c_public-profile__col-form__wrapper__select">
+            <span>Moneda</span>
+            <select class="select-alternativo input--small" name="moneda">
+              <option>Euro</option>
+              <option>Dólar</option>
+            </select>
+          </label>
+        </div>
+      </div>
 
-      <label class="c_public-profile__column-form__wrapper__label__title" for="x">
-        <span>Programa voluntario</span>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="tandem" value="si" checked><span>Sí</span>
+      <div class="c_public-profile__col-form__wrapper">
+        <label class="c_public-profile__col-form__wrapper__label__title" for="x">
+
+          <span class="c_public-profile__col-form__span">
+            <i class="c_public-profile__col-form__icon icon--xsmall icon--casa" aria-hidden="true"></i>Alojamiento
+          </span>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="alojamiento" value="si" checked><span>Sí</span>
+          </label>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="alojamiento" value="no"><span>No</span>
+          </label>
         </label>
-        <label class="c_public-profile__column-form__wrapper__input-radio input-radio input--small">
-          <input type="radio" name="tandem" value="no"><span>No</span>
+
+         <label class="c_public-profile__col-form__wrapper__label__title" for="x">
+
+          <span>
+            <i class="c_public-profile__col-form__icon icon--xsmall icon--comida" aria-hidden="true"></i>Comida
+          </span>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="comida" value="si" checked><span>Sí</span>
+          </label>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="comida" value="no"><span>No</span>
+          </label>
         </label>
-      </label>
+
+        <label class="c_public-profile__col-form__wrapper__label__title" for="x">
+
+          <span>
+            <i class="c_public-profile__col-form__icon icon--xsmall icon--coche" aria-hidden="true"></i>Transporte
+          </span>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="transporte" value="si" checked><span>Sí</span>
+          </label>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="transporte" value="no"><span>No</span>
+          </label>
+        </label>
+
+        <label class="c_public-profile__col-form__wrapper__label__title" for="x">
+
+          <span>
+            <i class="c_public-profile__col-form__icon icon icon--xsmall icon--tandem" aria-hidden="true"></i>Tandem lingüístico
+          </span>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="tandem" value="si" checked><span>Sí</span>
+          </label>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="tandem" value="no"><span>No</span>
+          </label>
+        </label>
+
+        <label class="c_public-profile__col-form__wrapper__label__title" for="x">
+          <span>Programa voluntario</span>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="tandem" value="si" checked><span>Sí</span>
+          </label>
+          <label class="c_public-profile__col-form__wrapper__input-radio input-radio input--small">
+            <input type="radio" name="tandem" value="no"><span>No</span>
+          </label>
+        </label>
+      </div>
 
     </div>
 
@@ -336,7 +349,7 @@
   <script type="text/javascript" src="js/datepicker/datepicker.min.js"></script>
   <script type="text/javascript" src="js/form.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
-  <script type="text/javascript" src="js/header.js"></script>
+  <!-- <script type="text/javascript" src="js/header.js"></script> -->
   <script type="text/javascript" src="js/c_login.js"></script>
   <script type="text/javascript" src="js/c_register.js"></script>
   <script type="text/javascript" src="js/input-file.js"></script>
