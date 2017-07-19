@@ -164,7 +164,7 @@
   font-family:var(--font-family-main);
   font-weight:bold;
   font-size:0.87rem;
-
+  padding-left: 16px;
 }
 
 .c_public-profile__col-form__wrapper__input,
@@ -180,13 +180,15 @@
 
 .c_public-profile__col-form__wrapper__label__title span {
   display:flex;
-  flex:2;
   justify-content: center;
   margin-bottom:20px;
 }
 
 .c_public-profile__col-form__icon {
-  background-position:no-repeat;
+  display:inline-block;
+  padding-right:20px;
+  margin:0;
+
 }
 
 .c_public-profile__label-col {
