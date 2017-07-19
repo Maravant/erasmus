@@ -93,7 +93,38 @@
 
 
 
+.c_notificaciones-search {
+  background-color: var(--bg-gray);
+  width:var(--main-layout-width);
+  padding-right:var(--main-layout-gap);
+  padding-left:var(--main-layout-gap);
+}
 
+.c_notificaciones-search__box {
+  text-align: center;
+  padding:79px 0 64px;
+}
+
+.c_notificaciones-search__paragraph {
+  padding-bottom:58px;
+}
+
+.c_notificaciones-search__nacionality span {
+  padding-right:20px;
+}
+
+.c_notificaciones-search__wrapper {
+  display:flex;
+  justify-content: space-around;
+  padding-bottom:64px;
+}
+
+.c_notificciones__search__button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:152px;
+}
 
 
 
