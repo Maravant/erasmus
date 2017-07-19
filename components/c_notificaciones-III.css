@@ -1,14 +1,101 @@
-.c_notificaciones-III {
+.c_notificaciones {
   background-color: var(--bg-gray);
+  width:var(--main-layout-width);
+  overflow:hidden;
+  padding-left: var(--main-layout-gap-large);
+  padding-right: var(--main-layout-gap-large);
+  padding-bottom:64px;
 }
 
-.c_notificaciones-III__paragraph {
-  text-align: center;
+.c_notificaciones__box {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:column;
+  padding:86px 0 64px;
 }
 
-.c_notificaciones-III__button {
+.c_notificaciones__paragraph {
+  padding-bottom:42px;
+}
+
+.c_notificaciones__wrapper {
+  display:flex;
+  font-size:0.87rem;
+  line-height: 16px;
+  letter-spacing:2px;
+  font-family:var(--font-family-heading);
+  text-transform:uppercase;
+  margin-bottom:48px;
+}
+
+.c_notificaciones__wrapper__alert {
+  width: 166px;
+  height:144px;
+  background-color:var(--bg-white);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:2px;
+}
+
+.c_notificaciones__wrapper__information {
+  flex:1;
+}
+
+.c_notificaciones__wrapper__row {
+  display:flex;
+  height:71px;
+  margin-bottom:2px;
+}
+
+.c_notificaciones__wrapper__row__nacionality,
+.c_notificaciones__wrapper__row__languages,
+.c_notificaciones__wrapper__row__localication,
+.c_notificaciones__wrapper__row__date,
+.c_notificaciones__wrapper__row__duration {
+  flex:1;
+  padding:30px;
+  background-color:var(--bg-white);
+}
+
+.c_notificaciones__wrapper__row__nacionality,
+.c_notificaciones__wrapper__row__languages,
+.c_notificaciones__wrapper__row__localication,
+.c_notificaciones__wrapper__row__date {
+  margin-right:2px;
+}
+
+.c_notificaciones__wrapper__row__icon {
+  margin-right:12px;
+  background-color:var(--bg-white);
+}
+
+
+.c_notificaciones__wrapper__remove {
+  width:128px;
   display:flex;
   justify-content: center;
   align-items: center;
 }
+
+.c_notificaciones__wrapper__row__box {
+  width:70px;
+  height:71px;
+  background-color:var(--bg-white);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
