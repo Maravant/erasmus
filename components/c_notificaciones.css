@@ -1,10 +1,13 @@
 .c_notificaciones {
   background-color: var(--bg-gray);
+  padding-bottom:64px;
+}
+
+.c_notificaciones__container {
   width:var(--main-layout-width);
   overflow:hidden;
   padding-right:var(--main-layout-gap);
   padding-left:var(--main-layout-gap);
-  padding-bottom:64px;
 }
 
 .c_notificaciones__box {
@@ -93,12 +96,12 @@
 
 
 
-.c_notificaciones-search {
+/*.c_notificaciones-search {
   background-color: var(--bg-gray);
   width:var(--main-layout-width);
   padding-right:var(--main-layout-gap);
   padding-left:var(--main-layout-gap);
-}
+}*/
 
 .c_notificaciones-search__box {
   text-align: center;
@@ -128,7 +131,7 @@
 }
 
 
-.c_notificaciones-alert {
+/*.c_notificaciones-alert {
   background-color: var(--bg-gray);
   width:var(--main-layout-width);
   padding-right:var(--main-layout-gap);
