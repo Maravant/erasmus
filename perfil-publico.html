@@ -44,6 +44,8 @@
   </header>
   <!-- /header template -->
 
+  <h1 class="main-title">Edición de perfil</h1>
+
   <section class="c_tabs">
     <a class="c_tab c_tab--medium" href="registro-auxiliar.html">
       <div class="c_tab__box">
@@ -157,13 +159,18 @@
       </label>
 
 
+
       <label class="c_public-profile__col-form__label">
         <span>
           Idioma nativo
           <small>(Puedes seleccionar varios)</small>
         </span>
-        <select class="select-alternativo" name="selecciona idioma">
-          <option value="">Selecciona idiomas</option>
+        <select class="c_buscador--languages select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+          <option value="es">Español</option>
+          <option value="en">Inglés</option>
+          <option value="fr">Francés</option>
+          <option value="de">Alemán</option>
+          <option value="ch">Chino</option>
         </select>
       </label>
 
@@ -219,7 +226,7 @@
   </div>
   </section>
 
-
+  <button type="submit" class="last-title">Guardar cambios</button>
 
 
 
