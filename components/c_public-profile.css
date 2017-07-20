@@ -32,7 +32,6 @@
 }
 
 .c_public-profile__col-item__box {
-  width:300px;
   margin-right:16px;
   display:flex;
   flex-flow: column;
@@ -96,38 +95,51 @@
   padding-right:39px;
 }
 
-.c_public-profile__col-form__label span {
+.c_public-profile__col-form__span {
   display: inline-block;
-  margin-right: 40px;
   text-align: left;
-  line-height:14px;
-  width:36%;
 }
 
-.c_public-profile__col-form__label span small {
+.c_public-profile__col-form__span-date {
+  line-height:14px;
+  max-width:30%;
+}
+
+.c_public-profile__col-form__label-aux > span > small {
   display:block;
   text-align:left;
   font-size:0.62rem;
+  line-height: 0;
+  padding-right:20px;
 }
 
-
-.c_public-profile__col-form__span {
-  width: 36%;
-  vertical-align:middle;
+.c_public-profile__col-form__label-aux__duration {
+padding-right:20px;
 }
-
 
 .c_public-profile__col-form__box {
   padding-bottom:50px;
   display:flex;
   flex-flow:column;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   padding-top:17px;
 }
 
 .c_public-profile__col-form__label {
   margin-bottom:40px;
+
+}
+
+.c_public-profile__col-form__label-aux {
+  display:flex;
+  margin-bottom:40px;
+
+}
+
+.c_public-profile__col-form__select-aux,
+.c_public-profile__col-form__input-aux {
+  flex:1;
 }
 
 .c_public-profile__col-form__title,

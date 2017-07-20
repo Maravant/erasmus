@@ -142,8 +142,9 @@
 
     <div class="c_public-profile__col-form">
 
-      <label class="c_public-profile__col-item__label-file"><span>Residencia</span>
-        <input class="input--white" name="lugar de residencia" type="text" placeholder="ciudad, país" required/>
+      <label class="c_public-profile__col-form__label-aux">
+        <span class="c_public-profile__col-form__span">Residencia</span>
+        <input class="c_public-profile__col-form__input-aux input--white" name="lugar de residencia" type="text" placeholder="ciudad, país" required/>
       </label>
 
       <label class="c_public-profile__col-item__label-radio" for="x"><span>Sexo</span>
@@ -160,12 +161,12 @@
 
 
 
-      <label class="c_public-profile__col-form__label">
+      <label class="c_public-profile__col-form__label-aux">
         <span>
           Idioma nativo
           <small>(Puedes seleccionar varios)</small>
         </span>
-        <select class="c_buscador--languages select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+        <select class="c_public-profile__col-form__select-aux select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
           <option value="es">Español</option>
           <option value="en">Inglés</option>
           <option value="fr">Francés</option>
@@ -175,52 +176,62 @@
       </label>
 
 
-      <label class="c_public-profile__col-form__label">
+      <label class="c_public-profile__col-form__label-aux">
         <span>
           Otros idiomas
           <small>(Nivel c1 mínimo)</small>
         </span>
-        <select class="select-alternativo" name="selecciona idioma">
-          <option value="">Selecciona otros</option>
+        <select class="c_public-profile__col-form__select-aux select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+          <option value="es">Español</option>
+          <option value="en">Inglés</option>
+          <option value="fr">Francés</option>
+          <option value="de">Alemán</option>
+          <option value="ch">Chino</option>
         </select>
       </label>
 
 
-      <div class="">
+
 
         <div class="c_public-profile__col-form__box">
           <p class="c_public-profile__col-form__title">Fecha comienzo</p>
           <p class="c_public-profile__col-form__paragraph">¿Cuándo te gustaría trabajar de auxiliar de conversación?</p>
         </div>
 
-        <label class="c_public-profile__col-form__label"><span class="c_public-profile__col-form__span">Podría empezar a partir de </span>
-          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        <label class="c_public-profile__col-form__label-aux">
+        <span class="c_public-profile__col-form__span-date">Podría empezar a partir de </span>
+          <input class="c_public-profile__col-form__select-aux input" type="date" name="date" placeholder="Selecciona fecha" required/>
         </label>
 
-        <label class="c_public-profile__col-form__label"><span class="c_public-profile__col-form__span">Me gustaría empezar como muy tarde en </span>
-          <input class="input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        <label class="c_public-profile__col-form__label-aux">
+        <span class="c_public-profile__col-form__span-date">Me gustaría empezar como muy tarde en </span>
+          <input class="c_public-profile__col-form__select-aux input" type="date" name="date" placeholder="Selecciona fecha" required/>
         </label>
-      </div>
 
-      <div class="">
+
+
+
+
 
         <div class="c_public-profile__col-form__box">
           <p class="c_public-profile__col-form__title">Duración</p>
           <p class="c_public-profile__col-form__paragraph">¿Por cuánto tiempo deseas ser auxiliar lingüístico?</p>
         </div>
 
-        <label class="c_public-profile__col-form__label"><span>Duración mínima</span>
-          <select class="select-alternativo" name="selecciona duración">
+        <label class="c_public-profile__col-form__label-aux">
+          <span class="c_public-profile__col-form__label-aux__duration">Duración mínima</span>
+          <select class="c_public-profile__col-form__select-aux select-alternativo" name="selecciona duración">
           <option value="">Duración mínima</option>
           </select>
         </label>
 
-        <label class="c_public-profile__col-form__label"><span>Duración máxima</span>
-          <select class="c_public-profile__col-form__select select-alternativo" name="selecciona duración">
+        <label class="c_public-profile__col-form__label-aux">
+        <span class="c_public-profile__col-form__label-aux__duration">Duración máxima</span>
+          <select class="c_public-profile__col-form__select-aux select-alternativo" name="selecciona duración">
           <option value="">Duración máxima</option>
           </select>
         </label>
-    </div>
+
 
     </div>
   </div>
@@ -228,6 +239,7 @@
 
   <button type="submit" class="last-title">Guardar cambios</button>
   </form>
+
 
 
 
