@@ -83,6 +83,72 @@
   <section class="c_notificaciones">
     <div class="c_notificaciones__container">
 
+    <section class="c_notificaciones-alert">
+      <div class="c_notificaciones-alert__box">
+        <p class="c_notificaciones-alert__paragraph">Recibe alertas de email cuando una auxiliar de conversación de tu interés se dé de alta</p>
+        <button type="submit" class="c_notificaciones__button button"><span>Añadir alerta</span></button>
+      </div>
+    </section>
+
+
+    <form method="GET" action="#">
+    <section class="c_notificaciones-search">
+      <div class="c_notificaciones-search__box">
+        <h3 class="c_notificaciones-search__paragraph">Perfil del auxiliar que buscó</h3>
+        <label class="c_notificaciones-search__nacionality"><span>Nacionalidad</span>
+          <select class="select-alternativo" name="nacionalidad">
+            <option value="">Selecciona nacionalidad</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="c_notificaciones-search__wrapper">
+        <label class="">
+          <span><i class="icon icon--idioma icon--small" aria-hidden="true"></i></span>
+          <select class="c_buscador--languages select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+            <option value="">Idiomas</option>
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <option value="fr">Francés</option>
+            <option value="de">Alemán</option>
+            <option value="ch">Chino</option>
+          </select>
+        </label>
+
+        <label class="">
+          <span><i class="icon icon--pointer icon--small" aria-hidden="true"></i></span>
+          <select class="select-alternativo" name="selecciona residencia">
+            <option value="">Residente en</option>
+          </select>
+        </label>
+
+        <label class=""><span><i class="icon icon--small icon--calendario" aria-hidden="true"></i></span>
+          <input class="input" type="date" name="date" placeholder="Fecha comienzo" required/>
+        </label>
+
+        <label class=""><span><i class="icon icon--small icon--duracion" aria-hidden="true"></i></span>
+          <input class="c_public-profile__col-form__select-aux input" type="date" name="date" placeholder="Selecciona fecha" required/>
+        </label>
+
+
+        <label class="input-radio input--small">
+            <input type="radio" name="gender" value="mujer" checked>
+            <span><i class="icon icon--xsmall icon--mujer" aria-hidden="true"></i> Mujer</span>
+          </label>
+
+          <label class="input-radio input--small">
+            <input type="radio" name="gender" value="hombre">
+            <span><i class="icon icon--xsmall icon--hombre" aria-hidden="true"></i> Hombre</span>
+          </label>
+      </div>
+
+      <div class="c_notificciones__search__button">
+        <button type="submit" class="button"><span>Crear alerta</span></button>
+      </div>
+    </section>
+    </form>
+
+
     <section class="c_notificaciones-results">
 
     <!--<div class="c_notificaciones-results__box">
@@ -171,70 +237,8 @@
       </div>
     </section>-->
 
-    <form method="GET" action="#">
-    <section class="c_notificaciones-search">
-      <div class="c_notificaciones-search__box">
-        <h3 class="c_notificaciones-search__paragraph">Perfil del auxiliar que buscó</h3>
-        <label class="c_notificaciones-search__nacionality"><span>Nacionalidad</span>
-          <select class="select-alternativo" name="nacionalidad">
-            <option value="">Selecciona nacionalidad</option>
-          </select>
-        </label>
-      </div>
-
-      <div class="c_notificaciones-search__wrapper">
-        <label class="">
-          <span><i class="icon icon--idioma icon--small" aria-hidden="true"></i></span>
-          <select class="c_buscador--languages select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
-            <option value="">Idiomas</option>
-            <option value="es">Español</option>
-            <option value="en">Inglés</option>
-            <option value="fr">Francés</option>
-            <option value="de">Alemán</option>
-            <option value="ch">Chino</option>
-          </select>
-        </label>
-
-        <label class="">
-          <span><i class="icon icon--pointer icon--small" aria-hidden="true"></i></span>
-          <select class="select-alternativo" name="selecciona residencia">
-            <option value="">Residente en</option>
-          </select>
-        </label>
-
-        <label class=""><span><i class="icon icon--small icon--calendario" aria-hidden="true"></i></span>
-          <input class="input" type="date" name="date" placeholder="Fecha comienzo" required/>
-        </label>
-
-        <label class=""><span><i class="icon icon--small icon--duracion" aria-hidden="true"></i></span>
-          <input class="c_public-profile__col-form__select-aux input" type="date" name="date" placeholder="Selecciona fecha" required/>
-        </label>
 
 
-        <label class="input-radio input--small">
-            <input type="radio" name="gender" value="mujer" checked>
-            <span><i class="icon icon--xsmall icon--mujer" aria-hidden="true"></i> Mujer</span>
-          </label>
-
-          <label class="input-radio input--small">
-            <input type="radio" name="gender" value="hombre">
-            <span><i class="icon icon--xsmall icon--hombre" aria-hidden="true"></i> Hombre</span>
-          </label>
-      </div>
-
-      <div class="c_notificciones__search__button">
-        <button type="submit" class="button"><span>Crear alerta</span></button>
-      </div>
-    </section>
-    </form>
-
-
-    <section class="c_notificaciones-alert">
-      <div class="c_notificaciones-alert__box">
-        <p class="c_notificaciones-alert__paragraph">Recibe alertas de email cuando una auxiliar de conversación de tu interés se dé de alta</p>
-        <button type="submit" class="c_notificaciones__button button"><span>Añadir alerta</span></button>
-      </div>
-    </section>
 
   </div>
   </section>
