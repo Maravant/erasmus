@@ -11,6 +11,15 @@
       });
     }
 
+    var originalClasses = $('.multi-select-box').attr('class');
+
+    $('.multi-select-box').SumoSelect({
+      csvDispCount: 0,
+      okCancelInMulti: false,
+      forceCustomRendering: true
+    });
+
+    $('.SelectBox').addClass(originalClasses);
   });
 
 }());

@@ -178,6 +178,7 @@ input[type="date"][required]:not(:valid)[placeholder]:before {
   color: var(--color-text-secondary);
 }
 
+.multi-select-box,
 .select-box,
 select {
   -webkit-appearance: none;
@@ -209,11 +210,13 @@ select::-ms-expand {
   display:none;
 }
 
+.multi-select-box:focus,
 .select-box:focus,
 select:focus {
   border-color: var(--color-primary);
 }
 
+.multi-select-box.input--small,
 .select-box.input--small,
 select.input--small {
   min-width: 180px;
