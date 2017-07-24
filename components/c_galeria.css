@@ -86,7 +86,7 @@
 .c_galeria-auxiliar:hover .c_galeria-auxiliar__image__black {
   background-color:black;
   opacity:0.8;
-  z-index:12;
+  z-index:1;
   position:absolute;
   top:0;
   right:72px;

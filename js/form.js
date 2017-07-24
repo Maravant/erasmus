@@ -6,6 +6,7 @@
     if ($.fn.datepicker) {
       $('input[type="date"]').datepicker({
         autoHide: true,
+        zIndex: 1,
         format: 'yyyy-mm-dd',
         language: document.documentElement.lang
       });
