@@ -3,7 +3,7 @@
 }
 
 .c_notificaciones__container {
-  width:var(--main-layout-width);
+  max-width:var(--main-layout-width);
   overflow:hidden;
   padding-right:var(--main-layout-gap);
   padding-left:var(--main-layout-gap);
@@ -126,6 +126,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom:64px;
+  flex-wrap: wrap;
 }
 
 .c_notificaciones-search__wrapper > * {
