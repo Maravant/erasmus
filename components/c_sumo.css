@@ -159,7 +159,7 @@
 
 .SumoSelect > .optWrapper {
     display: none;
-    z-index: 1000;
+    z-index: 1;
     top: 30px;
     width: 130%;
     position: absolute;
