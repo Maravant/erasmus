@@ -8,6 +8,7 @@
   padding-right:var(--main-layout-gap);
   padding-left:var(--main-layout-gap);
   background-color: var(--bg-gray);
+  margin: 0 auto;
 }
 
 .c_notificaciones-results {
@@ -62,8 +63,10 @@
 .c_notificaciones-results__wrapper__row__date,
 .c_notificaciones-results__wrapper__row__duration {
   flex:1;
-  padding:30px;
+  padding:0 30px;
   background-color:var(--bg-white);
+  display: flex;
+  align-items: center;
 }
 
 .c_notificaciones-results__wrapper__row__nacionality,
@@ -120,8 +123,14 @@
 
 .c_notificaciones-search__wrapper {
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   padding-bottom:64px;
+}
+
+.c_notificaciones-search__wrapper > * {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .c_notificciones__search__button {

@@ -32,7 +32,7 @@
 }
 
 .c_public-profile__col-item__box {
-  margin-right:16px;
+  /*margin-right:16px;*/
   display:flex;
   flex-flow: column;
   margin-top:40px;
@@ -72,7 +72,7 @@
   padding-left:48px;
 }
 
-.c_public-profile__col-form__intitution,
+.c_public-profile__col-form__type,
 .c_public-profile__col-form__name,
 .c_public-profile__col-form__localication,
 .c_public-profile__col-form__date,
@@ -81,7 +81,7 @@
   margin-bottom:40px;
 }
 
-.c_public-profile__col-form__intitution span,
+.c_public-profile__col-form__type span,
 .c_public-profile__col-form__name span,
 .c_public-profile__col-form__localication span,
 .c_public-profile__col-form__date span,
@@ -93,6 +93,10 @@
   font-weight:bold;
   font-size:0.87rem;
   padding-right:39px;
+}
+
+.c_public-profile__col-form__type .input-radio {
+  margin-right: 8px;
 }
 
 .c_public-profile__col-form__span {

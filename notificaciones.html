@@ -59,7 +59,7 @@
       </div>
     </a>
 
-    <a class="c_tab" href="mi-perfil-auxiliar.html">
+    <a class="c_tab" href="perfil-publico.html">
       <div class="c_tab__box c_tab--medium">
         <span class="c_tab__link">Perfil público</span>
       </div>
@@ -94,7 +94,7 @@
     <form method="GET" action="#">
     <section class="c_notificaciones-search">
       <div class="c_notificaciones-search__box">
-        <h3 class="c_notificaciones-search__paragraph">Perfil del auxiliar que buscó</h3>
+        <h3 class="c_notificaciones-search__paragraph">Perfil del auxiliar que busco</h3>
         <label class="c_notificaciones-search__nacionality"><span>Nacionalidad</span>
           <select class="select-alternativo" name="nacionalidad">
             <option value="">Selecciona nacionalidad</option>
@@ -121,23 +121,24 @@
           </select>
         </label>
 
-        <label class=""><span><i class="icon icon--small icon--calendario" aria-hidden="true"></i></span>
+        <label class="">
           <input class="input" type="date" name="date" placeholder="Fecha comienzo" required/>
         </label>
 
         <label class=""><span><i class="icon icon--small icon--duracion" aria-hidden="true"></i></span>
-          <input class="c_public-profile__col-form__select-aux input" type="date" name="date" placeholder="Selecciona fecha" required/>
+          <select class="select-alternativo">
+            <option>Duración</option>
+          </select>
         </label>
 
-
-        <label class="input-radio input--small">
+        <label class="input-radio input--xsmall">
             <input type="radio" name="gender" value="mujer" checked>
-            <span><i class="icon icon--xsmall icon--mujer" aria-hidden="true"></i> Mujer</span>
+            <span><i class="icon icon--small icon--mujer" aria-hidden="true"></i> Mujer</span>
           </label>
 
-          <label class="input-radio input--small">
+          <label class="input-radio input--xsmall">
             <input type="radio" name="gender" value="hombre">
-            <span><i class="icon icon--xsmall icon--hombre" aria-hidden="true"></i> Hombre</span>
+            <span><i class="icon icon--small icon--hombre" aria-hidden="true"></i> Hombre</span>
           </label>
       </div>
 
@@ -167,7 +168,9 @@
           <p class="c_notificaciones-results__wrapper__row__languages">
             <i class="c_notificaciones-results__wrapper__row__icon icon icon icon--idioma icon--small" aria-hidden="true"></i>Inglés, Español y Alemán
           </p>
-          <div class="c_notificaciones-results__wrapper__row__box"><i class="c_notificaciones__wrapper__row__box-icon icon icon--small icon--mujer_selected" aria-hidden="true"></i></div>
+          <div class="c_notificaciones-results__wrapper__row__box">
+            <i class="c_notificaciones__wrapper__row__box-icon icon icon--small icon--hombre_selected" aria-hidden="true"></i>
+          </div>
         </div>
 
         <div class="c_notificaciones-results__wrapper__row">
@@ -202,7 +205,9 @@
           <p class="c_notificaciones-results__wrapper__row__languages">
             <i class="c_notificaciones-results__wrapper__row__icon icon icon icon--idioma icon--small" aria-hidden="true"></i>Alemán y Francés
           </p>
-          <div class="c_notificaciones-results__wrapper__row__box"><i class="c_notificaciones__wrapper__row__box-icon icon icon--small icon--mujer_selected" aria-hidden="true"></i></div>
+          <div class="c_notificaciones-results__wrapper__row__box">
+            <i class="c_notificaciones__wrapper__row__box-icon icon icon--small icon--mujer_selected" aria-hidden="true"></i>
+          </div>
         </div>
 
         <div class="c_notificaciones-results__wrapper__row">

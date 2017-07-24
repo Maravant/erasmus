@@ -101,7 +101,7 @@ input.input--white {
 
 @media (min-width: 600px) {
   .button-checkbox input[type] + span,
-  .input-radio input[type] + span {
+  .input-radio:not(.input--xsmall) input[type] + span {
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -121,6 +121,15 @@ label > .input-radio {
 label > .input-radio.input--small {
   margin-left: 10px;
 }
+
+.input-radio.input--xsmall {
+  margin-bottom: 0;
+}
+
+.input-radio.input--xsmall input[type] + span {
+  padding: 6px 10px;
+}
+
 
 
 .button-checkbox input[type] + span:hover,

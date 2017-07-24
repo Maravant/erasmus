@@ -17,11 +17,13 @@
 .c_remove-profile__input-radio span {
   display: flex;
   line-height: 1.1;
+  align-items: center;
 }
 
 .c_remove-profile__input-radio input + span:before {
   border-color: white;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .c_remove-profile__input-radio input:checked + span:after {
@@ -53,7 +55,6 @@
 .c_remove-profile__table {
   border:2px solid var(--bg-white);
   width:830px;
-
 }
 
 .c_remove-profile__table-td {
