@@ -166,7 +166,7 @@
           Idioma nativo
           <small>(Puedes seleccionar varios)</small>
         </span>
-        <select class="c_public-profile__col-form__select-aux select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+        <select class="c_public-profile__col-form__select-aux select-alternativo multi-select-box" name="languages" multiple="multiple" placeholder="Idiomas">
           <option value="es">Español</option>
           <option value="en">Inglés</option>
           <option value="fr">Francés</option>
@@ -181,7 +181,7 @@
           Otros idiomas
           <small>(Nivel c1 mínimo)</small>
         </span>
-        <select class="c_public-profile__col-form__select-aux select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+        <select class="c_public-profile__col-form__select-aux select-alternativo multi-select-box js/sumo/jquery.sumoselect.min.js" name="languages" multiple="multiple" placeholder="Idiomas">
           <option value="es">Español</option>
           <option value="en">Inglés</option>
           <option value="fr">Francés</option>
@@ -200,7 +200,7 @@
 
         <label class="c_public-profile__col-form__label-aux">
         <span class="c_public-profile__col-form__span-date">Podría empezar a partir de </span>
-          <input class="c_public-profile__col-form__select-aux input" type="date" name="date" placeholder="Selecciona fecha" required/>
+          <input class="c_public-profile__col-form__select-aux input js/datepicker.min.js" type="date" name="date" placeholder="Selecciona fecha" required/>
         </label>
 
         <label class="c_public-profile__col-form__label-aux">
@@ -311,6 +311,7 @@
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/sumo/jquery.sumoselect.min.js"></script>
   <script type="text/javascript" src="js/datepicker/datepicker.min.js"></script>
   <script type="text/javascript" src="js/form.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>

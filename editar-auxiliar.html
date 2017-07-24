@@ -117,8 +117,13 @@
             Idiomas requeridos
               <small class="c_profile-edition-form__subtitle">(Puedes seleccionar varios)</small>
           </span>
-          <select class="select-alternativo" name="selecciona lengua">
-            <option value="">Selecciona lengua</option>
+
+          <select class="select-alternativo multi-select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <option value="fr">Francés</option>
+            <option value="de">Alemán</option>
+            <option value="ch">Chino</option>
           </select>
         </label>
       </div>
@@ -233,6 +238,9 @@
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/sumo/jquery.sumoselect.min.js"></script>
+  <script type="text/javascript" src="js/datepicker/datepicker.min.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
   <script type="text/javascript" src="js/slick/slick.min.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
