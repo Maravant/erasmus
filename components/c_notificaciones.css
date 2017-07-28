@@ -134,6 +134,11 @@
   margin-right: 8px;
 }
 
+.c_notificaciones-search__wrapper .select-alternativo,
+.c_notificaciones-search__wrapper input[type="date"] {
+  width: 190px;
+}
+
 .c_notificciones__search__button {
   display:flex;
   justify-content: center;

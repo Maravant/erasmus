@@ -57,6 +57,12 @@
   text-align: center;
 }
 
+.c_hero-search__mobile__select {
+  margin: 20px auto;
+  display: flex;
+  text-align: left;
+}
+
 h3.c_hero-search__mobile__wrapper__title {
   white-space: normal;
   text-align:center;
@@ -75,20 +81,8 @@ h3.c_hero-search__mobile__wrapper__subtitle {
   text-align: center;
 }
 
-.c_hero-search__select {
-  height:54px;
-}
-
 .c_hero-search__mobile__button {
   margin-bottom: 25px;
-}
-
-.c_hero-search__mobile__select {
-  display: block;
-  margin:23px auto;
-  width:296px;
-  border-top:2px solid var(--color-primary);
-  border-bottom: 2px solid var(--color-primary);
 }
 
 .c_hero-search__mobile__circles {

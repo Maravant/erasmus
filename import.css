@@ -9,6 +9,7 @@
 @import url(elements/button.css);
 @import url(elements/icons.css);
 @import url(elements/datepicker.css);
+@import url(components/c_sumo.css);
 @import url(components/c_hero-search.css);
 @import url(components/c_hero-corporative.css);
 @import url(components/c_hero-how.css);
@@ -50,7 +51,6 @@
 @import url(components/c_edition-profile__password.css);
 @import url(components/c_alert.css);
 @import url(components/c_spinner.css);
-@import url(components/c_sumo.css);
 @import url(components/c_subir-cv.css);
 @import url(components/c_modal.css);
 @import url(components/c_public-profile.css);

@@ -4,7 +4,6 @@
 
 .c_register-auxiliar__form {
   background:var(--bg-gray);
-  overflow: hidden;
 }
 
 .c_register-auxiliar__form .main-title {
@@ -20,7 +19,7 @@
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
   border-bottom:2px solid var(--bg-white);
-  }
+}
 
 
 
