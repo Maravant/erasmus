@@ -89,7 +89,7 @@ h3.c_hero-search__wrapper__subtitle {
     white-space: normal;
   }
 
-  .c_hero-search__select {
+  .c_hero-search__select.select-alternativo {
     margin:28px 0;
     width: 100%;
   }
