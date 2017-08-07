@@ -53,7 +53,11 @@
 }
 
 .ico--sobre-leido {
-  background-image: url(../images/ico-sobre-leido.svg);
+  background-image: url(../images/Ico_sobre_leido.svg);
+}
+
+.ico--papelera {
+  background-image: url(../images/ico_papelera.svg);
 }
 
 .ico--flecha-paginado {

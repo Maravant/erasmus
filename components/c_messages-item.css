@@ -21,13 +21,34 @@
 
 .c_messages-item__read {
   width: 120px;
-  background-image: url(../images/ico_enviar.svg);
+  background-image: url(../images/Ico_sobre_leido.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .c_messages-item--unread .c_messages-item__read {
-   background-color:var(--bg-white);
+  background-image: url(../images/Ico_sobre_no_leido.svg);
+  background-color: var(--bg-white);
+}
+
+.c_messages-item__paragraph {
+  position: relative;
+}
+
+.c_messages-item--unread .c_messages-item__paragraph {
+  overflow: hidden;
+  height: 70px;
+}
+
+.c_messages-item--unread .c_messages-item__paragraph:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 -59px 30px -42px #fff;
 }
 
 .c_messages-item__box {
