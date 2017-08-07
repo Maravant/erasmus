@@ -40,23 +40,25 @@
   background-image: url(../images/ico_user_peq_profile_mensajes.svg);
 }
 
+.icon--estrella-off.svg,
 .ico--estrella-off.svg {
   background-image: url(../images/ico_estrella_off.svg);
 }
 
+.icon--estrella-on.svg,
 .ico--estrella-on.svg {
   background-image: url(../images/ico_estrella_on.svg);
 }
 
-.ico--sobre-no-leido {
+.icon--sobre-no-leido {
   background-image: url(../images/Ico_sobre_no_leido.svg);
 }
 
-.ico--sobre-leido {
+.icon--sobre-leido {
   background-image: url(../images/Ico_sobre_leido.svg);
 }
 
-.ico--papelera {
+.icon--papelera {
   background-image: url(../images/ico_papelera.svg);
 }
 
