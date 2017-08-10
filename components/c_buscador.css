@@ -70,21 +70,18 @@
 .c_buscador--advanced-filters-opened .c_buscador__form {
   padding-top:46px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-.c_buscador__select {
-  border-top:2px solid var(--bg-white);
-  border-bottom:2px solid var(--bg-white);
-  background-color: var(--bg-gray);
-  height:76px;
+.c_buscador__select.select-alternativo.select-alternativo--big {
+  height:70px;
   width:356px;
 }
 
 .c_buscador__icon {
   margin: 8px 8px 8px 0;
+  flex-shrink: 0;
 }
 
 .c_buscador__button__icon {
@@ -95,16 +92,18 @@
   white-space: nowrap;
   flex: 0;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .c_buscador__form_label:not(:last-of-type) {
-  margin-right: 20px;
   flex: 1;
+  margin-right: 20px;
 }
 
-.c_buscador__form_label:not(:last-of-type) .SumoSelect,
+.c_buscador__form_label:not(:last-of-type) input[type="date"],
 .c_buscador__form_label:not(:last-of-type) .select-alternativo {
-  min-width: calc(100% - 40px);
+  width: 170px;
 }
 
 .c_buscador__form_label .input-radio {
@@ -298,13 +297,23 @@
     margin-right:24px;
   }
 
-  .SumoSelect,
-  .select-alternativo {
-    height: 64px;
+  .c_buscador__wrap .SumoSelect {
+    margin-left: 10px;
+  }
+
+  .c_buscador__wrap .select-alternativo {
+    min-height: 64px;
     font-size:1rem;
     color:var(--bg-black);
     flex: 1;
-    margin-left: 10px;
+  }
+
+  .c_buscador__wrap .sumo_country {
+    min-height: 64px;
+    font-size:1rem;
+    color:var(--bg-black);
+    flex: 1;
+    margin-bottom: 40px;
   }
 
   .c_buscador_button--search {

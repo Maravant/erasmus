@@ -106,8 +106,7 @@
           <h3 class="c_hero-search__wrapper__subtitle">conversación en</h3>
 
           <form action="resultadosauxiliares.html" method="GET">
-            <select class="c_hero-search__select js-select-country-show-search-button">
-              <option>Seleccione País</option>
+            <select class="c_hero-search__select js-select-country-show-search-button select-alternativo select-alternativo--big" multiple placeholder="Seleccione País">
               <option value="IT">Italia</option>
               <option value="US">Estados Unidos</option>
               <option value="GB">Inglaterra</option>
@@ -148,8 +147,7 @@
           <h3 class="c_hero-search__wrapper__subtitle">acoger auxiliar de conversación</h3>
           <h3 class="c_hero-search__wrapper__subtitle">procedente de </h3>
           <form action="resultadosauxiliares.html" method="GET">
-            <select class="c_hero-search__select js-select-country-show-search-button">
-              <option>Seleccione País</option>
+            <select class="c_hero-search__select js-select-country-show-search-button select-alternativo select-alternativo--big" multiple placeholder="Seleccione País">
               <option value="IT">Italia</option>
               <option value="US">Estados Unidos</option>
               <option value="GB">Inglaterra</option>
@@ -183,8 +181,7 @@
         <h3 class="c_hero-search__mobile__wrapper__title"><em>Quiero:</em></h3>
         <h3 class="c_hero-search__mobile__wrapper__subtitle">ser auxiliar de conversación en</h3>
         <form action="resultadosauxiliares.html" method="GET">
-          <select class="c_hero-search__mobile__select js-select-country-show-search-button">
-            <option>Seleccione País</option>
+          <select class="c_hero-search__mobile__select js-select-country-show-search-button select-alternativo select-alternativo--big" multiple placeholder="Seleccione País">
             <option value="IT">Italia</option>
             <option value="US">Estados Unidos</option>
             <option value="GB">Inglaterra</option>
@@ -213,8 +210,7 @@
         <h3 class="c_hero-search__mobile__wrapper__subtitle">acoger auxiliar de conversación</h3>
         <h3 class="c_hero-search__mobile__wrapper__subtitle">procedente de</h3>
         <form action="resultadosauxiliares.html" method="GET">
-          <select class="c_hero-search__mobile__select js-select-country-show-search-button">
-            <option>Seleccione País</option>
+          <select class="c_hero-search__mobile__select js-select-country-show-search-button select-alternativo select-alternativo--big" multiple placeholder="Seleccione País">
             <option value="IT">Italia</option>
             <option value="US">Estados Unidos</option>
             <option value="GB">Inglaterra</option>
@@ -403,14 +399,13 @@
   </footer>
   <div class="last-title footer-language">
     <form action="resultadosauxiliares.html" method="GET">
-    <select class="select-alternativo js-select-country-show-search-button">
-      <option>Seleccione Idioma</option>
+    <select class="select-alternativo" placeholder="Seleccione Idioma" name="lang" data-up="true">
       <option value="IT">Italiano</option>
       <option value="US">Inglés</option>
       <option value="ES" selected>Español</option>
     </select>
     </form>
-   </div>
+  </div>
   <!-- /footer template -->
 
 
@@ -422,6 +417,8 @@
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/sumo/jquery.sumoselect.min.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
   <script type="text/javascript" src="js/slick/slick.min.js"></script>
   <script type="text/javascript" src="js/c_questions.js"></script>
   <script type="text/javascript" src="js/header.js"></script>

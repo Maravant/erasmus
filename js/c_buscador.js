@@ -2,16 +2,6 @@
   window.MAIN_APP = window.MAIN_APP || [];
 
   window.MAIN_APP.push(function initBuscador() {
-    var originalClasses = $('.c_buscador--languages').attr('class');
-
-    $('.c_buscador--languages').SumoSelect({
-      csvDispCount: 0,
-      okCancelInMulti: false,
-      forceCustomRendering: true
-    });
-
-    $('.SelectBox').addClass(originalClasses);
-
     var cToggleFilter = $('.js-toggle-advanced-filter');
 
     cToggleFilter.on('click', function(e) {

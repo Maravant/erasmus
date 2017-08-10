@@ -2,14 +2,6 @@
     margin: 0;
 }
 
-.SumoSelect {
-    width: 200px;
-}
-
-/*.SelectBox {
-    padding: 5px 8px;
-}
-*/
 .sumoStopScroll {
     overflow: hidden;
 }
@@ -63,6 +55,8 @@
     height: 100%;
     width: 100%;
     border: none;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -88,18 +82,13 @@
 }
 
 .SumoSelect {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     outline: none;
 }
 
-/*.SumoSelect:focus > .CaptionCont,
-.SumoSelect:hover > .CaptionCont,
-.SumoSelect.open > .CaptionCont {
-    box-shadow: 0 0 2px #7799D0;
-    border-color: #7799D0;
-}
-*/
 .SumoSelect > .CaptionCont {
     position: relative;
     box-sizing: border-box;
@@ -109,30 +98,21 @@
     align-items: center;
     vertical-align: middle;
     width: 100%;
-/*    border: 1px solid #A4A4A4;
-    min-height: 14px;
-    background-color: #fff;
-    border-radius: 2px;
-    margin: 0;
-*/}
+    flex: 1;
+}
 
 .SumoSelect > .CaptionCont > span {
     display: block;
-    padding-right: 30px;
+    padding-right: 20px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    /*cursor: default;*/
+    line-height: 1.4;
 }
 
 
 /*placeholder style*/
 
-/*.SumoSelect > .CaptionCont > span.placeholder {
-    color: #ccc;
-    font-style: italic;
-}
-*/
 .SumoSelect > .CaptionCont > label {
     position: absolute;
     top: 0;
@@ -140,22 +120,6 @@
     bottom: 0;
     width: 30px;
 }
-
-/*.SumoSelect > .CaptionCont > label > i {
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wMdBhAJ/fwnjwAAAGFJREFUKM9jYBh+gBFKuzEwMKQwMDB8xaOWlYGB4T4DA0MrsuapDAwM//HgNwwMDDbYTJuGQ8MHBgYGJ1xOYGNgYJiBpuEpAwODHSF/siDZ+ISBgcGClEDqZ2Bg8B6CkQsAPRga0cpRtDEAAAAASUVORK5CYII=');
-    background-position: center center;
-    width: 16px;
-    height: 16px;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background-repeat: no-repeat;
-    opacity: 0.8;
-}*/
 
 .SumoSelect > .optWrapper {
     display: none;
@@ -166,24 +130,25 @@
     left: 0;
     box-sizing: border-box;
     background: #fff;
-    box-shadow: 0 23px 31px rgba(0, 0, 0, 0.3);
-    border-radius: 0 3px 3px 3px;
+    box-shadow: 0 18px 31px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
     overflow: hidden;
 }
 
-.SumoSelect.open > .optWrapper {
+.SumoSelect > .optWrapper.up {
+    width: 100%;
+}
+
+.SumoSelect.select-alternativo.open > .optWrapper {
     top: 40px;
     display: block;
 }
 
-@media (max-width: 600px) {
-  .SumoSelect.open > .optWrapper {
-    top: 61px;
-    width: 100%;
-  }
+.SumoSelect.select-alternativo--big.open > .optWrapper {
+    top: 57px;
 }
 
-.SumoSelect.open > .optWrapper.up {
+.SumoSelect.open > .optWrapper:not(.isFloating).up {
     top: auto;
     bottom: 100%;
     margin-bottom: 5px;
@@ -231,25 +196,16 @@
 
 .SumoSelect > .optWrapper.isFloating > .options {
     max-height: 100%;
-    box-shadow: 0 0 100px #595959;
+    font-size: 16px;
 }
 
-.SumoSelect > .optWrapper > .options li.opt {
-    padding: 6px 6px;
+.SumoSelect > .optWrapper:not(.isFloating) > .options li.opt {
+    padding: 6px 18px;
     position: relative;
     border-bottom: 1px solid #f5f5f5;
 }
 
-.SumoSelect > .optWrapper > .options > li.opt:first-child {
-    border-radius: 2px 2px 0 0;
-}
-
-.SumoSelect > .optWrapper.selall > .options > li.opt:first-child {
-    border-radius: 0;
-}
-
 .SumoSelect > .optWrapper > .options > li.opt:last-child {
-    border-radius: 0 0 2px 2px;
     border-bottom: none;
 }
 
@@ -257,7 +213,7 @@
     border-radius: 0;
 }
 
-.SumoSelect > .optWrapper > .options li.opt:hover {
+.SumoSelect > .optWrapper:not(.isFloating) > .options li.opt:hover {
     background-color: #f6f6f6;
 }
 
@@ -272,6 +228,8 @@
     overflow: hidden;
     display: block;
     cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
 }
 
 .SumoSelect > .optWrapper > .options li span {
@@ -296,6 +254,11 @@
     bottom: 0;
     margin: auto;
     max-height: 90%;
+    background: rgba(0,0,0,0.85);
+    box-shadow: 0 0 100vw 100vw rgba(0,0,0,0.85);
+    color: white;
+    border-radius: 0;
+    z-index: 2;
 }
 
 
@@ -324,6 +287,7 @@
 .SumoSelect > .optWrapper.multiple > .options li.opt {
     padding-left: 42px;
     cursor: pointer;
+    position: relative;
 }
 
 .SumoSelect > .optWrapper.multiple > .options li.opt span,
@@ -353,11 +317,7 @@
 }
 
 .SumoSelect > .optWrapper > .MultiControls {
-    display: none;
-    border-top: 1px solid #ddd;
-    background-color: #fff;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.13);
-    border-radius: 0 0 3px 3px;
+  display: none;
 }
 
 .SumoSelect > .optWrapper.multiple.okCancelInMulti.isFloating > .MultiControls {
@@ -366,6 +326,18 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.SumoSelect > .optWrapper.isFloating > .MultiControls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-self: stretch;
+  height: 80px;
+  font-family: var(--font-family-heading), sans-serif;
+  font-size: 24px;
 }
 
 .SumoSelect > .optWrapper.multiple.okCancelInMulti > .MultiControls {
@@ -377,32 +349,28 @@
 }
 
 .SumoSelect > .optWrapper.multiple.okCancelInMulti > .MultiControls > p:focus {
-    box-shadow: 0 0 2px #a1c0e4;
     border-color: #a1c0e4;
     outline: none;
-    background-color: #a1c0e4;
 }
 
 .SumoSelect > .optWrapper.multiple > .MultiControls > p {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     padding: 12px;
-    width: 50%;
+    flex: 1;
     box-sizing: border-box;
     text-align: center;
 }
 
-.SumoSelect > .optWrapper.multiple > .MultiControls > p:hover {
-    background-color: #f1f1f1;
-}
-
 .SumoSelect > .optWrapper.multiple > .MultiControls > p.btnOk {
-    border-right: 1px solid #DBDBDB;
     border-radius: 0 0 0 3px;
 }
 
 .SumoSelect > .optWrapper.multiple > .MultiControls > p.btnCancel {
     border-radius: 0 0 3px 0;
+    display: none;
 }
 
 
@@ -410,6 +378,15 @@
 
 .SumoSelect > .optWrapper.isFloating > .options li.opt {
     padding: 12px 6px;
+}
+
+.SumoSelect > .optWrapper.isFloating:not(.multiple) > .options li.opt.selected {
+    box-shadow: none;
+    border-color: transparent;
+    background-image: url(../images/ico_check.svg);
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    padding-left: 32px;
 }
 
 

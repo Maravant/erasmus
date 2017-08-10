@@ -1,6 +1,5 @@
 .c_register-form__section {
   background:var(--bg-gray);
-  overflow: hidden;
 }
 
 .c_register-form__section .main-title {
@@ -8,7 +7,7 @@
   cursor:default;
 }
 
-.c_register-form__section p {
+.c_register-form__accept-wrapper p {
   text-align:center;
   margin:54px auto;
   width:70%;
@@ -21,11 +20,13 @@
   max-width: var(--main-layout-width);
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
-  margin: 85px auto 65px;
+  padding-top: 85px;
+  padding-bottom: 65px;
+  margin: 0 auto;
 }
 
 .c_register-form__wrapper ~ .c_register-form__wrapper {
-  margin-top: 65px;
+  padding-top: 65px;
 }
 
 .c_register-form__wrapper:not(:last-child) {
@@ -67,7 +68,7 @@
   margin-top: 25px;
 }
 
-.c_register-form__wrapper.c_register-form__textarea-wrapper {
+.c_register-form__wrapper.c_register-form__textarea-wrapper:not(:last-child) {
   border:0;
   padding-bottom: 0;
 }
@@ -99,3 +100,21 @@
 .c_register-form__validation-box__alert.error .c_register-form__validation-box__alert--error  {
   display:block;
 }
+
+
+@media (max-width: 1200px) {
+  .c_register-form__wrapper {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .c_register-form__wrapper:not(:last-child) {
+    padding-bottom: 30px;
+  }
+
+  .c_register-form__label {
+    margin: 20px 0;
+  }
+}
+

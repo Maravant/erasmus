@@ -70,8 +70,7 @@
             Colegio / Empresa
           </a>
 
-          <select class="c_buscador__select select" name="country">
-            <option>Seleccione País</option>
+          <select class="c_buscador__select select-alternativo select-alternativo--big select-alternativo--white" multiple placeholder="Seleccione País" name="country">
             <option>España</option>
             <option>Inglaterra</option>
             <option>Francia</option>
@@ -83,7 +82,7 @@
         <div class="c_buscador__form">
           <div class="c_buscador__form_label">
             <i class="c_buscador__icon icon icon--idioma icon--small" aria-hidden="true"></i>
-            <select class="c_buscador--languages select-alternativo select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+            <select class="c_buscador--languages select-alternativo" name="languages" multiple="multiple" placeholder="Idiomas">
               <option value="es">Español</option>
               <option value="en">Inglés</option>
               <option value="fr">Francés</option>
@@ -94,8 +93,9 @@
 
           <div class="c_buscador__form_label">
             <i class="c_buscador__icon icon icon--small icon--pointer" aria-hidden="true"></i>
-            <select class="c_buscador--localization select-alternativo" name="residence">
-              <option>Residente en </option>
+            <select class="c_buscador--localization select-alternativo" name="residence" placeholder="Residente en">
+              <option>España</option>
+              <option>Exterior</option>
             </select>
           </div>
 
@@ -106,8 +106,10 @@
 
           <div class="c_buscador__form_label">
             <i class="c_buscador__icon icon icon--small icon--duracion" aria-hidden="true"></i>
-            <select class="c_buscador--duration select-alternativo" name="duration">
-              <option>Duración </option>
+            <select class="c_buscador--duration select-alternativo" name="duration" placeholder="Duración">
+              <option>1m</option>
+              <option>3m</option>
+              <option>12m</option>
             </select>
           </div>
 
@@ -611,6 +613,15 @@
       </div>
     </div>
   </footer>
+  <div class="last-title footer-language">
+    <form action="resultadosauxiliares.html" method="GET">
+    <select class="select-alternativo" placeholder="Seleccione Idioma" name="lang" data-up="true">
+      <option value="IT">Italiano</option>
+      <option value="US">Inglés</option>
+      <option value="ES" selected>Español</option>
+    </select>
+    </form>
+  </div>
 
   <script
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
