@@ -30,3 +30,15 @@
   background-color: #ff686f;
   color: white;
 }
+
+@media (max-width: 600px) {
+  .c_profile-notification-item {
+    width:33.33%;
+  }
+
+  .c_profile-notification-item--black {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+  }
+}

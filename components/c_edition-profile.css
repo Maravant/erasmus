@@ -37,3 +37,48 @@
 .c_edition-profile__box:not(:last-of-type) .c_edition-profile__link {
   padding-right: 36px;
 }
+
+@media (max-width: 600px) {
+  .c_edition-profile {
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+  .c_edition-profile__box {
+    width:50%
+    flex:2;
+
+  }
+
+  .c_edition-profile__box:last-of-type .c_edition-profile__link {
+  flex:1;
+  }
+
+  .c_edition-profile__link {
+    text-align:center;
+  }
+}
+
+@media (max-width: 332px) {
+
+  .c_edition-profile__box:last-of-type {
+    border-top:2px solid #F3F3F3;
+  }
+
+  .c_edition-profile__box:first-of-type .c_edition-profile__link {
+    padding-left: 36px;
+  }
+
+  .c_edition-profile__box:last-of-type .c_edition-profile__link {
+    padding-right:36px;
+  }
+}
+
+
+
+
+
+
+
+
+
