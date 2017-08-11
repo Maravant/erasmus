@@ -128,5 +128,36 @@
   padding-top:0;
 }
 
+@media (max-width: 1024px) {
+  .c_tab__notification {
+    right: 22px;
+    top: 72px;
+  }
+}
 
 
+@media (max-width: 600px) {
+  .c_tab__link {
+    display:none;
+    padding-top:0;
+  }
+  .c_tab__box .icon {
+    width:30px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c_tab__notification {
+    right: 57px;
+    top: 19px;
+  }
+}
+
+@media (max-width: 500px) {
+   .c_tab__notification {
+    right: 50px;
+    top: 15px;
+  }
+}

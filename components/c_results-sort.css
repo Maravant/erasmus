@@ -50,7 +50,6 @@
 
 @media (max-width: 600px) {
   .c_results-sort {
-    margin-bottom: 20px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -61,6 +60,14 @@
   }
 
   .c_results-sort-auxiliares {
+    display:none;
+  }
+
+  .c_results-sort-auxiliares-favourite {
+    display:block;
+  }
+
+  .c_results-sort__paragraph {
     display:none;
   }
 }
