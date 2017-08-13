@@ -23,7 +23,7 @@ textarea.c_conversaciones__box__textarea {
   width:100%;
   min-height: 120px;
   resize: 0;
-  color:var(--bg-dark);
+  color:inherit;
   background-size: 0;
   white-space:pre-wrap;
 }

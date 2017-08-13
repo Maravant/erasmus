@@ -1,5 +1,7 @@
 .c_auxiliar-what__wrapper {
-  width:var(--main-layout-width);
+  max-width:var(--main-layout-width);
+  padding-left: var(--main-layout-gap);
+  padding-right: var(--main-layout-gap);
   display:flex;
   margin:0 auto;
 }
@@ -20,6 +22,7 @@
 .c_auxiliar-what__description {
   width:60%;
   padding:45px 0 64px;
+  box-sizing: border-box;
 }
 
 .c_auxiliar-what__description__title {
@@ -65,16 +68,9 @@
 .c_auxiliar-what__description__link {
   text-align: center;
   text-transform: uppercase;
-  color:var(--bg-dark);
+  color:inherit;
   font-size:0,87rem;
   padding-top:18px;
   font-family:var(--font-family-main);
 }
-
-
-
-
-
-
-
 

@@ -39,6 +39,5 @@
   .c_profile-notification-item--black {
     display: flex;
     flex-flow: column;
-    flex: 1;
   }
 }

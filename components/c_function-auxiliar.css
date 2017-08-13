@@ -4,7 +4,7 @@
 }
 
  .c_function-auxiliar__wrapper {
-  width:var(--main-layout-width);
+  max-width:var(--main-layout-width);
   padding-left: var(--main-layout-gap);
   padding-right: var(--main-layout-gap);
   box-sizing: border-box;
