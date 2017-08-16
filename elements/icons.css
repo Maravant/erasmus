@@ -40,13 +40,11 @@
   background-image: url(../images/ico_user_peq_profile_mensajes.svg);
 }
 
-.icon--estrella-off.svg,
-.ico--estrella-off.svg {
+.icon--estrella-off {
   background-image: url(../images/ico_estrella_off.svg);
 }
 
-.icon--estrella-on.svg,
-.ico--estrella-on.svg {
+.icon--estrella-on {
   background-image: url(../images/ico_estrella_on.svg);
 }
 
