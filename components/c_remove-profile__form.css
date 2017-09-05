@@ -78,3 +78,33 @@
 .c_remove-profile__table:first-child {
  margin-bottom:62px;
 }
+
+
+@media (max-width: 600px) {
+  .c_remove-profile__form{
+    display:block;
+    width:100%;
+    padding-top:30px;
+    padding-bottom:44px;
+  }
+
+  .c_remove-profile__input-radio {
+    padding-bottom:30px;
+    width:100%;
+  }
+
+  .c_remove-profile__table {
+    width:100%;
+  }
+  .c_remove-profile__table-td {
+    font-size:0.8rem;
+    height:100%;
+    padding:12px;
+    text-align: left;
+  }
+
+  .c_remove-profile__span {
+    font-size: 0.8rem;
+  }
+
+}

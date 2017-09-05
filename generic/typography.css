@@ -134,6 +134,21 @@ h6 em {
     font-size: 1.2rem;
     letter-spacing: 1.6px;
   }
+
+  .main-title {
+    font-size: 0.9rem;
+    height:44px;
+    text-align: left;
+    padding-left:20px;
+    line-height:44px;
+  }
+
+ .last-title {
+    font-size: 0.9rem;
+    height:44px;
+    text-align: center;
+    line-height:42px;
+ }
 }
 
 .last-title {

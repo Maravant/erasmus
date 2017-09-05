@@ -20,6 +20,39 @@
   padding-top:64px;
 }
 
+@media (max-width: 600px) {
+  .c_remove-profile {
+    padding:20px;
+    box-sizing: border-box;
+  }
+
+
+  .c_remove-profile__header__container {
+    width:100%;
+    text-align: center;
+    margin:0;
+  }
+
+  .c_remove-profile__header__title {
+    font-size:0.8rem;
+    letter-spacing: 2px;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+
+  .c_remove-profile__header__subtitle {
+    font-size:0.8rem;
+    padding-top:44px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+  }
+
+  .c_remove-profile__header__paragraph {
+    font-size:0.8rem;
+    letter-spacing: 1px;
+  }
+}
+
 
 
 
