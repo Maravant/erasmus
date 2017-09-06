@@ -114,6 +114,11 @@ textarea.c_conversaciones__box__textarea {
   width:18px;
   height:24px;
   flex-shrink: 0;
+  background-image: url(../images/ico_adjunto_off.svg);
+}
+
+.c_conversaciones__box__footer .input-file.has-value .c_conversaciones__box__footer__icon {
+  background-image: url(../images/ico_adjunto_on.svg);
 }
 
 .c_conversaciones__avatar__img {
@@ -169,9 +174,8 @@ textarea.c_conversaciones__box__textarea {
     display:flex;
     flex-direction:row-reverse;
     border-radius:0;
-    position: absolute;
-    bottom: 1px;
-    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
     height:64px;
   }
 

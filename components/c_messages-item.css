@@ -167,3 +167,46 @@
   visibility: hidden;
 }
 
+@media (max-width: 600px) {
+  .messages-container__wrapper {
+    max-width:100%;
+  }
+
+  .c_messages-item {
+    margin-bottom:0;
+  }
+
+  .c_messages-item__read {
+    background-image: none;
+    width:0;
+  }
+
+  .c_messages-item__box {
+    flex-flow:column;
+    width: 100%;
+    box-sizing: border-box;
+    padding:16px;
+  }
+
+  .c_messages-item__avatar__box {
+    display:none;
+  }
+
+  .c_messages-item__personal {
+    flex-flow:row;
+    width:100%;
+    justify-content:space-between;
+    padding-left:0;
+  }
+
+  .c_messages-item__paragraph {
+    padding-left:0;
+    font-size:0.8rem;
+    line-height: 16px;
+  }
+
+  .c_messages-item__notification {
+    width:30%;
+  }
+}
+

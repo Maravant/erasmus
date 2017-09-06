@@ -134,6 +134,7 @@ h6 em {
     font-size: 1.2rem;
     letter-spacing: 1.6px;
   }
+
   .main-title  {
     line-height: 20px;
     white-space: normal;
@@ -141,12 +142,10 @@ h6 em {
     align-items: center;
     justify-content: center;
     display: flex;
-    align-items: center;
   }
 
   .main-title p {
     width:74%;
-
   }
 
   .main-title span {
