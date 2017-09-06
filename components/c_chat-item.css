@@ -81,3 +81,39 @@
 
 .c_chat-item__box__name--red { color:#ff8685; }
 .c_chat-item__box__name--purple { color:#494fae; }
+
+
+
+
+@media (max-width: 600px) {
+  .c_chat-item {
+    width:100%;
+    padding: 12px 12px 0 12px;
+    font-size:0.8rem;
+    margin-top:0;
+    box-sizing:border-box;
+  }
+
+  .c_chat-item__box__item {
+    padding:16px;
+  }
+
+  .c_chat-item__avatar {
+    margin-right:10px;
+  }
+
+   .c_chat-item__avatar__img {
+    width:40px;
+    height:40px;
+  }
+
+  .c_chat-item--me .c_chat-item__avatar {
+    margin-left:10px;
+  }
+
+  .c_chat-item__date {
+    font-size:0.8rem;
+    margin-bottom:5px;
+  }
+
+}

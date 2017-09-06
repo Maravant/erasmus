@@ -131,3 +131,78 @@ textarea.c_conversaciones__box__textarea {
   border-color:transparent;
   color:var(--bg-white);
 }
+
+@media (max-width: 600px) {
+  .c_conversaciones {
+    width:100%;
+  }
+
+  .c_conversaciones__container-general {
+    padding-top:0;
+    padding-bottom: 86px;
+  }
+
+  .c_conversaciones__wrapper {
+    width:100%;
+  }
+
+  .c_conversaciones__wrapper:first-of-type {
+  border-bottom:none;
+}
+
+
+  .c_conversaciones__container__items {
+    display:none;
+  }
+
+  .c_conversaciones__avatar {
+    display:none;
+  }
+
+   .c_conversaciones__box:first-of-type {
+    margin-bottom:0;
+}
+
+  .c_conversaciones__box {
+    width:100%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:row-reverse;
+    border-radius:0;
+    position: absolute;
+    bottom: 1px;
+    box-sizing: border-box;
+    height:64px;
+  }
+
+  textarea.c_conversaciones__box__textarea {
+    min-height:0;
+    flex:1;
+    min-width:0;
+  }
+
+  .c_conversaciones__box__footer {
+    border-top:none;
+    padding:0;
+    flex:1;
+    max-width:30px;
+    align-self: flex-start;
+  }
+
+  .input-file--transparent input[type] + span {
+    display:none;
+  }
+
+  .c_conversaciones__box__footer__icon {
+    height: 20px;
+  }
+
+  .c_conversaciones__box__button {
+    display:none;
+  }
+
+}
+
+
+
+
