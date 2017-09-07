@@ -182,10 +182,11 @@
   }
 
   .c_messages-item__box {
-    flex-flow:column;
+    flex-wrap:wrap;
     width: 100%;
     box-sizing: border-box;
     padding:16px;
+    border-bottom:1px solid var(--bg-gray);
   }
 
   .c_messages-item__avatar__box {
@@ -199,14 +200,36 @@
     padding-left:0;
   }
 
+  .c_messages-item__name {
+    font-size: 0.8rem;
+  }
+
+  .c_messages-item__date {
+  min-width: 70px;
+  }
+
   .c_messages-item__paragraph {
     padding-left:0;
     font-size:0.8rem;
     line-height: 16px;
+    flex:3;
+    padding-top:8px;
   }
 
   .c_messages-item__notification {
-    width:30%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .c_messages-item__icon {
+    width:16px;
+    height:16px;
+  }
+
+  .c_messages-item__number {
+    font-size: 0.8rem;
+    margin-top: 14px;
+    font-weight: normal;
   }
 }
 

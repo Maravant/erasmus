@@ -76,6 +76,46 @@
   padding-right:20px;
 }
 
+@media (max-width: 600px) {
+  .c_notifications {
+    padding-bottom:20px;
+  }
+
+  .c_notifications {
+    padding:32px;
+  }
+
+  .c_notifications__wraper {
+    justify-content: space-around;
+  }
+
+  .c_notifications-number {
+    display:none;
+  }
+
+  .c_notifications-received__button {
+    font-size: 0.8rem;
+    padding:0 8px;
+  }
+
+  .c_notifications-reiceived__number {
+    width: 24px;
+    height:24px;
+    font-size:0.8rem;
+    top: -13px;
+    right: -11px;
+  }
+
+  .c_notifications-sent__button {
+    font-size: 0.8rem;
+    padding:6px 8px;
+  }
+
+  .button--transparent.c_notifications-sent__button {
+    padding:6px 8px;
+  }
+}
+
 
 
 
