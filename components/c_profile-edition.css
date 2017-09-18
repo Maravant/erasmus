@@ -87,7 +87,54 @@
   padding-top:8px;
 }
 
+@media (max-width: 600px) {
+  .c_profile-edition__container {
+    padding:0 20px;
+  }
+  .c_profile-edition__paragraph {
+      font-size:0.75rem;
+      padding: 30px 20px 40px;
+      line-height: 16px;
+      letter-spacing:0;
+    }
 
+  .c_profile-edition__wrapper {
+    flex-flow:column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:40px;
+   }
+
+   .c_profile-edition-form__label {
+    flex-wrap:wrap;
+    padding-bottom:24px;
+   }
+
+   .c_profile-edition-form__label span {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.80rem;
+    padding-bottom:16px;
+   }
+
+   .c_profile-edition__label {
+
+   }
+
+   .c_profile-edition__label span {
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .c_profile-edition__label.input--white {
+    min-width:0;
+   }
+}
 
 
 

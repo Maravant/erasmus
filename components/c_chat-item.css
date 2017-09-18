@@ -96,6 +96,7 @@
 
   .c_chat-item__box__item {
     padding:16px;
+    box-shadow: 0 10px 50px -27px;
   }
 
   .c_chat-item__avatar {

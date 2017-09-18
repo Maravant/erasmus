@@ -397,3 +397,9 @@ select::-ms-expand {
   background-color: transparent;
   border-color:transparent;
 }
+
+@media (max-width: 600px) {
+  .input-radio {
+
+  }
+}

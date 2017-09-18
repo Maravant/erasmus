@@ -85,6 +85,11 @@
     padding:32px;
   }
 
+  .notifications-container {
+    padding-bottom:0;
+    padding-top:0;
+  }
+
   .c_notifications__wraper {
     justify-content: space-around;
   }
