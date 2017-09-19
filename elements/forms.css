@@ -399,7 +399,49 @@ select::-ms-expand {
 }
 
 @media (max-width: 600px) {
-  .input-radio {
-
+  input[type="date"][required]:not(:valid)[placeholder]:before {
+    font-weight:normal;
+    color: var(--color-text-disabled);
   }
+
+  .input-radio.input--small input[type] + span {
+    padding:9px 16px;
+  }
+
+
+
+  .input-file input[type] + span,
+  .button-checkbox input[type] + span {
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    line-height: inherit;
+    margin-left:-8px;
+   }
+
+   label input[type="tel"],
+   label input[type="date"],
+   label input[type="text"] {
+    margin-left:0;
+    min-width:180px;
+   }
+
+   .select-alternativo.SumoSelect.sumo_languages {
+    width:initial;
+   }
+
+   .select-alternativo.SumoSelect.sumo-selecciona {
+    width:initial;
+   }
 }
+
+
+
+
+
+
+
+
+
+
+

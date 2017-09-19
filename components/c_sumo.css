@@ -452,3 +452,13 @@
     padding-left: 5px;
     text-decoration: underline;
 }
+
+
+@media (max-width: 600px) {
+  .SumoSelect > .CaptionCont > span {
+    font-weight:normal;
+    color: var(--color-text-disabled);
+    padding:0;
+  }
+}
+

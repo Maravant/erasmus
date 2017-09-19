@@ -107,8 +107,15 @@
 
         <label class="c_profile-edition__label">
           <span>En</span>
-          <input class="input--white" name="name" type="text" placeholder="Ciudad, País" required/>
+          <input class="input--white" name="name" type="text" placeholder="Ciudad" required/>
         </label>
+        <label class="c_profile-edition__label__select">
+          <select class="select-alternativo" name="selecciona un país">
+            <option value="">Selecciona un país</option>
+          </select>
+        </label>
+
+
       </div>
 
       <div class="c_profile-edition__box">
@@ -118,7 +125,7 @@
               <small class="c_profile-edition-form__subtitle">(Puedes seleccionar varios)</small>
           </span>
 
-          <select class="select-alternativo multi-select-box" name="languages" multiple="multiple" placeholder="Idiomas">
+          <select class="select-alternativo multi-select-box" name="languages" multiple="multiple" placeholder="Selecciona lengua">
             <option value="es">Español</option>
             <option value="en">Inglés</option>
             <option value="fr">Francés</option>
