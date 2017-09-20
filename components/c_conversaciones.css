@@ -177,7 +177,7 @@ textarea.c_conversaciones__box__textarea {
     position: fixed;
     bottom: 0;
     height:64px;
-    box-shadow: 3px -2px 7px 0px rgba(201,199,201,0.49);
+    box-shadow: 3px -2px 7px 0 rgba(201,199,201,0.49);
   }
 
   textarea.c_conversaciones__box__textarea {
@@ -198,13 +198,12 @@ textarea.c_conversaciones__box__textarea {
     padding:0;
   }
 
-  .input-file--transparent input[type] + span {
+  .c_conversaciones__box__footer .input-file--transparent input[type] + span {
     display:none;
   }
 
   .c_conversaciones__box__footer__icon {
     height: 20px;
-    filter: brightness(0) invert(0);
   }
 
   .c_conversaciones__box__button {

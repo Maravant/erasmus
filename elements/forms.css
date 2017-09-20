@@ -30,6 +30,10 @@ input[type="password"] {
   background-color: transparent;
 }
 
+input[type="password"] {
+  font-family: sans-serif;
+}
+
 textarea {
   font-family: inherit;
   letter-spacing: inherit;

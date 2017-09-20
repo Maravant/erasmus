@@ -1,7 +1,10 @@
-
 .c_tabs {
-  display:flex;
   box-shadow: inset 0 8px 33px -8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.c_tabs__wrapper {
+  display:flex;
 }
 
 .c_tab {
@@ -132,11 +135,17 @@
   .c_tab {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
   }
 
   .c_tab__link {
     padding-top: 0;
     font-size: 0.65rem;
+  }
+
+  .c_tab__link:last-child:not(:first-child) {
     margin-top: 16px;
   }
 

@@ -119,7 +119,7 @@
     padding-bottom:24px;
    }
 
-   .c_profile-edition-form__label span {
+   .c_profile-edition-form__label > span {
     width:100%;
     display:flex;
     justify-content: center;
@@ -133,11 +133,9 @@
     padding-top:6px;
    }
 
-   .c_profile-edition__label span {
-    display:flex;
-    flex-flow:column;
-    justify-content: center;
-    align-items: center;
+   .c_profile-edition__label > span {
+    display:block;
+    text-align: center;
    }
 
    .c_profile-edition__label.input--white {
@@ -183,7 +181,8 @@
       font-size:0.75rem;
     }
 
-    .c_profile-edition-form__label div span {
+    .c_profile-edition__label > span,
+    .c_profile-edition-form__label > span {
       font-size:0.75rem;
     }
 
