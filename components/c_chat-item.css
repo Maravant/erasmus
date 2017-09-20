@@ -85,7 +85,7 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .c_chat-item {
     width:100%;
     padding: 12px 12px 0 12px;
@@ -116,5 +116,4 @@
     font-size:0.8rem;
     margin-bottom:5px;
   }
-
 }
