@@ -80,7 +80,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .c_remove-profile__form{
     display:block;
     width:100%;
