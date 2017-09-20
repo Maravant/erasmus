@@ -167,6 +167,10 @@
   visibility: hidden;
 }
 
+.c_messages-item__icon-send {
+  display:none;
+}
+
 @media (max-width: 600px) {
   .messages-container__wrapper {
     max-width:100%;
@@ -240,6 +244,7 @@
 
   .c_messages-item__icon-send {
     padding-top:50px;
+    display:block;
   }
 
   .messages-container {
