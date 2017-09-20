@@ -405,12 +405,14 @@ select::-ms-expand {
   }
 
   .input-radio.input--small input[type] + span {
-    padding:9px 16px;
+    padding:8px 12px;
+    font-size:0.70rem;
   }
 
+  .input-radio input[type]:checked + span {
+    font-size:0.70rem;
+  }
 
-
-  .input-file input[type] + span,
   .button-checkbox input[type] + span {
     padding: 0;
     width: 36px;
@@ -432,6 +434,16 @@ select::-ms-expand {
 
    .select-alternativo.SumoSelect.sumo-selecciona {
     width:initial;
+   }
+
+   .input-file {
+    max-width:180px;
+    padding:14px 18px;
+   }
+
+   .input-file input[type] + span {
+    padding:14px 18px;
+    font-size:0.75rem;
    }
 }
 

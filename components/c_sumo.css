@@ -460,5 +460,9 @@
     color: var(--color-text-disabled);
     padding:0;
   }
+
+  .SumoSelect.sumo_moneda.select-alternativo {
+    min-width:200px;
+  }
 }
 
