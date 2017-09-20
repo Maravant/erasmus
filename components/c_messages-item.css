@@ -178,6 +178,7 @@
 
   .c_messages-item {
     margin-bottom:0;
+    position:relative;
   }
 
   .c_messages-item__read {
@@ -257,5 +258,20 @@
     padding-bottom:0;
     padding-top:0;
   }
+
+  .c_messages-item__wrapper-notification:after {
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    position:absolute;
+    top:0;
+    left:0;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #ff6c7e;
+    border-left: 7px solid #ff6c7e;
+    border-bottom: 7px solid transparent;
+  }
+
 }
 
