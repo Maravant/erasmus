@@ -5,7 +5,7 @@
 }
 
 .c_conversaciones__title__icon {
-  filter:brightness(0) invert();
+  filter:brightness(0) invert(1);
   position: absolute;
   right: 25px;
   top: 28px;
