@@ -220,7 +220,7 @@ padding-right:20px;
   text-transform: capitalize;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1024px) {
   .c_public-profile__wrapper {
     flex-flow: column;
     padding:0 0 40px;
