@@ -438,7 +438,7 @@ select::-ms-expand {
 
    .input-file {
     max-width:180px;
-    padding:14px 18px;
+    padding:8px 18px;
    }
 
    .input-file input[type] + span {

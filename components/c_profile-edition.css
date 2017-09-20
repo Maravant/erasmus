@@ -90,7 +90,7 @@
   padding-top:8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .c_profile-edition__container {
     padding:0 20px 30px;
     box-sizing:border-box;
