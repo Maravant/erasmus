@@ -95,7 +95,12 @@
   }
 
   .c_notifications-number {
-    display:none;
+    font-size: 0.75rem;
+  }
+
+  .c_notifications-number__icon > .icon--xsmall  {
+    width: 12px;
+    height:12px;
   }
 
   .c_notifications-received__button {

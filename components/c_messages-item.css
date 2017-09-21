@@ -237,19 +237,8 @@
     font-weight: normal;
   }
 
-  .c_messages-item-footer {
-    display:flex;
-    align-items:center;
-    justify-content: center;
-  }
-
-  .c_messages-item__icon-send {
-    padding-top:50px;
-    display:block;
-  }
-
   .messages-container {
-    padding-bottom:0;
+    padding-bottom:66px;
     padding-top:0;
     background-color:var(--bg-gray);
   }
