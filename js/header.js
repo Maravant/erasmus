@@ -5,7 +5,7 @@
     var header = document.querySelector('.header');
 
     var manageHeaderPositionChanges = function(changes) {
-      if (changes && changes[0].intersectionRatio > 0) {
+      if (changes && changes[0] && changes[0].isIntersecting) {
         header.classList.remove('header--floating');
       } else {
         header.classList.add('header--floating');
